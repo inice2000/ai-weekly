@@ -168,6 +168,11 @@
     .week-nav-btn:hover { border-color: var(--blue); color: var(--blue); }
     .week-nav-btn.next { margin-left: auto; }
 
+    .cat-empty {
+      padding: 20px 24px; color: var(--text-3);
+      font-size: 14px; font-style: italic;
+    }
+
     /* ── Category Section (weekly view) ── */
     .cat-section {
       margin-bottom: 32px;
@@ -471,6 +476,7 @@ const I18N = {
     source_link:  "查看原文",
     related_news: "相關報道",
     back_to_top:  "← 返回週報",
+    cat_empty:    "本週暫無相關新聞",
     week_prev:    d => `← 上一期 ${d}`,
     week_next:    d => `下一期 ${d} →`,
     week_title:   d => weekTitle(d) + " 週報",
@@ -504,6 +510,7 @@ const I18N = {
     source_link:  "原文を見る",
     related_news: "関連記事",
     back_to_top:  "← 週報に戻る",
+    cat_empty:    "今週の関連ニュースはありません",
     week_prev:    d => `← 前の号 ${d}`,
     week_next:    d => `次の号 ${d} →`,
     week_title:   d => { const [y,m,day]=d.split("-"); return `${y}年${parseInt(m)}月${parseInt(day)}日 週報`; },
@@ -837,7 +844,6 @@ function renderWeekContent(data) {
   const catOrder = ["ai_industry", "ai_agent", "3d_ai"];
   catOrder.forEach(cat => {
     const articles = (data.articles || {})[cat] || [];
-    if (!articles.length) return;
 
     const section = el("div", { className: "cat-section", dataset: { cat } });
     if (activeCat !== "all" && activeCat !== cat) section.classList.add("hidden");
@@ -846,10 +852,14 @@ function renderWeekContent(data) {
     const header = el("div", { className: "cat-header" });
     header.appendChild(el("span", { textContent: info.emoji }));
     header.appendChild(el("h2",  { textContent: L(info.i18n) }));
-    header.appendChild(el("span", { className: "cat-count", textContent: articles.length }));
+    if (articles.length) header.appendChild(el("span", { className: "cat-count", textContent: articles.length }));
     section.appendChild(header);
 
-    articles.forEach((a, i) => section.appendChild(articleCard(a, data.date, cat, i)));
+    if (articles.length) {
+      articles.forEach((a, i) => section.appendChild(articleCard(a, data.date, cat, i)));
+    } else {
+      section.appendChild(el("div", { className: "cat-empty", textContent: L("cat_empty") }));
+    }
     content.appendChild(section);
   });
 
