@@ -326,6 +326,7 @@
       font-size: 18px; font-weight: 700; margin-bottom: 20px;
     }
     .results-count { font-size: 13px; color: var(--text-3); margin-bottom: 20px; }
+    .results-list .article { padding: 15px 0; }
 
     /* ── States ── */
     .empty, .loading-msg {
@@ -410,7 +411,7 @@ const I18N = {
     week_title:   weekTitle,
     week_link:    d => `第${weekOfMonth(d)}週 ${parseInt(d.slice(5,7))}/${parseInt(d.slice(8,10))}`,
     month_lbl:    m => `${parseInt(m)}月`,
-    orig_lang:    l => l === "en" ? "英文原文" : l === "ja" ? "日文原文" : "中文原文",
+    orig_lang:    l => l === "en" ? "查看英文原文" : l === "ja" ? "查看日文原文" : "查看中文原文",
   },
   "ja": {
     title:        "AI ニュース週報",
@@ -441,7 +442,7 @@ const I18N = {
     week_title:   d => { const [y,m,day]=d.split("-"); return `${y}年${parseInt(m)}月${parseInt(day)}日号`; },
     week_link:    d => `第${weekOfMonth(d)}週 ${parseInt(d.slice(5,7))}/${parseInt(d.slice(8,10))}`,
     month_lbl:    m => `${parseInt(m)}月`,
-    orig_lang:    l => l === "en" ? "英語原文" : l === "ja" ? "日本語原文" : "中国語原文",
+    orig_lang:    l => l === "en" ? "英語原文を見る" : l === "ja" ? "日本語原文を見る" : "中国語原文を見る",
   }
 };
 
@@ -688,7 +689,17 @@ function articleCard(article, date, cat, idx, showCatTag = false) {
     meta.appendChild(el("span", { textContent: date }));
     meta.appendChild(el("span", { className: "meta-sep", textContent: "·" }));
   }
-  if (article.source) meta.appendChild(el("span", { textContent: article.source }));
+  if (article.source) {
+    const srcSpan = el("span");
+    let domain = null;
+    if (article.url) { try { domain = new URL(article.url).origin; } catch {} }
+    if (domain) {
+      srcSpan.innerHTML = `<a href="${domain}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">${article.source}</a>`;
+    } else {
+      srcSpan.textContent = article.source;
+    }
+    meta.appendChild(srcSpan);
+  }
   if (article.score) {
     meta.appendChild(el("span", { className: "meta-sep", textContent: "·" }));
     meta.appendChild(el("span", { textContent: L("score", article.score) }));
@@ -1016,8 +1027,8 @@ function renderResultList(title, hits) {
     content.innerHTML += emptyHTML("🔍", L("no_results")); return;
   }
 
+  const list = el("div", { className: "results-list" });
   hits.forEach(a => {
-    // Build a minimal article object for display
     const art = {
       title:              a.title,
       title_cht:          a.title_cht,
@@ -1030,8 +1041,9 @@ function renderResultList(title, hits) {
       summary_points_ja:  a.summary_points_ja  || [],
       related:            [],
     };
-    content.appendChild(articleCard(art, a.date, a.category, a.idx ?? 0, true));
+    list.appendChild(articleCard(art, a.date, a.category, a.idx ?? 0, true));
   });
+  content.appendChild(list);
 }
 
 // ================================================================
