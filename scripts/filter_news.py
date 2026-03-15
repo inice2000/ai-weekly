@@ -36,6 +36,38 @@ KEYWORDS_AGENT = [
     "AIエージェント", "エージェント", "プロンプト",
 ]
 
+# 技术/产品导向关键词 → 相关度加分
+TECH_SCORE_KEYWORDS = [
+    "model", "release", "launch", "api", "sdk", "open source", "benchmark",
+    "architecture", "training", "inference", "fine-tuning", "multimodal",
+    "reasoning", "framework", "dataset", "plugin", "feature", "update",
+    "3d", "nerf", "diffusion", "agent", "workflow", "mcp", "copilot",
+    "开源", "发布", "模型", "训练", "推理", "API", "工具", "功能",
+    "モデル", "リリース", "オープンソース", "機能", "ツール",
+]
+
+# 社会/政治导向关键词 → 相关度减分
+SOCIAL_SCORE_KEYWORDS = [
+    "poll", "survey", "voters", "election", "fear", "anxiety", "oppose",
+    "ban", "regulation", "congress", "senate", "government policy",
+    "workers fear", "job loss", "protest", "union", "boycott",
+    "民调", "选举", "监管", "禁止", "舆论",
+]
+
+
+def relevance_score(article: dict) -> int:
+    """计算文章相关度分数：技术/产品类加分，社会/政治类减分"""
+    text = (article.get("title", "") + " " + article.get("summary_original", "")).lower()
+    score = 0
+    for kw in TECH_SCORE_KEYWORDS:
+        if kw.lower() in text:
+            score += 1
+    for kw in SOCIAL_SCORE_KEYWORDS:
+        if kw.lower() in text:
+            score -= 2
+    return score
+
+
 # 软文黑名单关键词（命中即丢弃）
 BLACKLIST_KEYWORDS = [
     "限时优惠", "折扣", "促销", "赞助", "广告", "affiliate",
@@ -133,9 +165,9 @@ def filter_and_classify(articles: list[dict]) -> dict:
     for cat in categories:
         categories[cat] = deduplicate(categories[cat])
 
-    # 数量控制：取前 15 条（按来源顺序，英文 NewsAPI 已按热度排序）
+    # 按相关度排序（技术/产品类优先）后取前 15 条
     for cat in categories:
-        categories[cat] = categories[cat][:15]
+        categories[cat] = sorted(categories[cat], key=relevance_score, reverse=True)[:15]
         en = sum(1 for a in categories[cat] if a.get("language") == "en")
         zh = sum(1 for a in categories[cat] if a.get("language") == "zh")
         ja = sum(1 for a in categories[cat] if a.get("language") == "ja")

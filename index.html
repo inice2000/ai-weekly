@@ -594,7 +594,7 @@ function getPoints(a) {
     : (a.summary_points_cht || []);
 }
 function getContent(a) {
-  return lang === "ja" ? (a.content_ja  || a.content_cht || "")
+  return lang === "ja" ? (a.content_ja || a.content_cht || "")
                        : (a.content_cht || "");
 }
 function getRelatedTitle(r) {
@@ -677,7 +677,7 @@ function buildSidebar(weeks) {
       });
       const weeksWrap = el("div", { className: "collapsible" });
 
-      tree[year][month].forEach(w => {
+      [...tree[year][month]].reverse().forEach(w => {
         const link = el("div", {
           className: "week-link",
           textContent: L("week_link", w),

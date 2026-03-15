@@ -62,9 +62,9 @@ def fetch_content(url: str) -> str:
         resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
         resp.raise_for_status()
 
-        # trafilatura 提取正文
+        # trafilatura 提取正文（傳入 bytes 讓 trafilatura 自行偵測編碼，解決 Shift-JIS 亂碼）
         text = trafilatura.extract(
-            resp.text,
+            resp.content,
             include_comments=False,
             include_tables=False,
             no_fallback=False,
