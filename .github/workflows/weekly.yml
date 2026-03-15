@@ -1,0 +1,38 @@
+name: Weekly AI News
+
+on:
+  schedule:
+    - cron: "0 1 * * 1"  # 每周一 UTC 01:00（北京时间 09:00）
+  workflow_dispatch:      # 支持手动触发
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run weekly collection
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/run_weekly.py
+
+      - name: Commit and push data
+        run: |
+          git config user.name "ai-weekly-bot"
+          git config user.email "bot@ai-weekly"
+          git add data/
+          git diff --cached --quiet || git commit -m "weekly: $(date +%Y-%m-%d)"
+          git push
