@@ -1,6 +1,7 @@
 """
-主入口：每周一运行，串联完整流程
-fetch → filter → score → 生成 JSON → 更新 index
+主入口：每周一由 GitHub Actions 自动运行
+步骤：抓取 → 过滤 → 保存 filtered.json
+打分和翻译由澄澄手动完成（告诉澄澄「帮我处理本周新闻」）
 """
 
 import json
@@ -15,12 +16,11 @@ sys.path.insert(0, os.path.join(repo_root, "scripts"))
 
 from fetch_news import fetch_all
 from filter_news import filter_and_classify
-from ai_score import score_all
 
 
 def run():
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    print(f"=== AI Weekly {today} ===\n")
+    print(f"=== AI Weekly 抓取 {today} ===\n")
 
     # Step 1: 抓取
     print("Step 1: 抓取新闻")
@@ -30,41 +30,13 @@ def run():
     print("\nStep 2&3: 分类 + 规则过滤")
     categories = filter_and_classify(articles)
 
-    # Step 4: AI 打分 + 翻译
-    print("\nStep 4: AI 打分 + 摘要翻译")
-    categories = score_all(categories)
+    # 保存 filtered.json，等待澄澄手动打分翻译
+    with open("data/filtered.json", "w", encoding="utf-8") as f:
+        json.dump(categories, f, ensure_ascii=False, indent=2)
 
-    # 生成周报 JSON
-    weekly_data = {
-        "date": today,
-        "articles": categories,
-    }
-    output_path = f"data/{today}.json"
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(weekly_data, f, ensure_ascii=False, indent=2)
-    print(f"\n已生成: {output_path}")
-
-    # 更新 index.json
-    index_path = "data/index.json"
-    if os.path.exists(index_path):
-        with open(index_path, encoding="utf-8") as f:
-            index = json.load(f)
-    else:
-        index = {"weeks": []}
-
-    if today not in index["weeks"]:
-        index["weeks"].insert(0, today)  # 最新的放最前面
-
-    with open(index_path, "w", encoding="utf-8") as f:
-        json.dump(index, f, ensure_ascii=False, indent=2)
-    print(f"已更新: {index_path}")
-
-    # 清理临时文件
-    for tmp in ["data/raw.json", "data/filtered.json", "data/scored.json"]:
-        if os.path.exists(tmp):
-            os.remove(tmp)
-
-    print("\n=== 完成 ===")
+    total = sum(len(v) for v in categories.values())
+    print(f"\n已保存 data/filtered.json（共 {total} 条）")
+    print("下一步：告诉澄澄「帮我处理本周新闻」，澄澄会完成打分和翻译。")
 
 
 if __name__ == "__main__":

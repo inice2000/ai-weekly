@@ -1,98 +1,81 @@
 """
-Step 4: AI 打分 + 摘要翻译成中文
-- 用 Claude API 对每条新闻打分（0~10）
-- 将摘要翻译为中文
-- 按分数重新排序
+Step 4: 由澄澄手动执行 — 打分 + 翻譯繁體中文 + 生成日語摘要
+用法：直接告訴澄澄「幫我處理本週新聞」，澄澄會讀取 data/filtered.json，
+打分並翻譯後寫入 data/YYYY-MM-DD.json，再更新 index.json。
+
+此腳本不會自動執行，由澄澄在 Claude Code 對話中調用。
 """
 
-import os
 import json
-import anthropic
-
-client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY", ""))
-
-SCORE_PROMPT = """你是一位 AI 科技新闻编辑，专注于 AI 行业动态和 3D AI 技术。
-
-请对以下新闻进行评分和处理，返回 JSON 格式。
-
-评分标准（0~10分）：
-- 9~10：重大突破、重要产品发布、行业里程碑事件
-- 7~8：有实质内容的新产品/功能/研究成果
-- 5~6：一般性行业动态、值得关注但不紧迫
-- 3~4：信息量少、重复报道
-- 1~2：软文、营销内容、泛泛而谈
-
-新闻列表：
-{articles}
-
-请返回以下 JSON 格式（数组，与输入顺序一致）：
-[
-  {{
-    "score": 8.5,
-    "summary": "用简洁中文写50字以内的摘要，准确概括核心内容"
-  }},
-  ...
-]
-
-只返回 JSON，不要其他内容。"""
+import os
+from datetime import datetime, timezone
 
 
-def score_batch(articles: list[dict]) -> list[dict]:
-    """对一批新闻打分并翻译摘要（每次最多10条）"""
-    articles_text = json.dumps(
-        [{"title": a["title"], "summary_original": a["summary_original"][:300]} for a in articles],
-        ensure_ascii=False,
-        indent=2,
-    )
-    prompt = SCORE_PROMPT.format(articles=articles_text)
-
-    try:
-        message = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=2000,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        text = message.content[0].text.strip()
-        # 去除可能的 markdown 代码块
-        if text.startswith("```"):
-            text = "\n".join(text.split("\n")[1:-1])
-        results = json.loads(text)
-        for i, article in enumerate(articles):
-            if i < len(results):
-                article["score"] = results[i].get("score", 0)
-                article["summary"] = results[i].get("summary", "")
-        return articles
-    except Exception as e:
-        print(f"[错误] AI 打分失败: {e}")
-        # 失败时保留原始摘要
-        for article in articles:
-            article["score"] = 5
-            article["summary"] = article.get("summary_original", "")[:100]
-        return articles
+def load_filtered() -> dict:
+    with open("data/filtered.json", encoding="utf-8") as f:
+        return json.load(f)
 
 
-def score_all(categories: dict) -> dict:
-    """对所有分类的新闻打分"""
-    for cat, articles in categories.items():
-        print(f"AI 打分: [{cat}] {len(articles)} 条...")
-        # 每批 10 条
-        for i in range(0, len(articles), 10):
-            batch = articles[i:i+10]
-            score_batch(batch)
+def save_weekly(categories: dict, date: str = None):
+    if not date:
+        date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-        # 按分数降序排列
-        categories[cat] = sorted(articles, key=lambda x: x.get("score", 0), reverse=True)
-        print(f"  完成，最高分: {categories[cat][0]['score'] if categories[cat] else 'N/A'}")
+    weekly_data = {
+        "date": date,
+        "articles": categories,
+    }
 
-    return categories
+    output_path = f"data/{date}.json"
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(weekly_data, f, ensure_ascii=False, indent=2)
+    print(f"已儲存: {output_path}")
+
+    # 更新 index.json
+    index_path = "data/index.json"
+    if os.path.exists(index_path):
+        with open(index_path, encoding="utf-8") as f:
+            index = json.load(f)
+    else:
+        index = {"weeks": []}
+
+    if date not in index["weeks"]:
+        index["weeks"].insert(0, date)
+        with open(index_path, "w", encoding="utf-8") as f:
+            json.dump(index, f, ensure_ascii=False, indent=2)
+        print(f"已更新: {index_path}")
+
+    return output_path
+
+
+# 打分格式說明（給澄澄參考）
+SCORING_GUIDE = """
+請對每條新聞完成以下處理：
+
+1. score（0~10）：
+   - 9~10：重大突破、重要產品發布、行業里程碑
+   - 7~8：有實質內容的新產品/功能/研究成果
+   - 5~6：一般性動態，值得關注但不緊迫
+   - 3~4：信息量少、重複報道
+   - 1~2：軟文、泛泛而談
+
+   斌斌是3D手辦原型師，使用ZBrush，3D AI相關新聞優先給高分。
+
+2. summary_cht（繁體中文，50字以內）：準確概括核心內容
+
+3. summary_ja（日語，50字以內）：準確概括核心內容
+
+4. summary_en（英文，若原文是英文則直接用原始摘要的精簡版，50字以內）
+"""
 
 
 if __name__ == "__main__":
-    with open("data/filtered.json", encoding="utf-8") as f:
-        categories = json.load(f)
-
-    categories = score_all(categories)
-
-    with open("data/scored.json", "w", encoding="utf-8") as f:
-        json.dump(categories, f, ensure_ascii=False, indent=2)
-    print("已保存到 data/scored.json")
+    print(SCORING_GUIDE)
+    data = load_filtered()
+    total = sum(len(v) for v in data.values())
+    print(f"\n待處理：{total} 條新聞")
+    for cat, articles in data.items():
+        print(f"\n=== {cat} ({len(articles)}條) ===")
+        for i, a in enumerate(articles):
+            print(f"{i+1}. [{a['language']}] {a['source']}: {a['title']}")
+            if a.get("summary_original"):
+                print(f"   摘要: {a['summary_original'][:100]}")

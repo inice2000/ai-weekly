@@ -10,13 +10,19 @@ import json
 import re
 from difflib import SequenceMatcher
 
-# 3D AI 关键词（命中任意一个即归为 3D AI 分类）
-KEYWORDS_3D_AI = [
-    "3d", "3d ai", "3d generation", "nerf", "zbrush", "meshy", "tripo",
-    "luma ai", "3d diffusion", "generative 3d", "point cloud", "mesh",
-    "sculpt", "3d model", "photogrammetry", "gaussian splatting",
-    "三维", "3d生成", "三维生成", "建模", "雕刻",
-    "3Dモデル", "3D生成", "三次元",
+# AI 基础关键词（文章必须包含其中之一才入选）
+KEYWORDS_AI_BASE = [
+    "ai", "artificial intelligence", "machine learning", "deep learning",
+    "large language model", "llm", "generative", "neural", "diffusion",
+    "人工智能", "机器学习", "大模型", "生成式", "神经网络",
+    "AI", "人工知能", "機械学習", "生成AI",
+]
+
+# 3D AI 判断：文章中同时出现「3D相关词」和「AI相关词」
+KEYWORDS_3D = [
+    "3d", "nerf", "zbrush", "meshy", "tripo", "luma", "gaussian splatting",
+    "photogrammetry", "point cloud", "sculpt", "voxel", "3d model",
+    "三维", "建模", "雕刻", "3Dモデル", "三次元",
 ]
 
 # 软文黑名单关键词（命中即丢弃）
@@ -37,9 +43,18 @@ VAGUE_PATTERNS = [
 ]
 
 
-def is_3d_ai(article: dict) -> bool:
+def is_ai_related(article: dict) -> bool:
+    """文章必须包含 AI 基础关键词"""
     text = (article.get("title", "") + " " + article.get("summary_original", "")).lower()
-    return any(kw.lower() in text for kw in KEYWORDS_3D_AI)
+    return any(kw.lower() in text for kw in KEYWORDS_AI_BASE)
+
+
+def is_3d_ai(article: dict) -> bool:
+    """同时包含3D相关词和AI相关词才归为 3D AI"""
+    text = (article.get("title", "") + " " + article.get("summary_original", "")).lower()
+    has_3d = any(kw.lower() in text for kw in KEYWORDS_3D)
+    has_ai = is_ai_related(article)
+    return has_3d and has_ai
 
 
 def is_blacklisted(article: dict) -> bool:
@@ -83,6 +98,8 @@ def filter_and_classify(articles: list[dict]) -> dict:
     for article in articles:
         if not article.get("title"):
             continue
+        if not is_ai_related(article):
+            continue
         if is_blacklisted(article):
             continue
         if is_3d_ai(article):
@@ -96,10 +113,13 @@ def filter_and_classify(articles: list[dict]) -> dict:
     for cat in categories:
         categories[cat] = deduplicate(categories[cat])
 
-    # 数量控制：各取前 15 条（已按 popularity 排序，直接截取）
+    # 数量控制：取前 15 条（按来源顺序，英文 NewsAPI 已按热度排序）
     for cat in categories:
         categories[cat] = categories[cat][:15]
-        print(f"  [{cat}] 过滤后: {len(categories[cat])} 条")
+        en = sum(1 for a in categories[cat] if a.get("language") == "en")
+        zh = sum(1 for a in categories[cat] if a.get("language") == "zh")
+        ja = sum(1 for a in categories[cat] if a.get("language") == "ja")
+        print(f"  [{cat}] 过滤后: {len(categories[cat])} 条 (en:{en} zh:{zh} ja:{ja})")
 
     return categories
 
