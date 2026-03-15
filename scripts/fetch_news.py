@@ -34,6 +34,9 @@ EN_KEYWORDS = [
     "AI tools",
     "NeRF 3D",
     "AI image generation",
+    "AI agent",
+    "prompt engineering",
+    "AI workflow automation",
 ]
 
 

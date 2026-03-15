@@ -29,7 +29,6 @@ Register-ScheduledTask `
     -Action $action `
     -Trigger $trigger1, $trigger2 `
     -Settings $settings `
-    -RunLevel Highest `
     -Description "澄澄每週一自動處理AI新聞週報並發送郵件通知" | Out-Null
 
 Write-Host "✓ 任務計劃程序設置完成：$taskName"

@@ -23,6 +23,7 @@ def build_html(data: dict, site_url: str) -> str:
     articles = data["articles"]
     cat_labels = {
         "3d_ai": "🎨 3D AI",
+        "ai_agent": "🤖 AI Agent・使用技巧",
         "ai_industry": "🌐 AI 行業",
     }
 
@@ -93,7 +94,7 @@ def send(date: str, site_url: str = "https://inice2000.github.io/ai-weekly"):
     html_body = build_html(data, site_url)
 
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"🤖 AI Weekly {date}｜本週 {total} 條精選新聞"
+    msg["Subject"] = f"🍵 {date} AI新聞週報"
     msg["From"] = f"澄澄 AI週報 <{sender}>"
     msg["To"] = ", ".join(recipients)
     msg.attach(MIMEText(html_body, "html", "utf-8"))

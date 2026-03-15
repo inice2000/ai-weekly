@@ -1,6 +1,6 @@
 """
 Step 2 & 3: 主题分类 + 规则过滤 + 数量控制
-- 分类：3D AI / AI行业
+- 分类：3D AI / AI Agent / AI行业
 - 去重（标题相似度 > 80%）
 - 关键词黑名单去软文
 - 各分类取前 15 条
@@ -23,6 +23,17 @@ KEYWORDS_3D = [
     "3d", "nerf", "zbrush", "meshy", "tripo", "luma", "gaussian splatting",
     "photogrammetry", "point cloud", "sculpt", "voxel", "3d model",
     "三维", "建模", "雕刻", "3Dモデル", "三次元",
+]
+
+# AI Agent 关键词
+KEYWORDS_AGENT = [
+    "ai agent", "llm agent", "autonomous agent", "agentic", "multi-agent",
+    "ai workflow", "ai automation", "claude agent", "gpt agent", "copilot",
+    "mcp ", "model context protocol", "function calling", "tool use",
+    "prompt engineering", "system prompt", "ai tips", "ai tricks",
+    "how to use ai", "ai productivity", "ai assistant tips",
+    "ai工作流", "ai自动化", "ai助手使用", "提示词", "智能体",
+    "AIエージェント", "エージェント", "プロンプト",
 ]
 
 # 软文黑名单关键词（命中即丢弃）
@@ -57,6 +68,12 @@ def is_3d_ai(article: dict) -> bool:
     return has_3d and has_ai
 
 
+def is_agent(article: dict) -> bool:
+    """包含 AI Agent / 使用技巧相关词"""
+    text = (article.get("title", "") + " " + article.get("summary_original", "")).lower()
+    return any(kw.lower() in text for kw in KEYWORDS_AGENT)
+
+
 def is_blacklisted(article: dict) -> bool:
     text = article.get("title", "") + " " + article.get("summary_original", "")
     # 黑名单关键词
@@ -88,12 +105,12 @@ def deduplicate(articles: list[dict], threshold: float = 0.8) -> list[dict]:
 def filter_and_classify(articles: list[dict]) -> dict:
     """
     主流程：
-    1. 分类（3D AI / AI行业）
+    1. 分类（3D AI / AI Agent / AI行业）
     2. 黑名单过滤
     3. 去重
     4. 各取前 15 条
     """
-    categories = {"3d_ai": [], "ai_industry": []}
+    categories = {"3d_ai": [], "ai_agent": [], "ai_industry": []}
 
     for article in articles:
         if not article.get("title"):
@@ -105,6 +122,9 @@ def filter_and_classify(articles: list[dict]) -> dict:
         if is_3d_ai(article):
             article["category"] = "3d_ai"
             categories["3d_ai"].append(article)
+        elif is_agent(article):
+            article["category"] = "ai_agent"
+            categories["ai_agent"].append(article)
         else:
             article["category"] = "ai_industry"
             categories["ai_industry"].append(article)
