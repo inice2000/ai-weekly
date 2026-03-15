@@ -73,7 +73,7 @@ def build_html(data: dict, site_url: str) -> str:
 <body style="margin:0;padding:0;background:#f5f5f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
   <div style="max-width:600px;margin:30px auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
     <div style="background:linear-gradient(135deg,#667eea,#764ba2);padding:30px;color:#fff;">
-      <div style="font-size:22px;font-weight:700;">AI Weekly</div>
+      <div style="font-size:22px;font-weight:700;">🌿🍵 AI 新聞週報</div>
       <div style="font-size:14px;margin-top:6px;opacity:0.85;">{date} 週報</div>
     </div>
     <div style="padding:20px 30px;">
