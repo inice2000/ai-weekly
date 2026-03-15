@@ -1,0 +1,113 @@
+"""
+发送周报邮件通知
+收件人：斌斌 + myu
+内容：本周新闻标题 + 链接 + 网页入口
+"""
+
+import json
+import os
+import smtplib
+from datetime import datetime
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+
+def load_weekly(date: str) -> dict:
+    path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), f"data/{date}.json")
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def build_html(data: dict, site_url: str) -> str:
+    date = data["date"]
+    articles = data["articles"]
+    cat_labels = {
+        "3d_ai": "🎨 3D AI",
+        "ai_industry": "🌐 AI 行業",
+    }
+
+    sections = ""
+    for cat, label in cat_labels.items():
+        items = articles.get(cat, [])
+        if not items:
+            continue
+        rows = ""
+        for a in items:
+            title = a.get("title", "")
+            url = a.get("url", "#")
+            summary = a.get("summary_cht") or a.get("summary", "")
+            source = a.get("source", "")
+            score = a.get("score", "")
+            score_str = f"⭐ {score}" if score else ""
+            rows += f"""
+            <tr>
+              <td style="padding:10px 0;border-bottom:1px solid #f0f0f0;">
+                <a href="{url}" style="font-size:15px;font-weight:600;color:#1a1a1a;text-decoration:none;">{title}</a>
+                <div style="margin-top:4px;font-size:13px;color:#666;">{summary}</div>
+                <div style="margin-top:4px;font-size:12px;color:#999;">{source} {score_str}</div>
+              </td>
+            </tr>"""
+        sections += f"""
+        <tr><td style="padding:20px 0 8px;">
+          <div style="font-size:18px;font-weight:700;color:#333;">{label}</div>
+        </td></tr>
+        {rows}"""
+
+    return f"""
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"></head>
+<body style="margin:0;padding:0;background:#f5f5f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+  <div style="max-width:600px;margin:30px auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+    <div style="background:linear-gradient(135deg,#667eea,#764ba2);padding:30px;color:#fff;">
+      <div style="font-size:22px;font-weight:700;">🤖 AI Weekly</div>
+      <div style="font-size:14px;margin-top:6px;opacity:0.85;">{date} 週報</div>
+    </div>
+    <div style="padding:20px 30px;">
+      <table width="100%" cellpadding="0" cellspacing="0">
+        {sections}
+      </table>
+    </div>
+    <div style="padding:20px 30px;background:#f9f9f9;text-align:center;">
+      <a href="{site_url}" style="display:inline-block;padding:10px 24px;background:#667eea;color:#fff;border-radius:6px;text-decoration:none;font-size:14px;font-weight:600;">
+        查看完整週報 →
+      </a>
+    </div>
+  </div>
+</body>
+</html>"""
+
+
+def send(date: str, site_url: str = "https://inice2000.github.io/ai-weekly"):
+    sender = os.environ.get("GMAIL_SENDER", "")
+    password = os.environ.get("GMAIL_APP_PASSWORD", "").replace(" ", "")
+    recipients = os.environ.get("NOTIFY_EMAILS", "").split(",")
+    recipients = [r.strip() for r in recipients if r.strip()]
+
+    if not sender or not password:
+        print("[邮件] 未配置 GMAIL_SENDER / GMAIL_APP_PASSWORD，跳过")
+        return
+
+    data = load_weekly(date)
+    total = sum(len(v) for v in data["articles"].values())
+    html_body = build_html(data, site_url)
+
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = f"🤖 AI Weekly {date}｜本週 {total} 條精選新聞"
+    msg["From"] = f"澄澄 AI週報 <{sender}>"
+    msg["To"] = ", ".join(recipients)
+    msg.attach(MIMEText(html_body, "html", "utf-8"))
+
+    try:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+            server.login(sender, password)
+            server.sendmail(sender, recipients, msg.as_string())
+        print(f"[邮件] 已发送至 {recipients}")
+    except Exception as e:
+        print(f"[邮件] 发送失败: {e}")
+
+
+if __name__ == "__main__":
+    import sys
+    date = sys.argv[1] if len(sys.argv) > 1 else datetime.now().strftime("%Y-%m-%d")
+    send(date)
