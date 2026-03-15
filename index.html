@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 新聞週報</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:          #ffffff;
+      --bg-hover:    #f7f6f3;
+      --bg-tag:      #f1f0ed;
+      --border:      #e9e9e7;
+      --text-1:      #1a1a1a;
+      --text-2:      #6b7280;
+      --text-3:      #9ca3af;
+      --blue:        #2563eb;
+      --blue-bg:     #eff6ff;
+      --purple:      #7c3aed;
+      --purple-bg:   #f5f3ff;
+      --teal:        #0d9488;
+      --teal-bg:     #f0fdfa;
+      --sidebar-w:   220px;
+      --header-h:    64px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   "Noto Sans TC", "Noto Sans JP", "Hiragino Sans", sans-serif;
+      background: var(--bg);
+      color: var(--text-1);
+      line-height: 1.6;
+    }
+
+    /* ── Header ── */
+    .header {
+      height: var(--header-h);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 28px;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 100;
+    }
+    .header-logo {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      cursor: pointer;
+    }
+    .header-right { display: flex; align-items: center; gap: 12px; }
+
+    /* Search in header */
+    .search-wrap { position: relative; }
+    .search-icon {
+      position: absolute; left: 10px; top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-3); font-size: 13px; pointer-events: none;
+    }
+    .search-input {
+      width: 220px;
+      padding: 7px 12px 7px 30px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 13px;
+      color: var(--text-1);
+      background: var(--bg);
+      outline: none;
+      transition: border-color .15s, box-shadow .15s, width .2s;
+    }
+    .search-input:focus { border-color: #c0c0be; box-shadow: 0 0 0 3px rgba(0,0,0,.04); width: 280px; }
+    .search-input::placeholder { color: var(--text-3); }
+
+    .lang-switcher { display: flex; gap: 4px; }
+    .lang-btn {
+      padding: 4px 12px; border-radius: 6px;
+      border: 1px solid var(--border); background: transparent;
+      cursor: pointer; font-size: 12px; color: var(--text-2);
+      transition: all .12s;
+    }
+    .lang-btn:hover { background: var(--bg-hover); }
+    .lang-btn.active { background: var(--text-1); color: #fff; border-color: var(--text-1); }
+
+    /* ── Layout ── */
+    .layout { display: flex; min-height: calc(100vh - var(--header-h)); }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      width: var(--sidebar-w);
+      border-right: 1px solid var(--border);
+      padding: 20px 0 40px;
+      position: sticky;
+      top: var(--header-h);
+      height: calc(100vh - var(--header-h));
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar::-webkit-scrollbar { width: 4px; }
+    .sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+    .sidebar-heading {
+      font-size: 10.5px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: .08em; color: var(--text-3); padding: 0 16px 10px;
+    }
+    .tree-btn {
+      display: flex; align-items: center; gap: 6px;
+      width: 100%; border: none; background: transparent;
+      cursor: pointer; text-align: left; color: var(--text-1);
+    }
+    .tree-btn:hover { background: var(--bg-hover); }
+    .year-btn  { padding: 5px 16px; font-size: 13px; font-weight: 600; }
+    .month-btn { padding: 3px 16px 3px 30px; font-size: 12.5px; color: var(--text-2); }
+    .chevron   { font-size: 9px; color: var(--text-3); transition: transform .15s; flex-shrink: 0; }
+    .tree-btn.open .chevron { transform: rotate(90deg); }
+    .collapsible { display: none; }
+    .collapsible.open { display: block; }
+    .week-link {
+      display: block; padding: 3px 16px 3px 44px;
+      font-size: 12px; color: var(--text-2); cursor: pointer;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .week-link:hover { background: var(--bg-hover); color: var(--text-1); }
+    .week-link.active { color: var(--blue); font-weight: 500; }
+
+    /* ── Main ── */
+    .main { flex: 1; padding: 36px 52px 60px; max-width: 820px; min-width: 0; }
+
+    /* ── Category Tabs ── */
+    .cat-tabs { display: flex; gap: 6px; margin-bottom: 28px; flex-wrap: wrap; }
+    .cat-btn {
+      padding: 5px 14px; border-radius: 20px;
+      border: 1px solid var(--border); background: transparent;
+      cursor: pointer; font-size: 12.5px; color: var(--text-2);
+      transition: all .12s;
+    }
+    .cat-btn:hover { background: var(--bg-hover); }
+    .cat-btn.active { background: var(--text-1); color: #fff; border-color: var(--text-1); }
+
+    /* ── Back button ── */
+    .back-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 13px; color: var(--text-2); cursor: pointer;
+      background: transparent; border: none; padding: 0; margin-bottom: 28px;
+    }
+    .back-btn:hover { color: var(--text-1); }
+
+    /* ── Week Title ── */
+    .week-title {
+      font-size: 22px; font-weight: 700;
+      letter-spacing: -.02em; margin-bottom: 28px;
+    }
+
+    /* ── Category Section (weekly view) ── */
+    .cat-section {
+      margin-bottom: 32px;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .cat-section.hidden { display: none; }
+    .cat-header {
+      display: flex; align-items: center; gap: 10px;
+      padding: 14px 20px;
+      background: var(--bg-hover);
+      border-bottom: 1.5px solid var(--border);
+    }
+    .cat-header h2 { font-size: 17px; font-weight: 700; }
+    .cat-count {
+      font-size: 11px; color: var(--text-3);
+      background: var(--bg); padding: 1px 8px;
+      border-radius: 10px; border: 1px solid var(--border);
+    }
+    .cat-section .article { padding: 15px 20px; }
+    .cat-section .article:last-child { border-bottom: none; }
+
+    /* ── Article card (weekly view) ── */
+    .article { border-bottom: 1px solid var(--border); }
+    .article-title-link {
+      display: block; font-size: 14.5px; font-weight: 600;
+      color: var(--text-1); text-decoration: none;
+      line-height: 1.45; margin-bottom: 6px; cursor: pointer;
+    }
+    .article-title-link:hover { text-decoration: underline; text-underline-offset: 2px; }
+
+    /* ── Tags ── */
+    .tags-row { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px; }
+    .tag-chip {
+      display: inline-block; padding: 2px 8px; border-radius: 4px;
+      font-size: 11.5px; background: var(--bg-tag);
+      border: 1px solid var(--border);
+      color: var(--text-2); cursor: pointer; transition: all .12s;
+    }
+    .tag-chip:hover { background: var(--text-1); color: #fff; border-color: var(--text-1); }
+
+    /* ── Bullet summary ── */
+    .summary-bullets { list-style: none; margin-bottom: 8px; }
+    .summary-bullets li {
+      position: relative; padding-left: 14px;
+      font-size: 13.5px; color: var(--text-2);
+      line-height: 1.65; margin-bottom: 3px;
+    }
+    .summary-bullets li::before {
+      content: "·"; position: absolute; left: 0;
+      color: var(--text-3); font-size: 16px; line-height: 1.4;
+    }
+
+    /* ── Article meta ── */
+    .article-meta {
+      display: flex; align-items: center; gap: 8px;
+      flex-wrap: wrap; font-size: 11.5px; color: var(--text-3);
+    }
+    .meta-sep { color: var(--border); }
+    .cat-tag {
+      display: inline-block; padding: 1px 7px;
+      border-radius: 4px; font-size: 11px; font-weight: 500;
+    }
+    .tag-industry { background: var(--blue-bg);   color: var(--blue); }
+    .tag-agent    { background: var(--purple-bg);  color: var(--purple); }
+    .tag-3d       { background: var(--teal-bg);    color: var(--teal); }
+
+    /* ── Related news (card) ── */
+    .related-toggle {
+      display: inline-flex; align-items: center; gap: 4px;
+      margin-top: 8px; font-size: 12px; color: var(--text-3);
+      cursor: pointer; border: none; background: transparent; padding: 0;
+    }
+    .related-toggle:hover { color: var(--text-2); }
+    .related-toggle .r-chev { font-size: 9px; transition: transform .15s; }
+    .related-toggle.open .r-chev { transform: rotate(90deg); }
+    .related-list {
+      display: none; margin-top: 8px;
+      padding: 10px 12px; background: var(--bg-hover);
+      border-radius: 6px; border-left: 3px solid var(--border);
+    }
+    .related-list.open { display: block; }
+    .related-item {
+      display: flex; align-items: baseline; gap: 8px;
+      padding: 4px 0; font-size: 12.5px;
+    }
+    .related-item + .related-item { border-top: 1px solid var(--border); }
+    .related-date { color: var(--text-3); white-space: nowrap; flex-shrink: 0; font-size: 11px; }
+    .related-link { color: var(--text-2); text-decoration: none; line-height: 1.4; cursor: pointer; }
+    .related-link:hover { color: var(--blue); text-decoration: underline; text-underline-offset: 2px; }
+
+    /* ── Article Detail Page ── */
+    .detail-cat-label {
+      font-size: 12px; font-weight: 600; margin-bottom: 12px;
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .detail-title {
+      font-size: 26px; font-weight: 800;
+      letter-spacing: -.02em; line-height: 1.35; margin-bottom: 14px;
+    }
+    .detail-tags { margin-bottom: 14px; }
+    .detail-meta {
+      font-size: 13px; color: var(--text-3);
+      display: flex; gap: 14px; flex-wrap: wrap;
+      padding-bottom: 24px; border-bottom: 1px solid var(--border);
+      margin-bottom: 28px;
+    }
+    .detail-meta span { display: flex; align-items: center; gap: 4px; }
+    .section-label {
+      font-size: 11px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .08em; color: var(--text-3);
+      margin-bottom: 12px; padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    .detail-bullets-wrap { margin-bottom: 32px; }
+    .detail-bullets { list-style: none; }
+    .detail-bullets li {
+      position: relative; padding-left: 18px;
+      font-size: 14.5px; line-height: 1.7;
+      color: var(--text-1); margin-bottom: 8px;
+    }
+    .detail-bullets li::before {
+      content: "·"; position: absolute; left: 0;
+      color: var(--text-3); font-size: 20px; line-height: 1.2;
+    }
+    .detail-content-wrap { margin-bottom: 32px; }
+    .detail-content {
+      font-size: 15px; line-height: 1.85;
+      color: var(--text-1); white-space: pre-wrap;
+    }
+    .no-content {
+      font-size: 13px; color: var(--text-3);
+      padding: 16px; background: var(--bg-hover);
+      border-radius: 8px; text-align: center;
+    }
+    .source-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 9px 18px; border-radius: 8px;
+      border: 1px solid var(--border); background: var(--bg);
+      color: var(--text-1); font-size: 13px; font-weight: 500;
+      text-decoration: none; margin-bottom: 36px;
+      transition: background .12s;
+    }
+    .source-btn:hover { background: var(--bg-hover); }
+    .detail-related-wrap { margin-bottom: 32px; }
+    .detail-related-item {
+      display: flex; align-items: baseline; gap: 10px;
+      padding: 8px 0; border-bottom: 1px solid var(--border);
+      font-size: 13.5px;
+    }
+    .detail-related-item:first-child { border-top: 1px solid var(--border); }
+    .detail-related-date { color: var(--text-3); white-space: nowrap; flex-shrink: 0; font-size: 12px; }
+    .detail-related-link { color: var(--text-2); text-decoration: none; cursor: pointer; }
+    .detail-related-link:hover { color: var(--blue); text-decoration: underline; }
+    .back-to-week {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 13px; color: var(--text-2);
+      text-decoration: none; cursor: pointer;
+    }
+    .back-to-week:hover { color: var(--text-1); }
+
+    /* ── Search / Tag results ── */
+    .results-title {
+      font-size: 18px; font-weight: 700; margin-bottom: 20px;
+    }
+    .results-count { font-size: 13px; color: var(--text-3); margin-bottom: 20px; }
+
+    /* ── States ── */
+    .empty, .loading-msg {
+      text-align: center; padding: 64px 0; color: var(--text-3);
+    }
+    .empty .big { font-size: 36px; margin-bottom: 12px; }
+    .empty p, .loading-msg { font-size: 14px; }
+
+    /* ── Responsive ── */
+    @media (max-width: 720px) {
+      .sidebar { display: none; }
+      .main { padding: 24px 18px 48px; }
+      .search-input { width: 160px; }
+      .search-input:focus { width: 200px; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-logo" onclick="navigate('')">🌿🍵 <span data-i18n="title"></span></div>
+  <div class="header-right">
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" class="search-input" id="search-input"
+             data-i18n-ph="search_ph" autocomplete="off">
+    </div>
+    <div class="lang-switcher">
+      <button class="lang-btn active" data-lang="zh-Hant" data-i18n="lang_zh"></button>
+      <button class="lang-btn"        data-lang="ja"      data-i18n="lang_ja"></button>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-heading" data-i18n="history"></div>
+    <div id="sidebar-nav"></div>
+  </aside>
+  <main class="main">
+    <div class="cat-tabs" id="cat-tabs">
+      <button class="cat-btn active" data-cat="all"         data-i18n="cat_all"></button>
+      <button class="cat-btn"        data-cat="ai_industry" data-i18n="cat_industry"></button>
+      <button class="cat-btn"        data-cat="ai_agent"    data-i18n="cat_agent"></button>
+      <button class="cat-btn"        data-cat="3d_ai"       data-i18n="cat_3d"></button>
+    </div>
+    <div id="content"></div>
+  </main>
+</div>
+
+<script>
+// ================================================================
+// i18n
+// ================================================================
+const I18N = {
+  "zh-Hant": {
+    title:        "AI 新聞週報",
+    lang_zh:      "繁中",
+    lang_ja:      "日文",
+    history:      "歷史記錄",
+    search_ph:    "搜尋所有新聞...",
+    search_count: n => `${n} 筆結果`,
+    no_results:   "找不到相關新聞",
+    cat_all:      "全部",
+    cat_industry: "AI行業",
+    cat_agent:    "AI Agent",
+    cat_3d:       "3D AI",
+    loading:      "載入中...",
+    score:        s => `評分 ${s}`,
+    related:      n => `📎 相關報道 (${n})`,
+    tag_results:  t => `#${t} 相關新聞`,
+    search_label: q => `搜尋：${q}`,
+    back_to_week: d => `← 返回 ${weekTitle(d)} 週報`,
+    key_points:   "重點摘要",
+    full_content: "新聞全文（翻譯）",
+    no_content:   "完整原文尚未收錄",
+    source_link:  "查看原文",
+    related_news: "相關報道",
+    back_to_top:  "← 返回週報",
+    week_title:   weekTitle,
+    week_link:    d => `第${weekOfMonth(d)}週 ${parseInt(d.slice(5,7))}/${parseInt(d.slice(8,10))}`,
+    month_lbl:    m => `${parseInt(m)}月`,
+    orig_lang:    l => l === "en" ? "英文原文" : l === "ja" ? "日文原文" : "中文原文",
+  },
+  "ja": {
+    title:        "AI ニュース週報",
+    lang_zh:      "繁中",
+    lang_ja:      "日本語",
+    history:      "バックナンバー",
+    search_ph:    "ニュースを検索...",
+    search_count: n => `${n} 件の結果`,
+    no_results:   "該当するニュースが見つかりません",
+    cat_all:      "すべて",
+    cat_industry: "AI業界",
+    cat_agent:    "AI Agent",
+    cat_3d:       "3D AI",
+    loading:      "読み込み中...",
+    score:        s => `スコア ${s}`,
+    related:      n => `📎 関連記事 (${n})`,
+    tag_results:  t => `#${t} の関連ニュース`,
+    search_label: q => `検索：${q}`,
+    back_to_week: d => `← ${weekTitle(d)}号に戻る`,
+    key_points:   "重要ポイント",
+    full_content: "全文（翻訳）",
+    no_content:   "全文はまだ収録されていません",
+    source_link:  "原文を見る",
+    related_news: "関連記事",
+    back_to_top:  "← 週報に戻る",
+    week_title:   d => { const [y,m,day]=d.split("-"); return `${y}年${parseInt(m)}月${parseInt(day)}日号`; },
+    week_link:    d => `第${weekOfMonth(d)}週 ${parseInt(d.slice(5,7))}/${parseInt(d.slice(8,10))}`,
+    month_lbl:    m => `${parseInt(m)}月`,
+    orig_lang:    l => l === "en" ? "英語原文" : l === "ja" ? "日本語原文" : "中国語原文",
+  }
+};
+
+function weekTitle(d) {
+  const [y, m, day] = d.split("-");
+  return `${y}年 ${parseInt(m)}月${parseInt(day)}日`;
+}
+function weekOfMonth(d) {
+  return Math.ceil(parseInt(d.slice(8, 10)) / 7);
+}
+
+const CAT = {
+  ai_industry: { emoji: "🤖", tag: "tag-industry", i18n: "cat_industry" },
+  ai_agent:    { emoji: "⚡", tag: "tag-agent",    i18n: "cat_agent"    },
+  "3d_ai":     { emoji: "🧊", tag: "tag-3d",       i18n: "cat_3d"       },
+};
+
+// ================================================================
+// State
+// ================================================================
+let lang        = "zh-Hant";
+let activeCat   = "all";
+let allWeeks    = [];
+let weekCache   = {};
+let searchIdx   = null;
+let searchTimer = null;
+
+// ================================================================
+// i18n helpers
+// ================================================================
+function L(key, ...a) {
+  const v = I18N[lang][key];
+  return typeof v === "function" ? v(...a) : (v ?? key);
+}
+function applyI18n() {
+  document.documentElement.lang = lang;
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const v = I18N[lang][el.dataset.i18n];
+    if (typeof v === "string") el.textContent = v;
+  });
+  document.querySelectorAll("[data-i18n-ph]").forEach(el => {
+    const v = I18N[lang][el.dataset.i18nPh];
+    if (typeof v === "string") el.placeholder = v;
+  });
+  document.querySelectorAll(".lang-btn").forEach(b =>
+    b.classList.toggle("active", b.dataset.lang === lang)
+  );
+}
+function getTitle(a) {
+  return lang === "ja" ? (a.title_ja  || a.title_cht || a.title)
+                       : (a.title_cht || a.title);
+}
+function getPoints(a) {
+  return lang === "ja"
+    ? (a.summary_points_ja  || a.summary_points_cht || [])
+    : (a.summary_points_cht || []);
+}
+function getContent(a) {
+  return lang === "ja" ? (a.content_ja  || a.content_cht || "")
+                       : (a.content_cht || "");
+}
+function getRelatedTitle(r) {
+  return lang === "ja" ? (r.title_ja  || r.title_cht || r.title)
+                       : (r.title_cht || r.title);
+}
+
+// ================================================================
+// Fetch / cache
+// ================================================================
+async function getJSON(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`${r.status} ${url}`);
+  return r.json();
+}
+async function loadWeek(date) {
+  if (!weekCache[date]) weekCache[date] = await getJSON(`data/${date}.json`);
+  return weekCache[date];
+}
+
+// ================================================================
+// Navigation
+// ================================================================
+function navigate(hash) {
+  location.hash = hash ? `#${hash}` : "#";
+}
+
+window.addEventListener("hashchange", router);
+
+async function router() {
+  const hash   = location.hash.replace(/^#\/?/, "");
+  const parts  = hash.split("/");
+  const view   = parts[0];
+
+  // Clear search
+  document.getElementById("search-input").value = "";
+  clearTimeout(searchTimer);
+
+  if (view === "article" && parts.length >= 3) {
+    // #article/2026-03-15/ai_industry/0
+    await showArticle(parts[1], parts[2], parseInt(parts[3] || "0"));
+  } else if (view === "tag") {
+    await showTag(decodeURIComponent(parts.slice(1).join("/")));
+  } else if (view === "search") {
+    await showSearch(decodeURIComponent(parts.slice(1).join("/")));
+  } else if (view === "week" && parts[1]) {
+    await showWeek(parts[1]);
+  } else if (/^\d{4}-\d{2}-\d{2}$/.test(view)) {
+    await showWeek(view);
+  } else {
+    if (allWeeks.length) await showWeek(allWeeks[0]);
+  }
+}
+
+// ================================================================
+// Sidebar
+// ================================================================
+function buildSidebar(weeks) {
+  const nav = document.getElementById("sidebar-nav");
+  nav.innerHTML = "";
+  if (!weeks.length) return;
+
+  const tree = {};
+  weeks.forEach(w => {
+    const [y, m] = w.split("-");
+    (tree[y] = tree[y] || {})[m] = [...(tree[y][m] || []), w];
+  });
+
+  Object.keys(tree).sort((a, b) => b - a).forEach(year => {
+    const yearBtn = el("button", {
+      className: "tree-btn year-btn",
+      innerHTML: `<span class="chevron">▶</span> ${year}`
+    });
+    const monthsWrap = el("div", { className: "collapsible" });
+
+    Object.keys(tree[year]).sort((a, b) => b - a).forEach(month => {
+      const monthBtn = el("button", {
+        className: "tree-btn month-btn",
+        innerHTML: `<span class="chevron">▶</span> ${L("month_lbl", month)}`
+      });
+      const weeksWrap = el("div", { className: "collapsible" });
+
+      tree[year][month].forEach(w => {
+        const link = el("div", {
+          className: "week-link",
+          textContent: L("week_link", w),
+          dataset: { week: w }
+        });
+        link.addEventListener("click", () => navigate(`week/${w}`));
+        weeksWrap.appendChild(link);
+      });
+
+      monthBtn.addEventListener("click", () => {
+        monthBtn.classList.toggle("open");
+        weeksWrap.classList.toggle("open");
+      });
+      monthsWrap.appendChild(monthBtn);
+      monthsWrap.appendChild(weeksWrap);
+    });
+
+    yearBtn.addEventListener("click", () => {
+      yearBtn.classList.toggle("open");
+      monthsWrap.classList.toggle("open");
+    });
+    nav.appendChild(yearBtn);
+    nav.appendChild(monthsWrap);
+  });
+}
+
+function setSidebarActive(date) {
+  document.querySelectorAll(".week-link").forEach(l =>
+    l.classList.toggle("active", l.dataset.week === date)
+  );
+}
+
+// ================================================================
+// Article card (used in weekly view + search results)
+// ================================================================
+function articleCard(article, date, cat, idx, showCatTag = false) {
+  const wrap = el("div", { className: "article" });
+
+  // Title (router link)
+  const titleEl = el("span", {
+    className: "article-title-link",
+    textContent: getTitle(article)
+  });
+  titleEl.addEventListener("click", () =>
+    navigate(`article/${date}/${cat}/${idx}`)
+  );
+  wrap.appendChild(titleEl);
+
+  // Tags
+  const tags = article.tags || [];
+  if (tags.length) {
+    const tagsRow = el("div", { className: "tags-row" });
+    tags.forEach(t => {
+      const chip = el("span", { className: "tag-chip", textContent: t });
+      chip.addEventListener("click", e => {
+        e.stopPropagation();
+        navigate(`tag/${encodeURIComponent(t)}`);
+      });
+      tagsRow.appendChild(chip);
+    });
+    wrap.appendChild(tagsRow);
+  }
+
+  // Bullet summary
+  const points = getPoints(article);
+  if (points.length) {
+    const ul = el("ul", { className: "summary-bullets" });
+    points.forEach(p => ul.appendChild(el("li", { textContent: p })));
+    wrap.appendChild(ul);
+  }
+
+  // Meta row
+  const meta = el("div", { className: "article-meta" });
+  if (showCatTag && CAT[cat]) {
+    const info = CAT[cat];
+    meta.appendChild(el("span", {
+      className: `cat-tag ${info.tag}`,
+      textContent: `${info.emoji} ${L(info.i18n)}`
+    }));
+    meta.appendChild(el("span", { className: "meta-sep", textContent: "·" }));
+  }
+  if (date) {
+    meta.appendChild(el("span", { textContent: date }));
+    meta.appendChild(el("span", { className: "meta-sep", textContent: "·" }));
+  }
+  if (article.source) meta.appendChild(el("span", { textContent: article.source }));
+  if (article.score) {
+    meta.appendChild(el("span", { className: "meta-sep", textContent: "·" }));
+    meta.appendChild(el("span", { textContent: L("score", article.score) }));
+  }
+  wrap.appendChild(meta);
+
+  // Related
+  const related = article.related || [];
+  if (related.length) {
+    const toggle = el("button", {
+      className: "related-toggle",
+      innerHTML: `<span class="r-chev">▶</span> ${L("related", related.length)}`
+    });
+    const list = el("div", { className: "related-list" });
+    related.forEach((r, ri) => {
+      const item = el("div", { className: "related-item" });
+      item.appendChild(el("span", { className: "related-date", textContent: r.date }));
+      const link = el("span", {
+        className: "related-link",
+        textContent: getRelatedTitle(r)
+      });
+      link.addEventListener("click", () => {
+        if (r.cat !== undefined && r.idx !== undefined) {
+          navigate(`article/${r.date}/${r.cat}/${r.idx}`);
+        } else {
+          window.open(r.url, "_blank");
+        }
+      });
+      item.appendChild(link);
+      list.appendChild(item);
+    });
+    toggle.addEventListener("click", () => {
+      toggle.classList.toggle("open");
+      list.classList.toggle("open");
+    });
+    wrap.appendChild(toggle);
+    wrap.appendChild(list);
+  }
+
+  return wrap;
+}
+
+// ================================================================
+// Show Week
+// ================================================================
+async function showWeek(date) {
+  activeCat = "all";
+  document.querySelectorAll(".cat-btn").forEach(b =>
+    b.classList.toggle("active", b.dataset.cat === "all")
+  );
+  document.getElementById("cat-tabs").style.display = "";
+  setSidebarActive(date);
+  showLoading();
+
+  try {
+    const data = await loadWeek(date);
+    renderWeekContent(data);
+  } catch {
+    showError(`無法載入 ${date} 的資料`);
+  }
+}
+
+function renderWeekContent(data) {
+  const content = document.getElementById("content");
+  content.innerHTML = "";
+  content.appendChild(el("div", { className: "week-title", textContent: L("week_title", data.date) }));
+
+  const catOrder = ["ai_industry", "ai_agent", "3d_ai"];
+  catOrder.forEach(cat => {
+    const articles = (data.articles || {})[cat] || [];
+    if (!articles.length) return;
+
+    const section = el("div", { className: "cat-section", dataset: { cat } });
+    if (activeCat !== "all" && activeCat !== cat) section.classList.add("hidden");
+
+    const info = CAT[cat];
+    const header = el("div", { className: "cat-header" });
+    header.appendChild(el("span", { textContent: info.emoji }));
+    header.appendChild(el("h2",  { textContent: L(info.i18n) }));
+    header.appendChild(el("span", { className: "cat-count", textContent: articles.length }));
+    section.appendChild(header);
+
+    articles.forEach((a, i) => section.appendChild(articleCard(a, data.date, cat, i)));
+    content.appendChild(section);
+  });
+
+  if (!content.querySelector(".cat-section")) {
+    content.innerHTML = emptyHTML("📭", "本週暫無新聞資料");
+  }
+}
+
+function filterCat(cat) {
+  activeCat = cat;
+  document.querySelectorAll(".cat-btn").forEach(b =>
+    b.classList.toggle("active", b.dataset.cat === cat)
+  );
+  document.querySelectorAll(".cat-section").forEach(s =>
+    s.classList.toggle("hidden", cat !== "all" && s.dataset.cat !== cat)
+  );
+}
+
+// ================================================================
+// Show Article Detail
+// ================================================================
+async function showArticle(date, cat, idx) {
+  document.getElementById("cat-tabs").style.display = "none";
+  setSidebarActive(date);
+  showLoading();
+
+  try {
+    const data     = await loadWeek(date);
+    const articles = (data.articles || {})[cat] || [];
+    const article  = articles[idx];
+    if (!article) { showError("找不到文章"); return; }
+    renderArticleDetail(article, date, cat, idx);
+  } catch {
+    showError("無法載入文章");
+  }
+}
+
+function renderArticleDetail(article, date, cat, idx) {
+  const content = document.getElementById("content");
+  content.innerHTML = "";
+
+  // Back button
+  const backBtn = el("button", {
+    className: "back-btn",
+    textContent: L("back_to_week", date)
+  });
+  backBtn.addEventListener("click", () => navigate(`week/${date}`));
+  content.appendChild(backBtn);
+
+  // Category label
+  if (CAT[cat]) {
+    const info = CAT[cat];
+    content.appendChild(el("div", {
+      className: "detail-cat-label",
+      innerHTML: `<span>${info.emoji}</span><span class="cat-tag ${info.tag}">${L(info.i18n)}</span>`
+    }));
+  }
+
+  // Title
+  content.appendChild(el("div", { className: "detail-title", textContent: getTitle(article) }));
+
+  // Tags
+  const tags = article.tags || [];
+  if (tags.length) {
+    const tagsRow = el("div", { className: "detail-tags tags-row" });
+    tags.forEach(t => {
+      const chip = el("span", { className: "tag-chip", textContent: t });
+      chip.addEventListener("click", () => navigate(`tag/${encodeURIComponent(t)}`));
+      tagsRow.appendChild(chip);
+    });
+    content.appendChild(tagsRow);
+  }
+
+  // Meta
+  const meta = el("div", { className: "detail-meta" });
+  if (article.source) meta.appendChild(el("span", { textContent: `📰 ${article.source}` }));
+  meta.appendChild(el("span", { textContent: `📅 ${date}` }));
+  if (article.score) meta.appendChild(el("span", { textContent: L("score", article.score) }));
+  if (article.language) meta.appendChild(el("span", { textContent: L("orig_lang", article.language) }));
+  content.appendChild(meta);
+
+  // Key points
+  const points = getPoints(article);
+  if (points.length) {
+    const wrap = el("div", { className: "detail-bullets-wrap" });
+    wrap.appendChild(el("div", { className: "section-label", textContent: L("key_points") }));
+    const ul = el("ul", { className: "detail-bullets" });
+    points.forEach(p => ul.appendChild(el("li", { textContent: p })));
+    wrap.appendChild(ul);
+    content.appendChild(wrap);
+  }
+
+  // Full content
+  const fullContent = el("div", { className: "detail-content-wrap" });
+  fullContent.appendChild(el("div", { className: "section-label", textContent: L("full_content") }));
+  const bodyText = getContent(article);
+  if (bodyText) {
+    fullContent.appendChild(el("div", { className: "detail-content", textContent: bodyText }));
+  } else {
+    fullContent.appendChild(el("div", { className: "no-content", textContent: L("no_content") }));
+  }
+  content.appendChild(fullContent);
+
+  // Source link
+  if (article.url) {
+    const srcLink = el("a", {
+      className: "source-btn",
+      href: article.url,
+      target: "_blank",
+      rel: "noopener noreferrer",
+      innerHTML: `🔗 ${L("source_link")}`
+    });
+    content.appendChild(srcLink);
+  }
+
+  // Related
+  const related = article.related || [];
+  if (related.length) {
+    const wrap = el("div", { className: "detail-related-wrap" });
+    wrap.appendChild(el("div", { className: "section-label", textContent: L("related_news") }));
+    related.forEach(r => {
+      const item = el("div", { className: "detail-related-item" });
+      item.appendChild(el("span", { className: "detail-related-date", textContent: r.date }));
+      const link = el("span", {
+        className: "detail-related-link",
+        textContent: getRelatedTitle(r)
+      });
+      link.addEventListener("click", () => {
+        if (r.cat !== undefined && r.idx !== undefined) {
+          navigate(`article/${r.date}/${r.cat}/${r.idx}`);
+        } else {
+          window.open(r.url, "_blank");
+        }
+      });
+      item.appendChild(link);
+      wrap.appendChild(item);
+    });
+    content.appendChild(wrap);
+  }
+
+  // Back to week (bottom)
+  const backBottom = el("span", {
+    className: "back-to-week",
+    textContent: L("back_to_top")
+  });
+  backBottom.addEventListener("click", () => navigate(`week/${date}`));
+  content.appendChild(backBottom);
+}
+
+// ================================================================
+// Show Tag Results
+// ================================================================
+async function showTag(tag) {
+  document.getElementById("cat-tabs").style.display = "none";
+  showLoading();
+
+  try {
+    if (!searchIdx) searchIdx = await getJSON("data/search_index.json");
+  } catch {
+    showError("搜尋索引載入失敗"); return;
+  }
+
+  const hits = (searchIdx || []).filter(a => (a.tags || []).includes(tag));
+  renderResultList(L("tag_results", tag), hits);
+}
+
+// ================================================================
+// Text Search
+// ================================================================
+async function doSearch(q) {
+  if (!q.trim()) {
+    router(); return;
+  }
+  navigate(`search/${encodeURIComponent(q.trim())}`);
+}
+
+async function showSearch(q) {
+  document.getElementById("cat-tabs").style.display = "none";
+  document.getElementById("search-input").value = q;
+  showLoading();
+
+  try {
+    if (!searchIdx) searchIdx = await getJSON("data/search_index.json");
+  } catch {
+    showError("搜尋索引載入失敗"); return;
+  }
+
+  const lower = q.toLowerCase();
+  const hits = (searchIdx || []).filter(a =>
+    (a.title     || "").toLowerCase().includes(lower) ||
+    (a.title_cht || "").toLowerCase().includes(lower) ||
+    (a.title_ja  || "").toLowerCase().includes(lower) ||
+    (a.summary_cht || "").toLowerCase().includes(lower) ||
+    (a.summary_ja  || "").toLowerCase().includes(lower) ||
+    (a.summary_en  || "").toLowerCase().includes(lower)
+  );
+
+  renderResultList(L("search_label", q), hits);
+}
+
+function renderResultList(title, hits) {
+  const content = document.getElementById("content");
+  content.innerHTML = "";
+
+  content.appendChild(el("div", { className: "results-title", textContent: title }));
+  content.appendChild(el("div", { className: "results-count", textContent: L("search_count", hits.length) }));
+
+  if (!hits.length) {
+    content.innerHTML += emptyHTML("🔍", L("no_results")); return;
+  }
+
+  hits.forEach(a => {
+    // Build a minimal article object for display
+    const art = {
+      title:              a.title,
+      title_cht:          a.title_cht,
+      title_ja:           a.title_ja,
+      url:                a.url,
+      source:             a.source,
+      score:              a.score,
+      tags:               a.tags || [],
+      summary_points_cht: a.summary_points_cht || [],
+      summary_points_ja:  a.summary_points_ja  || [],
+      related:            [],
+    };
+    content.appendChild(articleCard(art, a.date, a.category, a.idx ?? 0, true));
+  });
+}
+
+// ================================================================
+// Helpers
+// ================================================================
+function el(tag, props = {}) {
+  const node = document.createElement(tag);
+  const { dataset, innerHTML, ...rest } = props;
+  Object.assign(node, rest);
+  if (dataset) Object.assign(node.dataset, dataset);
+  if (innerHTML !== undefined) node.innerHTML = innerHTML;
+  return node;
+}
+function showLoading() {
+  document.getElementById("content").innerHTML =
+    `<div class="loading-msg">${L("loading")}</div>`;
+}
+function showError(msg) {
+  document.getElementById("content").innerHTML = emptyHTML("⚠️", msg);
+}
+function emptyHTML(emoji, msg) {
+  return `<div class="empty"><div class="big">${emoji}</div><p>${msg}</p></div>`;
+}
+
+// ================================================================
+// Init
+// ================================================================
+async function init() {
+  applyI18n();
+
+  // Language switch
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      lang = btn.dataset.lang;
+      applyI18n();
+      buildSidebar(allWeeks);
+      router();
+    });
+  });
+
+  // Category tabs
+  document.querySelectorAll(".cat-btn").forEach(btn => {
+    btn.addEventListener("click", () => filterCat(btn.dataset.cat));
+  });
+
+  // Search
+  document.getElementById("search-input").addEventListener("keydown", e => {
+    if (e.key === "Enter") doSearch(e.target.value);
+  });
+  document.getElementById("search-input").addEventListener("input", e => {
+    clearTimeout(searchTimer);
+    if (!e.target.value.trim()) {
+      searchTimer = setTimeout(() => router(), 300);
+    }
+  });
+
+  // Load index
+  try {
+    const index = await getJSON("data/index.json");
+    allWeeks = index.weeks || [];
+    buildSidebar(allWeeks);
+    await router();
+  } catch {
+    showError("載入失敗，請確認 data/index.json 存在");
+  }
+}
+
+init();
+</script>
+</body>
+</html>

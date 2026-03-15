@@ -46,7 +46,35 @@ Get-Content "C:\Users\inice\claudeAgent\.env" | ForEach-Object {
 }
 
 # 啟動澄澄處理週報（非交互模式）
-$claudePrompt = "請處理本週AI新聞週報。步驟：1.讀取 C:\Users\inice\ai-weekly\data\filtered.json 2.為每條新聞打分(0-10)並翻譯摘要成繁體中文和日語 3.將結果存入 C:\Users\inice\ai-weekly\data\$today.json 4.更新 C:\Users\inice\ai-weekly\data\index.json 5.git add/commit/push 6.執行 python C:\Users\inice\ai-weekly\scripts\send_email.py $today 發送郵件通知"
+$claudePrompt = @"
+請處理本週 AI 新聞週報，日期：$today。
+
+【工作目錄】C:\Users\inice\ai-weekly
+
+【步驟】
+1. 讀取 data\filtered.json（每篇文章含 title、url、source、language、summary_original、content_original）
+
+2. 對每篇文章完成以下處理（參考 scripts\ai_score.py 的 SCORING_GUIDE）：
+   - score（0~10）：斌斌是 3D 手辦原型師，3D AI 相關新聞優先給高分
+   - title_cht：繁體中文標題
+   - title_ja：日語標題
+   - tags：3~5 個標籤，# 開頭，例如 ["#GPT-5","#OpenAI","#LLM"]
+   - summary_points_cht：3~5 條繁體中文重點（陣列）
+   - summary_points_ja：3~5 條日語重點（陣列）
+   - content_cht：若有 content_original 則完整翻譯；否則根據標題和摘要補寫，300字以上
+   - content_ja：同上，日語版本
+
+3. 將處理結果存入 data\$today.json，格式：
+   {"date":"$today","articles":{"ai_industry":[...],"ai_agent":[...],"3d_ai":[...]}}
+
+4. 呼叫 scripts\ai_score.py 的 save_weekly() 更新 data\index.json 和 data\search_index.json
+
+5. git add data\$today.json data\index.json data\search_index.json
+   git commit -m "weekly: $today 週報發布"
+   git push
+
+6. 執行 python scripts\send_email.py $today 發送郵件通知
+"@
 
 claude --dangerously-skip-permissions -p $claudePrompt
 

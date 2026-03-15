@@ -94,7 +94,7 @@ def send(date: str, site_url: str = "https://inice2000.github.io/ai-weekly"):
     html_body = build_html(data, site_url)
 
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"🍵 {date} AI新聞週報"
+    msg["Subject"] = f"🌿🍵 {date} AI新聞週報"
     msg["From"] = f"澄澄 AI週報 <{sender}>"
     msg["To"] = ", ".join(recipients)
     msg.attach(MIMEText(html_body, "html", "utf-8"))
