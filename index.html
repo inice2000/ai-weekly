@@ -335,12 +335,53 @@
     .empty .big { font-size: 36px; margin-bottom: 12px; }
     .empty p, .loading-msg { font-size: 14px; }
 
+    /* ── Mobile history button (hidden on desktop) ── */
+    .mobile-hist-btn {
+      display: none;
+      align-items: center; gap: 4px;
+      padding: 5px 10px; border-radius: 6px;
+      border: 1px solid var(--border); background: transparent;
+      cursor: pointer; font-size: 12px; color: var(--text-2);
+      white-space: nowrap;
+    }
+    .mobile-hist-btn:hover { background: var(--bg-hover); }
+
+    /* ── Sidebar backdrop (mobile only) ── */
+    .sidebar-backdrop {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.3); z-index: 199;
+    }
+    .sidebar-backdrop.open { display: block; }
+
     /* ── Responsive ── */
     @media (max-width: 720px) {
-      .sidebar { display: none; }
-      .main { padding: 24px 18px 48px; }
-      .search-input { width: 160px; }
-      .search-input:focus { width: 200px; }
+      /* Header: 2 rows */
+      .header {
+        height: auto; flex-wrap: wrap;
+        padding: 10px 14px; gap: 8px;
+      }
+      .header-logo { font-size: 17px; flex: 1; min-width: 0; }
+      .mobile-hist-btn { display: flex; }
+      .header-right {
+        width: 100%; order: 3;
+        gap: 8px;
+      }
+      .search-wrap { flex: 1; }
+      .search-input { width: 100%; }
+      .search-input:focus { width: 100%; box-shadow: none; }
+
+      /* Sidebar: slide-in drawer */
+      .sidebar {
+        position: fixed; top: 0; left: -260px;
+        width: 260px; height: 100vh;
+        z-index: 200; background: var(--bg);
+        box-shadow: 4px 0 20px rgba(0,0,0,0.12);
+        transition: left .25s ease;
+        padding-top: 16px;
+      }
+      .sidebar.mobile-open { left: 0; }
+
+      .main { padding: 20px 14px 48px; }
     }
   </style>
 </head>
@@ -348,6 +389,7 @@
 
 <header class="header">
   <div class="header-logo" onclick="navigate('')">🌿🍵 <span data-i18n="title"></span></div>
+  <button class="mobile-hist-btn" id="mobile-hist-btn" data-i18n="history"></button>
   <div class="header-right">
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
@@ -361,8 +403,9 @@
   </div>
 </header>
 
+<div class="sidebar-backdrop" id="sidebar-backdrop"></div>
 <div class="layout">
-  <aside class="sidebar">
+  <aside class="sidebar" id="sidebar">
     <div class="sidebar-heading" data-i18n="history"></div>
     <div id="sidebar-nav"></div>
   </aside>
@@ -1073,6 +1116,21 @@ function emptyHTML(emoji, msg) {
 // ================================================================
 async function init() {
   applyI18n();
+
+  // Mobile sidebar drawer
+  const sidebar   = document.getElementById("sidebar");
+  const backdrop  = document.getElementById("sidebar-backdrop");
+  const histBtn   = document.getElementById("mobile-hist-btn");
+  function openSidebar()  { sidebar.classList.add("mobile-open");    backdrop.classList.add("open"); }
+  function closeSidebar() { sidebar.classList.remove("mobile-open"); backdrop.classList.remove("open"); }
+  histBtn.addEventListener("click", () =>
+    sidebar.classList.contains("mobile-open") ? closeSidebar() : openSidebar()
+  );
+  backdrop.addEventListener("click", closeSidebar);
+  // 点侧边导航项后自动关闭
+  sidebar.addEventListener("click", e => {
+    if (e.target.classList.contains("week-link")) closeSidebar();
+  });
 
   // Language switch
   document.querySelectorAll(".lang-btn").forEach(btn => {
