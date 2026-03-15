@@ -142,5 +142,437 @@
       "複数のゲームスタジオと提携し、3Dシーンキャプチャのコストを90%削減することを目標",
       "無料版は最長60秒の動画入力をサポート、Proプランは制限なし"
     ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "People Hate AI Even More Than They Hate ICE, Poll Finds",
+    "title_cht": "最新民調：美國民眾對 AI 的反感程度超越移民執法局",
+    "title_ja": "世論調査：AIへの反感は移民局ICEを上回る――米国の民意を読む",
+    "url": "https://gizmodo.com/people-hate-ai-even-more-than-they-hate-ice-poll-finds-2000731438",
+    "source": "Gizmodo.com",
+    "score": 8,
+    "tags": ["#AI民意", "#美國政治", "#AI監管", "#公眾輿論"],
+    "summary_points_cht": [
+      "NBC 民調顯示，46% 受訪者對 AI 持負面態度，僅 26% 正面，比 ICE 移民執法局更不受歡迎",
+      "即便如此，承認使用 AI 工具的受訪者從 2025 年 12 月的 48% 上升至 3 月的 56%，認知與行為出現矛盾",
+      "57% 受訪者認為 AI 風險大於收益，AI 成為 2026 年中期選舉的核心議題",
+      "AI 涉及監控、失業、能源消耗、軍事等爭議，科技公司正砸重金影響選舉走向"
+    ],
+    "summary_points_ja": [
+      "NBC世論調査でAIへの否定的意見が46%、肯定が26%にとどまり、移民局ICEより不人気という結果に",
+      "矛盾も顕著：57%が「リスクがメリットを上回る」と答える一方、AI利用率は12月の48%から56%に上昇",
+      "AI監視・失業・エネルギー問題・軍事利用への批判が重なり、反感が高まっている",
+      "AI規制は2026年中間選挙の主要争点となり、テック大手は親AI候補への支持を強めている"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "Meta's New AI Model Is Reportedly Delayed Again. Is 'Avocado' Toast?",
+    "title_cht": "Meta 新一代 AI 模型「Avocado」再度延遲，被指推理與編碼能力落後對手",
+    "title_ja": "MetaのAIモデル「Avocado」が再延期、推論・コーディングで他社に後れ",
+    "url": "https://www.cnet.com/tech/services-and-software/meta-ai-model-delay-avocado-news/",
+    "source": "CNET",
+    "score": 7,
+    "tags": ["#Meta", "#Avocado", "#LLM", "#AI競爭"],
+    "summary_points_cht": [
+      "Meta 旗艦新模型 Avocado 最早要到 5 月才會發布，在推理、編碼、寫作方面內部測試落後 Google、OpenAI、Anthropic",
+      "Meta 今年 AI 投入預算從 720 億美元上調至 1,150-1,350 億美元，但大量資金未能換來預期成果",
+      "Meta 以 143 億美元收購 Alexandr Wang 旗下新創股份，任命其為首席 AI 官，押注快速追趕",
+      "Meta 官方稱模型「雖非最佳，但能展示快速進步的軌跡」，預告仍將在年內持續推出新模型"
+    ],
+    "summary_points_ja": [
+      "次世代モデル「Avocado」は5月以降に延期、推論・コーディング・ライティングの内部テストでGoogle/OpenAI/Anthropicに劣後",
+      "Metaは今年のAI投資を720億ドルから最大1,350億ドルに引き上げたが、成果は期待に届かず",
+      "Alexandr WangのAI企業に143億ドルを投資し最高AI責任者に任命、急追を目指す",
+      "Meta広報：「良いモデルを出す。重要なのは急速な軌跡を示すこと」と述べ、年内の継続リリースを予告"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "OpenAI 'Wants to Win' Talent Wars by Offering Equity Stakes to Top Researchers",
+    "title_cht": "OpenAI 以股權換人才：向頂尖研究員提供股份，狙擊 Google、Anthropic 搶人",
+    "title_ja": "OpenAIが株式付与で人材争奪戦に本腰、Google・Anthropicへの流出阻止へ",
+    "url": "https://www.businessinsider.com/openai-equity-top-researchers-talent-war-2026-3",
+    "source": "Business Insider",
+    "score": 7,
+    "tags": ["#OpenAI", "#人才競爭", "#AI研究員", "#股權"],
+    "summary_points_cht": [
+      "OpenAI 擴大股權激勵計畫，向核心研究員提供公司股份，應對頂尖人才流向 Google DeepMind、Anthropic 的壓力",
+      "AI 人才爭奪戰持續白熱化，薪酬已達數百萬美元仍難留人，股權成關鍵籌碼",
+      "部分離職研究員去向為自行創業，Dario Amodei 等 Anthropic 創辦人本身也是從 OpenAI 出走",
+      "OpenAI 估值目前達 3,000 億美元，股份吸引力相當可觀，但仍面臨 Google 等財力更雄厚對手的競爭"
+    ],
+    "summary_points_ja": [
+      "OpenAIが主要研究員へ株式付与を拡大、Google DeepMindやAnthropicへの人材流出に対抗",
+      "AI人材の争奪戦は激化の一途をたどり、数百万ドルの報酬でも引き留めが困難に",
+      "Anthropicの創業者自身がOpenAI出身であるなど、主要人材の独立・転職は業界の構造的課題",
+      "OpenAIの評価額は現在3,000億ドル、株式の魅力は大きいがGoogleなど資金力のある競合との戦いは続く"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "Kimi 融資破紀錄，估值達 1200 億",
+    "title_cht": "月之暗面 Kimi 完成破紀錄融資，估值升至 1200 億元",
+    "title_ja": "Kimi（月之暗面）が記録的な資金調達を完了、評価額1200億元に",
+    "url": "https://36kr.com/newsflashes/kimi-funding-2026",
+    "source": "36kr",
+    "score": 7,
+    "tags": ["#Kimi", "#月之暗面", "#中國AI", "#融資"],
+    "summary_points_cht": [
+      "月之暗面旗下 AI 助手 Kimi 完成新一輪融資，估值達 1,200 億元人民幣，創中國 AI 新創融資紀錄",
+      "Kimi 月活用戶突破數億，長文本處理和深度研究能力獲市場認可",
+      "資金主要用於算力基礎設施擴建和新一代模型研發",
+      "中國 AI 獨角獸估值持續飆升，與美國同類公司的差距正在縮小"
+    ],
+    "summary_points_ja": [
+      "月之暗面のAIアシスタント「Kimi」が新規資金調達を完了、評価額は1,200億元（約2.4兆円）に",
+      "月間アクティブユーザーは数億人を突破、長文処理と深度リサーチ機能が市場から高評価",
+      "調達資金はコンピューティングインフラの拡充と次世代モデル開発に充当",
+      "中国AIユニコーンの評価額が急上昇し、米国同業との差が縮まりつつある"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "Google Gemini 2.5 Pro 发布：推理能力刷新多项基准纪录",
+    "title_cht": "Google Gemini 2.5 Pro 發布：推理能力刷新多項基準測試紀錄",
+    "title_ja": "Google Gemini 2.5 Proが登場、推論能力で複数のベンチマーク記録を更新",
+    "url": "https://www.qbitai.com/2026/03/gemini25pro.html",
+    "source": "量子位",
+    "score": 9,
+    "tags": ["#Gemini", "#Google", "#LLM", "#推理能力"],
+    "summary_points_cht": [
+      "Gemini 2.5 Pro 在 MMLU、MATH、LiveCodeBench 等多項主流基準測試中取得最高分，超越 GPT-5 和 Claude Sonnet 4.5",
+      "採用全新「思考預算（Thinking Budget）」機制，用戶可自訂推理深度與成本的平衡",
+      "支援 200 萬 Token 超長上下文，可處理完整代碼庫或數百頁文件",
+      "目前向 Gemini Advanced 訂閱用戶開放，API 同步上線，定價較上一版下調 30%"
+    ],
+    "summary_points_ja": [
+      "Gemini 2.5 ProはMMIU・MATH・LiveCodeBenchなど主要ベンチマークでGPT-5とClaude Sonnet 4.5を上回る最高スコアを達成",
+      "新しい「思考予算（Thinking Budget）」機能で、推論の深さとコストのバランスをユーザーが調整可能",
+      "200万トークンの超長文コンテキストをサポート、完全なコードベースや数百ページの文書を処理可能",
+      "Gemini Advancedユーザー向けに提供開始、APIも同時公開し価格は前バージョンから30%引き下げ"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "AI数据中心建设引发多地居民抗议：噪音、耗水、电费齐涨",
+    "title_cht": "AI 數據中心擴建引發居民抗議：噪音、耗水、電費三重衝擊",
+    "title_ja": "AIデータセンター建設ラッシュに住民反発、騒音・水不足・電気代高騰が多発",
+    "url": "https://www.businessinsider.com/ai-data-centers-local-resistance-residents-2026-3",
+    "source": "Business Insider",
+    "score": 7,
+    "tags": ["#AI能源", "#數據中心", "#環境影響", "#社區抗議"],
+    "summary_points_cht": [
+      "美國多地居民對 AI 數據中心建設發起抗議，訴求包括噪音擾民、水資源過度消耗和電費上漲",
+      "2025 年因社區反對取消的數據中心項目數量是前年的四倍",
+      "多個州正在考慮立法暫停新數據中心審批，形成 AI 基礎設施建設的制度性障礙",
+      "科技公司正加大可再生能源承諾力度，但落地速度遠低於數據中心擴建速度"
+    ],
+    "summary_points_ja": [
+      "米国各地でAIデータセンター建設への住民抗議が相次ぎ、騒音・過度な水使用・電気代高騰が主な訴え",
+      "2025年に地域住民の反対で中止されたデータセンター計画は前年比4倍に達した",
+      "複数の州が新規データセンター建設への一時停止を検討、AIインフラ整備に制度的障壁が生まれつつある",
+      "テック企業は再生可能エネルギーへのコミットメントを強化しているが、データセンターの拡大速度に対応が追いついていない"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 6,
+    "title": "OpenAI 開除內鬼：拿著改變世界的機密去賭博",
+    "title_cht": "OpenAI 開除內部洩密者：竊取模型機密後押注競爭對手，一夜獲利數十萬",
+    "title_ja": "OpenAIが内通者を解雇：モデルの機密情報を競合に流し、一夜で数十万ドルを稼いでいた",
+    "url": "https://36kr.com/newsflashes/openai-insider-fired-2026",
+    "source": "36kr",
+    "score": 7,
+    "tags": ["#OpenAI", "#安全事件", "#內部洩密", "#AI競爭"],
+    "summary_points_cht": [
+      "OpenAI 解雇一名員工，其涉嫌竊取未公開模型性能數據後用於在競爭對手發布前進行金融押注",
+      "此人一夜獲利估計達數十萬美元，此後被內部調查發現，已移送司法機關",
+      "事件暴露 AI 頭部公司在核心研究保密方面的巨大壓力，内部人員掌握的「訊息差」具有極大市場價值",
+      "OpenAI 表示將強化員工保密協議和內部信息管控機制"
+    ],
+    "summary_points_ja": [
+      "OpenAIが従業員を解雇、未公開のモデル性能データを競合に流し、リリース前に金融ベットして数十万ドルを稼いでいた疑い",
+      "内部調査で発覚し当局に通報、AI企業における知的財産保護の困難さが浮き彫りに",
+      "AI主要企業の研究者が持つ「情報格差」は市場で極めて高い価値を持ち、インサイダー取引リスクが顕在化",
+      "OpenAIは従業員の秘密保持契約と情報管理体制を強化する方針を表明"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 7,
+    "title": "GPT-5.4 意外泄露！OpenAI 最新模型瞄准这2大能力突围",
+    "title_cht": "GPT-5.4 意外曝光：OpenAI 下一代模型瞄準多模態與長程規劃突破",
+    "title_ja": "GPT-5.4が意図せず流出、OpenAIの次期モデルはマルチモーダルと長期計画に照準",
+    "url": "https://www.qbitai.com/2026/03/gpt54-leak.html",
+    "source": "量子位",
+    "score": 7,
+    "tags": ["#GPT-5", "#OpenAI", "#多模態", "#LLM"],
+    "summary_points_cht": [
+      "OpenAI API 文件短暫出現 GPT-5.4 字樣，隨後被刪除，確認下一代模型正在研發中",
+      "據洩露訊息，GPT-5.4 重點強化多模態理解（影像、音訊、影片）與複雜長程規劃能力",
+      "GPT-5.4 預計不是旗艦模型，而是定位為比 GPT-5 更高效、更專精的垂直能力版本",
+      "OpenAI 今年計畫快速迭代，預計在 GPT-5 後數個月內持續推出新版本"
+    ],
+    "summary_points_ja": [
+      "OpenAIのAPIドキュメントにGPT-5.4の記述が一時的に掲載され、次世代モデルの開発が確認された",
+      "流出情報によれば、GPT-5.4はマルチモーダル理解（画像・音声・動画）と複雑な長期計画能力を重点的に強化",
+      "旗艦モデルではなく、GPT-5より効率的で特定能力に特化した派生版として位置づけられる見通し",
+      "OpenAIは今年の急速なイテレーション戦略を継続、GPT-5リリース後数カ月以内に新版を投入する計画"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 8,
+    "title": "Microsoft AI 投資日本突破 80 億美元，加碼東南亞佈局",
+    "title_cht": "Microsoft AI 投資日本突破 80 億美元，並宣布東南亞數十億美元新承諾",
+    "title_ja": "MicrosoftのAI投資が日本で80億ドル突破、東南アジアにも数十億ドルの追加投資を発表",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/microsoft-investment-asia.html",
+    "source": "ITmedia AI",
+    "score": 6,
+    "tags": ["#Microsoft", "#AI投資", "#日本", "#東南亞"],
+    "summary_points_cht": [
+      "Microsoft 宣布對日本的 AI 基礎設施投資超過 80 億美元，重點建設雲端算力中心",
+      "同步宣布對印尼、泰國、馬來西亞等東南亞市場的 AI 投資計畫，合計規模達數十億美元",
+      "策略重心是在亞太地區建立本地化數據主權，滿足各國數據合規要求",
+      "Azure 和 Copilot 服務的區域擴展是佈局核心，微軟試圖在非美本土市場取得先機"
+    ],
+    "summary_points_ja": [
+      "Microsoftが日本へのAIインフラ投資が80億ドルを超えたと発表、クラウドコンピューティングセンターの建設が中心",
+      "インドネシア・タイ・マレーシアなど東南アジア市場への数十億ドル規模の追加AI投資も同時発表",
+      "アジア太平洋地域でのローカルデータ主権確立が戦略の核心、各国のデータコンプライアンス要件に対応",
+      "AzureとCopilotサービスの地域展開が布石、非米本土市場での先行を狙う"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 9,
+    "title": "機器人全程自主收拾客廳！390億美元估值機器人端到端新技能",
+    "title_cht": "機器人自主整理客廳！估值 390 億美元的具身智慧公司發布端到端新能力",
+    "title_ja": "ロボットがリビングを自律片付け！評価額390億ドルの具身知能企業が新能力を発表",
+    "url": "https://www.qbitai.com/2026/03/robot-tidy.html",
+    "source": "量子位",
+    "score": 8,
+    "tags": ["#具身智慧", "#機器人", "#端到端AI", "#英偉達"],
+    "summary_points_cht": [
+      "頂尖具身智慧公司展示機器人在無人干預下完整整理客廳的能力，全程端到端 AI 控制，無需人工干預",
+      "機器人可識別物品位置、判斷應放置位置並執行搬運，展現複雜場景下的空間推理能力",
+      "英偉達持續加注具身智慧賽道，Blackwell 算力已被多家機器人公司採用",
+      "估值達 390 億美元，成為全球最高估值具身智慧新創，融資進展顯示市場高度看好落地潛力"
+    ],
+    "summary_points_ja": [
+      "トップの具身知能企業がロボットによる完全自律でのリビング片付けデモを公開、全工程をエンドツーエンドAIで制御",
+      "ロボットは物体の位置認識、適切な配置判断、搬送を自律実行し、複雑シーン下の空間推論能力を実証",
+      "NVIDIAが具身知能分野への投資を継続、Blackwellチップが複数のロボット企業で採用",
+      "評価額390億ドルで世界最高評価の具身知能スタートアップに、現実世界への応用可能性を市場が高く評価"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "Read the memo authorizing Senate offices to use ChatGPT, Gemini, and Copilot for official use",
+    "title_cht": "美國參議院正式授權使用 ChatGPT、Gemini 和 Copilot 辦公，Claude 仍在審核中",
+    "title_ja": "米上院がChatGPT・Gemini・Copilotの公務使用を正式承認、Claudeは審査中",
+    "url": "https://www.businessinsider.com/read-memo-senate-authorizes-chatgpt-gemini-copilot-official-use-2026-3",
+    "source": "Business Insider",
+    "score": 8,
+    "tags": ["#美國參議院", "#ChatGPT", "#Copilot", "#AI政策"],
+    "summary_points_cht": [
+      "美國參議院正式發佈備忘錄，授權使用 ChatGPT Enterprise、Google Gemini 和 Microsoft Copilot 處理官方事務",
+      "三款工具可用於草擬文件、資料摘要、整理要點和研究分析，Copilot 已整合至現有 Microsoft 365 環境",
+      "Claude 仍在安全評估中，背景是 Anthropic 拒絕為大規模監控和自主武器授權，與川普政府存在政策衝突",
+      "眾議院已提前授權包含 Claude 在內的四款工具，參眾兩院在 AI 政策採用上出現分歧"
+    ],
+    "summary_points_ja": [
+      "米上院が備忘録を正式発出、ChatGPT Enterprise・Google Gemini・Microsoft Copilotの公務使用を承認",
+      "文書作成・情報要約・ブリーフィング資料作成・調査分析が認可用途、CopilotはMicrosoft 365に統合済み",
+      "Claudeはまだ評価中、AnthropicはAIの大規模監視・自律兵器への使用を拒否しトランプ政権と対立",
+      "下院はClaude含む4ツールをすでに承認しており、上下両院のAI採用方針に齟齬が生じている"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "Meta acquires Moltbook, the Reddit-like network for AI agents",
+    "title_cht": "Meta 收購 AI 智慧體社群平台 Moltbook，加速佈局智慧體互動生態",
+    "title_ja": "MetaがAIエージェント向けSNS「Moltbook」を買収、エージェント間連携エコシステムを強化",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/892178/meta-moltbook-acquisition-ai-agents",
+    "source": "The Verge",
+    "score": 7,
+    "tags": ["#Meta", "#AIAgent", "#Moltbook", "#收購"],
+    "summary_points_cht": [
+      "Meta 收購 Moltbook——一個類 Reddit 的 AI 智慧體社群平台，讓 AI 代理可以互相發文和評論",
+      "Moltbook 團隊將加入 Meta 超級智慧實驗室（MSL），助推「讓 AI 智慧體為人和企業服務」的願景",
+      "Moltbook 今年初因 AI 意識相關爆文走紅，但後來被揭露大量貼文實為人類偽造，平台存在嚴重安全漏洞",
+      "Meta 此前 CTO 曾公開表示對 Moltbook「興趣不大」，此次收購被視為更看中創辦人而非平台本身"
+    ],
+    "summary_points_ja": [
+      "MetaがAIエージェント向けReddit類似SNS「Moltbook」を買収、AIエージェント同士の投稿・コメントを可能にするプラットフォーム",
+      "MoltbookチームはMeta Superintelligence Labs（MSL）に合流、「AIエージェントが人とビジネスのために働く」ビジョンを推進",
+      "Moltbookは年初にAI意識系の投稿でバズったが、後に多くの投稿が人間によるものと判明し、深刻なセキュリティ欠陥も露呈",
+      "MetaのCTOは以前「特に面白いと思わない」と発言しており、今回の買収はプラットフォームより創業者を評価したものとみられる"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "China rushed to use OpenClaw. Now, some stressed-out users are forking out cash to uninstall the AI agent.",
+    "title_cht": "中國 OpenClaw「養龍蝦」熱潮退燒：有人花錢請人安裝，如今又花錢請人卸載",
+    "title_ja": "中国のOpenClaw「ロブスター育成」ブームが一転、今度はアンインストール代行サービスが盛況",
+    "url": "https://www.businessinsider.com/china-openclaw-lobster-craze-uninstall-ai-agent-paid-side-hustle-2026-3",
+    "source": "Business Insider",
+    "score": 8,
+    "tags": ["#OpenClaw", "#中國AI", "#AI安全", "#社會現象"],
+    "summary_points_cht": [
+      "OpenClaw「養龍蝦」（自動化 AI 助手）熱潮在中國催生新商機：二手平台出現付費卸載服務，最低收費約 44 美元",
+      "中國政府和監管機構出手：國家漏洞資料庫警告 OpenClaw 存在安全風險，銀行和政府機關禁止在工作設備安裝",
+      "深圳騰訊總部曾出現近千人排隊請工程師免費協助安裝的盛況，不少地方政府還推出創業補貼吸引 OpenClaw 開發者",
+      "RedNote 用戶嘲諷：「裝一次收 599，卸一次收 299，這個商業閉環設計得真妙」"
+    ],
+    "summary_points_ja": [
+      "OpenClawの「ロブスター育成」ブームが中国で新ビジネスを生む：中古プラットフォームでアンインストール代行サービスが登場、最安値は約44ドル",
+      "中国政府と規制当局が動く：国家脆弱性データベースがOpenClawのセキュリティリスクを警告、銀行や政府機関が業務端末への導入を禁止",
+      "深センのTencent本社では千人近くが無料インストール支援に並ぶ盛況に、地方政府もOpenClaw開発者向け補助金制度を導入",
+      "RedNoteユーザーの皮肉：「インストール代599、アンインストール代299、このビジネスループは天才的」"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "拜拜了SWE-Bench！Cursor刚发了个AI Coding评测基准，难哭Claude",
+    "title_cht": "再見 SWE-Bench！Cursor 發布 CursorBench：以真實開發場景為標準，Claude 成績大縮水",
+    "title_ja": "SWE-Benchにさよなら！CursorがCursorBenchを発表、リアルな開発シナリオで評価しClaudeのスコアが激減",
+    "url": "https://www.qbitai.com/2026/03/387756.html",
+    "source": "量子位",
+    "score": 9,
+    "tags": ["#Cursor", "#CursorBench", "#AI編碼", "#模型評測"],
+    "summary_points_cht": [
+      "Cursor 發布 CursorBench 基準，以真實開發場景（多文件修改、生產日誌分析等）取代 SWE-Bench 的模擬 bug 修復任務",
+      "Claude Haiku 4.5 分數從 73.3 跌至 29.4，Sonnet 4.5 從 77.2 跌至 37.9，凸顯現有基準與真實使用場景的巨大落差",
+      "CursorBench 採用「線上+線下混合評測」，離線評分+真實用戶 A/B 測試，確保排名與真實用戶體驗一致",
+      "任務設計刻意保持描述模糊、規模更大、跨越多文件，模擬真實開發者與 AI 的交互方式"
+    ],
+    "summary_points_ja": [
+      "CursorがCursorBenchを発表、SWE-BenchのGitHub Issue修正タスクを廃止し、実際の開発シナリオ（複数ファイル変更・本番ログ分析など）に置換",
+      "Claude Haiku 4.5は73.3→29.4、Sonnet 4.5は77.2→37.9に急落し、既存ベンチマークと実際の使用感の大きな乖離が露呈",
+      "「オンライン+オフライン混合評価」を採用、オフラインスコアリングと実ユーザーA/Bテストで順位と体感を一致させる設計",
+      "タスクは意図的に曖昧な記述・大規模・複数ファイルにまたがる設計で、実際の開発者とAIの対話を模倣"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "Grammarly停止「専門家レビュー」機能，集體訴訟後決定下架",
+    "title_cht": "Grammarly 關閉「專家評審」功能：無授權使用真人名字引發集體訴訟",
+    "title_ja": "Grammarlyが「専門家レビュー」機能を停止、無断で実在の専門家の名前を使用し集団訴訟に発展",
+    "url": "https://gigazine.net/news/20260313-expert-reviews-disable/",
+    "source": "Gigazine",
+    "score": 8,
+    "tags": ["#Grammarly", "#AI倫理", "#版權", "#AIAgent"],
+    "summary_points_cht": [
+      "Grammarly 的「專家評審 Agent」功能在未經本人同意的情況下，以真實學者和作家的名義提供寫作建議，引發強烈批評",
+      "《紐約時報》記者 Julia Angwin 等人向 Grammarly 母公司 Superhuman 提起集體訴訟，要求停止侵權",
+      "Grammarly CEO 公開道歉並宣布關閉該功能，承認「在尊重專家意志方面做得不夠」",
+      "事件引發 AI 業界廣泛討論：以「真人角色扮演」方式提供建議的 AI 功能，在法律和倫理邊界上面臨重大挑戰"
+    ],
+    "summary_points_ja": [
+      "Grammarlyの「専門家レビューエージェント」は本人の同意なしに実在する学者・作家の名前で添削フィードバックを提供、批判が殺到",
+      "ニューヨーク・タイムズのJulia Angwin記者らがSuperhumanに集団訴訟を提起、名誉毀損と無断使用を訴える",
+      "GrammarlyCEOが公開謝罪し機能の停止を発表、「専門家の意思のコントロールを尊重できていなかった」と認める",
+      "「実在人物のペルソナでAIが発言する」機能の法的・倫理的境界線をめぐる業界全体の議論が活発化"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "Xboxはゲーム向けAIアシスタントの「Gaming Copilot」を現行ゲーム機に搭載すると発表",
+    "title_cht": "Xbox 宣布 Gaming Copilot AI 遊戲助手將登陸 Xbox Series X/S，提供即時遊戲建議",
+    "title_ja": "Xbox、ゲームAIアシスタント「Gaming Copilot」をXbox Series X/Sへ2026年内に搭載すると発表",
+    "url": "https://gigazine.net/news/20260314-xbox-gaming-copilot-current-generation-consoles/",
+    "source": "Gigazine",
+    "score": 6,
+    "tags": ["#Xbox", "#GamingCopilot", "#Microsoft", "#遊戲AI"],
+    "summary_points_cht": [
+      "Xbox 宣布 Gaming Copilot 將於 2026 年內搭載至 Xbox Series X/S，目前已在 PC、手機和 ROG Xbox Ally 以 Beta 版提供",
+      "功能涵蓋遊戲建議、個人遊戲紀錄查詢、帳號資訊，以及即時遊戲技巧提示（如 Minecraft 新手指引）",
+      "Xbox 遊戲 AI 夥伴產品負責人表示：「很高興向更多玩家提供 Gaming Copilot」，但發布中未明確點名平台",
+      "遊戲媒體指出，Gaming Copilot 自推出以來在玩家社群中褒貶不一，Xbox Series 版能否帶動熱度仍是未知數"
+    ],
+    "summary_points_ja": [
+      "XboxがGaming Copilotを2026年内にXbox Series X/Sへ搭載すると発表、現在はPC・スマホ・ROG Xbox AllyでBeta提供中",
+      "機能はゲーム推薦、プレイ履歴確認、アカウント情報、リアルタイムのゲームアドバイス（Minecraft初心者向けガイドなど）",
+      "Xbox AIパートナーのプロダクトマネージャー：「より多くのプレイヤーにGaming Copilotを届けられることを嬉しく思う」と発表",
+      "ゲームメディアは「コミュニティでの反応は賛否両論」と報道、Xbox Series版の普及がどう影響するかは不透明"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 6,
+    "title": "VS Codeの安定版が毎週リリースへ　第1弾ではAIエージェント運用を強化",
+    "title_cht": "VS Code 改為每週發布穩定版：首版 1.111 強化 AI 智慧體自主執行與權限管理",
+    "title_ja": "VS Codeが週次安定版リリースへ移行、第1弾の1.111ではAIエージェントの自律実行と権限管理を強化",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/13/news023.html",
+    "source": "ITmedia AI",
+    "score": 7,
+    "tags": ["#VSCode", "#Microsoft", "#AIAgent", "#開發工具"],
+    "summary_points_cht": [
+      "VS Code 宣布從月度更新改為每週發布穩定版，版本 1.111 是新節奏下的第一版",
+      "1.111 新增 Autopilot 模式，讓 AI 智慧體可在設定範圍內自主執行任務，無需逐步確認",
+      "新增前置/後置鉤子功能，可在 AI 智慧體執行特定進程前後插入自定義步驟，提升工作流程彈性",
+      "同步加入快照（Snapshot）功能，方便開發者追蹤並審查 AI 智慧體的具體操作行為"
+    ],
+    "summary_points_ja": [
+      "VS Codeが月次から週次の安定版リリースへ移行、バージョン1.111がその第1弾",
+      "1.111では「Autopilot」モードを新設、AIエージェントが設定範囲内でタスクを自律実行可能に",
+      "特定プロセスの前後にカスタムステップを差し込む「フック」機能を追加、ワークフローの柔軟性が向上",
+      "AIエージェントの動作を追跡・確認するための「スナップショット」機能も新たに搭載"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 7,
+    "title": "Escape lands $18 million funding to scale AI-driven offensive security automation",
+    "title_cht": "安全 AI 新創 Escape 完成 1800 萬美元 A 輪融資：AI 智慧體自動執行滲透測試全流程",
+    "title_ja": "セキュリティAIスタートアップEscapeが1,800万ドルのシリーズA調達、AIエージェントでペンテストを完全自動化",
+    "url": "https://www.helpnetsecurity.com/2026/03/10/escape-18-funding/",
+    "source": "Help Net Security",
+    "score": 6,
+    "tags": ["#AI安全", "#融資", "#滲透測試", "#AIAgent"],
+    "summary_points_cht": [
+      "安全 AI 公司 Escape 完成 1,800 萬美元 A 輪融資，由 Balderton Capital 領投，Y Combinator 等參與",
+      "Escape 的 AI 智慧體持續模擬真實攻擊者行為，自動發現漏洞並直接在工程工作流中完成修復，不再依賴人工點測試",
+      "每月執行超過 30 萬次安全評估，一客戶使用後安全測試從五天縮短至五小時，投資回報率達 393%",
+      "研究發現，5,600 個公開的 vibe-coding 應用中藏有超過 2,000 個高危漏洞，多涉及個人資料洩露"
+    ],
+    "summary_points_ja": [
+      "セキュリティAI企業EscapeがBalderton Capital主導で1,800万ドルのシリーズA調達を完了、YCなども参加",
+      "EscapeのAIエージェントは実際の攻撃者の行動を継続的にシミュレートし、脆弱性を自動発見してエンジニアリングワークフロー内で直接修正",
+      "月間30万件超のセキュリティ評価を実施、ある顧客では安全テストが5日から5時間に短縮しROI393%を達成",
+      "公開中の5,600個のvibe-codingアプリに2,000件以上の深刻な脆弱性を発見、多くで個人データが露出"
+    ]
   }
 ]
