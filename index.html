@@ -450,6 +450,25 @@ const CAT = {
 };
 
 // ================================================================
+// Access control
+// ================================================================
+const ACCESS_KEY  = "Chen9ch!nga1";
+const ACCESS_STORE = "ai_weekly_access";
+
+function checkAccess() {
+  const urlKey = new URLSearchParams(location.search).get("key");
+  if (urlKey === ACCESS_KEY) {
+    localStorage.setItem(ACCESS_STORE, "1");
+    // 清除 URL 中的 key 参数，保留 hash
+    history.replaceState(null, "", location.pathname + location.hash);
+    return true;
+  }
+  return localStorage.getItem(ACCESS_STORE) === "1";
+}
+
+let hasAccess = checkAccess();
+
+// ================================================================
 // State
 // ================================================================
 let lang        = "zh-Hant";
@@ -835,16 +854,18 @@ function renderArticleDetail(article, date, cat, idx) {
     content.appendChild(wrap);
   }
 
-  // Full content
-  const fullContent = el("div", { className: "detail-content-wrap" });
-  fullContent.appendChild(el("div", { className: "section-label", textContent: L("full_content") }));
-  const bodyText = getContent(article);
-  if (bodyText) {
-    fullContent.appendChild(el("div", { className: "detail-content", textContent: bodyText }));
-  } else {
-    fullContent.appendChild(el("div", { className: "no-content", textContent: L("no_content") }));
+  // Full content（仅授权用户可见）
+  if (hasAccess) {
+    const fullContent = el("div", { className: "detail-content-wrap" });
+    fullContent.appendChild(el("div", { className: "section-label", textContent: L("full_content") }));
+    const bodyText = getContent(article);
+    if (bodyText) {
+      fullContent.appendChild(el("div", { className: "detail-content", textContent: bodyText }));
+    } else {
+      fullContent.appendChild(el("div", { className: "no-content", textContent: L("no_content") }));
+    }
+    content.appendChild(fullContent);
   }
-  content.appendChild(fullContent);
 
   // Source link
   if (article.url) {

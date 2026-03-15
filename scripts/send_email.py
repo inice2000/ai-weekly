@@ -34,18 +34,30 @@ def build_html(data: dict, site_url: str) -> str:
             continue
         rows = ""
         for a in items:
-            title = a.get("title", "")
+            title = a.get("title_cht") or a.get("title", "")
             url = a.get("url", "#")
-            summary = a.get("summary_cht") or a.get("summary", "")
+            points = a.get("summary_points_cht") or []
             source = a.get("source", "")
             score = a.get("score", "")
             score_str = f"⭐ {score}" if score else ""
+            tags = " ".join(a.get("tags", []))
+            # 子弹摘要
+            if points:
+                bullets = "".join(
+                    f'<li style="margin:2px 0;font-size:13px;color:#555;">{p}</li>'
+                    for p in points
+                )
+                summary_html = f'<ul style="margin:6px 0 0 16px;padding:0;">{bullets}</ul>'
+            else:
+                fallback = a.get("summary_cht") or a.get("summary", "")
+                summary_html = f'<div style="margin-top:4px;font-size:13px;color:#666;">{fallback}</div>'
+
             rows += f"""
             <tr>
-              <td style="padding:10px 0;border-bottom:1px solid #f0f0f0;">
+              <td style="padding:12px 0;border-bottom:1px solid #f0f0f0;">
                 <a href="{url}" style="font-size:15px;font-weight:600;color:#1a1a1a;text-decoration:none;">{title}</a>
-                <div style="margin-top:4px;font-size:13px;color:#666;">{summary}</div>
-                <div style="margin-top:4px;font-size:12px;color:#999;">{source} {score_str}</div>
+                {summary_html}
+                <div style="margin-top:6px;font-size:11px;color:#aaa;">{source} {score_str} {tags}</div>
               </td>
             </tr>"""
         sections += f"""
@@ -79,6 +91,9 @@ def build_html(data: dict, site_url: str) -> str:
 </html>"""
 
 
+SITE_ACCESS_KEY = "Chen9ch!nga1"
+
+
 def send(date: str, site_url: str = "https://inice2000.github.io/ai-weekly"):
     sender = os.environ.get("GMAIL_SENDER", "")
     password = os.environ.get("GMAIL_APP_PASSWORD", "").replace(" ", "")
@@ -91,7 +106,9 @@ def send(date: str, site_url: str = "https://inice2000.github.io/ai-weekly"):
 
     data = load_weekly(date)
     total = sum(len(v) for v in data["articles"].values())
-    html_body = build_html(data, site_url)
+    # 邮件按钮链接带 key，收件人点击后自动解锁全文
+    keyed_url = f"{site_url}?key={SITE_ACCESS_KEY}"
+    html_body = build_html(data, keyed_url)
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = f"🌿🍵 {date} AI新聞週報"
