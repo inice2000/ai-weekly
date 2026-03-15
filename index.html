@@ -314,6 +314,12 @@
       text-decoration: none; cursor: pointer;
     }
     .back-to-week:hover { color: var(--text-1); }
+    .orig-lang-btn {
+      background: var(--blue-bg); border: 1px solid #dbeafe;
+      border-radius: 4px; cursor: pointer; padding: 1px 8px;
+      font-size: 12px; color: var(--blue); transition: all .12s;
+    }
+    .orig-lang-btn:hover, .orig-lang-btn.active { background: var(--blue); color: #fff; border-color: var(--blue); }
 
     /* ── Search / Tag results ── */
     .results-title {
@@ -388,7 +394,9 @@ const I18N = {
     cat_agent:    "AI Agent",
     cat_3d:       "3D AI",
     loading:      "載入中...",
-    score:        s => `評分 ${s}`,
+    score:        s => `AI評分 ${s}`,
+    show_translated: "查看譯文",
+    orig_content: "新聞原文",
     related:      n => `📎 相關報道 (${n})`,
     tag_results:  t => `#${t} 相關新聞`,
     search_label: q => `搜尋：${q}`,
@@ -417,7 +425,9 @@ const I18N = {
     cat_agent:    "AI Agent",
     cat_3d:       "3D AI",
     loading:      "読み込み中...",
-    score:        s => `スコア ${s}`,
+    score:        s => `AIスコア ${s}`,
+    show_translated: "翻訳を見る",
+    orig_content: "原文",
     related:      n => `📎 関連記事 (${n})`,
     tag_results:  t => `#${t} の関連ニュース`,
     search_label: q => `検索：${q}`,
@@ -836,11 +846,42 @@ function renderArticleDetail(article, date, cat, idx) {
   }
 
   // Meta
+  let showOrig = false;
   const meta = el("div", { className: "detail-meta" });
-  if (article.source) meta.appendChild(el("span", { textContent: `📰 ${article.source}` }));
+  if (article.source) {
+    const srcSpan = el("span");
+    let domain = null;
+    if (article.url) { try { domain = new URL(article.url).origin; } catch {} }
+    if (domain) {
+      srcSpan.innerHTML = `📰 <a href="${domain}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">${article.source}</a>`;
+    } else {
+      srcSpan.textContent = `📰 ${article.source}`;
+    }
+    meta.appendChild(srcSpan);
+  }
   meta.appendChild(el("span", { textContent: `📅 ${date}` }));
   if (article.score) meta.appendChild(el("span", { textContent: L("score", article.score) }));
-  if (article.language) meta.appendChild(el("span", { textContent: L("orig_lang", article.language) }));
+  if (article.language) {
+    const origBtn = el("button", { className: "orig-lang-btn" });
+    origBtn.textContent = L("orig_lang", article.language);
+    origBtn.addEventListener("click", () => {
+      showOrig = !showOrig;
+      origBtn.textContent = showOrig ? L("show_translated") : L("orig_lang", article.language);
+      origBtn.classList.toggle("active", showOrig);
+      const cWrap = document.getElementById("detail-content-section");
+      if (cWrap && hasAccess) {
+        const labelEl = cWrap.querySelector(".section-label");
+        const bodyEl = cWrap.querySelector(".detail-content, .no-content");
+        if (labelEl) labelEl.textContent = showOrig ? L("orig_content") : L("full_content");
+        if (bodyEl) {
+          const text = showOrig ? (article.content_original || "") : getContent(article);
+          if (text) { bodyEl.className = "detail-content"; bodyEl.textContent = text; }
+          else { bodyEl.className = "no-content"; bodyEl.textContent = L("no_content"); }
+        }
+      }
+    });
+    meta.appendChild(origBtn);
+  }
   content.appendChild(meta);
 
   // Key points
@@ -856,7 +897,7 @@ function renderArticleDetail(article, date, cat, idx) {
 
   // Full content（仅授权用户可见）
   if (hasAccess) {
-    const fullContent = el("div", { className: "detail-content-wrap" });
+    const fullContent = el("div", { className: "detail-content-wrap", id: "detail-content-section" });
     fullContent.appendChild(el("div", { className: "section-label", textContent: L("full_content") }));
     const bodyText = getContent(article);
     if (bodyText) {
@@ -865,18 +906,6 @@ function renderArticleDetail(article, date, cat, idx) {
       fullContent.appendChild(el("div", { className: "no-content", textContent: L("no_content") }));
     }
     content.appendChild(fullContent);
-  }
-
-  // Source link
-  if (article.url) {
-    const srcLink = el("a", {
-      className: "source-btn",
-      href: article.url,
-      target: "_blank",
-      rel: "noopener noreferrer",
-      innerHTML: `🔗 ${L("source_link")}`
-    });
-    content.appendChild(srcLink);
   }
 
   // Related
@@ -904,13 +933,25 @@ function renderArticleDetail(article, date, cat, idx) {
     content.appendChild(wrap);
   }
 
-  // Back to week (bottom)
+  // Source link + back to week (stacked, separate lines)
+  const linksWrap = el("div", { style: "display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-bottom:36px;" });
+  if (article.url) {
+    linksWrap.appendChild(el("a", {
+      className: "source-btn",
+      href: article.url,
+      target: "_blank",
+      rel: "noopener noreferrer",
+      innerHTML: `🔗 ${L("source_link")}`,
+      style: "margin-bottom:0;"
+    }));
+  }
   const backBottom = el("span", {
     className: "back-to-week",
     textContent: L("back_to_top")
   });
   backBottom.addEventListener("click", () => navigate(`week/${date}`));
-  content.appendChild(backBottom);
+  linksWrap.appendChild(backBottom);
+  content.appendChild(linksWrap);
 }
 
 // ================================================================

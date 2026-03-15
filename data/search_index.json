@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2026-03-15",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "OpenAI Releases GPT-5 with Unprecedented Reasoning Capabilities",
+    "title_cht": "OpenAI 正式發布 GPT-5，推理能力達到前所未有的水準",
+    "title_ja": "OpenAIがGPT-5をリリース、前例のない推論能力を実現",
+    "url": "https://example.com/1",
+    "source": "TechCrunch",
+    "score": 9,
+    "tags": ["#GPT-5", "#OpenAI", "#LLM", "#AI推理"],
+    "summary_points_cht": [
+      "GPT-5 在 MATH 基準測試達到 97.3 分，首次通過完整美國執照醫學考試",
+      "支援最長 256K Token 上下文，多步驟推理錯誤率較 GPT-4o 下降 60%",
+      "API 同步對外開放，定價較 GPT-4o 降低 20%",
+      "業界評價為通往 AGI 的關鍵里程碑"
+    ],
+    "summary_points_ja": [
+      "GPT-5はMATHベンチマークで97.3点を達成し、完全な米国医師免許試験に初めて合格",
+      "最大256Kトークンのコンテキストウィンドウをサポート、多段階推論エラーがGPT-4oより60%低下",
+      "APIを同時公開、価格はGPT-4oより20%低下",
+      "業界ではAGIへの重要なマイルストーンと評価"
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "Anthropic 完成 40 億美元融資，估值突破 600 億",
+    "title_cht": "Anthropic 完成 40 億美元融資，估值突破 600 億",
+    "title_ja": "Anthropicが40億ドルの資金調達を完了、評価額600億ドルを突破",
+    "url": "https://example.com/4",
+    "source": "36kr",
+    "score": 7,
+    "tags": ["#Anthropic", "#融資", "#AI創業", "#Claude"],
+    "summary_points_cht": [
+      "融資規模 40 億美元，由 Google 與多家主權財富基金領投",
+      "估值升至 600 億美元，成為全球最高估值 AI 新創之一",
+      "資金用於擴建算力基礎設施、加速 Claude 模型迭代",
+      "企業客戶數量過去一年成長超過 300%"
+    ],
+    "summary_points_ja": [
+      "GoogleとSWFが主導する40億ドルの資金調達を完了",
+      "評価額は600億ドルに上昇、世界最高評価のAIスタートアップの一つに",
+      "自社コンピューティングインフラの拡大とClaude研究の加速に資金を充当",
+      "法人顧客数は過去1年で300%超の成長を記録"
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "Cursor AI 發布 Agent 模式：可自動完成跨檔案重構",
+    "title_cht": "Cursor AI 發布 Agent 模式：可自動完成跨檔案重構",
+    "title_ja": "Cursor AIがAgentモードを発表：クロスファイルのリファクタリングを自動化",
+    "url": "https://example.com/5",
+    "source": "機器之心",
+    "score": 9,
+    "tags": ["#Cursor", "#AIAgent", "#開發工具", "#程式設計"],
+    "summary_points_cht": [
+      "Agent 模式可自主執行跨檔案重構、修復測試、更新依賴，全程無需手動干預",
+      "開發者僅需用自然語言描述目標，Agent 自動拆解並逐步執行",
+      "官方數據：使用 Agent 模式完成複雜功能的時間平均縮短 60%",
+      "同步支援 MCP 協議，可直接連接外部工具和資料庫"
+    ],
+    "summary_points_ja": [
+      "Agentモードはクロスファイルのリファクタリング、テスト修正、依存関係の更新を手動介入なしに実行",
+      "開発者は自然言語で目標を記述するだけで、Agentが自動でタスクを分解・実行",
+      "公式データ：Agentモード使用で複雑な機能実装時間が平均60%短縮",
+      "MCPプロトコルにも対応、外部ツールやデータベースへの直接接続が可能"
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "How Top Engineers Use AI: MCP Workflows That Actually Work",
+    "title_cht": "頂尖工程師如何使用 AI：真正有效的 MCP 工作流程",
+    "title_ja": "トップエンジニアのAI活用術：実際に機能するMCPワークフロー",
+    "url": "https://example.com/6",
+    "source": "Wired",
+    "score": 8,
+    "tags": ["#MCP", "#AIAgent", "#工程師", "#提示詞", "#工作流程"],
+    "summary_points_cht": [
+      "採訪 Google、Stripe 等頂尖工程師，整理出真正可用的 AI 工作流程",
+      "核心技巧：用 MCP 讓 AI 直接操作代碼庫，而非複製貼上",
+      "建立提示詞範本庫 + 將 AI 嵌入 CI/CD 流程，可自動審查代碼質量",
+      "結論：AI 對資深工程師的提升遠大於初級工程師，關鍵在於能否精準定義問題"
+    ],
+    "summary_points_ja": [
+      "Google、Stripeなどのトップエンジニアにインタビューし、実際に機能するAIワークフローをまとめた",
+      "コアテクニック：MCPでAIにコードベースを直接操作させ、コピー&ペーストを排除",
+      "プロンプトテンプレートライブラリの構築とCI/CDへのAI統合でコード品質を自動レビュー",
+      "結論：AIはジュニアよりシニアエンジニアの生産性向上に大きく貢献、問題を正確に定義できるかが鍵"
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "category": "3d_ai",
+    "idx": 0,
+    "title": "Meshy 4.0 Released: Text-to-3D in Under 30 Seconds",
+    "title_cht": "Meshy 4.0 發布：30 秒內完成文字轉 3D，直接支援 ZBrush 匯出",
+    "title_ja": "Meshy 4.0リリース：30秒以内のテキスト→3D生成、ZBrushエクスポートに直接対応",
+    "url": "https://example.com/8",
+    "source": "80.lv",
+    "score": 10,
+    "tags": ["#Meshy", "#Text-to-3D", "#ZBrush", "#3D生成", "#手辦"],
+    "summary_points_cht": [
+      "生成速度提升至 30 秒以內，較上版快 4 倍，細節精度大幅改善",
+      "新增 ZBrush ZTL 直接匯出，雕刻師可無縫接續精修",
+      "重拓撲（Retopology）質量提升，模型可直接用於動畫綁定，無需手動清理",
+      "支援 PBR 材質自動生成，Pro 方案每月 200 個高精度模型"
+    ],
+    "summary_points_ja": [
+      "生成速度が30秒以内に向上、前バージョンより4倍高速でディテール精度も大幅改善",
+      "ZBrush ZTL形式への直接エクスポートが追加、スカルプターがシームレスに作業継続可能",
+      "リトポロジー品質が向上、手動クリーンアップなしにアニメーションリギングに直接使用可能",
+      "PBRマテリアルの自動生成をサポート、Proプランで月200個の高精度モデルを生成可能"
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "category": "3d_ai",
+    "idx": 1,
+    "title": "Luma AI Dream Machine 3D アップデート：動画から3Dシーン再構成",
+    "title_cht": "Luma AI Dream Machine 3D 更新：從單一影片自動重建完整 3D 場景",
+    "title_ja": "Luma AI Dream Machine 3Dアップデート：動画から3Dシーンを再構成",
+    "url": "https://example.com/10",
+    "source": "Gigazine",
+    "score": 9,
+    "tags": ["#LumaAI", "#3D重建", "#NeRF", "#遊戲開發", "#影片轉3D"],
+    "summary_points_cht": [
+      "從單一手持拍攝影片自動重建完整 3D 場景，無需專業設備或多角度拍攝",
+      "重建精度較上版提升 3 倍，支援 USD、glTF、FBX 匯出，可直接導入 UE5 和 Unity",
+      "與多家遊戲工作室合作，目標將 3D 場景捕捉成本降低 90%",
+      "免費版支援最長 60 秒影片輸入，Pro 版不限時長"
+    ],
+    "summary_points_ja": [
+      "手持ち撮影の単一動画から完全な3Dシーンを自動再構築、専門機材や多角度撮影は不要",
+      "再構築精度は前バージョンの3倍に向上、USD/glTF/FBXエクスポートでUE5とUnityに直接インポート可能",
+      "複数のゲームスタジオと提携し、3Dシーンキャプチャのコストを90%削減することを目標",
+      "無料版は最長60秒の動画入力をサポート、Proプランは制限なし"
+    ]
+  }
+]
