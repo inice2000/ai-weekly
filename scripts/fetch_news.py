@@ -23,6 +23,10 @@ RSS_SOURCES = [
     {"url": "https://gigazine.net/news/rss_2.0/", "lang": "ja", "name": "Gigazine"},
     {"url": "https://rss.itmedia.co.jp/rss/2.0/ait.xml", "lang": "ja", "name": "ITmedia AI"},
     {"url": "https://ascii.jp/rss.xml", "lang": "ja", "name": "ASCII.jp"},
+    # 英文 3D / 遊戲美術
+    {"url": "https://80.lv/feed/", "lang": "en", "name": "80.lv"},
+    {"url": "https://www.cgchannel.com/feed/", "lang": "en", "name": "CG Channel"},
+    {"url": "https://www.blendernation.com/feed/", "lang": "en", "name": "BlenderNation"},
 ]
 
 # NewsAPI 搜索关键词（英文）

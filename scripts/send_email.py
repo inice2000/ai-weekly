@@ -33,9 +33,9 @@ def build_html(data: dict, site_url: str) -> str:
         if not items:
             continue
         rows = ""
-        for a in items:
+        for idx, a in enumerate(items):
             title = a.get("title_cht") or a.get("title", "")
-            url = a.get("url", "#")
+            url = f"{site_url}/#/article/{date}/{cat}/{idx}"
             points = a.get("summary_points_cht") or []
             source = a.get("source", "")
             score = a.get("score", "")

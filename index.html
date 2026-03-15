@@ -153,6 +153,21 @@
       letter-spacing: -.02em; margin-bottom: 28px;
     }
 
+    /* ── Week Navigation ── */
+    .week-nav {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-top: 12px; padding: 16px 0; gap: 12px;
+    }
+    .week-nav-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 10px 18px; border-radius: 8px;
+      background: var(--bg-card); border: 1.5px solid var(--border);
+      color: var(--text-2); font-size: 14px; font-weight: 500;
+      text-decoration: none; transition: border-color .15s, color .15s;
+    }
+    .week-nav-btn:hover { border-color: var(--blue); color: var(--blue); }
+    .week-nav-btn.next { margin-left: auto; }
+
     /* ── Category Section (weekly view) ── */
     .cat-section {
       margin-bottom: 32px;
@@ -456,6 +471,8 @@ const I18N = {
     source_link:  "查看原文",
     related_news: "相關報道",
     back_to_top:  "← 返回週報",
+    week_prev:    d => `← 上一期 ${d}`,
+    week_next:    d => `下一期 ${d} →`,
     week_title:   d => weekTitle(d) + " 週報",
     week_link:    d => `第${weekOfMonth(d)}週 ${parseInt(d.slice(5,7))}/${parseInt(d.slice(8,10))}`,
     month_lbl:    m => `${parseInt(m)}月`,
@@ -487,6 +504,8 @@ const I18N = {
     source_link:  "原文を見る",
     related_news: "関連記事",
     back_to_top:  "← 週報に戻る",
+    week_prev:    d => `← 前の号 ${d}`,
+    week_next:    d => `次の号 ${d} →`,
     week_title:   d => { const [y,m,day]=d.split("-"); return `${y}年${parseInt(m)}月${parseInt(day)}日 週報`; },
     week_link:    d => `第${weekOfMonth(d)}週 ${parseInt(d.slice(5,7))}/${parseInt(d.slice(8,10))}`,
     month_lbl:    m => `${parseInt(m)}月`,
@@ -619,7 +638,7 @@ async function router() {
   } else if (/^\d{4}-\d{2}-\d{2}$/.test(view)) {
     await showWeek(view);
   } else {
-    if (allWeeks.length) await showWeek(allWeeks[0]);
+    if (allWeeks.length) await showWeek(allWeeks[allWeeks.length - 1]);
   }
 }
 
@@ -837,6 +856,23 @@ function renderWeekContent(data) {
   if (!content.querySelector(".cat-section")) {
     content.innerHTML = emptyHTML("📭", "本週暫無新聞資料");
   }
+
+  // Prev / Next navigation
+  const idx = allWeeks.indexOf(data.date);
+  const prevDate = idx > 0 ? allWeeks[idx - 1] : null;
+  const nextDate = idx < allWeeks.length - 1 ? allWeeks[idx + 1] : null;
+  if (prevDate || nextDate) {
+    const nav = el("div", { className: "week-nav" });
+    if (prevDate) {
+      const btn = el("a", { className: "week-nav-btn prev", href: `#/week/${prevDate}`, textContent: L("week_prev", prevDate) });
+      nav.appendChild(btn);
+    }
+    if (nextDate) {
+      const btn = el("a", { className: "week-nav-btn next", href: `#/week/${nextDate}`, textContent: L("week_next", nextDate) });
+      nav.appendChild(btn);
+    }
+    content.appendChild(nav);
+  }
 }
 
 function filterCat(cat) {
@@ -920,7 +956,7 @@ function renderArticleDetail(article, date, cat, idx) {
   }
   meta.appendChild(el("span", { textContent: `📅 ${date}` }));
   if (article.score) meta.appendChild(el("span", { textContent: L("score", article.score) }));
-  if (article.language) {
+  if (article.language && article.content_original) {
     const origBtn = el("button", { className: "orig-lang-btn" });
     origBtn.textContent = L("orig_lang", article.language);
     origBtn.addEventListener("click", () => {
