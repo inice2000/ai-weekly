@@ -22,9 +22,9 @@ def build_html(data: dict, site_url: str) -> str:
     date = data["date"]
     articles = data["articles"]
     cat_labels = {
-        "3d_ai": "🎨 3D AI",
-        "ai_agent": "🤖 AI Agent・使用技巧",
         "ai_industry": "🌐 AI 行業",
+        "ai_agent":    "🤖 AI Agent・使用技巧",
+        "3d_ai":       "🧊 3D AI",
     }
 
     sections = ""
@@ -73,7 +73,7 @@ def build_html(data: dict, site_url: str) -> str:
 <body style="margin:0;padding:0;background:#f5f5f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
   <div style="max-width:600px;margin:30px auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
     <div style="background:linear-gradient(135deg,#667eea,#764ba2);padding:30px;color:#fff;">
-      <div style="font-size:22px;font-weight:700;">🤖 AI Weekly</div>
+      <div style="font-size:22px;font-weight:700;">AI Weekly</div>
       <div style="font-size:14px;margin-top:6px;opacity:0.85;">{date} 週報</div>
     </div>
     <div style="padding:20px 30px;">
@@ -127,5 +127,14 @@ def send(date: str, site_url: str = "https://inice2000.github.io/ai-weekly"):
 
 if __name__ == "__main__":
     import sys
-    date = sys.argv[1] if len(sys.argv) > 1 else datetime.now().strftime("%Y-%m-%d")
+    args = sys.argv[1:]
+    test_mode = "--test" in args
+    args = [a for a in args if a != "--test"]
+    date = args[0] if args else datetime.now().strftime("%Y-%m-%d")
+    if test_mode:
+        # 测试模式：只发给 NOTIFY_EMAILS 中的第一个地址
+        recipients = os.environ.get("NOTIFY_EMAILS", "").split(",")
+        recipients = [r.strip() for r in recipients if r.strip()]
+        os.environ["NOTIFY_EMAILS"] = recipients[0] if recipients else ""
+        print(f"[邮件] 测试模式，仅发送至 {os.environ['NOTIFY_EMAILS']}")
     send(date)
