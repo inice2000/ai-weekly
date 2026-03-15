@@ -2,5 +2,4 @@
 __pycache__/
 *.pyc
 data/raw.json
-data/filtered.json
 data/scored.json
