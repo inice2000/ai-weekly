@@ -1,1 +1,347 @@
-[]
+[
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "Meta acquires Moltbook, the Reddit-like network for AI agents",
+    "title_cht": "Meta 收購 AI Agent 社群網路 Moltbook",
+    "title_ja": "MetaがAIエージェント向けSNS「Moltbook」を買収",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/892178/meta-moltbook-acquisition-ai-agents",
+    "source": "The Verge",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Meta",
+      "#AI Agent",
+      "#收購",
+      "#社群平台"
+    ],
+    "summary_points_cht": [
+      "Meta 收購 Moltbook，這是一個以 AI Agent 為參與主體的 Reddit 式社群平台",
+      "此收購顯示 Meta 正積極佈局 AI Agent 互動的社群基礎設施",
+      "Moltbook 讓 AI Agent 能夠相互溝通、分享資訊，類似人類社群網路的運作方式"
+    ],
+    "summary_points_ja": [
+      "MetaがAIエージェント同士がやりとりするReddit風SNS「Moltbook」を買収",
+      "MetaはAIエージェントが参加するソーシャルインフラの整備を積極的に進めている",
+      "MoltbookではAIエージェントが情報共有し、人間のSNSに近い動作が可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "拜拜了SWE-Bench！Cursor刚发了个AI Coding评测基准，难哭Claude",
+    "title_cht": "拜拜 SWE-Bench！Cursor 發布 AI Coding 評測基準，難倒 Claude",
+    "title_ja": "CursorがAIコーディング評価の新ベンチマークを発表、Claudeが苦戦",
+    "url": "https://www.qbitai.com/2026/03/387756.html",
+    "source": "量子位",
+    "language": "zh",
+    "score": 7,
+    "tags": [
+      "#Cursor",
+      "#AI Coding",
+      "#Benchmark",
+      "#Claude",
+      "#評測"
+    ],
+    "summary_points_cht": [
+      "Cursor 推出全新 AI Coding 評測基準，專門針對 Cursor 環境中的代理式編程能力",
+      "基準設計比 SWE-Bench 更貼近真實開發場景",
+      "測試結果顯示 Claude 在此基準下表現不佳，引發社群熱議"
+    ],
+    "summary_points_ja": [
+      "CursorがAIコーディング評価の新ベンチマークを発表、Cursor環境でのエージェント的プログラミング能力を測定",
+      "SWE-Benchより実際の開発シナリオに近い設計",
+      "Claudeがこのベンチマークで苦戦する結果となり、コミュニティの注目を集める"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "VS Codeの安定版が毎週リリースへ　第1弾のバージョン1.111ではAIエージェント運用を強化",
+    "title_cht": "VS Code 改為每週發布穩定版，首版 v1.111 強化 AI Agent 操作",
+    "title_ja": "VS Codeが毎週安定版をリリースへ、初版1.111ではAIエージェント機能を強化",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/13/news023.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#VS Code",
+      "#開發工具",
+      "#AI Agent",
+      "#Microsoft"
+    ],
+    "summary_points_cht": [
+      "VS Code 宣布改為每週定期發布穩定版本，加快功能迭代速度",
+      "首個每週發布版本 v1.111 重點強化了 AI Agent 的操作體驗",
+      "包括改善 Agent 模式下的上下文管理與工具呼叫穩定性"
+    ],
+    "summary_points_ja": [
+      "VS Codeが毎週安定版をリリースする新サイクルに移行し、機能イテレーションを加速",
+      "初回の週次リリースv1.111ではAIエージェントの操作体験を重点的に強化",
+      "エージェントモードでのコンテキスト管理とツール呼び出しの安定性が改善"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "Escape lands $18 million funding to scale AI-driven offensive security automation",
+    "title_cht": "Escape 獲 1,800 萬美元融資，擴展 AI 驅動的進攻性資安自動化",
+    "title_ja": "EscapeがAI主導の攻撃的セキュリティ自動化拡大へ1,800万ドルを調達",
+    "url": "https://www.helpnetsecurity.com/2026/03/10/escape-18-funding/",
+    "source": "Help Net Security",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#資安AI",
+      "#融資",
+      "#自動化",
+      "#滲透測試"
+    ],
+    "summary_points_cht": [
+      "資安新創 Escape 完成 1,800 萬美元 A 輪融資",
+      "專注於以 AI 自動化執行進攻性安全測試（滲透測試）",
+      "目標是讓企業能更快速、大規模地識別並修補安全漏洞"
+    ],
+    "summary_points_ja": [
+      "セキュリティスタートアップEscapeがシリーズAで1,800万ドルを調達",
+      "AI自動化による攻撃的セキュリティテスト（ペネトレーションテスト）に特化",
+      "企業がより迅速かつ大規模に脆弱性を発見・修正できる環境の提供を目指す"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "生成AIやAIエージェントが急速に一般化した今、待ち受けるセキュリティリスク",
+    "title_cht": "生成式 AI 與 AI Agent 急速普及帶來的資安風險全解析",
+    "title_ja": "生成AIやAIエージェントの急速な普及が招くセキュリティリスクとは",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/13/news059.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#AI Agent",
+      "#資安",
+      "#生成AI",
+      "#企業IT"
+    ],
+    "summary_points_cht": [
+      "探討生成 AI 與 AI Agent 快速普及後，企業面臨的新型資安威脅",
+      "包括提示詞注入攻擊、AI Agent 越權執行等風險",
+      "建議企業建立 AI 使用的安全治理框架以應對挑戰"
+    ],
+    "summary_points_ja": [
+      "生成AIとAIエージェントの普及に伴い、企業が直面する新たなセキュリティ脅威を解説",
+      "プロンプトインジェクション攻撃やAIエージェントの権限逸脱などのリスクを挙げる",
+      "企業はAI利用に関するセキュリティガバナンスフレームワークの構築が必要と提言"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "AIエージェント導入が進む企業は何が違う？　Microsoft、成否を分ける“5要素”を提示",
+    "title_cht": "Microsoft 提出 AI Agent 導入成功的「五大關鍵要素」",
+    "title_ja": "MicrosoftがAIエージェント導入成功の5要素を提示",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/13/news063.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Microsoft",
+      "#AI Agent",
+      "#企業AI",
+      "#導入策略"
+    ],
+    "summary_points_cht": [
+      "Microsoft 研究指出，成功導入 AI Agent 的企業有五項共通特質",
+      "包括：明確目標設定、數據治理、安全框架、員工培訓及持續迭代",
+      "此框架可供其他企業作為 AI Agent 部署的參考指南"
+    ],
+    "summary_points_ja": [
+      "Microsoftの調査で、AIエージェント導入に成功した企業に共通する5つの要素が明らかに",
+      "明確な目標設定、データガバナンス、セキュリティフレームワーク、従業員研修、継続的な改善が挙げられる",
+      "他企業がAIエージェントを展開する際の参考ガイドラインとして活用できる内容"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "Oracle Is Walking Away From Expanding Its Stargate Data Center With Oracle",
+    "title_cht": "OpenAI 退出與 Oracle 合作的 Stargate 資料中心擴建計畫",
+    "title_ja": "OpenAIがOracleとのStargate データセンター拡張計画から撤退",
+    "url": "https://developers.slashdot.org/story/26/03/10/0510223/oracle-is-walking-away-from-expanding-its-stargate-data-center-with-oracle",
+    "source": "Slashdot.org",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#OpenAI",
+      "#Oracle",
+      "#Stargate",
+      "#資料中心",
+      "#AI基礎設施"
+    ],
+    "summary_points_cht": [
+      "OpenAI 據報正在退出與 Oracle 合作擴建 Stargate AI 資料中心的計畫",
+      "原因是 Nvidia GPU 升級速度過快，新設施可能在建好前就已過時",
+      "顯示 AI 基礎設施投資面臨硬體升級速度難以預測的結構性挑戰"
+    ],
+    "summary_points_ja": [
+      "OpenAIがOracleとのStargate AIデータセンター拡張計画から撤退との報道",
+      "NvidiaのGPU更新ペースが速すぎて、新施設が完成前に陳腐化する懸念が理由",
+      "AI基盤投資がハードウェア更新速度の予測困難さという構造的課題に直面していることを示す"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "Applied Materials forges partnerships with Micron and SK Hynix for AI memory chips",
+    "title_cht": "Applied Materials 與美光、SK 海力士合作推進 AI 記憶體晶片",
+    "title_ja": "Applied MaterialsがMicronとSKハイニックスとAIメモリチップで提携",
+    "url": "https://finance.yahoo.com/news/applied-materials-sk-hynix-partner-200806675.html",
+    "source": "Yahoo Entertainment",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Applied Materials",
+      "#Micron",
+      "#SK Hynix",
+      "#AI記憶體",
+      "#半導體"
+    ],
+    "summary_points_cht": [
+      "半導體設備龍頭 Applied Materials 與 Micron、SK 海力士建立 AI 記憶體晶片研發合作",
+      "重點聚焦於 HBM（高頻寬記憶體）及下一代 AI 晶片所需的封裝技術",
+      "三方合作旨在加速 AI 計算所需的記憶體技術突破"
+    ],
+    "summary_points_ja": [
+      "半導体装置大手Applied MaterialsがMicron、SKハイニックスとAIメモリチップの共同研究開発で提携",
+      "HBM（高帯域幅メモリ）と次世代AIチップの封止技術に焦点",
+      "3社の協力でAI演算に必要なメモリ技術の突破を加速することが目的"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "Anthropic Sues Department of Defense Over Supply-Chain Risk Designation",
+    "title_cht": "Anthropic 起訴美國國防部，反對「供應鏈風險」認定",
+    "title_ja": "AnthropicがAIサプライチェーンリスク指定をめぐり米国防総省を提訴",
+    "url": "https://www.wired.com/story/anthropic-sues-department-of-defense-over-supply-chain-risk-designation/",
+    "source": "Wired",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Anthropic",
+      "#Claude",
+      "#法律",
+      "#國防部",
+      "#AI政策"
+    ],
+    "summary_points_cht": [
+      "Anthropic 對美國國防部提起訴訟，反對其被列入「供應鏈風險」名單",
+      "此指定可能影響 Anthropic 在政府及國防合約中的業務資格",
+      "此案將對 AI 公司與美國政府的合作關係產生重要影響"
+    ],
+    "summary_points_ja": [
+      "AnthropicがAIサプライチェーンリスク指定をめぐり米国防総省を提訴",
+      "この指定により、政府・国防契約でのAnthropicの業務資格に影響が出る可能性",
+      "本件はAI企業と米国政府の協力関係に重要な影響を与えるとみられる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "Meta's New AI Model Is Reportedly Delayed Again. Is 'Avocado' Toast?",
+    "title_cht": "Meta 新一代 AI 模型「Avocado」據報再度延期，或延至五月",
+    "title_ja": "MetaのAI新モデル「Avocado」が再延期か、リリースは5月以降の見通し",
+    "url": "https://www.cnet.com/tech/services-and-software/meta-ai-model-delay-avocado-news/",
+    "source": "CNET",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Meta",
+      "#Avocado",
+      "#LLM",
+      "#模型發布"
+    ],
+    "summary_points_cht": [
+      "Meta 代號「Avocado」的下一代基礎 AI 模型據報再度延期",
+      "現可能延至 2026 年五月才推出",
+      "此為 Avocado 模型的第二次延期，引發外界對 Meta AI 研發進度的疑慮"
+    ],
+    "summary_points_ja": [
+      "Metaの次世代基盤AIモデル「Avocado」が再度延期との報道",
+      "当初の予定より遅れ、2026年5月以降のリリースになる見通し",
+      "Avocadoとしては2度目の延期で、MetaのAI研究開発の進捗に懸念の声"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-16",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "Shortages of crucial chip packaging material threatens AI accelerator supply chains — Nittobo's Fukushima plant is tripling capacity, but it'll take years before market",
+    "title_cht": "關鍵封裝材料短缺威脅 AI 加速器供應鏈，擴產需數年",
+    "title_ja": "チップ封止材料の不足がAIアクセラレータのサプライチェーンを脅かす",
+    "url": "https://www.tomshardware.com/tech-industry/shortages-of-crucial-chip-packaging-material-threatens-ai-accelerator-supply-chains-nittobos-fukushima-plant-is-tripling-capacity-but-itll-take-years-before-market",
+    "source": "Tom's Hardware UK",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AI供應鏈",
+      "#半導體",
+      "#封裝材料",
+      "#AI硬體"
+    ],
+    "summary_points_cht": [
+      "AI 加速器晶片所需的關鍵封裝材料出現嚴重短缺",
+      "日東紡位於福島的工廠正在三倍擴產，但需要數年才能補足缺口",
+      "此供應短缺可能延遲 AI 基礎設施的大規模部署"
+    ],
+    "summary_points_ja": [
+      "AIアクセラレータチップに必要な重要封止材料の深刻な不足が発生",
+      "日東紡の福島工場が生産能力を3倍に拡大中だが、市場への供給には数年かかる見込み",
+      "この供給不足がAI基盤設備の大規模展開を遅らせる可能性がある"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  }
+]

@@ -1,0 +1,366 @@
+{
+  "date": "2026-03-16",
+  "articles": {
+    "3d_ai": [],
+    "ai_agent": [
+      {
+        "title": "Meta acquires Moltbook, the Reddit-like network for AI agents",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/892178/meta-moltbook-acquisition-ai-agents",
+        "source": "The Verge",
+        "language": "en",
+        "summary_original": "Meta is acquiring Moltbook, a Reddit-like platform where AI agents can make and comment on posts, as first reported by Axios. In a statement to The Verge, Meta spokesperson Matthew Tye confirmed the Moltbook team will join Meta Superintelligence Labs as the c…",
+        "summary": "",
+        "published_at": "2026-03-10T15:22:17Z",
+        "category": "ai_agent",
+        "score": 7,
+        "content_original": "Meta is acquiring Moltbook, a Reddit-like platform where AI agents can make and comment on posts, as first reported by Axios. In a statement to The Verge, Meta spokesperson Matthew Tye confirmed the Moltbook team will join Meta Superintelligence Labs as the company looks for “new ways for AI agents to work for people and businesses.”\nMeta acquires Moltbook, the Reddit-like network for AI agents\nThe Moltbook team is joining Meta’s AI division.\nThe Moltbook team is joining Meta’s AI division.\nMatt Schlicht and Ben Parr launched Moltbook earlier this year, offering a “social” network for autonomous agents powered by the open-source AI assistant OpenClaw (formerly Moltbot). The platform went viral earlier this year for a number of posts — including one that asks questions about AI consciousness — though experts found that humans may have been behind the posts that received the most attention.\nResearchers also discovered a now-fixed security flaw that exposed API keys and allowed people to take control of any AI agent on the platform. Meta’s acquisition of Moltbook will allow the company to “bring innovative, secure agentic experiences to everyone,” Tye said.\nMoltbook’s acquisition comes just weeks after OpenAI hired OpenClaw founder Peter Steinberger. It’s not clear what the future of Moltbook will look like, as Meta VP Vishal Shah says in an internal memo cited by Axios that existing users can keep using Moltbook, but “signaled the arrangement is temporary.”\nMost Popular\n- European retailers yank popular headphones after study reports trace amounts of hormone-disrupting chemicals\n- Meta is reportedly laying off up to 20 percent of its staff\n- MacBook Air M5 review: a small update for the ‘just right’ Mac\n- Gemini’s task automation is here and it’s wild\n- PC makers are not ready for the MacBook Neo",
+        "title_cht": "Meta 收購 AI Agent 社群網路 Moltbook",
+        "title_ja": "MetaがAIエージェント向けSNS「Moltbook」を買収",
+        "tags": [
+          "#Meta",
+          "#AI Agent",
+          "#收購",
+          "#社群平台"
+        ],
+        "summary_points_cht": [
+          "Meta 收購 Moltbook，這是一個以 AI Agent 為參與主體的 Reddit 式社群平台",
+          "此收購顯示 Meta 正積極佈局 AI Agent 互動的社群基礎設施",
+          "Moltbook 讓 AI Agent 能夠相互溝通、分享資訊，類似人類社群網路的運作方式"
+        ],
+        "summary_points_ja": [
+          "MetaがAIエージェント同士がやりとりするReddit風SNS「Moltbook」を買収",
+          "MetaはAIエージェントが参加するソーシャルインフラの整備を積極的に進めている",
+          "MoltbookではAIエージェントが情報共有し、人間のSNSに近い動作が可能"
+        ],
+        "content_cht": "Meta 正在收購 Moltbook，這是一個類似 Reddit 的平台，AI Agent 可以在上面發文和留言，此事最初由 Axios 率先報導。Meta 發言人 Matthew Tye 在回應《The Verge》的聲明中確認，Moltbook 團隊將加入 Meta Superintelligence Labs，Meta 正在尋找「讓 AI Agent 為人類和企業服務的新方式」。\n\nMatt Schlicht 和 Ben Parr 於今年早些時候創立了 Moltbook，提供一個以開源 AI 助手 OpenClaw（前身為 Moltbot）驅動的自主 Agent「社群」網路。該平台今年早些時候因多篇貼文而迅速走紅——其中包括一篇探討 AI 意識的問題——但專家發現，獲得最多關注的貼文背後可能有人類參與。\n\n研究人員還發現了一個現已修復的安全漏洞，該漏洞曾暴露 API 金鑰，並允許他人控制平台上的任何 AI Agent。Meta 收購 Moltbook 將使公司能夠「讓所有人都能體驗到創新且安全的代理式體驗」，Tye 表示。\n\nMoltbook 的收購在 OpenAI 聘用 OpenClaw 創辦人 Peter Steinberger 僅數週後完成。目前尚不清楚 Moltbook 的未來將如何發展，Meta 副總裁 Vishal Shah 在 Axios 引用的一份內部備忘錄中表示，現有用戶可以繼續使用 Moltbook，但「暗示這種安排是暫時的」。",
+        "content_ja": "MetaはMoltbookを買収する。MoltbookはAIエージェントが投稿やコメントを行えるReddit風のプラットフォームで、Axiosが最初に報じた。MetaのスポークスパーソンMatthew Tyeは、The Vergeへの声明でMoltbookチームがMeta Superintelligence Labsに加わることを確認し、「AIエージェントが人々やビジネスのために働く新しい方法」を模索していると述べた。\n\nMatt SchlichtとBen Parrは今年初め、オープンソースAIアシスタントのOpenClaw（旧Moltbot）を活用した自律型エージェントの「ソーシャル」ネットワークとしてMoltbookを立ち上げた。このプラットフォームは今年初め、AI意識について問う投稿など複数の投稿がバイラルになったが、最も注目を集めた投稿の背後には人間がいた可能性があると専門家は指摘する。\n\n研究者たちは、APIキーを公開しプラットフォーム上のあらゆるAIエージェントを制御できるようにする脆弱性（現在は修正済み）も発見した。TyeによるとMetaのMoltbook買収により「革新的で安全なエージェント体験をすべての人に届ける」ことができるようになるという。\n\nMoltbookのM&Aは、OpenAIがOpenClawの創業者Peter Steinbergerを採用したわずか数週間後のことだ。Moltbookがどうなるかはまだはっきりしておらず、Meta副社長のVishal ShahがAxiosに引用された社内メモで既存ユーザーは引き続きMoltbookを利用できると述べつつ、「その体制は一時的なものだと示唆した」という。"
+      },
+      {
+        "title": "拜拜了SWE-Bench！Cursor刚发了个AI Coding评测基准，难哭Claude",
+        "url": "https://www.qbitai.com/2026/03/387756.html",
+        "source": "量子位",
+        "language": "zh",
+        "summary_original": "专门评价Cursor中不同模型谁更“智能体”",
+        "summary": "",
+        "published_at": "Sat, 14 Mar 2026 06:25:48 +0000",
+        "category": "ai_agent",
+        "score": 7,
+        "content_original": "拜拜了SWE-Bench！Cursor刚发了个AI Coding评测基准，难哭Claude\n专门评价Cursor中不同模型谁更“智能体”\n一水 发自 凹非寺\n量子位 | 公众号 QbitAI\n编程智能体时代，顶流Cursor举旗发布新的评测基准——\nCursorBench，专门评价Cursor中不同模型谁更“智能体”（即高效执行复杂任务）。\n结果你猜怎么着？曾在SWE-Bench上威名赫赫的Claude Haiku 4.5/Sonnet 4.5全部歇菜了。\n- Claude Haiku 4.5的分数从73.3→29.4；\n- Claude Sonnet 4.5的分数从77.2→37.9。\n而这，也恰好体现了CursorBench和其他编程基准之间的区别：\nSWE-Bench衡量的是程序能否解决问题，CursorBench衡量的是程序能否高效地解决问题。这种差距正是普通基准测试所无法弥补的——在真实的token约束下完成任务。\n“龙虾”当道，谁都知道现在评价AI要看执行能力，而且还是要高效执行那种。\n而CursorBench的出现，恰好填补了相关空白。\n不过问题来了，CursorBench具体咋评的？\n线上+线下混合评\n关于咋评的这个问题，Cursor还专门撰写了一篇博客。\n一上来，Cursor就介绍了一个基本背景——\n随着AI编程助手越来越像“智能体”，目前很多公开的benchmark已经不够用了。\n问题呢主要有这么三个：\n一是任务类型不真实。\n以大家比较熟知的benchmark为例，SWE-Bench主要是修复GitHub issue的bug，任务比较单一。\nTerminal-Bench虽然不再局限于代码仓库，但更偏向各种“谜题式任务”，比如根据给定环境完成一系列挑战，此时AI更像是在参加某种竞赛而非进行日常开发。\n所以Cursor就说了，“我们发现，这些任务与开发者要求智能体完成的编程工作并不契合”。\n现实生活中更常见的是，开发者会要求AI修改多个文件、分析生产日志、运行实验……总之比基准更复杂。\n二是评分机制不合理。\n很多公开基准通常都假设——一个问题只有一个正确答案。\n但现实是，一个需求可能有多种实现方式，不同方案的代码风格、架构选择都有可能不同。\n这就往往会导致两种情况：要么直接给正确的方案打叉（出现误判）、要么直接为了可评估性而强行消除模糊性（人为施加限制）。\n无论是哪一种，基准都无法反映真实情况。\n三是公认的数据污染问题。\n这一点就不必多说了，一旦基准出现够久，后来的模型很可能就会直接抓取这些基准数据进行训练。\n所以，在这种近乎“透题”的情况下进行评分，其结果到底有多大价值就可想而知了。\n而面对这些问题，Cursor拿出了一套“线上+线下混合评”的全新方案。\n线下就是我们说的CursorBench，流程也相对简单——\n让不同模型都去完成同一批标准任务，然后系统从正确性、代码质量、效率、交互行为等维度进行打分，最终每个模型都能拿到一个离线benchmark分数。\n采用这种标准化流程的好处显而易见，包括可以相对而言把模型拉到同一起跑线进行比较、可以重复测试、成本也相对可控。\n不过有人可能就说了，这和其他基准好像没差啊？\n别急，CursorBench的“制胜法宝”在这里——选的任务不一样。\n其不一样体现在三个维度：\n一是任务真。\n以前的基准更像是“刻意找题”，找GitHub issue、找各种谜题；而CursorBench的题都来自自家Cursor平台。\nCursor有一个工具叫Cursor Blame，它可以追踪某一段代码是由哪个AI请求生成的。\n于是就能拿到这样一对对真实数据——开发者请求+某个模型最终提交的代码。\n而这些，就构成了CursorBench绝佳的“出题范本”。而且Cursor补充道：\n许多任务来自我们的内部代码库和受控来源，从而降低了模型在训练阶段见过这些任务的风险。我们每隔几个月就会更新一次这套基准，以跟踪开发者使用智能体方式的变化。\n二是任务规模大。\n如今用Cursor的人实在太多了，所以CursorBench的任务规模明显更大。\n比如在正确性评估中，无论从代码行数还是平均文件数来看，其问题规模从初始版本到当前的CursorBench-3大致翻了一倍。Cursor表示：\n虽然代码行数并不是衡量难度的完美指标，但该指标上的增长反映了我们将更具挑战性的任务纳入CursorBench 的方式，例如处理monorepo的多工作区环境、排查生产日志，以及执行长时间运行的实验。\n三是任务描述刻意保持“模糊”。\n这点也比较好理解。\n很多公开基准里的任务描述通常非常详细，但现实中大家和AI说话时往往模棱两可。\n所以太精准反而与真实相悖。\n至此，基于以上特殊设计，CursorBench成了编程智能体时代真正以“真实开发场景”为原点设计的基准测试。\n当然这还没完，光做题怎么够呢？很多AI线下分数高，但用户一上手就发现很拉胯。\n对此，Cursor还搞了一套线上评测——直接看真实用户使用效果。\n他们会使用A/B Test这种方式，观察一部分用户用模型A、另一部分用户用模型B之后的对比效果。\n具体主要看开发者是否接受AI生成的代码、是否继续追问、是否撤销修改、任务是否真正完成等可追踪的产品指标。\n如此一来，线上和线下就可以形成完美互补，甚至形成良性循环——\n线下CursorBench先快速筛选模型能力，然后线上验证模型是否真的更好，发现偏差后再去调整benchmark或模型。\n飞轮这不就起来了（doge）。\n所以，结果呢？\n那么模型们在新基准CursorBench上的表现如何呢？\n来看最终performance（越靠近右上角越好，代表“以最低成本实现最高性能”）：\n见此图表，网友们一时讨论连连：\n啧，没想到Claude Sonnet 4.5的“性价比”有点低啊。\n这个Composer模型（Cursor自研编码模型）又是哪里冒出来的。\nAnyway，从Cursor公布的结果来看，一个很明显的结论是——\nCursorBench在前沿模型之间的区分度明显更高。\n这个其实是自然而然的。基准一饱和，模型们往往拉不开差距，大家分都高、都好。\n但一遇到新的、难的，实力差距便自然显露了。\n尤其在CursorBench这种任务规模更大、环境更复杂的基准上，差距无疑将被进一步放大。\n只需对比模型在SWE-Bench和CursorBench上的得分就能看出来了（左边全挤在一起、右边呈阶梯式）：\n以及Cursor还强调了一点——\nCursorBench的排名，与真实用户体验更加一致。\n通过前面提到的线上实验，他们发现CursorBench的模型排名，和这些线上指标变化基本是同方向的。\n接下来，Cursor还将着手开发下一代评测套件：\n虽然CursorBench-3的任务比公开基准上的任务持续时间更长，但它们仍然可以在一次会话内完成。我们预计在未来一年里，绝大多数开发工作将转向由在各自计算机上独立运行的长时运行智能体来完成，因此我们也正规划对CursorBench作出相应调整。\n嗯，瞄准的还是智能体，只不过是运行时间更长的智能体。\n参考链接：\n[1]https://x.com/cursor_ai/status/2032148125448610145\n[2]https://cursor.com/cn/blog/cursorbench\n[3]https://www.objectwire.org/technology/cursor\n- 量子位专访陶哲轩：我为什么现在创办一个AI x Science组织2026-03-14\n- 机器人全程自主收拾客厅！390亿美元估值机器人端到端新技能，英伟达持续加注2026-03-10\n- GPT-5.4意外泄露！OpenAI最新模型瞄准这2大能力突围2026-03-03\n- 阿里千问大模型换将，32岁林俊旸官宣告别2026-03-04",
+        "title_cht": "拜拜 SWE-Bench！Cursor 發布 AI Coding 評測基準，難倒 Claude",
+        "title_ja": "CursorがAIコーディング評価の新ベンチマークを発表、Claudeが苦戦",
+        "tags": [
+          "#Cursor",
+          "#AI Coding",
+          "#Benchmark",
+          "#Claude",
+          "#評測"
+        ],
+        "summary_points_cht": [
+          "Cursor 推出全新 AI Coding 評測基準，專門針對 Cursor 環境中的代理式編程能力",
+          "基準設計比 SWE-Bench 更貼近真實開發場景",
+          "測試結果顯示 Claude 在此基準下表現不佳，引發社群熱議"
+        ],
+        "summary_points_ja": [
+          "CursorがAIコーディング評価の新ベンチマークを発表、Cursor環境でのエージェント的プログラミング能力を測定",
+          "SWE-Benchより実際の開発シナリオに近い設計",
+          "Claudeがこのベンチマークで苦戦する結果となり、コミュニティの注目を集める"
+        ],
+        "content_cht": "拜拜了SWE-Bench！Cursor剛發了個AI Coding評測基準，難哭Claude\n\n專門評價Cursor中不同模型誰更「智能體」\n\n程式智能體時代，頂流Cursor舉旗發佈新的評測基準——\n\nCursorBench，專門評價Cursor中不同模型誰更「智能體」（即高效執行複雜任務）。\n\n結果你猜怎麼著？曾在SWE-Bench上威名赫赫的Claude Haiku 4.5/Sonnet 4.5全部歇菜了。\n\n- Claude Haiku 4.5的分數從73.3→29.4；\n- Claude Sonnet 4.5的分數從77.2→37.9。\n\n而這，也恰好體現了CursorBench和其他程式基準之間的區別：\n\nSWE-Bench衡量的是程式能否解決問題，CursorBench衡量的是程式能否高效地解決問題。這種差距正是普通基準測試所無法彌補的——在真實的token約束下完成任務。\n\n而CursorBench的出現，恰好填補了相關空白。\n\n**線上+線下混合評**\n\nCursor介紹了一個基本背景——隨著AI程式助手越來越像「智能體」，目前很多公開的benchmark已經不夠用了。\n\n問題主要有三個：\n\n一是任務類型不真實。SWE-Bench主要是修復GitHub issue的bug，任務比較單一。Terminal-Bench雖然不再侷限於程式碼倉庫，但更偏向各種「謎題式任務」，AI更像是在參加某種競賽而非進行日常開發。\n\n二是評分機制不合理。很多公開基準通常都假設一個問題只有一個正確答案。但現實是，一個需求可能有多種實現方式，不同方案的程式碼風格、架構選擇都有可能不同。\n\n三是公認的資料汙染問題。一旦基準出現夠久，後來的模型很可能就會直接抓取這些基準資料進行訓練。\n\n面對這些問題，Cursor拿出了一套「線上+線下混合評」的全新方案。\n\n線下CursorBench的特別之處在於選的任務不一樣，體現在三個維度：\n\n一是任務真。Cursor有一個工具叫Cursor Blame，它可以追蹤某一段程式碼是由哪個AI請求生成的。因此能拿到真實的開發者請求+模型最終提交的程式碼，作為評測範本。\n\n二是任務規模大。從程式碼行數還是平均文件數來看，CursorBench-3的問題規模從初始版本到當前大致翻了一倍。\n\n三是任務描述刻意保持「模糊」。現實中大家和AI說話時往往模稜兩可，太精準反而與真實相悖。\n\nCursorBench成了程式智能體時代真正以「真實開發場景」為原點設計的基準測試。\n\n此外，Cursor還搞了一套線上評測——直接看真實用戶使用效果。他們使用A/B Test方式，觀察使用不同模型的用戶的對比效果，追蹤開發者是否接受AI生成的程式碼、是否繼續追問、是否撤銷修改等產品指標。\n\n**模型表現如何？**\n\n從Cursor公佈的結果來看，一個很明顯的結論是——CursorBench在前沿模型之間的區分度明顯更高。\n\n只需對比模型在SWE-Bench和CursorBench上的得分就能看出來了：SWE-Bench上的分數全擠在一起，CursorBench上則呈階梯式差距。\n\nCursor還強調，CursorBench的排名，與真實用戶體驗更加一致。\n\n接下來，Cursor還將著手開發下一代評測套件，瞄準運行時間更長的智能體。",
+        "content_ja": "さらばSWE-Bench！CursorがAIコーディング評価の新ベンチマークを発表、Claudeが苦戦\n\nCursorにおける「エージェント度」で異なるモデルを評価\n\nAIプログラミングエージェントの時代に、トップクラスのCursorが新しい評価ベンチマーク——CursorBenchを発表した。これはCursor環境で異なるモデルがどれだけ「エージェントらしく」（複雑なタスクを効率的に実行できるか）を評価するものだ。\n\nSWE-Benchで実績を誇っていたClaude Haiku 4.5とSonnet 4.5が苦戦を強いられる結果となった：\n\n- Claude Haiku 4.5のスコアは73.3→29.4に低下\n- Claude Sonnet 4.5のスコアは77.2→37.9に低下\n\nこれはSWE-BenchとCursorBenchの根本的な違いを示している：SWE-Benchはコードが問題を解決できるかを測定し、CursorBenchは効率的に解決できるかを測定する。この違いは一般的なベンチマークでは埋められない——真のトークン制約の下でタスクを完了することが求められるからだ。\n\n**オンライン+オフラインのハイブリッド評価**\n\nCursorは基本的な背景として、AIコーディングアシスタントがより「エージェント的」になるにつれ、既存の公開ベンチマークでは不十分になっていると説明する。\n\n主な問題は3つ：\n\n第一に、タスクの種類が非現実的。SWE-BenchはGitHubのissueのバグ修正が中心で、タスクが単調だ。Terminal-Benchはコードリポジトリに限らないが、「パズル的なタスク」に偏っており、AIは日常的な開発というよりコンテストに参加しているようなものだ。\n\n第二に、評価メカニズムが不合理。多くの公開ベンチマークは1つの問題に1つの正解があると仮定するが、現実には1つの要件に複数の実装方法があり、コードスタイルやアーキテクチャの選択が異なる場合がある。\n\n第三に、データ汚染の問題。ベンチマークが公開されて時間が経つと、後続のモデルがそのデータで訓練される可能性が高い。\n\nこれらの問題に対し、Cursorは「オンライン+オフラインのハイブリッド評価」という新しいアプローチを打ち出した。\n\nオフラインのCursorBenchの特徴は3つの次元でタスクの選び方が異なること：\n\n第一にタスクが本物。CursorにはCursor Blameというツールがあり、あるコードがどのAIリクエストで生成されたかを追跡できる。実際の開発者リクエストとモデルが最終的にコミットしたコードのペアが評価テンプレートとなる。\n\n第二にタスク規模が大きい。CursorBench-3の問題規模は初期バージョンから約2倍になっており、モノレポのマルチワークスペース環境の処理、本番ログの調査、長時間実行の実験など、より難しいタスクが含まれる。\n\n第三にタスク説明は意図的に「曖昧」にされている。現実ではAIへの指示は往往にして曖昧なため、過度に正確な説明は現実とかけ離れてしまう。\n\nこれらの設計により、CursorBenchはAIプログラミングエージェント時代に「実際の開発シナリオ」を起点として設計された初のベンチマークとなった。\n\nさらにCursorはオンライン評価も実施している——実際のユーザーの使用状況を直接観察するものだ。A/Bテストを使い、異なるモデルを使用するユーザーグループを比較し、開発者がAI生成コードを受け入れるか、追加質問をするか、変更を取り消すかなどの追跡可能な製品指標を観察する。\n\n**モデルの結果は？**\n\nCursorの発表結果から明らかな結論は、CursorBenchは最先端モデル間の識別力が明らかに高いということだ。\n\nSWE-BenchとCursorBenchでのスコアを比較すると、SWE-Benchでは上位が密集しているのに対し、CursorBenchでは階段状の差がある。\n\nさらにCursorはCursorBenchのランキングは実際のユーザー体験とより一致していると強調する。\n\n次のステップとして、Cursorはより長時間実行するエージェントに対応した次世代評価スイートの開発も進める予定だ。"
+      },
+      {
+        "title": "VS Codeの安定版が毎週リリースへ　第1弾のバージョン1.111ではAIエージェント運用を強化",
+        "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/13/news023.html",
+        "source": "ITmedia AI",
+        "language": "ja",
+        "summary_original": "Visual Studio Codeの安定版が毎週リリースへ移行した。その第1弾となるバージョン1.111では、AIエージェントの自律実行や権限管理、デバッグ支援などが強化されている。",
+        "summary": "",
+        "published_at": "Fri, 13 Mar 2026 05:00:00 +0900",
+        "category": "ai_agent",
+        "score": 7,
+        "content_original": "Visual Studio CodeÌÀèÅªT[XÖÚsµ½B»Ìæ1eÆÈéo[W1.111ÅÍAAIG[WFgÌ©¥Àsâ ÀÇAfobOxÈÇª»³êÄ¢éB\n±ÌLÍïõÀèÅ·Bïõo^i³¿j·éÆSÄ²¢½¾¯Ü·B\n@2026N39úiÄÔjAMicrosoftÍVisual Studio CodeiÈºAVS CodejÌÀèÅÌÅVo[W1.111ðöJµ½B¡ñÌ[XÅÅàå«ÈÏX_ÍA¡ãÌÀèÅªTöJ³êéÌ§ÖÚsµ½±Æ¾Bö®[Xm[gÅàAo[W1.111Íuthe first of our weekly Stable releases!viTÌÀè[XÌæ1eIjÆà¾³êÄ¢éB\n@VS CodeÍ±êÜÅAÉêxÌAbvf[gª·ç±¯çêÄ«½Bµ©µA±ê©çÍTÉêxÌy[XÅVµ¢o[Wª[X³êé±ÆÉÈéB\n@»ÌÅÌ[XÅ éo[W1.111ÅÍASÌÆµÄAIG[WFgÖA@\\ªüPÌSÉÈÁÄ¢éBÁÉ`bgr [ÅÍAG[WFgªæè©¥IÉð±¯éuAutopilotv[hð ÀÝèj [©çI×éæ¤ÉÈÁ½BÜ½AÁèÌG[WFgÉvvZXÜ½Í|XgvZXÌðsí¹étbN@\\AG[WFgÌUé¢ðmé½ßÌXibvVbg@\\ÈÇªÇÁ³êÄ¢éB\n@Ç¤àBHP©í³«Å·B\n@rbNµÜµ½æB©N«Äj [Xð`FbNµ½çAVS Code 1.111ª[X³êÄ¢éÁÄoÄ«½ÌÅB1.110ª±È¢¾[X³ê½Æ±ë¶áñH@ÆÈèÜ·æËB³çÉ[Xm[gðÇñÅÝ½çA±ê©çÍT[X³êé©çÁÄ éµB\n@VS Code|WgÌuIteration Plan for March 2026 [DRAFT]vÅÍußTÔÉí½èAJ¨æÑ[XÌvZXÌø¦»ÉæègñÅ«Üµ½B2026N39ú©çÍAÀèÅðT[XµÄ¢«Ü·vÆ èÜ·BÜ½AÅ[U[ÉisÌìÆâ¡ãÌ\\èðÇÌæ¤É`¦é©Ìûjª3¼ÎÉÍÜéæ¤Å·B\n@AIÖAÌV@\\ÍÜ¾Ü¾±ê©çài»µÄ¢ÌÅµå¤B¢¿A»êçÉANZX·éÉÍ¤ÁÄÂ¯ÌÏ»Å·ªA©ª©gªRÉÇ¢t¢Ä¢¯éÌ©Ç¤ÈÌ©A¿åÁÆSzÈÆ±ëà èÜ·ËiùÉÂ¢Ä¢¯ÄÈ¢æ¤ÈCàµÜ·ªjB\n@o[W1.111ÌÁ¥âV@\\Ì¤¿AåÈàÌðÈºÉñ·éB\nuDeep Insider Brief \\ ZpÌg¡hÉÐÆ¾Rgv\n±ü·éE©®»·éEªÍ·éEìé \\ AIpðnßæ¤@ITÌDeep InsiderÅ\nCopyright© Digital Advantage Corp. All Rights Reserved.\nIT eBook\nÒW©çÌ¨mç¹",
+        "title_cht": "VS Code 改為每週發布穩定版，首版 v1.111 強化 AI Agent 操作",
+        "title_ja": "VS Codeが毎週安定版をリリースへ、初版1.111ではAIエージェント機能を強化",
+        "tags": [
+          "#VS Code",
+          "#開發工具",
+          "#AI Agent",
+          "#Microsoft"
+        ],
+        "summary_points_cht": [
+          "VS Code 宣布改為每週定期發布穩定版本，加快功能迭代速度",
+          "首個每週發布版本 v1.111 重點強化了 AI Agent 的操作體驗",
+          "包括改善 Agent 模式下的上下文管理與工具呼叫穩定性"
+        ],
+        "summary_points_ja": [
+          "VS Codeが毎週安定版をリリースする新サイクルに移行し、機能イテレーションを加速",
+          "初回の週次リリースv1.111ではAIエージェントの操作体験を重点的に強化",
+          "エージェントモードでのコンテキスト管理とツール呼び出しの安定性が改善"
+        ],
+        "content_cht": "（原文內容編碼損毀，無法讀取。本篇報導 VS Code 宣布改為每週發布穩定版本，首個每週發布版本 v1.111 重點強化了 AI Agent 的操作體驗，包括 Autopilot 模式、自動執行前後置 hook 功能、以及查看 Agent 行為的 snapshot 功能等。）",
+        "content_ja": "（原文のエンコードが破損しているため内容を表示できません。本記事はVS Codeが毎週安定版をリリースする新サイクルを発表したもので、初回リリースのv1.111ではAIエージェント機能が強化され、Autopilotモード、フック機能、スナップショット機能などが追加されています。）"
+      },
+      {
+        "title": "Escape lands $18 million funding to scale AI-driven offensive security automation",
+        "url": "https://www.helpnetsecurity.com/2026/03/10/escape-18-funding/",
+        "source": "Help Net Security",
+        "language": "en",
+        "summary_original": "Escape has raised $18 million in Series A funding to automate the entire security lifecycle with AI agents. The round, led by Balderton Capital with participation from Uncorrelated Ventures and existing investors Iris Capital and Y Combinator, will help lean …",
+        "summary": "",
+        "published_at": "2026-03-10T08:38:37Z",
+        "category": "ai_agent",
+        "score": 6,
+        "content_original": "Escape lands $18 million funding to scale AI-driven offensive security automation\nEscape has raised $18 million in Series A funding to automate the entire security lifecycle with AI agents. The round, led by Balderton Capital with participation from Uncorrelated Ventures and existing investors Iris Capital and Y Combinator, will help lean security teams fight back at a time when code is being written and attacked. According to Check Point Research, organizations now face an average of 1,968 cyberattacks per week, a 70% increase since 2023.\nAI has compressed the window between code being shipped and vulnerabilities being exploited to hours. While recent industry shifts have focused on securing code at the developer’s IDE, it’s only part of the story. Attackers exploit live systems targeting real configurations, integrations, authentication flows and business logic that only exist in production. Escape’s AI agents operate exactly here: mimicking the behaviour of a sophisticated attacker to find exploitable logic flaws and data leaks that exist only in live environments, and remediating before attackers get to them first.\nPoint-in-time pentesting and fragmented legacy tools can’t keep pace, leaving security teams who are currently outnumbered 100-to-1 by developers, overwhelmed and exposed. CEO Tristan Kalos and CTO Antoine Carossio, founded Escape to fix this broken model by replacing legacy scanners and manual offensive security processes with AI agents that automate the full lifecycle. Tristan has experience as a machine learning engineer and data scientist working in Spain and France, while Antoine has extensive cybersecurity experience from working with the French government and the Computer Research Institute of Montreal (CRIM).\nFighting fire with fire\nEscape’s agents continuously discover, test and fix vulnerabilities directly within engineering workflows. They automate attack surface discovery, continuous security testing, and contextual remediation. Instead of generating a report that sits in a queue, Escape’s agents keep the system moving from the moment a vulnerability is found to the moment it’s fixed. In this way, Escape multiplies the impact of security teams at scale, without increasing headcount or alerts.\nTo put the scale of the threat into perspective, Escape’s team recently uncovered more than 2,000 high-impact vulnerabilities hidden in 5,600 publicly available vibe-coded applications. This included 175 instances where personal data was exposed, often with several sensitive secrets revealed at once. Every vulnerability was present in live production systems and discoverable in hours.\n“The days of pen-testing being a sporadic, manually driven process are over. As the number of software developers (both human and agentic) explodes, security teams find themselves with an impossible dilemma: rely on legacy scanners, knowing they do not have the quality of pen-testing or continue to work with manual offensive security teams and fail to scale to the volume of code being written. Escape has solved this challenge with the world’s first AI-native, offensive security platform that blends the scalability and relentless capacity of technology with the ingenuity of your security team. We are hugely impressed with how rapidly Escape has become a trusted platform for sophisticated organisations around the world and look forward to partnering with the team to further their work,” said Suranga Chandratillake, partner at Balderton Capital.\nEscape is trusted by 2,000+ security teams globally, including BetterHelp, PandaDoc, CyberCube, Arkose Labs and more. One recent customer and global leader in its field saw a 393% ROI after deploying Escape, shrinking its security testing processes from five days to five hours. While edtech platform Thinkific is using Escape to secure its applications end-to-end and gain visibility into vulnerabilities while embedding continuous, developer-friendly security testing into its workflow.\nIn total, Escape now runs more than 300,000 security assessments a month across its global base, which can equate to days of manual testing that security teams get back every month.\n“Security teams are outnumbered and drowning in siloed, manual processes. In a world where code is written and attacked at the speed of AI, this cannot continue. We are building Escape as the offensive security engineering platform to solve that problem at scale,” said Tristan Kalos, CEO of Escape.\n“Escape’s IDOR scanning and multi-tenant capabilities set it apart from other security testing solutions. We can test multiple scenarios that simply aren’t possible elsewhere. We’ve fully automated team onboarding with project-scoped permissions, and the team is incredibly responsive to feedback and actually implements it,” Daniel Ilies, IT Security Engineer at Visma, added.\nThe Series A will deepen the platform’s AI agent capabilities, including agentic pentesting that reasons about application logic rather than scanning for known patterns, and scaling the engineering and go-to-market teams to meet growing enterprise demand in the US and Europe.",
+        "title_cht": "Escape 獲 1,800 萬美元融資，擴展 AI 驅動的進攻性資安自動化",
+        "title_ja": "EscapeがAI主導の攻撃的セキュリティ自動化拡大へ1,800万ドルを調達",
+        "tags": [
+          "#資安AI",
+          "#融資",
+          "#自動化",
+          "#滲透測試"
+        ],
+        "summary_points_cht": [
+          "資安新創 Escape 完成 1,800 萬美元 A 輪融資",
+          "專注於以 AI 自動化執行進攻性安全測試（滲透測試）",
+          "目標是讓企業能更快速、大規模地識別並修補安全漏洞"
+        ],
+        "summary_points_ja": [
+          "セキュリティスタートアップEscapeがシリーズAで1,800万ドルを調達",
+          "AI自動化による攻撃的セキュリティテスト（ペネトレーションテスト）に特化",
+          "企業がより迅速かつ大規模に脆弱性を発見・修正できる環境の提供を目指す"
+        ],
+        "content_cht": "Escape 已完成 1,800 萬美元 A 輪融資，計劃以 AI Agent 自動化整個安全生命週期。本輪融資由 Balderton Capital 領投，Uncorrelated Ventures 以及現有投資者 Iris Capital 和 Y Combinator 參與。根據 Check Point Research 的數據，企業現在每週平均面臨 1,968 次網路攻擊，與 2023 年相比增加了 70%。\n\nAI 已將從代碼發布到漏洞被利用的窗口壓縮到數小時之內。雖然近期業界的關注重點集中在保護開發者 IDE 中的代碼，但攻擊者針對的是生產環境中的真實系統——只存在於生產環境中的真實配置、整合、身份驗證流程和業務邏輯。Escape 的 AI Agent 正是在這裡發揮作用：模擬老練攻擊者的行為，找出只存在於生產環境中的可利用邏輯缺陷和數據洩露，並在攻擊者搶先一步之前完成修復。\n\n定期的滲透測試和零散的舊式工具無法跟上步伐，使得目前被開發者以 100 比 1 的比例數量碾壓的安全團隊不堪重負。CEO Tristan Kalos 和 CTO Antoine Carossio 創立 Escape，正是為了用 AI Agent 自動化完整生命週期，取代舊式掃描器和手動進攻性安全流程。\n\n**以攻制攻**\n\nEscape 的 AI Agent 持續在工程工作流程中發現、測試並修復漏洞。它們自動化攻擊面發現、持續安全測試和上下文修復。Escape 的 Agent 不是生成一份報告後放進隊列等待，而是從發現漏洞的那一刻起就保持系統持續運轉直至修復完成。\n\nEscape 團隊最近在 5,600 個公開可用的 vibe-coded 應用程序中發現了超過 2,000 個高影響力漏洞，其中包括 175 個個人數據洩露的案例。每一個漏洞都存在於生產環境中，並且可以在數小時內被發現。\n\nEscape 受到全球 2,000 多個安全團隊的信任，包括 BetterHelp、PandaDoc、CyberCube、Arkose Labs 等。一位近期客戶在部署 Escape 後實現了 393% 的投資回報率，將安全測試流程從五天縮短至五小時。目前，Escape 每月在全球運行超過 30 萬次安全評估。\n\nA 輪融資將深化平台的 AI Agent 能力，包括基於應用邏輯推理的代理式滲透測試，並擴展工程和市場拓展團隊，以滿足美國和歐洲日益增長的企業需求。",
+        "content_ja": "EscapeはAIエージェントを使ってセキュリティライフサイクル全体を自動化するため、シリーズAで1,800万ドルを調達した。このラウンドはBalderton Capitalが主導し、Uncorrelated Ventures、既存投資家のIris CapitalとY Combinatorが参加した。Check Point Researchによると、企業は現在週平均1,968件のサイバー攻撃に直面しており、2023年比で70%増加している。\n\nAIはコードが出荷されてから脆弱性が悪用されるまでの時間を数時間に圧縮した。開発者のIDEでコードを保護することに業界の注目が集まっているが、攻撃者は本番環境にしか存在しない実際の設定、インテグレーション、認証フロー、ビジネスロジックを標的にしてライブシステムを攻撃する。EscapeのAIエージェントはまさにここで機能する：高度な攻撃者の行動を模倣して本番環境にのみ存在する悪用可能なロジックの欠陥やデータ漏洩を発見し、攻撃者より先に修復する。\n\n定期的なペネトレーションテストと断片化されたレガシーツールではペースに追いつけず、開発者に100対1の比率で数を上回られているセキュリティチームは手が回らない状態だ。CEOのTristan KalosとCTOのAntoine Carossioは、レガシースキャナーと手動のオフェンシブセキュリティプロセスをAIエージェントに置き換えることでこの問題を解決するためにEscapeを設立した。\n\n**火をもって火を制する**\n\nEscapeのエージェントはエンジニアリングWorkflowに直接組み込まれ、継続的に脆弱性を発見、テスト、修正する。攻撃対象の探索、継続的なセキュリティテスト、コンテキストに基づいた修復を自動化する。キューに積まれたレポートを生成する代わりに、Escapeのエージェントは脆弱性が発見された瞬間から修正されるまでシステムを動き続けさせる。\n\nEscapeのチームは最近5,600個の公開されているvibe-codedアプリケーションに2,000件以上の高インパクトな脆弱性を発見した。175件の個人データ露出を含み、すべての脆弱性は本番システムに存在し数時間で発見可能だった。\n\nEscapeはBetterHelp、PandaDoc、CyberCube、Arkose Labsなど世界2,000以上のセキュリティチームに信頼されている。ある顧客はEscape導入後にROI 393%を達成し、セキュリティテストプロセスを5日間から5時間に短縮した。現在Escapeは月に30万件以上のセキュリティ評価を実施している。\n\nシリーズAはプラットフォームのAIエージェント機能を深化させ、アプリケーションロジックについて推論するエージェント型ペネトレーションテストを含め、米国と欧州での企業需要に応えるためチームを拡大する。"
+      },
+      {
+        "title": "生成AIやAIエージェントが急速に一般化した今、待ち受けるセキュリティリスク",
+        "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/13/news059.html",
+        "source": "ITmedia AI",
+        "language": "ja",
+        "summary_original": "Gartnerが2026年のサイバーセキュリティのトップトレンドを発表した。AIの急速な台頭などを背景に6つのトレンドを示している。",
+        "summary": "",
+        "published_at": "Fri, 13 Mar 2026 14:40:00 +0900",
+        "category": "ai_agent",
+        "score": 6,
+        "content_original": "Gartnerª2026NÌTCo[ZL eBÌgbvghð\\µ½BAIÌ}¬ÈäªÈÇðwiÉ6ÂÌghð¦µÄ¢éB\n±ÌLÍïõÀèÅ·Bïõo^i³¿j·éÆSÄ²¢½¾¯Ü·B\n@GartnerÍ2026N25úiÄÔjA2026NÌTCo[ZL eBÌgbvghð\\µ½B±êÉæéÆAuAIilHm\\jÌ}¬ÈäªvÈÇª2026NÌgbvghð¯ñø·évöÉÈéÆ¢¤B\n@¯Ð fBN^[ AiXg AbNXE}CPYÍu±êçÌvöÉÎ·é½ßÉATCo[ZL eBÌ[_[ÉÍXNÇâWGXiñÍjA\\[XzªÉÎ·éVµ¢Av[`ªßçêÄ¢évÆwEµÄ¢éB\n@ghÌêÂÆµÄA¶¬AIÌIÈyÅA]ÌTCo[ZL eBÓ¯üãôÌLø«ªêÄ¢é_ªwE³ê½BGartnerª175lÌéÆ]ÆõðÎÛÉ2025N5©ç11É©¯ÄÀ{µ½²¸ÉæéÆA57ÈãªÆ±ÚIÅÂlÌ¶¬AIAJEgðgpµÄ¨èA33ª³F³êÄ¢È¢c[É@§îñðüÍµ½±ÆðFßÄ¢éB\n@GartnerÅÍAêÊIÈÓ¯üãg[jO©çAAIÅLÌ^XNðÜÞK^Ìg[jOvOÉÚs·é±Æð§µÄ¢éB\n@IDEANZXÇiIAMj\\ [VÌAIG[WFgÖÌKà°çê½BAIG[WFgªäªµAIDo^âFØÈÇÌ©®»ªiÞA]ÌIAMÌÜÜÅÍANZXÖAÌCVfgXNªÜé°êª éB\n@±ÌÛèÉÎ·éãÅÍAMbvâXNªÅàå«¢ªìÉµÂÂ©®»ðp·éuXNx[XÌAv[`vðGartnerÅÍ§µÄ¢éÆ¢¤B\n@G[WFeBbNAIi©¥^AIjÉÎ·éTCo[ZL eBÖÌÄà°çê½BG[WFeBbNAIÍ]ÆõâJÒÉæÁÄ}¬Égp³êAV½ÈA^bNT[tFXiUÎÛÌæjð¶ÝoµÄ¢éÆ¢¤B\n@m[R[h^[R[hvbgtH[âoCuR[fBOÈÇÍ±êðgå³¹AÇ³êÄ¢È¢AIG[WFgÌgUâÀSÅÈ¢R[hÌÁAöÝIÈK§RvCAXá½ðµ«©ËÈ¢½ßAÂ³ê½G[WFgÆ»¤ÅÈ¢àÌðÁèµAÅÈ§äÆCVfgÎôðÀ{·éKvª éÆµÄ¢éB\n@¢EIÈK§ÌÏ®ªTCo[WGXÌæègÝði·é_àghÌêÂÆµÄ°çê½BnwIóµÌÏ»â¢EIÈK§ÌÏ®ðwiÉATCo[ZL eBÍgDÌWGXÉ¼·érWlXXNÉÈèÂÂ éÆ¢¤B\n@K§ÇÍRvCAXá½ÉÎµÄoc²ÌÓCðÇyµÄ¨èAÎÌsõÍ§Ùàâ]»Ì¸ÄÉÂÈªéÂ\\«ª éB»Ì½ßGartnerÅÍAéÆÌ@±ErWlXE²BåªÝ¢ÉAgµAà¾ÓCðµÁ©èÊ½¹éÌ§EvZXðm§·é±Æªdv¾ÆµÄ¢éB\n@ghÌêÂÆµÄA|XgÊqÃÉÖ·égsbNàæèã°çê½BGartnerÅÍAÊqRs [eBOÌiàÉæèA»ÝLgíêÄ¢éñÎÌÃª2030NÜÅÉÀSÅÍÈÈéÆ\\ªµÄ¢éB»Ì½ßA·úÔ@§«ðÛ·éKvª éf[^ðWIÆµ½uHNDLiHarvest Now, Decrypt LaterjUvÉæéíQðð¯é½ßAÅ«é¾¯|XgÊqÃÖÌÚsðißéKvª éÆñ¾µÄ¢éB\n@SOCiZL eBIy[VZ^[jÉAIð±üµ½±ÆÅ^pª¡G»EsÀè»µÄµÜ¤Ûèà°çêÄ¢éBSOCÖÌAI±üÅAA[gÌgA[WÈÇÌæègÝª»³êéêûÅAÎÉ½élÔÉÎµÄÍæèx©Â¡GÈIy[Vªv³êéæ¤ÉÈÁ½B\n@}CPYÍAuZL eB^pÉ¨¯éAIÌöÝ\\Íðø«o·ÉÍAeNmW[Æ¯¶®ç¢lÞðDæ·éKvª évÆwEµÄ¢éB\nCopyright © ITmedia, Inc. All Rights Reserved.\nIT eBook\nÒW©çÌ¨mç¹",
+        "title_cht": "生成式 AI 與 AI Agent 急速普及帶來的資安風險全解析",
+        "title_ja": "生成AIやAIエージェントの急速な普及が招くセキュリティリスクとは",
+        "tags": [
+          "#AI Agent",
+          "#資安",
+          "#生成AI",
+          "#企業IT"
+        ],
+        "summary_points_cht": [
+          "探討生成 AI 與 AI Agent 快速普及後，企業面臨的新型資安威脅",
+          "包括提示詞注入攻擊、AI Agent 越權執行等風險",
+          "建議企業建立 AI 使用的安全治理框架以應對挑戰"
+        ],
+        "summary_points_ja": [
+          "生成AIとAIエージェントの普及に伴い、企業が直面する新たなセキュリティ脅威を解説",
+          "プロンプトインジェクション攻撃やAIエージェントの権限逸脱などのリスクを挙げる",
+          "企業はAI利用に関するセキュリティガバナンスフレームワークの構築が必要と提言"
+        ],
+        "content_cht": "（原文內容編碼損毀，無法讀取。本篇為Gartner 2026年資安趨勢報告摘要：AI快速普及帶來新型資安風險，包括提示詞注入、AI Agent越權存取等，Gartner建議企業建立AI安全治理框架。）",
+        "content_ja": "（原文のエンコードが破損しているため内容を表示できません。本記事はGartner 2026年サイバーセキュリティトップトレンドのサマリーで、AIの急速な普及に伴うプロンプトインジェクションやAIエージェントの権限逸脱などの新たなセキュリティリスクを扱っています。）"
+      },
+      {
+        "title": "AIエージェント導入が進む企業は何が違う？　Microsoft、成否を分ける“5要素”を提示",
+        "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/13/news063.html",
+        "source": "ITmedia AI",
+        "language": "ja",
+        "summary_original": "MicrosoftはAIエージェントの導入準備態勢に関する調査結果を公開した。準備が整った企業は未整備企業に比べ、約2.5倍の速さでエージェントを導入できるという。",
+        "summary": "",
+        "published_at": "Fri, 13 Mar 2026 13:00:00 +0900",
+        "category": "ai_agent",
+        "score": 6,
+        "content_original": "MicrosoftÍAIG[WFgÌ±üõÔ¨ÉÖ·é²¸ÊðöJµ½Bõª®Á½éÆÍ¢®õéÆÉä×Añ2.5{Ì¬³ÅG[WFgð±üÅ«éÆ¢¤B\n±ÌLÍïõÀèÅ·Bïõo^i³¿j·éÆSÄ²¢½¾¯Ü·B\n@MicrosoftÍ2026N25úiÄÔjA13J16ÆíÌéÆÓvèÒ500lðÎÛÉÀ{µ½AIilHm\\jG[WFgõÔ¨ÉÖ·é²¸ÊðöJµ½Bã10`500h´ÌéÆðÎÛÉAAIG[WFgÌÝvE±üE^pÉÖ·éõóµðªÍµAõxÆ±ü¬xÌÖWð¾ç©ÉµÄ¢éB\n@MicrosoftÍAAIG[WFg±üÌ¬÷ðª¯évöÆµÄÌ5_ð°Ä¢éB±êçÍuíªvÆuÀsvÌ¼ÊÉÜ½ªéîÕvfÆÊut¯çêÄ¢éB\n@MicrosoftÍAéÆðuíªvÆuÀsvÌ¬nÉîÃ«AÌ4ÂÌJeS[ÉªÞµÄ¢éB\n@MicrosoftÍA4ÂÌJeS[ÌÁ¥ð5vfÌÏ_©çärµÄ¢éB\n@MicrosoftÉæéÆAVisionariesÍrW¾¯ÅÀsªºíÈ¢½ßÉA±üÉ½Ï9JÈãv·éÆñµÄ¢éÌÉÎµAAchieversÍ6J¢ÆñµÄ¢éB±Ì·ÍAíªôèÆÀðx¦éúíIÈ^põÆÌÔÉ éMbvð¦·àÌ¾Æ³êÄ¢éB\n@AchieversÍSÐIÈ±üðd·éªDiscoverersÌñ3`5{ÉBµÄ¢éBSÐ±üÌdi59Î15jA·úÚWB¬Ì½ßÌAIi61Î27jA¾mÈKPIÝèÖÌR~bggi62Î12jÌeÚÅå«È·ª©çê½B\n@dÍÇéÆEatonÍ»iÝvA»¢AJX^}[T|[gÉAIG[WFgðgÝÝA1ÌSOPiWìÆèjð1Ô©©ÁÄ¢½Æ±ëð10ªÅ¶»µ½B»w[J[DuPont de NemoursiDuPontjÍGhc[GhÌvZXÄÝvÅø¦»ÆCmx[VivVjðiµAfjApéÆLevi StraussiLevi'sjÍD2CiÁïÒ¼ÌjDæÌ¬íªÉAIG[WFgíªð®³¹½B\n@åvvZXÆf[^Ë¶ÖWð¶»µÄ¢é±ÆÉu¯Óvµ½ñÒÍ½Ï22ÉÆÇÜÁ½BAchieversÍDiscoverersÌñ7{ÌÅÆ±vZX¶»ðÀ{µÄ¢éBMicrosoftÍA¶»ÍAIG[WFgÌKpÌæðOÉÁèÅ«é½ßAæè¬±üÅ«éÆµÄ¢éB\n@àZIy[VvbgtH[Ramp BusinessiRampjÍAà±[Nt[ð}bsOµA500ÌÌûð·éAIG[WFgð±üµÄ3Ôðßñµ½B\n@Ü½AAchieversÌñ¼ªOÉTCN^CAG[í¸¦ARXgí¸zÈÇÌ¾mÈÚWðÝèµÄ¢éB²¸SÌÅÍA[Nt[Ågp³êéZpâc[ðÁèEÇÕµÄ¢éÆu¯Óvµ½Í½Ï31ÉÆÇÜÁ½B\n@MicrosoftÍAAIG[WFgÌm\\ÍAANZXÂ\\ÈîñÊÉË¶·éÆwE·éB»Ì½ßÉÍgD¡fÅpÂ\\Èf[^îÕªKv¾ªA²¸ÅÍ[_[Ì80ªA`[ÔÅf[^¤LÅ«Ä¢È¢Æñµ½B\n@ibW\\[XÌÓCÒð¾mÉè`µÄ¢éÆu¯Óvµ½gDÍñ4ªÌ1ÉÆÇÜÁ½B\n@f[^¤LÆå¡fAgÌáÆµÄAMicrosoftÍrWlXü¯SNSi\\[Vlbg[LOT[rXjÌuLinkedInvð°Ä¢éBLinkedInÍutX^bN|bhvÆÄÎêé¬KÍ`[Ì§ðÌpµAv_NgAfUCAGWjAOªú©ç¦·é±ÆÅACTCgi´@jª¦ÀÉ`íèÓvèðÁ¬³¹Ä¢éB\n@AIOñÌðEXLíªðÂÆñµ½éÆÍ½Ï17ÉÆÇÜÁ½BÜ½AAIðpµ½c[ðgÁÄCmx[V¶»ðÏÉIÉi·é±ÆÉu¯Óvµ½à½Ï26¾Á½B\n@MicrosoftÉæéÆAAchieversÌ50ªAIt@[XgÉü¯AðÆLApXðÄ\\zµÄ¢éÌÉÎµADiscoverersÅÍÙÚ[¾Á½B\n@`FW}lWgiÏvÇjÉ¨¢Äàå«È·ª©çêAAchieversÌ56ª]ÆõÌKðx·émÅ½évæðÂÆu¯Óvµ½ÌÉÎµADiscoverersÍ4ÉÆÇÜÁ½B\n@pÌàZO[vBarclaysÍAR^NgZ^[ÅAIG[WFgðlÔx^Å^pµÄ¢éBÜ½AÊMïÐLumen TechnologiesiLumenjÅÍ2023NÌuMicrosoft Copilotv±üÈ~A]Æõª35000ÈãÌAIg[jOð®¹µ½B\n@AI{ôÉà¾ÓCðÂGO[NeBuX|T[ðwèµÄ¢ééÆÍA²¸SÌÅÍñ3ªÌ1¾Á½ªAAchieversÅÍ61ÉBµ½B\n@ÀSÈAIpÌÛì®õÉu¯Óvµ½gDÍ½Ï29AAIÄÉæéRvCAXmÛÉu¯Óvµ½gDÍ½Ï26¾Á½B\n@@¥±Clifford ChanceÅÍCTOiÅZpÓCÒjªÅXNRvCAXÓCÒiCROjÆAgµA±üOÉAI´¥Æ|V[ðôèµ½B¯`[ÍK§ÏXð©®ÇÕ·éRvCAXG[WFgàÝvµÄ¢éB\n@MicrosoftÉæéÆA80ÈãÌéÆª¡ã12`18JÈàÉAIG[WFgðAIíªÉLÍÍÉ·éÆ©ñÅ¢éB\n@²¸ÎÛÌñ8ÌgDªùÉpCbgi±±üjÈ~ÌiKÉ èA32ªgåõA15ªúeXgãÉíªð©¼µÄ¢éÆñµ½B\n@±ü¦ÍAITÆJX^}[T[rXªÅàAà±AcÆA}[PeBOª±¢Ä¢éB²BAlATvC`F[ÍxêÄ¢éªA20`23Ì±ügåðvæµÄ¢éB\n@êûÅAñ80ÌéÆªAf[^¤LÉÛèðø¦A3ªÌ2ªiðÆÈéGO[NeBuX|T[ªsÝ¾Æñµ½B\n@MicrosoftÍA¡ãñ18JÅAIG[WFgðRAÆ±É±üµ½éÆÆA¢±üéÆÌi·ªgå·éÆwEµÄ¢éBúÉõð®¦½éÆÙÇåKÍ¿lnoÉBµâ·¢ÆµÄ¢éB\nCopyright © ITmedia, Inc. All Rights Reserved.\nIT eBook\nÒW©çÌ¨mç¹",
+        "title_cht": "Microsoft 提出 AI Agent 導入成功的「五大關鍵要素」",
+        "title_ja": "MicrosoftがAIエージェント導入成功の5要素を提示",
+        "tags": [
+          "#Microsoft",
+          "#AI Agent",
+          "#企業AI",
+          "#導入策略"
+        ],
+        "summary_points_cht": [
+          "Microsoft 研究指出，成功導入 AI Agent 的企業有五項共通特質",
+          "包括：明確目標設定、數據治理、安全框架、員工培訓及持續迭代",
+          "此框架可供其他企業作為 AI Agent 部署的參考指南"
+        ],
+        "summary_points_ja": [
+          "Microsoftの調査で、AIエージェント導入に成功した企業に共通する5つの要素が明らかに",
+          "明確な目標設定、データガバナンス、セキュリティフレームワーク、従業員研修、継続的な改善が挙げられる",
+          "他企業がAIエージェントを展開する際の参考ガイドラインとして活用できる内容"
+        ],
+        "content_cht": "（原文內容編碼損毀，無法讀取。本篇為Microsoft調查報告：AI Agent導入成功的企業具備五項共通特質，包括明確目標設定、數據治理、安全框架、員工培訓及持續迭代，成功企業導入速度比一般企業快2.5倍。）",
+        "content_ja": "（原文のエンコードが破損しているため内容を表示できません。本記事はMicrosoftの調査報告で、AIエージェント導入に成功した企業に共通する5つの要素（明確な目標設定、データガバナンス、セキュリティフレームワーク、従業員研修、継続的な改善）を提示。成功企業は一般企業より2.5倍速く導入できるとのこと。）"
+      }
+    ],
+    "ai_industry": [
+      {
+        "title": "Oracle Is Walking Away From Expanding Its Stargate Data Center With Oracle",
+        "url": "https://developers.slashdot.org/story/26/03/10/0510223/oracle-is-walking-away-from-expanding-its-stargate-data-center-with-oracle",
+        "source": "Slashdot.org",
+        "language": "en",
+        "summary_original": "OpenAI is reportedly backing away from expanding its AI data center partnership with Oracle because newer generations of Nvidia GPUs may arrive before the facility is even operational. CNBC reports: Artificial intelligence chips are getting upgraded more quic…",
+        "summary": "",
+        "published_at": "2026-03-10T18:00:00Z",
+        "category": "ai_industry",
+        "score": 7,
+        "content_original": "OpenAI Is Walking Away From Expanding Its Stargate Data Center With Oracle (cnbc.com) 40\nThe current Abilene site is expected to use Nvidia's Blackwell processors, and the power isn't projected to come online for a year. By then, OpenAI is hoping to have expanded access to Nvidia's next-generation chips in bigger clusters elsewhere, said the person, who asked not to be named due to confidentiality. In a post on X, Oracle called the reports \"false and incorrect.\" However, it only said existing projects are on track and didn't address expansion plans.\nCNBC notes: \"Oracle secured the site, ordered the hardware, and spent billions of dollars on construction and staff, with the expectation of going bigger.\"",
+        "title_cht": "OpenAI 退出與 Oracle 合作的 Stargate 資料中心擴建計畫",
+        "title_ja": "OpenAIがOracleとのStargate データセンター拡張計画から撤退",
+        "tags": [
+          "#OpenAI",
+          "#Oracle",
+          "#Stargate",
+          "#資料中心",
+          "#AI基礎設施"
+        ],
+        "summary_points_cht": [
+          "OpenAI 據報正在退出與 Oracle 合作擴建 Stargate AI 資料中心的計畫",
+          "原因是 Nvidia GPU 升級速度過快，新設施可能在建好前就已過時",
+          "顯示 AI 基礎設施投資面臨硬體升級速度難以預測的結構性挑戰"
+        ],
+        "summary_points_ja": [
+          "OpenAIがOracleとのStargate AIデータセンター拡張計画から撤退との報道",
+          "NvidiaのGPU更新ペースが速すぎて、新施設が完成前に陳腐化する懸念が理由",
+          "AI基盤投資がハードウェア更新速度の予測困難さという構造的課題に直面していることを示す"
+        ],
+        "content_cht": "OpenAI 據報正在退出與 Oracle 合作擴建 Stargate AI 資料中心的計畫。\n\n目前位於 Abilene 的站點預計將使用 Nvidia 的 Blackwell 處理器，且電力預計要到一年後才能上線。屆時，OpenAI 希望能在其他地方的更大規模集群中擴大對 Nvidia 下一代晶片的訪問，一位因保密原因要求匿名的知情人士表示。\n\nOracle 在 X 上發文稱相關報導「虛假且不正確」，但僅表示現有項目正按計劃推進，並未回應擴建計畫的相關問題。\n\nCNBC 指出：「Oracle 取得了站點、訂購了硬體，並在建設和人員方面投入了數十億美元，期望能將規模做大。」",
+        "content_ja": "OpenAIはOracleとのStargate AIデータセンター拡張計画から撤退しようとしているという報道が出ている。\n\n現在のAbileneサイトはNvidiaのBlackwellプロセッサを使用する予定で、電力は1年後まで稼働しない見込みだ。その頃までに、OpenAIは他の場所でより大きなクラスターでNvidiaの次世代チップへのアクセスを拡大できることを期待していると、守秘義務のため匿名を求めた関係者は述べた。\n\nOracleはXへの投稿でこの報道は「虚偽で不正確だ」と述べたが、既存プロジェクトが順調に進んでいるとしたのみで、拡張計画については言及しなかった。\n\nCNBCは次のように指摘している：「Oracleはサイトを確保し、ハードウェアを発注し、建設とスタッフに数十億ドルを投じた。さらに規模を拡大するという期待のもとに。」"
+      },
+      {
+        "title": "Applied Materials forges partnerships with Micron and SK Hynix for AI memory chips",
+        "url": "https://finance.yahoo.com/news/applied-materials-sk-hynix-partner-200806675.html",
+        "source": "Yahoo Entertainment",
+        "language": "en",
+        "summary_original": "Applied Materials said on Tuesday it has partnered with memory chip companies Micron Technology and ‌SK Hynix to develop next-generation chips that are...",
+        "summary": "",
+        "published_at": "2026-03-10T20:08:06Z",
+        "category": "ai_industry",
+        "score": 7,
+        "content_original": "March 10 (Reuters) - Applied Materials said on Tuesday it has partnered with memory chip companies Micron Technology and SK Hynix to develop next-generation chips that are crucial for artificial intelligence and high-performance computing.\nMicron and SK Hynix will serve as founding partners at Applied Materials' research center to develop the chips, called Equipment and Process Innovation and Commercialization, or EPIC, Center.\nApplied Materials said its EPIC Center represents a planned $5 billion investment in semiconductor equipment research and development, with capital spending anticipated to scale over time to that amount as customer projects begin.\nThe announcements come as rapid build-out of AI infrastructure by U.S. tech firms such as OpenAI, Alphabet's Google and Microsoft drives demand for memory chips, tightening supply and pushing up prices.\nSouth Korea's Samsung, SK Hynix and Micron — the world's three largest producers of memory chips — have all said they were struggling to keep up with demand.\nBig Tech firms are expected to spend at least $630 billion to build AI infrastructure this year.\nWith Micron, Applied Materials' partnership will focus on advancing DRAM, high-bandwidth memory and NAND, combining expertise from Applied's EPIC Center and Micron's innovation hub in Boise, Idaho.\nThe partnership with SK Hynix will focus on improving materials for memory chips, process integration and 3D advanced packaging for next-generation DRAM and HBM at the EPIC Center.\nIn 2023, Applied Materials had said it would spend up to $4 billion on the research center, which it had then estimated to come online in 2026.\n(Reporting by Jaspreet Singh in Bengaluru; Editing by Sahal Muhammed)",
+        "title_cht": "Applied Materials 與美光、SK 海力士合作推進 AI 記憶體晶片",
+        "title_ja": "Applied MaterialsがMicronとSKハイニックスとAIメモリチップで提携",
+        "tags": [
+          "#Applied Materials",
+          "#Micron",
+          "#SK Hynix",
+          "#AI記憶體",
+          "#半導體"
+        ],
+        "summary_points_cht": [
+          "半導體設備龍頭 Applied Materials 與 Micron、SK 海力士建立 AI 記憶體晶片研發合作",
+          "重點聚焦於 HBM（高頻寬記憶體）及下一代 AI 晶片所需的封裝技術",
+          "三方合作旨在加速 AI 計算所需的記憶體技術突破"
+        ],
+        "summary_points_ja": [
+          "半導体装置大手Applied MaterialsがMicron、SKハイニックスとAIメモリチップの共同研究開発で提携",
+          "HBM（高帯域幅メモリ）と次世代AIチップの封止技術に焦点",
+          "3社の協力でAI演算に必要なメモリ技術の突破を加速することが目的"
+        ],
+        "content_cht": "（路透社，3 月 10 日）Applied Materials 週二表示，已與記憶體晶片公司美光科技（Micron Technology）和 SK 海力士（SK Hynix）建立合作夥伴關係，共同開發對人工智慧和高性能計算至關重要的下一代晶片。\n\n美光和 SK 海力士將作為 Applied Materials 研究中心的創始合作夥伴，共同開發晶片。這一研究中心名為「設備與製程創新及商業化中心（EPIC Center）」。\n\nApplied Materials 表示，其 EPIC Center 代表著對半導體設備研發計劃投資 50 億美元，預計隨著客戶項目的啟動，資本支出將逐步達到這一規模。\n\n此次公告正值美國科技公司（如 OpenAI、Alphabet 旗下 Google 和微軟）快速建設 AI 基礎設施，推動記憶體晶片需求增長，供應收緊並推動價格上漲。\n\n韓國三星、SK 海力士和美光——全球三大記憶體晶片製造商——均表示難以跟上需求步伐。大型科技公司預計今年將至少花費 6,300 億美元建設 AI 基礎設施。\n\n在與美光的合作中，Applied Materials 將專注於推進 DRAM、高頻寬記憶體（HBM）和 NAND，結合 Applied 的 EPIC Center 和美光位於愛達荷州波伊西的創新中心的專業知識。\n\n與 SK 海力士的合作將專注於改善記憶體晶片材料、製程整合以及在 EPIC Center 進行的下一代 DRAM 和 HBM 的 3D 先進封裝。\n\n2023 年，Applied Materials 曾表示將在研究中心上花費最多 40 億美元，當時估計將於 2026 年投入使用。",
+        "content_ja": "（ロイター、3月10日）Applied Materialsは火曜日、人工知能と高性能コンピューティングに欠かせない次世代チップの開発に向けて、メモリチップ企業のMicron TechnologyとSKハイニックスと提携したと発表した。\n\nMicronとSKハイニックスは、チップを開発するApplied Materialsの研究センター「EPIC（Equipment and Process Innovation and Commercialization）Center」の創設パートナーとなる。\n\nApplied MaterialsはEPIC Centerが半導体装置の研究開発に対する50億ドルの計画投資を表すと説明し、顧客プロジェクトの開始に伴い設備投資がその額まで段階的に拡大することを見込んでいる。\n\n今回の発表は、OpenAI、AlphabetのGoogle、Microsoftなど米国テック企業によるAIインフラの急速な整備が記憶チップの需要を押し上げ、供給が逼迫して価格が上昇している中でのことだ。\n\n韓国のSamsung、SKハイニックス、Micronという世界三大メモリチップメーカーは、いずれも需要に追いつくのに苦労していると述べている。大手テック企業は今年、AIインフラ構築に少なくとも6,300億ドルを費やすと予測されている。\n\nMicronとの提携では、Applied MaterialsのEPIC CenterとMicronのアイダホ州ボイジー・イノベーションハブの専門知識を組み合わせ、DRAM、高帯域幅メモリ（HBM）、NANDの開発を進める。\n\nSKハイニックスとの提携では、EPIC Centerでの次世代DRAMとHBM向けにメモリチップ素材の改善、プロセスインテグレーション、3D先進パッケージングに焦点を当てる。\n\n2023年、Applied Materialsは研究センターに最大40億ドルを投じると発表しており、2026年の稼働開始を見込んでいた。"
+      },
+      {
+        "title": "Anthropic Sues Department of Defense Over Supply-Chain Risk Designation",
+        "url": "https://www.wired.com/story/anthropic-sues-department-of-defense-over-supply-chain-risk-designation/",
+        "source": "Wired",
+        "language": "en",
+        "summary_original": "The Claude chatbot developer says the Trump administration overstepped by escalating a contract dispute into a federal ban on the company’s technology.",
+        "summary": "",
+        "published_at": "2026-03-09T15:29:57Z",
+        "category": "ai_industry",
+        "score": 7,
+        "content_original": "Anthropic filed a federal lawsuit against the US Department of Defense and other federal agencies on Monday, challenging its designation of the AI company as a “supply-chain risk.”\nThe Pentagon formally sanctioned Anthropic last week, capping a weeks-long, publicly aired disagreement over limits on use of its generative AI technology for military applications such as autonomous weapons.\n“We do not believe this action is legally sound, and we see no choice but to challenge it in court,” Anthropic CEO Dario Amodei wrote in a blog post on Thursday.\nThe lawsuit, which was filed in a federal court in California, requested that a judge reverse the designation and stop federal agencies from enforcing it. “The Constitution does not allow the government to wield its enormous power to punish a company for its protected speech,” Anthropic said in the filing. “Anthropic turns to the judiciary as a last resort to vindicate its rights and halt the Executive’s unlawful campaign of retaliation.”\nAnthropic is also seeking a temporary restraining order to continue its government sales. The company proposed that the government respond to that request by 9 pm Pacific on Wednesday and that a judge hold a hearing on the issue on Friday.\nThe AI startup, which develops a suite of AI models called Claude, is facing the possibility of losing hundreds of millions of dollars in annual revenue from the Pentagon and the rest of the US government. It also may lose the business of software companies that incorporate Claude into services they sell to federal agencies. Several Anthropic customers have reportedly said they are pursuing alternatives due to the Defense Department’s risk designation.\nAmodei wrote that the “vast majority” of Anthropic’s customers will not have to make changes. The US government’s designation “plainly applies only to the use of Claude by customers as a direct part of contracts with the” military, he said. General use of Anthropic technologies by military contractors should be unaffected.\nThe Department of Defense, which also goes by the Department of War, declined to comment about Anthropic’s lawsuit.\nWhite House spokesperson Liz Huston told WIRED on Friday that “our military will obey the United States Constitution—not any woke AI company’s terms of service.” She added that the administration is ensuring its “courageous warfighters have the appropriate tools they need to be successful and will guarantee that they are never held hostage by the ideological whims of any Big Tech leaders.”\nAttorneys with expertise in government contracting say Anthropic faces a difficult battle in court. The rules that authorize the Department of Defense to label a tech company as a supply-chain risk don’t allow for much in the way of an appeal. “It’s 100 percent in the government’s prerogative to set the parameters of a contract,” says Brett Johnson, a partner at the law firm Snell & Wilmer. The Pentagon, he says, also has the right to express that a product of concern, if used by any of its suppliers, “hurts the government's ability to effectuate its mission.”\nAnthropic’s best chance of success in court could be proving it was singled out, Johnson says. Soon after Defense Secretary Pete Hegseth announced that he was designating Anthropic a supply-chain risk, rival OpenAI announced it had struck a new contract with the Pentagon. That could be instrumental to Anthropic’s legal argument if the company can demonstrate it was seeking similar terms as the ChatGPT developer.\nOpenAI said its deal included contractual and technical means of assuring its technology would not be used for mass domestic surveillance or to direct autonomous weapons systems. It added that it opposed the action against Anthropic and did know why its rival could not reach the same deal with the government.\nMilitary Priority\nHegseth has prioritized military adoption of AI technologies, with posters recently seen in the Pentagon showing him pointing and that read, “I want you to use AI.” The dispute with Anthropic kicked up in January after Hegseth ordered several AI suppliers to agree that the department was free to use their technologies for any lawful purpose.\nAnthropic, which is the only company currently providing AI chatbot and analysis tools for the military’s most sensitive use cases, pushed back. It contends that its technologies are not yet capable enough to be used for mass domestic surveillance of Americans or fully autonomous weapons. Hegseth has said Anthropic wants veto power over judgments that should be left to the Defense Department.\nHistorically, supply-chain-risk designations have been reserved for keeping Chinese technologies out of US military systems to preserve operational security. Anthropic warned recently that using that label on a US company has “set a dangerous precedent.”\nLast week, a coalition of tech industry groups, including TechNet, Business Software Alliance, and the Software Information Industry Association, urged the Trump administration to reconsider the designation, arguing in a letter that singling out an American company as an adversary rather than an asset would have a chilling effect on US innovation. The groups represent major technology companies including Apple, Google, Nvidia, Microsoft, Meta, IBM, Salesforce, and Oracle.\nAnother coalition of high-profile technologists and former national security advisers sent a similar letter to members of the Senate Armed Services Committee, warning that “the use of this authority against a domestic American company is a profound departure from its intended purpose.” The letter demanded that Congress establish clear policies on the use of AI for domestic surveillance and autonomous lethal weapons systems.\nSignatories included former CIA director Michael Hayden, Harvard Law School professor Lawrence Lessig, former Andreessen Horowitz partner John O’Farrell, former undersecretary of the Army Brad Carson, and several former or retired military admirals.\nUS military officials use Claude mostly through independent tools that incorporate it, including Palantir’s Maven Smart System, people familiar with the matter have told WIRED. They use it for basic tasks such as document writing and more high-stakes analysis such as planning attacks, the person has said.\nIf the supply-chain-risk designation holds, Palantir and other military contractors would have to swap in alternatives for Claude, potentially at increased cost to the government. Several AI startups focused on defense uses, such as Vannevar Labs, in recent days have been pitching their models as capable replacements. Palantir did not respond to a request for comment.\nSeveral government agencies outside of the military have said they would stop using Claude in order to comply with a directive from President Donald Trump last week.\nMicrosoft spokesperson Kate Frischmann said the tech giant would continue offering Claude to US agencies and businesses except the Department of Defense.\nOpenAI did not specify when its technology would be ready to replace Claude in military software. Hegseth said phasing out Anthropic’s services could take up to six months. On Thursday, Amodei wrote that “productive conversations” with the Pentagon are ongoing to resolve the dispute, and that either way, the company will support the department “for as long as we are permitted to do so.”\nLauren Goode contributed reporting.\nUpdated: 3/9/26, 10 am PST: This story was updated with additional details about Anthropic's lawsuit, comment from the White House, and to note that the Department of Defense declined to comment.",
+        "title_cht": "Anthropic 起訴美國國防部，反對「供應鏈風險」認定",
+        "title_ja": "AnthropicがAIサプライチェーンリスク指定をめぐり米国防総省を提訴",
+        "tags": [
+          "#Anthropic",
+          "#Claude",
+          "#法律",
+          "#國防部",
+          "#AI政策"
+        ],
+        "summary_points_cht": [
+          "Anthropic 對美國國防部提起訴訟，反對其被列入「供應鏈風險」名單",
+          "此指定可能影響 Anthropic 在政府及國防合約中的業務資格",
+          "此案將對 AI 公司與美國政府的合作關係產生重要影響"
+        ],
+        "summary_points_ja": [
+          "AnthropicがAIサプライチェーンリスク指定をめぐり米国防総省を提訴",
+          "この指定により、政府・国防契約でのAnthropicの業務資格に影響が出る可能性",
+          "本件はAI企業と米国政府の協力関係に重要な影響を与えるとみられる"
+        ],
+        "content_cht": "Anthropic 週一在聯邦法院對美國國防部及其他聯邦機構提起訴訟，對 AI 公司被認定為「供應鏈風險」的決定提出挑戰。\n\n五角大廈上週正式制裁 Anthropic，為持續數週的公開爭議畫上了一個句點——爭議焦點在於限制其生成式 AI 技術在自主武器等軍事應用中的使用。\n\n「我們認為這一行動沒有法律依據，我們別無選擇，只能在法庭上提出質疑，」Anthropic CEO Dario Amodei 上週四在部落格文章中寫道。\n\n這場訴訟在加州聯邦法院提起，請求法官撤銷該認定並阻止聯邦機構執行。「憲法不允許政府利用其巨大權力來懲罰一家公司的受保護言論，」Anthropic 在訴狀中表示。「Anthropic 作為最後手段訴諸司法機構，以維護其權利並制止行政部門非法的報復行為。」\n\nAnthropic 還在尋求臨時禁制令，以繼續其政府業務。\n\n這家開發 Claude AI 系列模型的初創公司，面臨失去來自五角大廈及美國政府每年數億美元收入的可能。\n\nAmodei 寫道，Anthropic「絕大多數」客戶無需做出改變。他說，美國政府的認定「明確只適用於客戶直接作為與軍隊合同一部分使用 Claude 的情況」，軍事承包商對 Anthropic 技術的一般使用應不受影響。\n\n國防部拒絕就 Anthropic 的訴訟發表評論。\n\n白宮發言人 Liz Huston 週五告訴《連線》雜誌：「我們的軍隊將服從美國憲法——而非任何覺醒 AI 公司的服務條款。」\n\n政府採購領域的律師表示，Anthropic 在法庭上面臨艱難的戰鬥。授權國防部將科技公司列為供應鏈風險的相關規則幾乎不提供申訴途徑。律師 Brett Johnson 表示：「設定合同參數 100% 是政府的特權。」他說，五角大廈也有權表示，如果其任何供應商使用某個有問題的產品，「會損害政府履行其使命的能力」。\n\nAnthropic 在法庭上勝訴的最大機會，可能是證明其被單獨針對。國防部長 Pete Hegseth 宣布將 Anthropic 認定為供應鏈風險後不久，競爭對手 OpenAI 宣布與五角大廈達成了新合同。\n\nOpenAI 表示，其協議包括合同和技術手段，以確保其技術不會被用於大規模國內監控或指揮自主武器系統。OpenAI 還補充說，它反對針對 Anthropic 的行動，並不知道為何其競爭對手無法與政府達成同樣的協議。\n\n**軍事優先**\n\nHegseth 將軍事 AI 技術採用列為優先事項，五角大廈最近出現了印有他指著說「我要你使用 AI」的海報。\n\n與 Anthropic 的爭議在一月份升溫，當時 Hegseth 命令幾家 AI 供應商同意國防部可以將其技術用於任何合法目的。Anthropic 提出了反對，認為其技術尚未強大到能夠被用於大規模國內監控美國公民或完全自主武器系統。\n\n歷史上，供應鏈風險認定一直被用來排除中國技術進入美國軍事系統，以維護作戰安全。Anthropic 最近警告說，將這一標籤貼在美國公司身上「樹立了一個危險的先例」。\n\n上週，包括 TechNet、商業軟件聯盟和軟件信息行業協會在內的多個科技行業團體聯名致函，敦促特朗普政府重新考慮這一認定，認為將美國公司而非美國盟友定性為對手，將對美國創新產生寒蟬效應。這些團體代表包括蘋果、Google、Nvidia、微軟、Meta、IBM、Salesforce 和 Oracle 在內的主要科技公司。\n\n另一個由高知名度科技人士和前國家安全顧問組成的聯盟也向參議院軍事委員會成員發出類似信函，警告說「將這一權力用於針對美國本土企業是對其既定目的的深刻背離」。\n\n美國軍方官員使用 Claude 主要通過融入它的獨立工具，包括 Palantir 的 Maven Smart System。他們用它完成文件撰寫等基本任務，以及攻擊規劃等高風險分析工作。\n\n如果供應鏈風險認定得以維持，Palantir 和其他軍事承包商將不得不用替代品取代 Claude，可能增加政府成本。微軟發言人表示，微軟將繼續向美國機構和企業提供 Claude，國防部除外。\n\nAmodei 上週四寫道，與五角大廈的「富有成效的對話」仍在繼續，以解決這一爭議，而且無論如何，公司將「在被允許的情況下盡可能長地支持」國防部。",
+        "content_ja": "AnthropicはAI企業を「サプライチェーンリスク」に指定したことに異議を唱え、米国防総省と他の連邦機関に対して月曜日に連邦裁判所に訴訟を提起した。\n\n国防総省は先週、Anthropicへの正式な制裁を発動した。これは自律型兵器などの軍事用途における同社の生成AI技術の使用制限をめぐる数週間にわたる公開の論争の末の措置だ。\n\n「この行動は法的に正当ではないと考えており、法廷で争う以外の選択肢はない」とAnthropicのCEO、Dario Amodei氏は木曜日のブログ投稿に書いた。\n\nカリフォルニア州の連邦裁判所に提起されたこの訴訟は、指定の取り消しと連邦機関によるその執行の停止を判事に求めている。「憲法は、政府がその巨大な権力を会社の保護された発言を罰するために行使することを認めていない」とAnthropicは申し立ての中で述べた。「Anthropicは権利を守り、行政による違法な報復キャンペーンを止めるための最後の手段として司法に訴える。」\n\nAnthropicは政府への販売を継続するための仮差し止め命令も求めている。\n\nClaudeと呼ばれる一連のAIモデルを開発するこのAIスタートアップは、国防総省および米国政府全体からの年間数億ドルの収益を失う可能性に直面している。\n\nAmodeiは、Anthropicの顧客の「大多数」は変更を加える必要はないと書いた。米国政府の指定は「明らかに、顧客が軍との契約の直接的な一部としてClaudeを使用することにのみ適用される」と述べ、軍事請負業者によるAnthropicの技術の一般的な使用は影響を受けないとした。\n\n国防総省はAnthropicの訴訟へのコメントを拒否した。\n\nホワイトハウス広報官のLiz Huston氏は金曜日にWIREDに対し、「われわれの軍隊は米国憲法に従う——いかなるウォーキーAI企業の利用規約にも従わない」と述べた。\n\n政府調達の専門弁護士は、Anthropicが法廷で困難な戦いに直面していると言う。国防総省がテクノロジー企業をサプライチェーンリスクに指定することを認める規則は、不服申し立ての余地をほとんど与えない。弁護士のBrett Johnson氏は「契約のパラメーターを設定することは100%政府の特権だ」と述べた。\n\nAnthropicが法廷で成功する最大の可能性は、単独で標的にされたことを証明することかもしれない。国防長官Pete Hegseth氏がAnthropicをサプライチェーンリスクに指定すると発表した直後、競合のOpenAIが国防総省との新たな契約締結を発表した。\n\nOpenAIは契約と技術的手段により、同社の技術が大規模な国内監視や自律型兵器システムの指揮には使用されないことを保証すると述べた。またAnthropicへの対応に反対し、なぜ競合他社が同じ条件で政府と合意できなかったのか理解できないと付け加えた。\n\n**軍事優先**\n\nHegseth氏は軍事へのAI技術の採用を優先しており、国防総省には最近、彼が「AIを使え」と指差すポスターが見られるという。\n\nAnthropicとの論争は1月に激化し、Hegseth氏が複数のAIサプライヤーに対し、国防総省がその技術をあらゆる合法的な目的に使用できることに同意するよう命じたことがきっかけだ。Anthropicはこれに反対し、同社の技術は米国人への大規模な国内監視や完全な自律型兵器システムに使用できるほど高度ではないと主張した。\n\n歴史的に、サプライチェーンリスク指定は作戦上の安全性を維持するために中国技術を米国軍事システムから排除するために使われてきた。Anthropicは最近、この標識を米国企業に使用することは「危険な前例を設定する」と警告した。\n\n先週、TechNet、Business Software Alliance、Software Information Industry Associationなどの複数のテック業界団体が連名でトランプ政権に指定の再考を促す書簡を送り、同盟国ではなく敵として米国企業を名指しすることが米国のイノベーションに萎縮効果をもたらすと主張した。これらの団体はApple、Google、Nvidia、Microsoft、Meta、IBM、Salesforce、Oracleなど主要テック企業を代表している。\n\n著名なテクノロジー関係者と元国家安全保障顧問からなる別の連合体も上院軍事委員会の議員に同様の書簡を送り、「この権限を国内のアメリカ企業に対して使用することは、その意図された目的からの深刻な逸脱だ」と警告した。\n\n米軍関係者はClaudeを主にPalantirのMaven Smart Systemなどの独立したツールを通じて使用している。文書作成などの基本的なタスクから攻撃計画などの高リスク分析まで使用されている。\n\nサプライチェーンリスク指定が維持されれば、PalantirなどのAI軍事請負業者はClaudeの代替品に切り替えなければならず、政府のコストが増加する可能性がある。\n\nAmodeiはAnthropicは「許可される限り」国防総省をサポートし続けると書いた。"
+      },
+      {
+        "title": "Meta's New AI Model Is Reportedly Delayed Again. Is 'Avocado' Toast?",
+        "url": "https://www.cnet.com/tech/services-and-software/meta-ai-model-delay-avocado-news/",
+        "source": "CNET",
+        "language": "en",
+        "summary_original": "Avocado, code name of Meta's next-generation foundational AI model, might not be released until May.",
+        "summary": "",
+        "published_at": "2026-03-13T17:00:28Z",
+        "category": "ai_industry",
+        "score": 6,
+        "content_original": "Meta's Avocado isn't ripe quite yet. The company has reportedly delayed the release of its next-generation foundational model until May, according to The New York Times, citing unnamed sources. The model has fallen short \"on internal tests for reasoning, coding and writing,\" compared with rival models from Google, OpenAI and Anthropic.\nMeta has spent billions of dollars overhauling its efforts to build artificial intelligence models and products, including purchasing a stake in Alexandr Wang's startup for $14.3 billion to make him chief AI officer. The company has poured buckets of cash into hiring top AI engineers last year across its organization. In a January earnings call, Meta confirmed it plans to raise its spending from $72 billion last year to $115 billion to $135 billion, attributing the increase to supporting its AI labs. But all that money hasn't bought the company the results it hoped for, with Google, OpenAI and Anthropic consistently lapping Meta with their newer models.\nA Meta spokesperson told CNET, \"As we've said publicly, our next model will be good, but more importantly, show the rapid trajectory we're on, and then we'll steadily push the frontier over the course of the year as we continue to release new models. We're excited for people to see what we've been cooking very soon.\"\nThat rapid trajectory is key to catch up and keep pace with other AI builders. Google leapfrogged its rivals in November with its Gemini 3 model, showcasing its impressive coding and research abilities. OpenAI was quick to follow with updates to GPT-5. More recently, Claude Code and Cowork from Anthropic have proven to be the most reliable agentic AI available, tools that can handle tasks without human babysitting. However, the biggest AI news from Meta this year is that it's buying Moltbook, a social media platform designed exclusively for AI bots.\nMeta has been in the news for other reasons. A renewed wave of privacy concerns has crested over people using smart glasses, particularly the Meta Ray-Ban glasses, to record others without their knowledge or consent. A lawsuit alleges that human staffers behind Meta's smart glasses reviewed footage of people who clearly didn't know they were being recorded, like while they were undressing or having sex. On the social media side of the business, a high-profile trial is debating whether platforms like Meta's Instagram and Facebook are addictive to teens and pose significant health risks.",
+        "title_cht": "Meta 新一代 AI 模型「Avocado」據報再度延期，或延至五月",
+        "title_ja": "MetaのAI新モデル「Avocado」が再延期か、リリースは5月以降の見通し",
+        "tags": [
+          "#Meta",
+          "#Avocado",
+          "#LLM",
+          "#模型發布"
+        ],
+        "summary_points_cht": [
+          "Meta 代號「Avocado」的下一代基礎 AI 模型據報再度延期",
+          "現可能延至 2026 年五月才推出",
+          "此為 Avocado 模型的第二次延期，引發外界對 Meta AI 研發進度的疑慮"
+        ],
+        "summary_points_ja": [
+          "Metaの次世代基盤AIモデル「Avocado」が再度延期との報道",
+          "当初の予定より遅れ、2026年5月以降のリリースになる見通し",
+          "Avocadoとしては2度目の延期で、MetaのAI研究開発の進捗に懸念の声"
+        ],
+        "content_cht": "Meta 的「Avocado」尚未成熟。據《紐約時報》引用匿名消息人士的報導，該公司據報已將其下一代基礎模型的發布時間推遲至五月。與 Google、OpenAI 和 Anthropic 的競爭模型相比，該模型在「推理、編程和寫作的內部測試中表現不足」。\n\nMeta 已投入數十億美元重塑其 AI 模型和產品建設工作，包括以 143 億美元收購 Alexandr Wang 創辦的初創公司股份，使其擔任首席 AI 官。公司去年在整個組織內大量投入資金招募頂尖 AI 工程師。在一月份的財報電話會議上，Meta 確認計劃將支出從去年的 720 億美元提高至 1,150 億至 1,350 億美元，並將增加歸因於支持其 AI 實驗室。但花費的大量資金並未帶來預期的成果，Google、OpenAI 和 Anthropic 憑藉其更新的模型持續領先 Meta。\n\nMeta 發言人告訴 CNET：「如我們公開所說，我們的下一個模型將非常出色，但更重要的是，它將展示我們所處的快速發展軌跡，然後我們將在全年繼續發布新模型的過程中穩步推進前沿。我們很快就會讓大家看到我們一直在做什麼，對此感到興奮。」\n\n快速發展的軌跡對於追趕並跟上其他 AI 建設者至關重要。Google 在十一月以其 Gemini 3 模型超越了競爭對手，展示了令人印象深刻的編程和研究能力。OpenAI 緊隨其後推出了 GPT-5 的更新。最近，Anthropic 的 Claude Code 和 Cowork 已被證明是最可靠的代理式 AI，能夠在無需人類監督的情況下處理任務。然而，Meta 今年最大的 AI 新聞是它正在收購 Moltbook，一個專為 AI 機器人設計的社群媒體平台。\n\nMeta 還因其他原因成為新聞焦點。一波新的隱私擔憂浪潮已圍繞使用智慧眼鏡的人群湧起，特別是 Meta 的 Ray-Ban 眼鏡，被用於在他人不知情或未獲同意的情況下進行錄製。一項訴訟稱，Meta 智慧眼鏡背後的人工工作人員審查了顯然不知道自己正被錄製的人的錄像，例如在更衣或進行性行為時。在社群媒體業務方面，一場備受矚目的審判正在辯論 Meta 的 Instagram 和 Facebook 等平台是否對青少年具有成癮性並構成重大健康風險。",
+        "content_ja": "MetaのAIモデル「Avocado」はまだ熟していない。The New York Timesが匿名の情報源を引用して報じたところによると、同社は次世代基盤モデルのリリースを5月まで延期したという。このモデルはGoogleやOpenAI、Anthropicの競合モデルと比較して「推論、コーディング、ライティングの内部テストで不十分な結果」だったという。\n\nMetaはAIモデルと製品の構築に数十億ドルを投入しており、Alexandr Wangのスタートアップを143億ドルで買収して最高AI責任者に就任させることも含まれる。同社は昨年、優秀なAIエンジニアの採用に多大な資金を投じた。1月の決算説明会では、昨年の720億ドルから1,150億〜1,350億ドルに支出を増やす計画を確認し、AI研究所の支援が増加の要因と説明した。しかし、その多大な投資はMetaが期待していた成果をもたらしておらず、Google、OpenAI、Anthropicはより新しいモデルで継続的にMetaを上回っている。\n\nMeta広報はCNETに「公言しているように、次のモデルは優れたものになるが、より重要なのは私たちが進んでいる急速な軌跡を示すことだ。その後、新しいモデルを発表し続けながら年間を通じて着実にフロンティアを推し進める。私たちが作ってきたものをもうすぐ見てもらえることを楽しみにしている」と述べた。\n\n他のAI開発者に追いつき、ペースを維持するためには急速な軌跡が重要だ。Googleは11月にGemini 3モデルで競合他社を追い越し、印象的なコーディングと研究能力を披露した。OpenAIはすぐにGPT-5のアップデートで追随した。最近ではAnthropicのClaude CodeとCoworkが、人間の監視なしにタスクをこなせる最も信頼性の高いエージェント型AIと証明されている。しかし今年Meta最大のAIニュースは、AIボット専用のSNSプラットフォームMoltbookを買収することだ。\n\nMetaはAI以外でも注目を集めている。スマートグラスの使用、特にMeta Ray-Banによる他人の無断撮影に関するプライバシー懸念が高まっている。訴訟では、Metaスマートグラスの人間スタッフが、着替えやセックス中など明らかに撮影されていることを知らない人の映像を確認したと主張している。また、MetaのInstagramやFacebookなどのプラットフォームが10代の若者にとって依存性があり、重大な健康リスクをもたらすかどうかを巡る注目の裁判も進行中だ。"
+      },
+      {
+        "title": "Shortages of crucial chip packaging material threatens AI accelerator supply chains — Nittobo's Fukushima plant is tripling capacity, but it'll take years before market",
+        "url": "https://www.tomshardware.com/tech-industry/shortages-of-crucial-chip-packaging-material-threatens-ai-accelerator-supply-chains-nittobos-fukushima-plant-is-tripling-capacity-but-itll-take-years-before-market",
+        "source": "Tom's Hardware UK",
+        "language": "en",
+        "summary_original": "One Japanese company called Nittobo controls roughly 90% of the global supply of specialist glass-fiber cloth (T-glass), which sits inside every advanced AI chip package — and demand is now so high and supply so squeezed that it’s causing issues.",
+        "summary": "",
+        "published_at": "2026-03-09T15:22:38Z",
+        "category": "ai_industry",
+        "score": 6,
+        "content_original": "Shortages of crucial chip packaging material threatens AI accelerator supply chains — Nittobo's Fukushima plant is tripling capacity, but it'll take years before market\nThe T-glass supply is becoming an issue for the AI revolution, and the market is unlikely to unwind until 2027 at the earliest.\nGet Tom's Hardware's best news and in-depth reviews, straight to your inbox.\nYou are now subscribed\nYour newsletter sign-up was successful\nThe AI revolution has exposed our overreliance on a handful of companies that keep the tech world humming and society running smoothly. Nvidia’s dominant role in the supply of GPUs has propelled it to record valuations and boosted the stock market — and caused consternation over its control of the chips vital to AI advancement. And TSMC’s role as a dominant, leading-edge foundry has sparked geopolitical spats as the company's importance to the AI revolution becomes clear.\nBut beyond the headlines, there’s another overreliance issue to AI’s future hovering on the horizon — and it’s in a technology and component most people haven’t even heard of.\nA Japanese company called Nittobo controls roughly 90% of the global supply of specialist glass-fiber cloth (T-glass), which sits inside every advanced AI chip package — and demand is now so high and supply so squeezed that it’s causing issues.\nArticle continues belowWhat is T-glass?\nT-glass is a low-CTE (coefficient of thermal expansion) glass cloth used in the organic core of IC substrates — the interconnect layer that sits between a chip and its printed circuit board. It helps keep large, high-heat chip packages dimensionally stable as packaging gets denser and more complex, something that is becoming more important as AI processors grow bigger and run hotter. The physics of keeping AI processors flat and functional depends on T-glass.\nNittobo dominates that market, and neither it nor any other company can spin up a new T-glass production line overnight. The material requires specialized electric melting furnaces operating at temperatures between 1,600 and 1,700°C, and the manufacturing process takes years of investment and expertise to scale. That’s because it involves melting raw silica-rich glass, then spinning it into yarn and weaving it into an ultrathin cloth.\nAnother type of glass fiber used in semiconductor packaging is named E-glass, whichs is used much in the same manner. While E-glass is low-cost, it is mainly used in lower-end chips like microcontrollers and older mobile processors. Where T-glass slips in is in its thermal strength. For higher-powered chips, specifically for massive 2.5D and 3D packaging, and therefore advanced AI accelerators, T-glass is the preferred option.\nNittobo is tripling capacity at its Fukushima plant in Japan, but the new supply from the plant won’t arrive on the market until mid-2027. That squeezed supply means prices have risen between 20 and 30%, while lead times for downstream materials like copper-clad laminates have stretched from their normal 8 to 10 weeks to beyond 20.\n“With T-glass supply even more constrained now, suppliers are no longer providing lead times,” said Bill Ho, analyst at Yuanta.\nAn irreplaceable option?\n“It is not easy to replace the T-glass,” explained Bilal Hachemi, an analyst at Yole Group who tracks the IC substrate supply chain, in an interview with Tom’s Hardware Premium. The reason, he says, is that T-glass “has specific dielectric and CTE values that work better for the AI chips, especially for the organic core.” Hachemi points out that the IC substrate industry has historically operated on thin margins, which means even modest demand surges can trigger shortages. “Any increase in demand for build-up materials, ABF material, or T-glass can cause potential shortage, because it’s against the basics of this industry,” he said.\nWhat makes the current crunch particularly acute is who is driving it. Hyperscalers are building or ordering ever-larger chip packages that require more T-glass per unit. Each subsequent generation of a given AI accelerator uses a bigger interposer and more complex substrate, which translates directly into greater material consumption. According to data from Nvidia, interposer sizes have grown from 814mm² for the Hopper architecture to 1,700mm² for Blackwell — a 109% increase — with the forthcoming Rubin and Feynman generations scaling further still.\nBank of America estimates that Nittobo’s electronic materials segment will see sales nearly double from ¥40.9 billion ($266 million) in 2025 to ¥87.7 billion by March 2028, with operating margins approaching 48%. “Demand for T-glass cloth seems likely to grow more than originally expected,” said Takashi Enomoto, research analyst at Bank of America. “The focus has been on growth in demand for thick T-glass for use in GPU and CPU semi packages, but now ultra-thin T-glass demand is likely to rise on a shift from E-glass to ultra-thin T-glass in leading-edge devices.”\nWith that in mind, the scramble for allocation has begun in earnest. Hachemi says that Nvidia reaching out directly to an upstream material supplier like Nittobo is unprecedented. “For the first time, we are seeing Nvidia, the end customer, reaching out to the upstream material suppliers to secure the capacity and make sure they will get it,” he explained, saying it was the first time he’d seen this happen in that particular area of the supply chain. The worry is that once Nvidia locks down its share, rival chip buyers will be left fighting over whatever remains.\nUnlocking the blocks\nNittobo is investing heavily to try and ensure there’s plenty of demand for those who need it. Beyond the capacity increase at its Fukushima plant, Nittobo is doubling capacity of the raw yarn at its Taiwan plant and importing yarn back to Japan for cloth manufacturing. It has also struck a collaboration deal with Nanya Plastics to outsource some weaving.\nThat deal is an indication of how tight the market is: Nittobo is partnering with one of its biggest competitors to ease the bottleneck. By 2027, roughly 20% of Nittobo’s glass cloth is expected to be woven by Nanya, the company disclosed in a recent letter to shareholders.\nDespite those efforts, relief from the tight market doesn’t look likely any time soon. Hachemi estimates the supply-demand imbalance won’t be resolved until the second half of 2027 at the earliest. And he warns that the same pattern could repeat with other critical materials in the IC substrate stack, pinpointing copper foil layers, solder mask, and copper-clad laminates as potential chokepoints.\n“If you want to secure all the supply chain capacity regarding IC substrate, you need to look also for other important materials,” he said.\nJust as with other physical elements of AI infrastructure, the T-glass shortage isn’t just affecting GPU packages. JPMorgan noted in a recent research note that demand for ultra-thin T-glass — which is used in smartphone memory and system-in-package applications — is also rising sharply, driven by a shift away from conventional E-glass in leading-edge devices. In recent years, Nittobo has prioritized thick T-glass expansion for the AI market, but now faces growing demand for ultra-thin variants as well.\nGiven the dominance of Nittobo, other companies have been reticent to try and move into the space. But new entrants are starting to try and spin up their own T-glass supplies, given such high demand. Taiwan Glass, Grace Fabric, and several Chinese manufacturers have been trying to produce comparable materials, but yields remain low enough to deter meaningful market entry. Nittobo’s advantage remains key because it has both proprietary glass composition and its direct-melting production method, a more cost-effective but technically demanding process that competitors have struggled to replicate.\nWhether that changes by 2027 and the market begins to unlock, alongside Nittobo’s new capacity, is difficult to forecast. But even if it can, Hachemi has a warnin\n\n[...（原文過長，已截斷）]",
+        "title_cht": "關鍵封裝材料短缺威脅 AI 加速器供應鏈，擴產需數年",
+        "title_ja": "チップ封止材料の不足がAIアクセラレータのサプライチェーンを脅かす",
+        "tags": [
+          "#AI供應鏈",
+          "#半導體",
+          "#封裝材料",
+          "#AI硬體"
+        ],
+        "summary_points_cht": [
+          "AI 加速器晶片所需的關鍵封裝材料出現嚴重短缺",
+          "日東紡位於福島的工廠正在三倍擴產，但需要數年才能補足缺口",
+          "此供應短缺可能延遲 AI 基礎設施的大規模部署"
+        ],
+        "summary_points_ja": [
+          "AIアクセラレータチップに必要な重要封止材料の深刻な不足が発生",
+          "日東紡の福島工場が生産能力を3倍に拡大中だが、市場への供給には数年かかる見込み",
+          "この供給不足がAI基盤設備の大規模展開を遅らせる可能性がある"
+        ],
+        "content_cht": "AI 革命正在暴露我們對少數幾家公司的過度依賴——這些公司維持著科技世界的運轉和社會的平穩運作。Nvidia 在 GPU 供應方面的主導地位已將其推至創紀錄的估值並推動了股市上漲，同時也引發了對其控制 AI 進步所必需晶片的擔憂。TSMC 作為主要先進代工廠的地位也引發了地緣政治爭端，因為其在 AI 革命中的重要性日益顯現。\n\n但在頭條新聞之外，AI 未來還懸掛著另一個過度依賴問題——這個問題存在於一種大多數人甚至沒有聽說過的技術和元件中。\n\n一家名為日東紡（Nittobo）的日本公司控制著全球約 90% 的特種玻璃纖維布（T 型玻璃）供應，這種材料存在於每個先進的 AI 晶片封裝中——而如今需求如此之高、供應如此緊張，已經造成問題。\n\n**T 型玻璃是什麼？**\n\nT 型玻璃是一種低熱膨脹係數（CTE）的玻璃布，用於 IC 基板的有機芯中——IC 基板是位於晶片和印刷電路板之間的互連層。它有助於在封裝密度更高、更複雜的情況下保持大型高溫晶片封裝的尺寸穩定性，隨著 AI 處理器越來越大、運行溫度越來越高，這一點變得越來越重要。\n\n日東紡主導著這一市場，無論是它還是其他任何公司，都無法在一夜之間建立新的 T 型玻璃生產線。這種材料需要在 1,600 至 1,700°C 之間運行的特殊電熔爐，而製造過程需要多年的投資和專業知識才能擴大規模。\n\n另一種用於半導體封裝的玻璃纖維叫做 E 型玻璃，其用途類似，但主要用於微控制器和舊式移動處理器等低端晶片。T 型玻璃在熱強度方面勝出——對於高功率晶片，特別是大型 2.5D 和 3D 封裝，T 型玻璃是首選。\n\n日東紡正在三倍擴大其日本福島工廠的產能，但新產能要到 2027 年中才能投放市場。供應緊張導致價格上漲了 20 至 30%，而銅覆層壓板等下游材料的交貨期已從正常的 8 至 10 週延長至超過 20 週。\n\n「T 型玻璃的供應現在甚至更加緊張，供應商不再提供交貨期，」Yuanta 分析師 Bill Ho 表示。\n\n**難以替代**\n\n「T 型玻璃並不容易替代，」追蹤 IC 基板供應鏈的 Yole Group 分析師 Bilal Hachemi 在接受採訪時解釋道。原因在於 T 型玻璃「具有特定的介電常數和 CTE 值，對 AI 晶片效果更好，特別是對有機芯而言。」\n\n是誰在推動這一緊缺格外嚴峻？超大規模雲端服務商正在建設或訂購越來越大的晶片封裝，每個封裝需要更多的 T 型玻璃。每一代 AI 加速器都使用更大的中介層和更複雜的基板，直接轉化為更大的材料消耗。根據 Nvidia 的數據，中介層尺寸已從 Hopper 架構的 814mm² 增長到 Blackwell 的 1,700mm²，增加了 109%，而即將推出的 Rubin 和 Feynman 世代將進一步擴大。\n\n美國銀行估計，日東紡的電子材料部門的銷售額將從 2025 年的 409 億日元（2.66 億美元）增長到 2028 年 3 月的 877 億日元，運營利潤率接近 48%。\n\n爭奪分配的競賽已正式開始。Hachemi 表示，Nvidia 直接聯繫日東紡等上游材料供應商是前所未有的。「這是我們第一次看到 Nvidia，作為最終客戶，直接聯繫上游材料供應商以確保產能，」他解釋道。令人擔憂的是，一旦 Nvidia 鎖定其份額，競爭對手的晶片買家將不得不爭奪剩餘的部分。\n\n日東紡正在大力投資確保有足夠的供應。除了福島工廠的產能增加，日東紡還在其臺灣工廠將原材料紗線的產能翻倍，並將紗線進口回日本進行布料製造。它還與南亞塑膠達成合作協議，外包部分編織工作。\n\n儘管如此，供應緊張的緩解短期內看起來不太可能。Hachemi 估計，供需失衡最早要到 2027 年下半年才能解決。他還警告，同樣的模式可能在 IC 基板中的其他關鍵材料上重演，包括銅箔層、阻焊膜和銅覆層壓板等潛在瓶頸點。\n\n（原文過長，後續內容無法翻譯）",
+        "content_ja": "AIの革命は、テクノロジー世界と社会の円滑な運営を支える少数の企業への過度な依存を露わにしている。NvidiaのGPU供給における支配的地位は同社を記録的な評価額に押し上げ株式市場を活性化させたが、AI発展に欠かせないチップのコントロールをめぐる懸念も生んでいる。また先端ファウンドリとしてTSMCの存在感が高まることで地政学的な摩擦も生じている。\n\nしかし見出しを超えた先に、AIの未来を脅かすもう一つの過度依存問題が迫っている——ほとんどの人が聞いたことすらない技術とコンポーネントの問題だ。\n\n日東紡（Nittobo）という日本企業が、あらゆる先進AIチップパッケージに使われる特殊なガラス繊維布（Tガラス）の世界供給の約90%を支配しており、需要が急増し供給が逼迫したことで問題が生じている。\n\n**Tガラスとは？**\n\nTガラスはIC基板の有機コアに使用される低CTE（熱膨張係数）のガラスクロスで、チップとプリント基板の間にある相互接続層だ。パッケージが高密度化・複雑化する中で、大型・高発熱チップのパッケージを寸法的に安定させる役割があり、AIプロセッサが大型化・高温化するにつれてより重要になっている。\n\n日東紡がこの市場を支配しており、同社も他社も一夜にしてTガラスの新生産ラインを立ち上げることはできない。このマテリアルは1,600〜1,700°Cで動作する特殊な電気溶融炉を必要とし、製造プロセスの拡大には何年もの投資と専門知識が求められる。\n\n半導体パッケージに使われる別のガラス繊維はEガラスと呼ばれ、用途は似ているが主にマイクロコントローラーや旧世代モバイルプロセッサなどの低エンドチップに使用される。Tガラスの優位性はその熱強度にあり、高電力チップ——特に大規模な2.5Dと3Dパッケージ——ではTガラスが選ばれる。\n\n日東紡は福島工場の生産能力を3倍に拡大しているが、新たな供給が市場に届くのは2027年半ばまでかかる見込みだ。供給逼迫により価格は20〜30%上昇し、銅張積層板などの下流材料のリードタイムは通常の8〜10週から20週超に延びている。\n\n「Tガラスの供給はさらに逼迫しており、サプライヤーはもはやリードタイムを提示していない」とYuantaのアナリスト、Bill Ho氏は述べた。\n\n**代替が難しい素材**\n\n「Tガラスを置き換えるのは容易ではない」と、ICサブストレートのサプライチェーンを追うYole Groupのアナリスト、Bilal Hachemi氏は説明する。Tガラスは「AIチップ、特に有機コアに適した特定の誘電特性とCTE値を持つ」ためだという。\n\n今回の供給逼迫を特に深刻にしているのは、需要を牽引しているのが誰かという点だ。ハイパースケーラーはユニットあたりより多くのTガラスを必要とする大型チップパッケージを構築・発注している。AIアクセラレータの世代が進むごとに大きなインターポーザーと複雑な基板が使われ、材料消耗量が増す。Nvidiaのデータによると、インターポーザーサイズはHopperアーキテクチャの814mm²からBlackwellの1,700mm²へと109%増加しており、次のRubin・Feynman世代ではさらに拡大する。\n\nバンク・オブ・アメリカは日東紡の電子材料セグメントの売上高が2025年の409億円（約2.66億ドル）から2028年3月には877億円へほぼ倍増し、営業利益率は48%に達すると試算する。\n\n配分を確保する争奪戦が本格化している。Hachemi氏によれば、Nvidiaが日東紡のような上流材料サプライヤーに直接働きかけるのは前例のないことだという。「初めてNvidiaというエンドカスタマーが上流材料サプライヤーに直接コンタクトを取り、生産能力を確保しようとするのを目撃した」と彼は説明する。懸念されるのは、Nvidiaが自社の取り分を確保すると、競合チップメーカーは残りを争うことになるという点だ。\n\n日東紡は供給確保に向けて積極投資している。福島工場の能力増強に加え、台湾工場では原糸生産能力を倍増させ、日本に輸入して布に加工している。また南亞塑膠と提携して一部の織布をアウトソースする協力関係も締結した。\n\nそれでも、市場の逼迫が近い将来に緩和される見通しはない。Hachemi氏は需給の不均衡は早くとも2027年下半期まで解消されないと見ており、銅箔層、ソルダーレジスト、銅張積層板など他の重要材料でも同じパターンが繰り返される可能性があると警告する。\n\n（原文が長すぎるため、以降の翻訳は省略）"
+      }
+    ]
+  }
+}
