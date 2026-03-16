@@ -408,7 +408,9 @@ def build_scoring_prompt(date: str = None) -> str:
 每個元素必須包含以下欄位：
   key, score, title_cht, title_ja, tags, summary_points_cht, summary_points_ja
 
-⚠️ 嚴格要求：<result> 標籤外不得有任何文字或說明。"""
+⚠️ 嚴格要求：
+- <result> 標籤外不得有任何文字或說明
+- JSON 字符串值中若含引號，必須轉義為 \\\"（或改用「」代替）"""
 
 
 def build_translation_prompt(date: str = None) -> str:
@@ -475,7 +477,9 @@ def build_translation_prompt(date: str = None) -> str:
 請翻譯每篇文章的全文，並在 <result></result> 標籤內輸出 JSON 陣列。
 每個元素必須包含以下欄位：key, content_cht, content_ja
 
-⚠️ 嚴格要求：<result> 標籤外不得有任何文字或說明。"""
+⚠️ 嚴格要求：
+- <result> 標籤外不得有任何文字或說明
+- JSON 字符串值中若含引號，必須轉義為 \\\"（或改用「」代替）"""
 
 
 def get_status(date: str = None) -> dict:
@@ -517,13 +521,25 @@ if __name__ == "__main__":
     elif cmd == "save-scores":
         json_file = sys.argv[3]
         with open(json_file, encoding="utf-8-sig") as f:
-            results = json.load(f)
+            raw = f.read()
+        try:
+            results = json.loads(raw)
+        except json.JSONDecodeError:
+            import json_repair
+            results = json_repair.loads(raw)
+            print(f"⚠️  JSON 自動修復（輕微格式錯誤）")
         save_scores(date_arg, results)
 
     elif cmd == "save-batch":
         json_file = sys.argv[3]
         with open(json_file, encoding="utf-8-sig") as f:
-            results = json.load(f)
+            raw = f.read()
+        try:
+            results = json.loads(raw)
+        except json.JSONDecodeError:
+            import json_repair
+            results = json_repair.loads(raw)
+            print(f"⚠️  JSON 自動修復（輕微格式錯誤）")
         save_batch(date_arg, results)
 
     elif cmd == "finalize":

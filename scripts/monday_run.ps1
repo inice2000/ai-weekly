@@ -7,6 +7,8 @@ $ErrorActionPreference = "SilentlyContinue"
 # 設定控制台編碼為 UTF-8，確保中日文 prompt 正確傳遞給 claude
 [Console]::InputEncoding  = [System.Text.Encoding]::UTF8
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+# claude 輸出按行拆成陣列，管道時須用此變數控制編碼
+$OutputEncoding = [System.Text.Encoding]::UTF8
 
 $jst = [System.TimeZoneInfo]::FindSystemTimeZoneById("Tokyo Standard Time")
 
@@ -21,7 +23,9 @@ function Log($msg) {
 }
 
 # ── 提取 claude 輸出中的 <result>...</result> 內容 ───────────
-function Extract-Result($text) {
+# 注意：PowerShell 捕獲外部程式輸出時會按行拆成陣列，必須先 -join 合併
+function Extract-Result($output) {
+    $text = if ($output -is [array]) { $output -join "`n" } else { $output }
     if ($text -match '(?s)<result>\s*(.*?)\s*</result>') {
         return $matches[1].Trim()
     }
