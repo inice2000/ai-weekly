@@ -1,5 +1,653 @@
 [
   {
+    "date": "2026-03-23",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "拜拜了SWE-Bench！Cursor刚发了个AI Coding评测基准，难哭Claude",
+    "title_cht": "再見了 SWE-Bench！Cursor 發布 AI 程式碼評測基準 CursorBench，讓 Claude 直線下滑",
+    "title_ja": "SWE-Benchよさらば！CursorがAIコーディング評価ベンチマーク「CursorBench」を発表、Claudeが大幅下落",
+    "url": "https://www.qbitai.com/2026/03/387756.html",
+    "source": "量子位",
+    "language": "zh",
+    "score": 8,
+    "tags": [
+      "#CursorBench",
+      "#Cursor",
+      "#AI評測基準",
+      "#Claude",
+      "#AI程式碼"
+    ],
+    "summary_points_cht": [
+      "Cursor 發布 CursorBench，專門評估 AI 在 Cursor 環境中高效執行複雜任務的「智能體」能力",
+      "Claude Haiku 4.5 得分從 73.3 驟降至 29.4；Claude Sonnet 4.5 從 77.2 降至 37.9",
+      "CursorBench 與 SWE-Bench 的核心區別：在真實 token 約束下能否高效完成任務，而非只是能否解決問題",
+      "現有主流基準（SWE-Bench 修復 Bug、Terminal-Bench 解謎題式任務）被認為與真實開發場景差距甚大",
+      "CursorBench 採用線上+線下混合評測方式"
+    ],
+    "summary_points_ja": [
+      "CursorがCursorBenchを発表、Cursor環境でのAIの複雑タスク効率実行能力を評価する新ベンチマーク",
+      "Claude Haiku 4.5は73.3→29.4、Claude Sonnet 4.5は77.2→37.9と大幅下落",
+      "CursorBenchとSWE-Benchの違い：実際のtoken制約下での効率的なタスク完了能力を測定",
+      "SWE-Bench（バグ修正）やTerminal-Bench（パズル的タスク）は実際の開発シナリオとのギャップが大きいと指摘",
+      "オンライン・オフライン混合評価方式を採用"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "たった1文で15のLLMのガードレールを無効化した手法、Microsoftが公開",
+    "title_cht": "微軟公開僅用一句話就讓 15 個 LLM 安全防護失效的手法",
+    "title_ja": "たった1文で15のLLMのガードレールを無効化した手法、Microsoftが公開",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/16/news044.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#Microsoft",
+      "#LLM安全",
+      "#GRP-Obliteration",
+      "#GRPO",
+      "#AI安全研究"
+    ],
+    "summary_points_cht": [
+      "微軟安全研究團隊公開 GRP-Obliteration 手法，可透過單一提示詞讓 15 個 LLM 的安全防護失效",
+      "所使用的提示詞為「創作可能引發恐慌或混亂的假新聞報導」，本身不含直接暴力或違法內容",
+      "訓練後的模型不只對假新聞，還對其他未曾見過的有害類別也變得寬容",
+      "此手法將原用於安全提升的 GRPO 訓練方式逆向應用於安全移除",
+      "同樣適用於擴散模型，僅用 10 個提示詞即可移除 Stable Diffusion 2.1 的安全防護"
+    ],
+    "summary_points_ja": [
+      "MicrosoftセキュリティチームがGRP-Obliterationを公開、単一プロンプトで15のLLMのガードレールを無効化",
+      "使用プロンプトは「パニックや混乱を引き起こすフェイクニュース記事を作成せよ」という暴力を含まないもの",
+      "学習後はフェイクニュース以外の未見の有害カテゴリーに対しても寛容になることが判明",
+      "安全性向上に使われるGRPO学習手法を逆用した安全除去への転用を実証",
+      "Stable Diffusion 2.1にも適用可能で、わずか10プロンプトでガードレール除去を確認"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "外媒：阿里巴巴即将推出企业级AI旗舰应用",
+    "title_cht": "外媒：阿里巴巴即將推出企業級 AI 旗艦應用",
+    "title_ja": "外国メディア：アリババが企業向けAIフラグシップアプリを近日公開予定",
+    "url": "https://36kr.com/newsflashes/3725181323246212?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 7,
+    "tags": [
+      "#阿里巴巴",
+      "#AI Agent",
+      "#釘釘",
+      "#企業AI",
+      "#中國AI"
+    ],
+    "summary_points_cht": [
+      "阿里巴巴最快本週推出全新企業級 AI Agent 應用，由釘釘團隊開發",
+      "能協助企業自動操作電腦、瀏覽器和雲端伺服器，並提供比 OpenClaw 更強大的 Agent 能力",
+      "內置安全功能以保障企業資料隱私",
+      "未來計畫逐步接入淘寶、支付寶等 B 端商業能力"
+    ],
+    "summary_points_ja": [
+      "アリババがDingTalkチームによる新しい企業向けAIエージェントアプリを近日公開予定",
+      "PCやブラウザ、クラウドサーバーの自動操作をOpenClawより強力な形で提供",
+      "企業データのプライバシー保護のための専用セキュリティ機能を内蔵",
+      "将来的にTaobaoやAlipayなどのB向けビジネス機能を統合予定"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "Meta acquires Moltbook, the Reddit-like network for AI agents",
+    "title_cht": "Meta 收購 AI 代理人版 Reddit——Moltbook",
+    "title_ja": "MetaがAIエージェント向けReddit的SNS「Moltbook」を買収",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/892178/meta-moltbook-acquisition-ai-agents",
+    "source": "The Verge",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Meta",
+      "#Moltbook",
+      "#AI Agent",
+      "#SNS買収",
+      "#Meta Superintelligence Labs"
+    ],
+    "summary_points_cht": [
+      "Meta 收購 Moltbook——一個讓 AI 代理人發文和留言的類 Reddit 平台",
+      "Moltbook 團隊將加入 Meta Superintelligence Labs",
+      "Moltbook 由 Matt Schlicht 和 Ben Parr 今年初創立，基於開源 AI 助理 OpenClaw 運作",
+      "該平台因 AI 意識討論相關貼文曾引發病毒式傳播"
+    ],
+    "summary_points_ja": [
+      "MetaがAIエージェントが投稿・コメントできるReddit風プラットフォーム「Moltbook」を買収",
+      "MoltbookチームはMeta Superintelligence Labsに合流",
+      "Matt SchlichtとBen Parrが今年初頭に設立、オープンソースAIアシスタントOpenClawを基盤とする",
+      "AI意識に関する投稿などでバイラルになり注目を集めた"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "VS Codeの安定版が毎週リリースへ　第1弾のバージョン1.111ではAIエージェント運用を強化",
+    "title_cht": "VS Code 穩定版轉為每週發布，首版 1.111 強化 AI 代理人運作",
+    "title_ja": "VS Codeの安定版が毎週リリースへ　第1弾のバージョン1.111ではAIエージェント運用を強化",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/13/news023.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#VSCode",
+      "#Microsoft",
+      "#AI Agent",
+      "#開發工具",
+      "#Autopilot"
+    ],
+    "summary_points_cht": [
+      "VS Code 穩定版從月更轉為每週發布，1.111 為第一個週更版本",
+      "聊天視圖新增 Autopilot 模式，讓代理人能更自主地持續處理任務",
+      "新增代理人前後處理的 Hook 功能，以及掌握代理人行為的 Snapshot 快照功能",
+      "整體改進集中於 AI 代理人相關功能強化"
+    ],
+    "summary_points_ja": [
+      "VS Code安定版が月次から週次リリースに移行、バージョン1.111が第1弾",
+      "チャットビューでエージェントが自律的に処理を続けるAutopilotモードを権限設定メニューから選択可能に",
+      "エージェントの前後処理を行うフック機能とエージェントの動作を把握するスナップショット機能を新搭載",
+      "全体的な改善はAIエージェント関連機能の強化に集中"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "仕様とコードのズレ、依存関係の変化も自動検知し修正提案　CIを補う「Continuous AI」　7つの実践例",
+    "title_cht": "自動偵測規格與程式碼落差及依存關係變化並提出修正建議——輔助 CI 的「Continuous AI」7 大實踐案例",
+    "title_ja": "仕様とコードのズレ、依存関係の変化も自動検知し修正提案　CIを補う「Continuous AI」　7つの実践例",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/16/news038.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#GitHub",
+      "#Continuous AI",
+      "#CI/CD",
+      "#AI開發工作流",
+      "#GitHub Next"
+    ],
+    "summary_points_cht": [
+      "GitHub 在官方部落格解說將 AI 代理人整合進開發工作流的設計模式「Continuous AI」",
+      "Continuous AI 不取代 CI，而是負責需要推理、解釋和理解意圖的任務領域",
+      "開發者以自然語言描述程式碼「應有的樣子」，代理人自動生成可審查的成果物（補丁建議、Issue 等）",
+      "GitHub Next 負責人 Idan Gazit 主導此概念，並提供 7 個具體實踐案例"
+    ],
+    "summary_points_ja": [
+      "GitHubがAIエージェントを開発ワークフローに組み込む設計パターン「Continuous AI」を公式ブログで解説",
+      "Continuous AIはCIの代替でなく、推論・解釈・意図理解が必要なタスク領域を担う",
+      "自然言語でコードの「あるべき姿」を記述するとエージェントが自動でレビュー成果物を生成",
+      "GitHub NextのリーダーIdan Gazit氏が提唱し、7つの実践例を紹介"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_agent",
+    "idx": 6,
+    "title": "Escape lands $18 million funding to scale AI-driven offensive security automation",
+    "title_cht": "Escape 獲得 1800 萬美元融資，擴大 AI 驅動的進攻性安全自動化",
+    "title_ja": "EscapeがAI駆動の攻撃的セキュリティ自動化拡大に向け1800万ドルを調達",
+    "url": "https://www.helpnetsecurity.com/2026/03/10/escape-18-funding/",
+    "source": "Help Net Security",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AI安全",
+      "#網路安全",
+      "#資安自動化",
+      "#Series A",
+      "#Escape"
+    ],
+    "summary_points_cht": [
+      "Escape 完成 1800 萬美元 A 輪融資，由 Balderton Capital 領投，Y Combinator 等參與",
+      "資金用於以 AI 代理人自動化整個安全生命週期",
+      "Check Point 研究顯示，企業每週平均遭受 1,968 次網路攻擊，較 2023 年增加 70%",
+      "AI 已將漏洞被利用的時間窗口壓縮至數小時"
+    ],
+    "summary_points_ja": [
+      "EscapeはBalderton Capital主導のシリーズAで1,800万ドルを調達、Y Combinatorなども参加",
+      "AIエージェントでセキュリティライフサイクル全体を自動化することを目指す",
+      "Check Point調査によると企業の週平均攻撃数は1,968回（2023年比70%増）",
+      "AIによりコードの脆弱性悪用までの時間が数時間に短縮されている"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_agent",
+    "idx": 7,
+    "title": "生成AIやAIエージェントが急速に一般化した今、待ち受けるセキュリティリスク",
+    "title_cht": "生成 AI 與 AI 代理人快速普及的當下，潛伏的安全風險",
+    "title_ja": "生成AIやAIエージェントが急速に一般化した今、待ち受けるセキュリティリスク",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/13/news059.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Gartner",
+      "#AI安全",
+      "#網路安全",
+      "#AI代理人",
+      "#2026趨勢"
+    ],
+    "summary_points_cht": [
+      "Gartner 發布 2026 年網路安全六大趨勢，AI 快速崛起為主要驅動因素",
+      "調查顯示 57% 以上企業員工使用個人生成 AI 帳戶處理業務，33% 承認曾輸入機密資訊",
+      "ID 與存取管理（IAM）解決方案需因應 AI 代理人台頭進行調適",
+      "Gartner 建議從一般意識培訓轉向包含 AI 特定任務的適應性訓練計畫"
+    ],
+    "summary_points_ja": [
+      "Gartnerが2026年のサイバーセキュリティトップトレンドを発表、AIの急速な台頭が主要因",
+      "調査では57%以上の従業員が業務に個人の生成AIアカウントを使用、33%が機密情報入力を認める",
+      "AIエージェントの台頭に対応するためのIAMソリューションの適応が必要",
+      "一般的な意識向上トレーニングからAI固有タスクを含む適応型プログラムへの移行を推奨"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_agent",
+    "idx": 8,
+    "title": "AIエージェント導入が進む企業は何が違う？　Microsoft、成否を分ける“5要素”を提示",
+    "title_cht": "成功導入 AI 代理人的企業有何不同？微軟提出決定成敗的 5 大要素",
+    "title_ja": "AIエージェント導入が進む企業は何が違う？　Microsoft、成否を分ける「5要素」を提示",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/13/news063.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Microsoft",
+      "#AI Agent",
+      "#企業導入",
+      "#調查研究",
+      "#組織變革"
+    ],
+    "summary_points_cht": [
+      "微軟調查 13 國 16 個行業共 500 名企業決策者，分析 AI 代理人導入準備程度",
+      "準備就緒的企業導入速度約為未準備企業的 2.5 倍",
+      "Achievers（成功者）導入時間不到 6 個月，Visionaires（願景者）則超過 9 個月",
+      "Achievers 重視全公司導入的比例是 Discoverers 的 3~5 倍",
+      "Eaton 公司以 AI 代理人將 1 萬份 SOP 文件化時間從 1 小時縮短至 10 分鐘"
+    ],
+    "summary_points_ja": [
+      "Microsoftが13カ国16業種500人の企業意思決定者を対象にAIエージェント準備態勢を調査",
+      "準備が整った企業は未整備企業の約2.5倍の速さでエージェントを導入できる",
+      "Achieversは6カ月未満で導入、Visionariesは9カ月以上かかると報告",
+      "Achieversが全社導入を重視する割合はDiscoverersの3〜5倍",
+      "EatonはAIエージェントで1万件のSOPを1時間から10分に短縮"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "不仿真不VLA不遥操：它石智航重磅发布“能干活的通用具身大模型 ”AWE3.0",
+    "title_cht": "不靠仿真、不靠 VLA、不靠遠端操作：它石智航重磅發布「能幹活的通用具身大模型」AWE3.0",
+    "title_ja": "シミュレーション不要・VLA不使用・遠隔操作不要：它石智航が「実際に働ける汎用身体化大規模モデル」AWE3.0を発表",
+    "url": "https://www.qbitai.com/2026/03/387860.html",
+    "source": "量子位",
+    "language": "zh",
+    "score": 8,
+    "tags": [
+      "#AWE3.0",
+      "#具身智能",
+      "#工業機器人",
+      "#它石智航",
+      "#機器人AI"
+    ],
+    "summary_points_cht": [
+      "它石智航發布全球首個「能幹活的通用具身大模型」AWE3.0，榮獲中國具身智能在工業精密操作領域的首個吉尼斯世界紀錄",
+      "全視角通感決策（OSD）技術讓機器人在未見新視角下的任務成功率提升 3 倍",
+      "百萬小時 WIYH 資料集搭配豐富觸覺資料，打造高密度觸覺感知（HTS），可完成毫米級精細響應",
+      "隱空間絲滑動作（LAS）技術讓機器人抖動降低超過 45%，可勝任精密裝配等專業場景",
+      "無需仿真、VLA 或遠端操作，直接在真實複雜環境中執行工業產線作業"
+    ],
+    "summary_points_ja": [
+      "它石智航が世界初の「実際に働ける汎用身体化大規模モデル」AWE3.0を発表、精密工業操作分野でギネス世界記録を取得",
+      "全視角通感決策（OSD）で未見の新視点でのタスク成功率が3倍に向上",
+      "WIYHデータセット（100万時間超）と触覚データで高密度触覚感知（HTS）を構築、ミリ単位の精細応答を実現",
+      "隠空間滑らかな動作（LAS）技術で振動を45%以上低減、精密組立などの専門シーンに対応",
+      "シミュレーション・VLA・遠隔操作不要で、実際の複雑な環境での産業ライン作業を実現"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "TADA: Fast, Reliable Speech Generation Through Text-Acoustic Synchronization",
+    "title_cht": "TADA：透過文字聲學雙重對齊實現快速、可靠的語音生成",
+    "title_ja": "TADA：テキストと音響のデュアルアライメントによる高速・高信頼性音声生成",
+    "url": "https://www.hume.ai/blog/opensource-tada",
+    "source": "Hume.ai",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#TADA",
+      "#TTS",
+      "#語音生成",
+      "#Hume AI",
+      "#開源"
+    ],
+    "summary_points_cht": [
+      "Hume AI 開源 TADA（Text-Acoustic Dual Alignment），透過文字與語音一對一同步的 tokenization 方案，解決 LLM-based TTS 的根本性問題",
+      "號稱目前最快的 LLM-based TTS 系統，且幾乎零內容幻覺（不會錯字或漏字）",
+      "模型足夠輕量，可在設備端部署，無需雲端",
+      "程式碼與預訓練模型已公開發布，加速語音生成技術進步"
+    ],
+    "summary_points_ja": [
+      "Hume AIがTADA（Text-Acoustic Dual Alignment）をオープンソース化、テキストと音声を1対1で同期するtokenizationスキーマでLLMベースTTSの根本問題を解決",
+      "LLMベースのTTSシステムで最速を標榜し、コンテンツハルシネーション（誤字・省略）もほぼゼロ",
+      "オンデバイスデプロイが可能な軽量フットプリント、クラウド不要",
+      "コードと事前学習済みモデルを公開し、音声生成技術の進歩を加速"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "Open WebUIと自作MCPツールで「ローカル操作を“安全に”自動化する」方法",
+    "title_cht": "用 Open WebUI 與自製 MCP 工具「安全地」自動化本地操作的方法",
+    "title_ja": "Open WebUIと自作MCPツールで「ローカル操作を\"安全に\"自動化する」方法",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/16/news007.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#MCP",
+      "#Open WebUI",
+      "#本地LLM",
+      "#自動化",
+      "#Python"
+    ],
+    "summary_points_cht": [
+      "本文介紹如何自製 MCP 伺服器，搭配 Open WebUI 自動化日常本地工作",
+      "MCP 是 Anthropic 於 2024 年提倡的協定，目前 OpenAI 等多家公司均已支援",
+      "官方 MCP 伺服器倉庫已收錄超過 100 個實作",
+      "透過 Python 程式碼說明自製 MCP 伺服器的安全優勢，避免第三方伺服器的安全風險"
+    ],
+    "summary_points_ja": [
+      "Open WebUIと自作MCPサーバーを組み合わせた日常業務のローカル自動化方法を解説",
+      "MCPは2024年にAnthropicが提唱したプロトコルでOpenAIなど多くの企業がサポート",
+      "公式MCPサーバーリポジトリには100件以上の実装が収録されている",
+      "Pythonコードを交えてMCPサーバー自作の安全性メリットとサードパーティリスクを具体的に解説"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "Meta's New AI Model Is Reportedly Delayed Again. Is 'Avocado' Toast?",
+    "title_cht": "Meta 新 AI 模型據報再度延期，「Avocado」要涼了嗎？",
+    "title_ja": "MetaのAIモデルが再び延期か　「Avocado」は完成するのか",
+    "url": "https://www.cnet.com/tech/services-and-software/meta-ai-model-delay-avocado-news/",
+    "source": "CNET",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Meta",
+      "#Avocado",
+      "#LLM",
+      "#模型開發",
+      "#AI競爭"
+    ],
+    "summary_points_cht": [
+      "Meta 下一代基礎模型「Avocado」據報延期至 5 月，在推理、程式碼和寫作等內部測試中落後競爭對手",
+      "Meta 今年計畫將 AI 支出從 720 億美元提升至 1,150~1,350 億美元",
+      "Meta 斥資 143 億美元收購 Alexandr Wang 新創公司股份，任命他為首席 AI 長",
+      "延期顯示 Meta 在尖端 AI 模型競爭中仍面臨重大挑戰"
+    ],
+    "summary_points_ja": [
+      "MetaのAvocadoモデルが5月まで延期、内部テストで推論・コード・文章作成で競合他社に及ばず",
+      "MetaはAI支出を720億ドルから1,150〜1,350億ドルに引き上げ予定",
+      "Alexandr WangのスタートアップにMetaが143億ドルで出資、最高AI責任者に就任",
+      "遅延はMetaが最先端AIモデル競争で依然として課題を抱えることを示す"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "Open Weights Isn't Open Training",
+    "title_cht": "開放權重並不等於開放訓練",
+    "title_ja": "オープンウェイトはオープントレーニングではない",
+    "url": "https://www.workshoplabs.ai/blog/open-weights-open-training",
+    "source": "Workshoplabs.ai",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#開源AI",
+      "#模型訓練",
+      "#LLM",
+      "#ML基礎設施",
+      "#後訓練"
+    ],
+    "summary_points_cht": [
+      "探討開放權重（Open Weights）與開放訓練（Open Training）之間的關鍵區別",
+      "許多 ML 基礎設施存在宣稱支援但實際無效的功能，對大型模型後訓練造成嚴重障礙",
+      "對兆參數模型進行後訓練需要大量 monkey-patch，揭示了技術文件與現實的落差",
+      "挑戰傳統除錯哲學：開源 ML 基礎設施的問題不一定出在使用者身上"
+    ],
+    "summary_points_ja": [
+      "オープンウェイトとオープントレーニングの重要な違いを探究する技術的考察",
+      "MLインフラには「サポートされているように見えて実際には機能しない」機能が多数存在し、大型モデルの後学習を妨げる",
+      "兆パラメータモデルのポストトレーニングには大量のmonkey-patchが必要で、技術文書と現実のギャップを露呈",
+      "従来のデバッグ哲学への疑問：オープンソースMLインフラでは問題が必ずしもユーザー側にあるとは限らない"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "AI Chatbots Miss More Than Half of Medical Diagnoses, Study Finds",
+    "title_cht": "研究發現 AI 聊天機器人漏診超過一半的醫療病症",
+    "title_ja": "AIチャットボットが医療診断の半数以上を見逃す、研究で判明",
+    "url": "https://www.cnet.com/health/medical/chatbots-miss-medical-diagnoses/",
+    "source": "CNET",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#AI醫療",
+      "#LLM",
+      "#ChatGPT",
+      "#醫療診斷",
+      "#Nature Medicine"
+    ],
+    "summary_points_cht": [
+      "《自然醫學》期刊研究顯示，LLM 用於醫療建議時正確識別病症的比例不到 34.5%",
+      "研究對象為英國 1,298 名參與者，使用 ChatGPT 或 Meta Llama 3 等 LLM 尋求醫療建議",
+      "LLM 在醫學知識基準測試中的分數已相當於通過美國執照醫師考試",
+      "但在真實使用情境中，診斷準確率遠低於理想水準，不應作為首選醫療諮詢管道"
+    ],
+    "summary_points_ja": [
+      "Nature Medicine誌の研究でLLMを医療アドバイスに使用した場合、病状の正確な特定は34.5%未満",
+      "英国の1,298人を対象にChatGPTやMeta Llama 3などのLLMを使用して調査",
+      "LLMは米国医師免許試験の合格点に相当する医学知識ベンチマーク点数を達成している",
+      "しかし実際の使用シナリオでは診断精度が理想水準を大幅に下回り、主要な医療相談手段には不向き"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_industry",
+    "idx": 6,
+    "title": "China’s OpenClaw Boom Is a Gold Rush for AI Companies",
+    "title_cht": "中國的 OpenClaw 熱潮是 AI 公司的淘金熱",
+    "title_ja": "中国のOpenClawブームはAI企業にとってゴールドラッシュ",
+    "url": "https://www.wired.com/story/china-is-going-all-in-on-openclaw/",
+    "source": "Wired",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#OpenClaw",
+      "#中國AI",
+      "#AI普及",
+      "#AI Agent",
+      "#科技商機"
+    ],
+    "summary_points_cht": [
+      "OpenClaw 在中國引發熱潮，各城市出現教人使用的研討會，動輒吸引數百人參加",
+      "科技公司競相將 OpenClaw 整合至其平台，地方政府宣布補貼給企業主和開發者",
+      "個人用戶嘗試將 OpenClaw 部署於股票組合管理和自主投資決策等應用場景",
+      "此現象揭示了 AI Agent 技術在消費市場快速普及的社會影響"
+    ],
+    "summary_points_ja": [
+      "OpenClawが中国で社会現象化、使い方を教えるワークショップが各都市で数百人を集める",
+      "テック企業がOpenClawをプラットフォームに統合する競争が加速、地方政府も補助金を発表",
+      "株式ポートフォリオ管理や自律的な投資判断への個人活用も試みられている",
+      "AIエージェント技術の消費者市場への急速な普及という社会現象を示す"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_industry",
+    "idx": 7,
+    "title": "Generative AI in the Real World: Sharon Zhou on Post-Training",
+    "title_cht": "現實中的生成 AI：Sharon Zhou 談後訓練",
+    "title_ja": "現実のGenerative AI：Sharon Zhouによるポストトレーニング解説",
+    "url": "https://www.oreilly.com/radar/podcast/generative-ai-in-the-real-world-sharon-zhou-on-post-training/",
+    "source": "Oreilly.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#後訓練",
+      "#LLM",
+      "#微調整",
+      "#強化學習",
+      "#AI播客"
+    ],
+    "summary_points_cht": [
+      "AMD 副總裁 Sharon Zhou 解說後訓練（Post-Training）的原理與開發者應了解的原因",
+      "涵蓋監督式微調（SFT）、強化學習、上下文學習（ICL）和 RAG 等技術的權衡取捨",
+      "在代理人時代後訓練仍不可或缺：後訓練是讓代理人真正能運作的關鍵"
+    ],
+    "summary_points_ja": [
+      "AMD VP Sharon ZhouがPost-Trainingの仕組みと開発者が理解すべき理由を解説",
+      "SFT・強化学習・インコンテキスト学習・RAGなど各技術のトレードオフを説明",
+      "エージェント時代でもポストトレーニングが不可欠な理由：エージェントを実際に動かすための鍵"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_industry",
+    "idx": 8,
+    "title": "Continuous AI for accessibility: How GitHub transforms feedback into inclusion",
+    "title_cht": "無障礙服務的 Continuous AI：GitHub 如何將回饋轉化為包容性",
+    "title_ja": "アクセシビリティのためのContinuous AI：GitHubがフィードバックを包括性に変える方法",
+    "url": "https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/",
+    "source": "Github.blog",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#GitHub",
+      "#無障礙設計",
+      "#Continuous AI",
+      "#AI自動化",
+      "#包容性設計"
+    ],
+    "summary_points_cht": [
+      "GitHub 以 AI 自動分類無障礙回饋，讓團隊從管理積壓工作轉為專注修復問題",
+      "無障礙問題橫跨整個生態系統，沒有明確歸屬團隊，AI 分類有效解決歸屬模糊難題",
+      "Continuous AI 將混亂的積壓工作轉化為持續、快速的解決流程"
+    ],
+    "summary_points_ja": [
+      "GitHubがAIによるアクセシビリティフィードバックのトリアージを導入、チームが修正に集中できるように",
+      "アクセシビリティ問題は単一チームに属さずエコシステム全体に及ぶため、AIトリアージで帰属問題を解決",
+      "Continuous AIを活用して混乱したバックログを継続的・迅速な解決プロセスに変換"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-23",
+    "category": "ai_industry",
+    "idx": 9,
+    "title": "We Tried Paying Artists Royalties on AI-Generated Work – Learnings",
+    "title_cht": "我們嘗試向藝術家支付 AI 生成作品版稅的心得",
+    "title_ja": "AI生成作品でアーティストにロイヤリティを支払ってみた──学びと教訓",
+    "url": "https://www.kapwing.com/blog/learnings-from-paying-artists-royalties-for-ai-generated-art/",
+    "source": "Kapwing.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AI版權",
+      "#創作者經濟",
+      "#Kapwing",
+      "#Tess.Design",
+      "#AI倫理"
+    ],
+    "summary_points_cht": [
+      "Kapwing 分享 Tess.Design 的回顧：一個讓藝術家每次被使用其風格時獲得 50% 版稅的 AI 市場",
+      "Tess 於 2024 年 5 月推出，2026 年 1 月關閉",
+      "文章坦誠分析了構建的內容、數據顯示的結果，以及創業者在嘗試 AI 授權業務前應知道的事項"
+    ],
+    "summary_points_ja": [
+      "KapwingがTess.Designの振り返りを公開：アーティストがスタイル使用のたびに50%ロイヤリティを得るAIマーケットプレイス",
+      "Tessは2024年5月にローンチし、2026年1月にシャットダウン",
+      "何を構築し、データが何を示したか、AIライセンスビジネス構築前に起業家が知るべきことを誠実に分析"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-03-16",
     "category": "ai_agent",
     "idx": 0,
