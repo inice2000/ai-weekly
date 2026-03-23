@@ -55,12 +55,8 @@ if (-not (Test-Path "data\filtered.json")) {
     exit 1
 }
 
-# 讀取 .env 環境變數
-Get-Content "C:\Users\inice\claudeAgent\.env" | ForEach-Object {
-    if ($_ -match "^\s*([^#][^=]+)=(.+)$") {
-        [System.Environment]::SetEnvironmentVariable($matches[1].Trim(), $matches[2].Trim())
-    }
-}
+# .env 讀取已移除：不再需要載入環境變數
+# claude -p 直接使用 Claude 訂閱，不需要 API key
 
 # ── 階段一：評分（一次完成全部文章）─────────────────────────
 $statusJson = python scripts/ai_score.py status $today | ConvertFrom-Json
@@ -94,9 +90,11 @@ if ($statusJson.phase -eq "scoring") {
     }
 }
 
-# ── 階段二：翻譯（分批循環）─────────────────────────────────
-$maxBatches = 15
+# ── 階段二：翻譯（逐篇循環，避免 claude -p 輸出截斷）─────────
+$maxBatches = 30
 $batchCount = 0
+$failCount = 0
+$maxFails = 3    # 連續失敗超過此數則中止
 
 while ($batchCount -lt $maxBatches) {
     $statusJson = python scripts/ai_score.py status $today | ConvertFrom-Json
@@ -104,9 +102,10 @@ while ($batchCount -lt $maxBatches) {
     if ($statusJson.phase -eq "done" -or $statusJson.phase -ne "translating") { break }
 
     $batchCount++
-    Log "翻譯第 $batchCount 批（剩餘 $($statusJson.pending_count) 篇）"
+    Log "翻譯第 $batchCount 篇（剩餘 $($statusJson.pending_count) 篇）"
 
-    $prompt = python scripts/ai_score.py translation-prompt $today
+    # 使用 single-translation-prompt：每次只翻譯 1 篇
+    $prompt = python scripts/ai_score.py single-translation-prompt $today
     if (-not $prompt) {
         Log "翻譯 prompt 為空，可能已全部完成"
         break
@@ -120,11 +119,19 @@ while ($batchCount -lt $maxBatches) {
         $json | Out-File -Encoding utf8 "data\_batch_temp.json"
         python scripts/ai_score.py save-batch $today data\_batch_temp.json
         Remove-Item "data\_batch_temp.json" -ErrorAction SilentlyContinue
-        Log "第 $batchCount 批儲存完成"
+        Log "第 $batchCount 篇翻譯完成"
+        $failCount = 0
     } else {
-        Log "警告：第 $batchCount 批輸出中找不到 <result> 標籤，跳過"
-        Log "claude 原始輸出前 500 字：$($output.Substring(0, [Math]::Min(500, $output.Length)))"
-        break
+        $failCount++
+        Log "警告：第 $batchCount 篇輸出中找不到 <result> 標籤（連續失敗 $failCount 次）"
+        if ($output) {
+            $preview = if ($output -is [array]) { ($output -join "`n").Substring(0, [Math]::Min(500, ($output -join "`n").Length)) } else { $output.Substring(0, [Math]::Min(500, $output.Length)) }
+            Log "claude 原始輸出前 500 字：$preview"
+        }
+        if ($failCount -ge $maxFails) {
+            Log "錯誤：連續失敗 $maxFails 次，中止翻譯"
+            break
+        }
     }
 }
 

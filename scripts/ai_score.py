@@ -413,8 +413,9 @@ def build_scoring_prompt(date: str = None) -> str:
 - JSON 字符串值中若含引號，必須轉義為 \\\"（或改用「」代替）"""
 
 
-def build_translation_prompt(date: str = None) -> str:
-    """生成階段二當前批次翻譯的完整 prompt，供 claude -p 調用。"""
+def build_translation_prompt(date: str = None, single: bool = False) -> str:
+    """生成階段二當前批次翻譯的完整 prompt，供 claude -p 調用。
+    single=True 時只取 1 篇文章，避免 claude -p 輸出截斷。"""
     if not date:
         date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     filtered = load_filtered()
@@ -432,25 +433,37 @@ def build_translation_prompt(date: str = None) -> str:
         for idx, a in enumerate(articles):
             article_map[f"{cat}/{idx}"] = a
 
-    # 與 show_next_batch 相同的分批邏輯
-    batch = []
-    accumulated = 0
-    for key in pending_keys:
+    # single 模式：只取第一篇待翻譯文章
+    if single:
+        key = pending_keys[0]
         a = article_map.get(key, {})
-        orig_len = len(a.get("content_original", ""))
-        if orig_len > LONG_ARTICLE_CHARS and batch:
-            break
-        batch.append({
+        batch = [{
             "key": key,
             "language": a.get("language", ""),
             "title": a.get("title", ""),
             "content_original": a.get("content_original", ""),
-        })
-        accumulated += orig_len
-        if orig_len > LONG_ARTICLE_CHARS:
-            break
-        if accumulated >= TARGET_CHARS:
-            break
+        }]
+        accumulated = len(a.get("content_original", ""))
+    else:
+        # 與 show_next_batch 相同的分批邏輯
+        batch = []
+        accumulated = 0
+        for key in pending_keys:
+            a = article_map.get(key, {})
+            orig_len = len(a.get("content_original", ""))
+            if orig_len > LONG_ARTICLE_CHARS and batch:
+                break
+            batch.append({
+                "key": key,
+                "language": a.get("language", ""),
+                "title": a.get("title", ""),
+                "content_original": a.get("content_original", ""),
+            })
+            accumulated += orig_len
+            if orig_len > LONG_ARTICLE_CHARS:
+                break
+            if accumulated >= TARGET_CHARS:
+                break
 
     done = len(translated)
     total = len(selected)
@@ -517,6 +530,9 @@ if __name__ == "__main__":
 
     elif cmd == "translation-prompt":
         print(build_translation_prompt(date_arg))
+
+    elif cmd == "single-translation-prompt":
+        print(build_translation_prompt(date_arg, single=True))
 
     elif cmd == "save-scores":
         json_file = sys.argv[3]
