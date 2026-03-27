@@ -1457,13 +1457,23 @@
 </div>
 
 <script>
+// URL key gate
+(function() {
+  var KEY = 'gemini2026';
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('key') !== KEY) {
+    document.body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100vh;font-family:Inter,sans-serif;color:#5F6368;font-size:18px;">此頁面需要存取金鑰。</div>';
+    return;
+  }
+})();
+
 function copyBootstrap(btn) {
   const text = document.getElementById('bootstrap-content').textContent;
   navigator.clipboard.writeText(text).then(() => {
-    btn.textContent = '已复制 ✓';
+    btn.textContent = '已複製 ✓';
     btn.classList.add('copied');
     setTimeout(() => {
-      btn.textContent = '点击复制全部';
+      btn.textContent = '點擊複製全部';
       btn.classList.remove('copied');
     }, 2000);
   });
