@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 助手從零搭建手冊 · Google Gemini CLI · macOS</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+  :root {
+    --g-blue: #4285F4;
+    --g-red: #EA4335;
+    --g-yellow: #FBBC05;
+    --g-green: #34A853;
+    --primary: #4285F4;
+    --primary-light: #E8F0FE;
+    --accent: #34A853;
+    --accent-light: #E6F4EA;
+    --success: #34A853;
+    --success-light: #E6F4EA;
+    --warning: #FBBC05;
+    --warning-light: #FEF7E0;
+    --danger: #EA4335;
+    --danger-light: #FCE8E6;
+    --text: #202124;
+    --text-secondary: #3C4043;
+    --text-muted: #5F6368;
+    --border: #DADCE0;
+    --bg: #F8F9FA;
+    --card: #FFFFFF;
+    --code-bg: #1A1A2E;
+    --code-text: #E2E8F0;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.85;
+    font-size: 16px;
+  }
+
+  /* ──────────── COVER ──────────── */
+  .cover {
+    background: linear-gradient(145deg, #1A73E8 0%, #4285F4 30%, #34A853 65%, #FBBC05 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 48px;
+    position: relative;
+    overflow: hidden;
+  }
+  .cover .orb1 {
+    position: absolute; width: 600px; height: 600px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+    top: -200px; right: -100px; pointer-events: none;
+  }
+  .cover .orb2 {
+    position: absolute; width: 500px; height: 500px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%);
+    bottom: -150px; left: -100px; pointer-events: none;
+  }
+  .cover .orb3 {
+    position: absolute; width: 300px; height: 300px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+    top: 50%; left: 15%; pointer-events: none;
+  }
+  .cover-tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.25);
+    color: rgba(255,255,255,0.95);
+    border-radius: 100px;
+    padding: 6px 22px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .cover h1 {
+    font-size: 56px;
+    font-weight: 900;
+    color: white;
+    line-height: 1.15;
+    position: relative;
+    margin-bottom: 12px;
+    letter-spacing: -0.02em;
+  }
+  .cover h1 em {
+    font-style: normal;
+    background: linear-gradient(90deg, #FDE68A 20%, #FFFFFF 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .cover-sub {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 48px;
+    position: relative;
+    letter-spacing: 0.02em;
+  }
+  .cover-pills {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .cover-pill {
+    background: rgba(255,255,255,0.14);
+    border: 1px solid rgba(255,255,255,0.22);
+    color: rgba(255,255,255,0.9);
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .cover-pill span { margin-right: 6px; }
+  .cover-free {
+    position: relative;
+    margin-top: 40px;
+    background: rgba(255,255,255,0.18);
+    border: 1.5px solid rgba(255,255,255,0.3);
+    border-radius: 16px;
+    padding: 16px 32px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .cover-free .star { font-size: 20px; margin-right: 8px; }
+
+  /* ──────────── LAYOUT ──────────── */
+  .page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 72px 48px;
+  }
+
+  /* ──────────── SECTION BREAK ──────────── */
+  .section-break {
+    border-radius: 20px;
+    padding: 40px 48px;
+    margin: 60px 0 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .sb-blue   { background: linear-gradient(135deg, #1A73E8, #4285F4); }
+  .sb-green  { background: linear-gradient(135deg, #0D652D, #34A853); }
+  .sb-yellow { background: linear-gradient(135deg, #E37400, #FBBC05); }
+  .sb-red    { background: linear-gradient(135deg, #C5221F, #EA4335); }
+  .sb-multi  { background: linear-gradient(135deg, #4285F4 0%, #34A853 50%, #FBBC05 100%); }
+  .section-break .num {
+    font-size: 56px;
+    font-weight: 900;
+    opacity: 0.2;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .section-break .info .tag {
+    background: rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.85);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 100px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+  .section-break .info h2 {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: white;
+    margin-bottom: 0;
+  }
+  .section-break .info p {
+    color: rgba(255,255,255,0.7);
+    font-size: 15px;
+    margin-top: 4px;
+  }
+
+  /* ──────────── STEP CARDS ──────────── */
+  .step {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 32px 36px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .step::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 3px;
+    background: var(--g-blue);
+  }
+  .step.green::after  { background: var(--g-green); }
+  .step.yellow::after { background: var(--g-yellow); }
+  .step.red::after    { background: var(--g-red); }
+  .step.dark::after   { background: var(--code-bg); }
+
+  .step-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--g-blue);
+    margin-bottom: 10px;
+  }
+  .step.green .step-label  { color: var(--g-green); }
+  .step.yellow .step-label { color: #E37400; }
+  .step.red .step-label    { color: var(--g-red); }
+  .step.dark .step-label   { color: #7C8CFF; }
+
+  .step h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 12px;
+  }
+  .step p, .step li {
+    color: var(--text-secondary);
+    font-size: 15.5px;
+    line-height: 1.8;
+  }
+  .step ol, .step ul { padding-left: 20px; margin-top: 10px; }
+  .step li { margin-bottom: 4px; }
+
+  /* ──────────── CODE ──────────── */
+  .code {
+    background: var(--code-bg);
+    border-radius: 14px;
+    padding: 6px 20px 20px;
+    margin: 16px 0;
+    overflow-x: auto;
+  }
+  .code-lang {
+    font-size: 13px;
+    color: #585B70;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 12px 0 8px;
+    font-family: monospace;
+  }
+  .code pre {
+    font-family: 'Menlo', 'SF Mono', 'Consolas', monospace;
+    font-size: 14.5px;
+    color: var(--code-text);
+    line-height: 1.65;
+    white-space: pre;
+  }
+  .code pre .c { color: #6C7086; font-style: italic; }
+  .code pre .s { color: #A6E3A1; }
+  .code pre .k { color: #89B4FA; }
+  .code pre .cmd { color: #89DCEB; }
+  .code pre .flag { color: #CBA6F7; }
+
+  /* ──────────── INLINE CODE ──────────── */
+  code {
+    background: var(--primary-light);
+    color: var(--primary);
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Menlo', 'SF Mono', monospace;
+    font-weight: 500;
+  }
+
+  /* ──────────── CALLOUTS ──────────── */
+  .callout {
+    border-radius: 14px;
+    padding: 18px 22px;
+    margin: 18px 0;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .callout.tip    { background: var(--success-light); border: 1px solid #81C995; }
+  .callout.warn   { background: var(--warning-light); border: 1px solid #FDD663; }
+  .callout.danger { background: var(--danger-light);  border: 1px solid #F28B82; }
+  .callout.info   { background: var(--primary-light); border: 1px solid #8AB4F8; }
+  .callout .icon  { font-size: 18px; line-height: 1.6; flex-shrink: 0; }
+  .callout .body strong { display: block; font-size: 14.5px; font-weight: 700; margin-bottom: 4px; color: var(--text); }
+  .callout .body p { font-size: 14.5px; color: #3C4043; line-height: 1.8; margin: 0; }
+
+  /* ──────────── TABLE ──────────── */
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  th {
+    background: var(--primary-light);
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 14px;
+    padding: 11px 16px;
+    text-align: left;
+    letter-spacing: 0.03em;
+  }
+  th:first-child { border-radius: 10px 0 0 10px; }
+  th:last-child  { border-radius: 0 10px 10px 0; }
+  td { padding: 11px 16px; border-bottom: 1px solid var(--border); color: var(--text-secondary); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+
+  /* ──────────── GRID ──────────── */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 20px 0; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 20px 0; }
+
+  /* ──────────── FEATURE CARD ──────────── */
+  .feat {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+  }
+  .feat .feat-icon {
+    width: 42px; height: 42px;
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+  .feat h4 { font-size: 16px; font-weight: 700; margin-bottom: 6px; color: var(--text); }
+  .feat p  { font-size: 14.5px; color: var(--text-muted); line-height: 1.8; margin: 0; }
+
+  /* ──────────── PRINCIPLE CARD ──────────── */
+  .principle {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px 32px;
+    margin-bottom: 18px;
+    display: grid;
+    grid-template-columns: 52px 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+  .principle-num {
+    width: 52px; height: 52px;
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    font-weight: 900;
+    flex-shrink: 0;
+    font-family: 'Inter', monospace;
+  }
+  .pn-blue   { background: #E8F0FE; color: #1A73E8; }
+  .pn-green  { background: #E6F4EA; color: #137333; }
+  .pn-yellow { background: #FEF7E0; color: #E37400; }
+  .pn-red    { background: #FCE8E6; color: #C5221F; }
+  .pn-purple { background: #F3E8FD; color: #7627BB; }
+  .principle h4 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+  .principle p  { font-size: 15px; color: var(--text-secondary); line-height: 1.75; margin: 0; }
+  .principle .note {
+    margin-top: 10px;
+    background: #F1F3F4;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+  .principle .note strong { color: var(--text); }
+
+  /* ──────────── FILE TREE ──────────── */
+  .tree {
+    background: #F1F3F4;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 24px;
+    font-family: 'Menlo', 'SF Mono', monospace;
+    font-size: 14.5px;
+    line-height: 2.1;
+    margin: 16px 0;
+  }
+  .tree .d { color: var(--g-blue); font-weight: 600; }
+  .tree .f { color: var(--text-secondary); }
+  .tree .cm { color: #9AA0A6; font-style: italic; font-size: 14px; }
+
+  /* ──────────── FLOW ──────────── */
+  .flow {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin: 24px 0;
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+  .flow-item {
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    white-space: nowrap;
+  }
+  .flow-item.hi { background: var(--primary-light); border-color: var(--primary); color: var(--primary); }
+  .flow-arr { color: #DADCE0; font-size: 20px; padding: 0 6px; flex-shrink: 0; }
+
+  /* ──────────── FAQ ──────────── */
+  .faq { border: 1px solid var(--border); border-radius: 16px; overflow: hidden; margin-bottom: 12px; }
+  .faq-q {
+    background: var(--card);
+    padding: 18px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .faq-q .q-badge {
+    background: var(--primary-light);
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 800;
+    padding: 2px 8px;
+    border-radius: 6px;
+    flex-shrink: 0;
+  }
+  .faq-a {
+    background: #FAFAFA;
+    border-top: 1px solid var(--border);
+    padding: 16px 24px;
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.75;
+  }
+  .faq-a ol, .faq-a ul { padding-left: 18px; margin-top: 8px; }
+  .faq-a li { margin-bottom: 4px; }
+
+  /* ──────────── BOOTSTRAP BOX ──────────── */
+  .bootstrap {
+    background: var(--code-bg);
+    border-radius: 20px;
+    padding: 32px 36px;
+    margin: 24px 0;
+    position: relative;
+  }
+  .bootstrap-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .bootstrap-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #89B4FA;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .bootstrap-hint {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.6);
+    font-size: 13px;
+    padding: 6px 14px;
+    border-radius: 100px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s, color 0.2s;
+  }
+  .bootstrap-hint:hover {
+    background: rgba(255,255,255,0.18);
+    color: white;
+  }
+  .bootstrap-hint.copied {
+    background: rgba(52,168,83,0.3);
+    border-color: rgba(52,168,83,0.6);
+    color: #81C995;
+  }
+  .bootstrap pre {
+    font-family: 'Menlo', 'SF Mono', monospace;
+    font-size: 14px;
+    color: #E2E8F0;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    word-break: break-word;
+    max-height: 420px;
+    overflow-y: auto;
+  }
+  .bootstrap pre::-webkit-scrollbar { width: 6px; }
+  .bootstrap pre::-webkit-scrollbar-track { background: transparent; }
+  .bootstrap pre::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }
+
+  /* ──────────── COMPARISON TABLE ──────────── */
+  .cmp-table { margin: 20px 0; }
+  .cmp-table th { font-size: 14px; }
+  .cmp-table .highlight { background: #E6F4EA; font-weight: 600; color: #137333; }
+
+  /* ──────────── FOOTER ──────────── */
+  .footer {
+    text-align: center;
+    padding: 60px 0 48px;
+    color: var(--text-muted);
+    font-size: 14px;
+    border-top: 1px solid var(--border);
+    margin-top: 60px;
+  }
+  .footer strong { color: var(--text); }
+
+  /* ──────────── TYPOGRAPHY ──────────── */
+  h2 { font-size: 26px; font-weight: 800; color: var(--text); margin-bottom: 16px; letter-spacing: -0.02em; }
+  h3 { font-size: 17px; font-weight: 700; color: var(--text); margin: 24px 0 10px; }
+  p  { color: var(--text-secondary); margin-bottom: 12px; font-size: 16px; }
+
+  /* ──────────── TOC ──────────── */
+  .toc-link { color: var(--text); text-decoration: none; transition: color 0.15s; }
+  .toc-link:hover { color: var(--primary); }
+  .toc-link:hover span { background: var(--primary); color: white; }
+  .toc-link span { transition: background 0.15s, color 0.15s; }
+
+  /* ──────────── DIVIDER ──────────── */
+  .hr { height: 1px; background: var(--border); margin: 56px 0; }
+
+  /* ──────────── GOOGLE DOTS ──────────── */
+  .g-dots { display: flex; gap: 6px; justify-content: center; margin: 24px 0; }
+  .g-dots span { width: 8px; height: 8px; border-radius: 50%; }
+  .g-dots .db { background: #4285F4; }
+  .g-dots .dr { background: #EA4335; }
+  .g-dots .dy { background: #FBBC05; }
+  .g-dots .dg { background: #34A853; }
+</style>
+</head>
+<body>
+
+<!-- ═══════════ COVER ═══════════ -->
+<div class="cover">
+  <div class="orb1"></div>
+  <div class="orb2"></div>
+  <div class="orb3"></div>
+  <div class="cover-tag">零基礎入門 · macOS · Google Gemini CLI</div>
+  <h1>打造你的<br><em>AI 私人助手</em></h1>
+  <p class="cover-sub">有記憶 · 有原則 · 能操作電腦 · 越用越懂你</p>
+  <div class="cover-pills">
+    <div class="cover-pill"><span>🍎</span>macOS</div>
+    <div class="cover-pill"><span>✨</span>Google Gemini CLI</div>
+    <div class="cover-pill"><span>👤</span>無需程式設計經驗</div>
+    <div class="cover-pill"><span>⏱️</span>約 20 分鐘完成</div>
+  </div>
+  <div class="cover-free">
+    <span class="star">🎁</span> 完全免費 — 個人 Google 賬號即可使用，無需 API Key，無需付費
+  </div>
+  <div style="position:relative; margin-top: 40px; color: rgba(255,255,255,0.5); font-size: 14px; letter-spacing: 0.04em;">
+    由 <strong style="color:rgba(255,255,255,0.8);">澄澄</strong> 整理 &nbsp;·&nbsp; 2026 年 3 月 27 日
+  </div>
+</div>
+
+<!-- ═══════════ TOC ═══════════ -->
+<div class="page" style="padding-top:60px;padding-bottom:60px;">
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:36px;">
+    <span style="background:var(--primary);color:white;font-size: 13px;font-weight:700;padding:5px 14px;border-radius:100px;letter-spacing:0.1em;text-transform:uppercase;">目錄</span>
+    <h2 style="font-size: 28px;font-weight:800;letter-spacing:-0.02em;">全部章節</h2>
+  </div>
+  <ol style="list-style:none;">
+    <li style="display:flex;align-items:center;padding:14px 0;border-bottom:1px solid var(--border);font-size: 16px;">
+      <a href="#ch1" class="toc-link" style="display:flex;align-items:center;text-decoration:none;color:inherit;width:100%;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;background:#E8F0FE;color:#1A73E8;font-size: 13px;font-weight:700;width:32px;height:32px;border-radius:8px;margin-right:16px;flex-shrink:0;">01</span>
+        這套系統能做什麼？
+      </a>
+    </li>
+    <li style="display:flex;align-items:center;padding:14px 0;border-bottom:1px solid var(--border);font-size: 16px;">
+      <a href="#ch2" class="toc-link" style="display:flex;align-items:center;text-decoration:none;color:inherit;width:100%;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;background:#E6F4EA;color:#137333;font-size: 13px;font-weight:700;width:32px;height:32px;border-radius:8px;margin-right:16px;flex-shrink:0;">02</span>
+        安裝準備（Node.js · Gemini CLI）
+      </a>
+    </li>
+    <li style="display:flex;align-items:center;padding:14px 0;border-bottom:1px solid var(--border);font-size: 16px;">
+      <a href="#ch3" class="toc-link" style="display:flex;align-items:center;text-decoration:none;color:inherit;width:100%;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;background:#FEF7E0;color:#E37400;font-size: 13px;font-weight:700;width:32px;height:32px;border-radius:8px;margin-right:16px;flex-shrink:0;">03</span>
+        登入 Google 賬號
+      </a>
+    </li>
+    <li style="display:flex;align-items:center;padding:14px 0;border-bottom:1px solid var(--border);font-size: 16px;">
+      <a href="#ch4" class="toc-link" style="display:flex;align-items:center;text-decoration:none;color:inherit;width:100%;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;background:#FCE8E6;color:#C5221F;font-size: 13px;font-weight:700;width:32px;height:32px;border-radius:8px;margin-right:16px;flex-shrink:0;">04</span>
+        建立專案 · 搭建檔案結構
+      </a>
+    </li>
+    <li style="display:flex;align-items:center;padding:14px 0;border-bottom:1px solid var(--border);font-size: 16px;">
+      <a href="#ch5" class="toc-link" style="display:flex;align-items:center;text-decoration:none;color:inherit;width:100%;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;background:#F3E8FD;color:#7627BB;font-size: 13px;font-weight:700;width:32px;height:32px;border-radius:8px;margin-right:16px;flex-shrink:0;">05</span>
+        一鍵初始化（Bootstrap Prompt）
+      </a>
+    </li>
+    <li style="display:flex;align-items:center;padding:14px 0;border-bottom:1px solid var(--border);font-size: 16px;">
+      <a href="#ch6" class="toc-link" style="display:flex;align-items:center;text-decoration:none;color:inherit;width:100%;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;background:#E8F0FE;color:#1A73E8;font-size: 13px;font-weight:700;width:32px;height:32px;border-radius:8px;margin-right:16px;flex-shrink:0;">06</span>
+        開始使用 · 日常技巧
+      </a>
+    </li>
+    <li style="display:flex;align-items:center;padding:14px 0;border-bottom:1px solid var(--border);font-size: 16px;">
+      <a href="#ch7" class="toc-link" style="display:flex;align-items:center;text-decoration:none;color:inherit;width:100%;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;background:#E6F4EA;color:#137333;font-size: 13px;font-weight:700;width:32px;height:32px;border-radius:8px;margin-right:16px;flex-shrink:0;">07</span>
+        五大核心工作原則
+      </a>
+    </li>
+    <li style="display:flex;align-items:center;padding:14px 0;font-size: 16px;">
+      <a href="#ch8" class="toc-link" style="display:flex;align-items:center;text-decoration:none;color:inherit;width:100%;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;background:#FEF7E0;color:#E37400;font-size: 13px;font-weight:700;width:32px;height:32px;border-radius:8px;margin-right:16px;flex-shrink:0;">08</span>
+        常見問題 · 三大 Agent 對比
+      </a>
+    </li>
+  </ol>
+</div>
+
+<!-- ═══════════ MAIN ═══════════ -->
+<div class="page">
+
+  <!-- ──── CH 1 ──── -->
+  <div class="section-break sb-blue" id="ch1">
+    <div class="num">01</div>
+    <div class="info">
+      <span class="tag">第一章</span>
+      <h2>這套系統能做什麼？</h2>
+      <p>在開始安裝前，先了解你即將擁有的是什麼。</p>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="feat">
+      <div class="feat-icon" style="background:#E8F0FE;">🧠</div>
+      <h4>長期記憶</h4>
+      <p>記住你的偏好和過往經驗，下次對話無需重複說明，越用越懂你。</p>
+    </div>
+    <div class="feat">
+      <div class="feat-icon" style="background:#E6F4EA;">💻</div>
+      <h4>操作電腦</h4>
+      <p>整理檔案、瀏覽器自動化、批次處理圖片、編寫指令碼執行任務……</p>
+    </div>
+    <div class="feat">
+      <div class="feat-icon" style="background:#FEF7E0;">📚</div>
+      <h4>積累經驗</h4>
+      <p>每次解決問題後自動總結，遇到同類問題直接調取歷史經驗，不重複踩坑。</p>
+    </div>
+    <div class="feat">
+      <div class="feat-icon" style="background:#FCE8E6;">🔒</div>
+      <h4>安全底線</h4>
+      <p>危險操作必須經過你確認，不會亂刪檔案，不洩露你的敏感資訊。</p>
+    </div>
+  </div>
+
+  <div class="callout tip">
+    <div class="icon">🎁</div>
+    <div class="body">
+      <strong>完全免費</strong>
+      <p>Gemini CLI 使用個人 Google 賬號即可免費使用 Gemini 2.5 Pro 模型，擁有 100 萬 token 超大上下文視窗。不需要繫結信用卡，不需要充值。這是三大 CLI Agent 中唯一完全免費的選項。</p>
+    </div>
+  </div>
+
+  <div class="g-dots"><span class="db"></span><span class="dr"></span><span class="dy"></span><span class="dg"></span></div>
+
+  <!-- ──── CH 2 ──── -->
+  <div class="section-break sb-green" id="ch2">
+    <div class="num">02</div>
+    <div class="info">
+      <span class="tag">第二章</span>
+      <h2>安裝準備</h2>
+      <p>只需要安裝兩個東西：Node.js 和 Gemini CLI。</p>
+    </div>
+  </div>
+
+  <!-- 写给零基础读者 -->
+  <div style="background: linear-gradient(135deg, #E8F0FE, #E6F4EA); border: 1.5px solid #8AB4F8; border-radius: 20px; padding: 32px 36px; margin-bottom: 40px;">
+    <div style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #1A73E8; margin-bottom: 14px;">寫給零基礎讀者</div>
+    <h2 style="font-size: 20px; font-weight: 800; margin-bottom: 16px; color: #202124;">什麼是終端（Terminal）？</h2>
+    <p style="color: #3C4043; font-size: 15.5px; line-height: 1.8; margin-bottom: 14px;">
+      在這份手冊裡，你會經常看到「在終端中輸入命令」。<strong style="color:#202124;">終端（Terminal）</strong>就是一個純文字的操作介面，你輸入一行指令，電腦就執行對應的操作——可以理解為「用打字代替滑鼠點選」。
+    </p>
+    <p style="color: #3C4043; font-size: 15.5px; line-height: 1.8; margin-bottom: 20px;">
+      macOS 自帶終端應用，叫「<strong style="color:#202124;">Terminal</strong>」。你也可以安裝更好用的 <strong style="color:#202124;">iTerm2</strong>（免費），但系統自帶的完全夠用。
+    </p>
+    <div style="background: white; border-radius: 12px; padding: 18px 22px; border: 1px solid #DADCE0;">
+      <div style="font-size: 13px; font-weight: 700; color: #1A73E8; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 10px;">如何開啟終端</div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; font-size: 14.5px; color: #3C4043;">
+        <div style="padding: 10px 14px; background: #F8F9FA; border-radius: 8px; border: 1px solid #DADCE0;">
+          <strong style="display:block; margin-bottom:4px; color:#202124;">方法一（推薦）</strong>
+          按 <code>Cmd + 空格</code> 開啟 Spotlight，輸入 <code>Terminal</code>，按回車
+        </div>
+        <div style="padding: 10px 14px; background: #F8F9FA; border-radius: 8px; border: 1px solid #DADCE0;">
+          <strong style="display:block; margin-bottom:4px; color:#202124;">方法二</strong>
+          開啟 Finder → 應用程式 → 實用工具 → 終端
+        </div>
+      </div>
+    </div>
+    <p style="color: #5F6368; font-size: 14px; margin-top: 14px; margin-bottom: 0;">
+      開啟後你會看到一個白色或黑色視窗，游標在閃爍等待輸入。直接把手冊中的命令複製貼上進去，按回車執行就行了。
+    </p>
+  </div>
+
+  <div class="step green">
+    <div class="step-label">步驟 1</div>
+    <h3>安裝 Node.js</h3>
+    <p>Gemini CLI 需要 Node.js 22 或更高版本。macOS 推薦用 Homebrew 安裝：</p>
+    <div class="code">
+      <div class="code-lang">Terminal</div>
+      <pre><span class="c"># 如果還沒裝 Homebrew，先裝它（一行命令）</span>
+<span class="cmd">/bin/bash</span> -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+<span class="c"># 用 Homebrew 安裝 Node.js</span>
+<span class="cmd">brew</span> install node
+
+<span class="c"># 驗證安裝</span>
+<span class="cmd">node</span> <span class="flag">--version</span>   <span class="c"># 應顯示 v22.x.x 或更高</span></pre>
+    </div>
+    <div class="callout info">
+      <div class="icon">💡</div>
+      <div class="body">
+        <strong>沒裝過 Homebrew？</strong>
+        <p>Homebrew 是 macOS 的軟體包管理器，相當於 Mac 上的「應用商店命令列版」。上面的安裝命令在終端裡貼上執行就行，會自動完成所有設定。</p>
+      </div>
+    </div>
+    <p>也可以直接下載安裝包：訪問 <strong>nodejs.org</strong>，下載 macOS 版安裝包，雙擊安裝即可。</p>
+  </div>
+
+  <div class="step">
+    <div class="step-label">步驟 2</div>
+    <h3>安裝 Gemini CLI</h3>
+    <p>開啟「終端」應用（按 <code>Cmd + 空格</code>，輸入 Terminal，回車），執行：</p>
+    <div class="code">
+      <div class="code-lang">Terminal</div>
+      <pre><span class="cmd">npm</span> install -g @google/gemini-cli
+
+<span class="c"># 驗證安裝</span>
+<span class="cmd">gemini</span> <span class="flag">--version</span></pre>
+    </div>
+    <p>看到版本號說明安裝成功。</p>
+  </div>
+
+  <div class="g-dots"><span class="db"></span><span class="dr"></span><span class="dy"></span><span class="dg"></span></div>
+
+  <!-- ──── CH 3 ──── -->
+  <div class="section-break sb-yellow" id="ch3">
+    <div class="num">03</div>
+    <div class="info">
+      <span class="tag">第三章</span>
+      <h2>登入 Google 賬號</h2>
+      <p>不需要 API Key，用你的 Google 賬號直接登入。</p>
+    </div>
+  </div>
+
+  <div class="step yellow">
+    <div class="step-label">一步搞定</div>
+    <h3>啟動並登入</h3>
+    <p>在終端輸入 <code>gemini</code> 啟動，首次執行會自動開啟瀏覽器跳轉 Google 登入頁面。</p>
+    <div class="code">
+      <div class="code-lang">Terminal</div>
+      <pre><span class="cmd">gemini</span>
+<span class="c"># 瀏覽器會自動開啟 → 登入 Google 賬號 → 授權 → 完成</span></pre>
+    </div>
+    <ol>
+      <li>瀏覽器彈出 Google 登入頁面</li>
+      <li>用你的 Google 賬號登入</li>
+      <li>點選「授權」按鈕</li>
+      <li>回到終端，看到登入成功提示</li>
+    </ol>
+  </div>
+
+  <div class="callout tip">
+    <div class="icon">💰</div>
+    <div class="body">
+      <strong>關於費用：零！</strong>
+      <p>個人 Google 賬號自帶 Gemini 2.5 Pro 使用額度，不需要繫結信用卡。有每分鐘請求數限制（rate limit），但日常使用完全夠用。</p>
+    </div>
+  </div>
+
+  <div class="g-dots"><span class="db"></span><span class="dr"></span><span class="dy"></span><span class="dg"></span></div>
+
+  <!-- ──── CH 4 ──── -->
+  <div class="section-break sb-red" id="ch4">
+    <div class="num">04</div>
+    <div class="info">
+      <span class="tag">第四章</span>
+      <h2>建立專案 · 搭建檔案結構</h2>
+      <p>給你的助手安個「家」，所有記憶和規則都存在這裡。</p>
+    </div>
+  </div>
+
+  <div class="step red">
+    <div class="step-label">步驟 1</div>
+    <h3>安裝 Git</h3>
+    <p>Git 是版本管理工具，用來保護你的助手記憶和配置不會丟失。macOS 不一定自帶，先檢查一下：</p>
+    <div class="code">
+      <div class="code-lang">Terminal</div>
+      <pre><span class="cmd">git</span> <span class="flag">--version</span></pre>
+    </div>
+    <p>如果看到版本號（如 <code>git version 2.x.x</code>），說明已經裝好了，跳到步驟 2。</p>
+    <p>如果提示「command not found」或彈出安裝對話方塊，有兩種安裝方式：</p>
+    <div class="code">
+      <div class="code-lang">方式一：Xcode Command Line Tools（推薦，彈出對話方塊時直接點安裝）</div>
+      <pre><span class="cmd">xcode-select</span> <span class="flag">--install</span></pre>
+    </div>
+    <div class="code">
+      <div class="code-lang">方式二：Homebrew（如果已裝 Homebrew）</div>
+      <pre><span class="cmd">brew</span> install git</pre>
+    </div>
+    <div class="callout info">
+      <div class="icon">💡</div>
+      <div class="body">
+        <strong>Git 有什麼用？</strong>
+        <p>Git 會記錄你助手所有配置檔案的修改歷史。萬一改錯了，可以隨時回退到之前的版本。就像文件的「撤銷」功能，但可以回到幾天甚至幾個月前的狀態。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-label">步驟 2</div>
+    <h3>建立專案資料夾</h3>
+    <p>在你喜歡的位置建立資料夾，比如放在使用者目錄下：</p>
+    <div class="code">
+      <div class="code-lang">Terminal</div>
+      <pre><span class="c"># 建立專案資料夾</span>
+<span class="cmd">mkdir</span> ~/myAgent
+<span class="cmd">cd</span> ~/myAgent
+
+<span class="c"># 初始化 Git 倉庫</span>
+<span class="cmd">git</span> init</pre>
+    </div>
+    <div class="callout warn">
+      <div class="icon">⚠️</div>
+      <div class="body">
+        <strong>如果是第一次用 Git</strong>
+        <p>需要設定你的名字和郵箱（只需執行一次，以後不用再設定）：</p>
+      </div>
+    </div>
+    <div class="code">
+      <div class="code-lang">Terminal · 首次 Git 配置</div>
+      <pre><span class="cmd">git</span> config <span class="flag">--global</span> user.name <span class="s">"你的名字"</span>
+<span class="cmd">git</span> config <span class="flag">--global</span> user.email <span class="s">"你的郵箱@example.com"</span></pre>
+    </div>
+  </div>
+
+  <div class="step green">
+    <div class="step-label">步驟 3</div>
+    <h3>搭建檔案結構</h3>
+    <p>建立所有必要的資料夾：</p>
+    <div class="code">
+      <div class="code-lang">Terminal</div>
+      <pre><span class="cmd">mkdir</span> -p config docs/lessons docs/reports docs/others memory/tasks</pre>
+    </div>
+
+    <p>完成後，你的專案結構如下：</p>
+    <div class="tree">
+      <span class="d">myAgent/</span><br>
+      ├── <span class="d">config/</span> <span class="cm"># 身份配置</span><br>
+      ├── <span class="d">docs/</span><br>
+      │&nbsp;&nbsp; ├── <span class="d">lessons/</span> <span class="cm"># 踩坑記錄·經驗教訓</span><br>
+      │&nbsp;&nbsp; ├── <span class="d">reports/</span> <span class="cm"># 故障處理記錄</span><br>
+      │&nbsp;&nbsp; └── <span class="d">others/</span> <span class="cm"># 調查結果·設計備忘</span><br>
+      ├── <span class="d">memory/</span><br>
+      │&nbsp;&nbsp; └── <span class="d">tasks/</span> <span class="cm"># 各任務的上下文狀態</span><br>
+      └── <span class="f">GEMINI.md</span> <span class="cm"># 核心指令書（下一步建立）</span>
+    </div>
+  </div>
+
+  <div class="step yellow">
+    <div class="step-label">步驟 4</div>
+    <h3>連線 GitHub（雲端備份，推薦）</h3>
+    <p>將助手的配置和記憶備份到 GitHub，換電腦一分鐘恢復。</p>
+    <ol>
+      <li>訪問 <code>github.com</code>，註冊或登入賬號</li>
+      <li>點選右上角「+」→「New repository」</li>
+      <li>倉庫名填 <code>myAgent</code>，選擇 <strong>Private（私有）</strong></li>
+      <li>不要勾選「Add a README file」，直接點「Create repository」</li>
+    </ol>
+    <div class="callout danger">
+      <div class="icon">🔒</div>
+      <div class="body">
+        <strong>必須選 Private（私有）</strong>
+        <p>倉庫裡包含你的助手配置和記憶檔案，選 Public 會被所有人看到。</p>
+      </div>
+    </div>
+    <p>完成下一章「一鍵初始化」後，執行以下命令推送到 GitHub：</p>
+    <div class="code">
+      <div class="code-lang">Terminal · 首次推送</div>
+      <pre><span class="cmd">cd</span> ~/myAgent
+<span class="cmd">git</span> remote add origin https://github.com/你的使用者名稱/myAgent.git
+<span class="cmd">git</span> add .
+<span class="cmd">git</span> commit -m <span class="s">"初始化 AI 助手配置"</span>
+<span class="cmd">git</span> push -u origin main
+<span class="c"># 首次推送會彈出 GitHub 登入視窗，授權即可</span></pre>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-label">日常同步</div>
+    <h3>助手積累新經驗後同步一次</h3>
+    <div class="code">
+      <div class="code-lang">Terminal</div>
+      <pre><span class="cmd">cd</span> ~/myAgent
+<span class="cmd">git</span> add .
+<span class="cmd">git</span> commit -m <span class="s">"更新助手配置和經驗記錄"</span>
+<span class="cmd">git</span> push</pre>
+    </div>
+  </div>
+
+  <div class="step green">
+    <div class="step-label">換電腦時</div>
+    <h3>一鍵恢復所有配置</h3>
+    <p>新電腦裝好 Node.js 和 Gemini CLI 後，不需要重新配置，直接從 GitHub 恢復：</p>
+    <div class="code">
+      <div class="code-lang">Terminal</div>
+      <pre><span class="cmd">git</span> clone https://github.com/你的使用者名稱/myAgent.git ~/myAgent
+<span class="cmd">cd</span> ~/myAgent
+<span class="cmd">gemini</span>
+<span class="c"># 所有配置、記憶、歷史經驗全部自動恢復</span></pre>
+    </div>
+  </div>
+
+  <div class="g-dots"><span class="db"></span><span class="dr"></span><span class="dy"></span><span class="dg"></span></div>
+
+  <!-- ──── CH 5 ──── -->
+  <div class="section-break" id="ch5" style="background:linear-gradient(135deg, #7627BB, #A142F4);">
+    <div class="num">05</div>
+    <div class="info">
+      <span class="tag">第五章</span>
+      <h2>一鍵初始化</h2>
+      <p>把下面的內容複製貼上到 Gemini 對話方塊，它會自動建好所有檔案。</p>
+    </div>
+  </div>
+
+  <p>確保你在 <code>~/myAgent</code> 目錄下，啟動 Gemini 後，把下面整段內容<strong>完整複製貼上</strong>到對話方塊：</p>
+
+  <div class="bootstrap">
+    <div class="bootstrap-header">
+      <span class="bootstrap-title">Bootstrap Prompt · 複製貼上到 Gemini</span>
+      <span class="bootstrap-hint" onclick="copyBootstrap(this)">點選複製全部</span>
+    </div>
+    <pre id="bootstrap-content">請幫我完整搭建一套 AI 助手系統。按以下要求建立所有檔案和目錄，不需要問我確認，直接全部執行完成。
+
+## 第一步：建立 GEMINI.md（專案根目錄）
+
+建立檔案 `GEMINI.md`，內容如下：
+
+```markdown
+# GEMINI.md
+
+**預設回覆語言：繁體中文**
+
+## 身份
+
+我叫**小星**，是主人的自動化助手。
+
+啟動後請閱讀 `config/identity.md`，準備好響應身份確認暗號：「小星，你在嗎？」
+
+## 必須遵守的核心規則
+
+1. 始終遵守 `docs/rules.md` 中定義的規則
+2. 開始任務前，查閱 `docs/lessons/` 中的歷史經驗
+3. 完成任務後，將經驗按分類記錄到 docs/ 目錄
+4. rm、git reset --hard 等危險操作必須先向使用者確認
+5. 不得將密碼、API Key 等寫入普通文件
+
+## 工作流程
+
+1. 接收任務 → 2. 查閱歷史經驗 → 3. 執行 → 4. 記錄經驗
+
+## 行為準則
+
+- 優先修改已有檔案，而非新建檔案
+- 保持輸出簡潔、結構清晰
+- 不確定的事情要問，不要猜測
+```
+
+## 第二步：建立 config/identity.md
+
+```markdown
+# 身份配置
+
+## 名字
+**小星**
+
+## 暗號（使用者說）
+小星，你在嗎？
+
+## 回應（必須這樣回答）
+在。我是小星，主人的自動化助手。
+我記得：預設中文回覆、危險操作先確認、任務前讀經驗文件、任務後寫總結。
+需要我做什麼？
+
+## 人格核心
+| 屬性 | 內容 |
+|------|------|
+| 名字 | 小星 |
+| 語言 | 預設繁體中文 |
+| 角色 | 貼身自動化助手 |
+| 底線 | 破壞性操作必須確認 |
+```
+
+## 第三步：建立 docs/rules.md
+
+```markdown
+# 核心規則
+
+## 安全規則（最高優先順序）
+- 禁止自動執行：rm -rf、git reset --hard、git push --force
+- 不得將密碼、API Key 列印在輸出中
+- 只在使用者授權的目錄內操作
+
+## 工作規則
+1. 優先修改已有檔案
+2. 不確定的事情要問
+3. 遇到錯誤先查 docs/lessons/
+
+## 文件記錄規則
+| 情況 | 更新目標 |
+|------|----------|
+| Bug/踩坑 | docs/lessons/YYYY-MM-DD/ |
+| 故障 | docs/reports/YYYY-MM-DD/ |
+| 調查/設計 | docs/others/YYYY-MM-DD/ |
+```
+
+## 第四步：建立 memory/MEMORY.md
+
+```markdown
+# 助手記憶索引
+- 使用者檔案：見 `memory/user_profile.md`
+- 任務狀態：見 `memory/tasks/{任務名}/context.md`
+```
+
+## 第五步：建立 memory/user_profile.md
+
+```markdown
+# 使用者檔案
+（使用過程中由助手逐步填寫）
+- 職業：
+- 常用工具：
+- 語言偏好：繁體中文
+```
+
+## 第六步：驗證
+
+所有檔案建立完成後，列出目錄結構確認檔案都存在，然後回覆：
+「所有檔案已建立完畢。請輸入暗號驗證：小星，你在嗎？」</pre>
+  </div>
+
+  <div class="callout info">
+    <div class="icon">✏️</div>
+    <div class="body">
+      <strong>記得改名字</strong>
+      <p>把「小星」和「主人」改成你想要的名字！這是你助手的個性化身份。</p>
+    </div>
+  </div>
+
+  <div class="g-dots"><span class="db"></span><span class="dr"></span><span class="dy"></span><span class="dg"></span></div>
+
+  <!-- ──── CH 6 ──── -->
+  <div class="section-break sb-blue" id="ch6">
+    <div class="num">06</div>
+    <div class="info">
+      <span class="tag">第六章</span>
+      <h2>開始使用 · 日常技巧</h2>
+      <p>你的助手已經準備好了，以下是日常使用方法。</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-label">啟動</div>
+    <h3>每天的第一步</h3>
+    <div class="code">
+      <div class="code-lang">Terminal</div>
+      <pre><span class="cmd">cd</span> ~/myAgent
+<span class="cmd">gemini</span></pre>
+    </div>
+    <p>然後告訴助手你想做什麼，像跟同事說話一樣自然：</p>
+  </div>
+
+  <p>Gemini CLI 不只是一個聊天機器人——它可以真正操作你的電腦，完成有實際產出的工作。以下是一些常見的使用場景。</p>
+
+  <div class="grid-2">
+    <div class="feat">
+      <div class="feat-icon" style="background:#E8F0FE;">🌐</div>
+      <h4>製作網頁</h4>
+      <p>描述你想要的頁面，助手直接寫出 HTML/CSS/JS 程式碼，在瀏覽器裡開啟就能看到效果。</p>
+    </div>
+    <div class="feat">
+      <div class="feat-icon" style="background:#E6F4EA;">⚙️</div>
+      <h4>編寫自動化指令碼</h4>
+      <p>批次重新命名檔案、定時備份、自動整理下載資料夾……告訴助手你想做什麼，它來寫指令碼。</p>
+    </div>
+    <div class="feat">
+      <div class="feat-icon" style="background:#FEF7E0;">🌍</div>
+      <h4>批次翻譯</h4>
+      <p>把一批文件、字幕檔案、Excel 內容交給助手，它可以批次翻譯並保持原有格式。</p>
+    </div>
+    <div class="feat">
+      <div class="feat-icon" style="background:#FCE8E6;">✍️</div>
+      <h4>寫作與內容生成</h4>
+      <p>寫文章、寫週報、寫產品描述、寫社交媒體文案……給出方向，助手完成初稿。</p>
+    </div>
+    <div class="feat">
+      <div class="feat-icon" style="background:#F3E8FD;">✉️</div>
+      <h4>起草郵件</h4>
+      <p>描述郵件目的，助手起草內容。配合瀏覽器自動化，可以直接開啟郵件客戶端傳送。</p>
+    </div>
+    <div class="feat">
+      <div class="feat-icon" style="background:#E8F0FE;">🗂️</div>
+      <h4>檔案整理與分析</h4>
+      <p>把檔案、表格丟給助手，讓它分類、彙總、提取關鍵資訊，輸出你想要的格式。</p>
+    </div>
+    <div class="feat">
+      <div class="feat-icon" style="background:#E6F4EA;">🖥️</div>
+      <h4>瀏覽器自動化</h4>
+      <p>自動開啟網頁、填寫表單、截圖儲存、抓取頁面內容……重複性網頁操作不用再手動。</p>
+    </div>
+    <div class="feat">
+      <div class="feat-icon" style="background:#FEF7E0;">🔍</div>
+      <h4>調查與資訊整合</h4>
+      <p>讓助手搜尋某個主題的資料，整理成結構化摘要，附帶來源——比自己逐個搜尋快得多。</p>
+    </div>
+  </div>
+
+  <div class="callout tip">
+    <div class="icon">💡</div>
+    <div class="body">
+      <strong>越具體，效果越好</strong>
+      <p>與其說「幫我寫個指令碼」，不如說「幫我寫一個指令碼，把桌面上所有 .jpg 檔案按年月移動到對應子資料夾裡」。描述得越具體，助手產出越精準。</p>
+    </div>
+  </div>
+
+  <h3>對話示例</h3>
+  <table>
+    <tr><th>你說什麼</th><th>助手會做什麼</th></tr>
+    <tr><td>幫我整理桌面檔案，按型別分資料夾</td><td>寫指令碼自動分類整理</td></tr>
+    <tr><td>搜尋今天的 AI 新聞，整理成摘要</td><td>搜尋並彙總新聞</td></tr>
+    <tr><td>記住我平時早上10點開始工作</td><td>更新記憶檔案，下次自動知道</td></tr>
+    <tr><td>查歷史文件，有沒有處理這類問題的經驗</td><td>搜尋 docs/lessons/ 並彙報</td></tr>
+    <tr><td>這次遇到了個問題，幫我記錄一下</td><td>自動寫入 docs/lessons/ 當日檔案</td></tr>
+  </table>
+
+  <h3>跨對話儲存任務進度（重要）</h3>
+  <div class="callout warn">
+    <div class="icon">⚠️</div>
+    <div class="body">
+      <strong>Gemini CLI 每次對話是獨立的，不會自動記住上次內容。</strong>
+      <p>解決方法：結束對話前說「更新任務上下文」，助手會儲存進度到 <code>memory/tasks/{任務名}/context.md</code>。下次說「讀取 XX 任務上下文，繼續上次的工作」即可恢復。</p>
+    </div>
+  </div>
+
+  <h3>可用命令（Skill）</h3>
+  <p>你的助手預置了幾個常用命令，在對話中直接輸入即可觸發：</p>
+
+  <table>
+    <tr><th>命令</th><th>用途</th><th>什麼時候用</th></tr>
+    <tr><td><code>/start-task</code></td><td>任務開始檢查清單</td><td>開始一個新任務時</td></tr>
+    <tr><td><code>/finish-task</code></td><td>任務完成・回顧總結</td><td>任務做完後</td></tr>
+    <tr><td><code>/review</code></td><td>程式碼・作業內容審查</td><td>想讓助手檢查你的工作時</td></tr>
+    <tr><td><code>/research</code></td><td>主題調查・資訊收集</td><td>需要調查某個話題時</td></tr>
+    <tr><td><code>/lesson</code></td><td>即時記錄經驗教訓</td><td>踩坑後想立刻記錄時</td></tr>
+  </table>
+
+  <div class="callout warn">
+    <div class="icon">⚠️</div>
+    <div class="body">
+      <strong>重要：Gemini CLI 沒有原生 Skill 系統</strong>
+      <p>與 Claude Code 不同，Gemini CLI 不會自動載入 skill 檔案。它是透過讀取 <code>GEMINI.md</code> 中的對映表，然後自己去讀取對應檔案來模擬執行的。偶爾可能會忘記讀檔案或省略步驟。<br><br>
+      如果助手沒有按預期執行，可以明確提醒：「請先讀取 <code>skills/start-task.md</code>，然後嚴格按步驟執行」。</p>
+    </div>
+  </div>
+
+  <h3>讓助手記住事情</h3>
+  <p>直接跟助手說，它會更新 <code>memory/</code> 下的檔案：</p>
+  <ul style="padding-left: 20px; margin-bottom: 16px;">
+    <li>「記住我的工作時間是早上 10 點到晚上 8 點」</li>
+    <li>「記住專案程式碼風格用 4 空格縮排」</li>
+  </ul>
+
+  <h3>讓助手總結經驗</h3>
+  <p>任務完成後說：</p>
+  <ul style="padding-left: 20px; margin-bottom: 16px;">
+    <li>「把這次的經驗記錄一下」</li>
+    <li>「這次踩了個坑，幫我記錄到教訓文件」</li>
+  </ul>
+
+  <h3>推薦的日常流程</h3>
+  <div class="flow">
+    <div class="flow-item hi">cd ~/myAgent && gemini</div>
+    <div class="flow-arr">→</div>
+    <div class="flow-item">「繼續做 XX 任務」</div>
+    <div class="flow-arr">→</div>
+    <div class="flow-item">正常工作</div>
+    <div class="flow-arr">→</div>
+    <div class="flow-item">遇到問題 → 查 lessons</div>
+    <div class="flow-arr">→</div>
+    <div class="flow-item">解決後 → 記錄經驗</div>
+    <div class="flow-arr">→</div>
+    <div class="flow-item hi">更新 context.md → 下班</div>
+  </div>
+
+  <div class="g-dots"><span class="db"></span><span class="dr"></span><span class="dy"></span><span class="dg"></span></div>
+
+  <!-- ──── CH 7 ──── -->
+  <div class="section-break sb-green" id="ch7">
+    <div class="num">07</div>
+    <div class="info">
+      <span class="tag">第七章</span>
+      <h2>五大核心工作原則</h2>
+      <p>讓助手越來越聰明的秘訣。</p>
+    </div>
+  </div>
+
+  <div class="principle">
+    <div class="principle-num pn-blue">1</div>
+    <div>
+      <h4>指令碼優先</h4>
+      <p>能用指令碼（程式碼）實現的操作，絕不依賴純對話。AI 只負責做判斷，結果用結構化資料輸出，實際檔案操作由指令碼執行。</p>
+      <div class="note"><strong>實際含義：</strong>批次處理檔案時，讓助手寫一個指令碼來跑，而不是一個一個操作。更穩定，也可以複用。</div>
+    </div>
+  </div>
+
+  <div class="principle">
+    <div class="principle-num pn-green">2</div>
+    <div>
+      <h4>經驗積累</h4>
+      <p>每次遇到新問題解決後，必須記錄到 <code>docs/lessons/</code>。下次遇到同類問題，先查文件，不重複踩坑。</p>
+      <div class="note"><strong>實際含義：</strong>把助手當成會學習的同事，每次解決問題後讓它「寫總結」，慢慢積累針對你工作場景的經驗庫。</div>
+    </div>
+  </div>
+
+  <div class="principle">
+    <div class="principle-num pn-yellow">3</div>
+    <div>
+      <h4>任務上下文儲存</h4>
+      <p>每個長期任務在 <code>memory/tasks/{任務名}/context.md</code> 儲存當前狀態。新對話開始時讀取這個檔案，恢復任務進度。</p>
+      <div class="note"><strong>實際含義：</strong>每次對話是獨立的，不會自動記住上次內容。透過 context.md 檔案讓助手在新對話中快速「想起來」上次做到哪了。</div>
+    </div>
+  </div>
+
+  <div class="principle">
+    <div class="principle-num pn-red">4</div>
+    <div>
+      <h4>危險操作二次確認</h4>
+      <p>所有不可逆操作（刪除、覆蓋、重置）執行前必須明確告知使用者並等待確認。即使使用者之前說過「你可以直接做」，也要再次確認。</p>
+      <div class="note"><strong>實際含義：</strong>防止助手誤操作導致資料丟失。寧可多問一句，不要出事後悔。</div>
+    </div>
+  </div>
+
+  <div class="principle">
+    <div class="principle-num pn-purple">5</div>
+    <div>
+      <h4>邊界清晰</h4>
+      <p>不確定的事情要問，不要猜測後直接執行。比如：「我要刪除資料夾裡的圖片」——是全部？還是某一類？先確認。</p>
+      <div class="note"><strong>實際含義：</strong>AI 犯錯的代價可能很大，多問一句只需要幾秒鐘。</div>
+    </div>
+  </div>
+
+  <div class="g-dots"><span class="db"></span><span class="dr"></span><span class="dy"></span><span class="dg"></span></div>
+
+  <!-- ──── CH 8 ──── -->
+  <div class="section-break sb-yellow" id="ch8">
+    <div class="num">08</div>
+    <div class="info">
+      <span class="tag">第八章</span>
+      <h2>常見問題 · 三大 Agent 對比</h2>
+      <p>遇到問題？先來這裡找找答案。</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-q"><span class="q-badge">Q</span>終端提示「gemini: command not found」</div>
+    <div class="faq-a">
+      <ol>
+        <li>關閉終端視窗，重新開啟一個</li>
+        <li>如果還是不行，重新執行：<code>npm install -g @google/gemini-cli</code></li>
+        <li>檢查 Node.js 版本：<code>node --version</code>（需要 v22+）</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-q"><span class="q-badge">Q</span>登入時瀏覽器沒有彈出來</div>
+    <div class="faq-a">
+      <p>檢視終端輸出中是否有登入連結，手動複製到瀏覽器開啟。確認你的 Google 賬號可以正常登入。</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-q"><span class="q-badge">Q</span>提示 HTTP 錯誤或連線超時</div>
+    <div class="faq-a">
+      <p>Gemini CLI 有時會出現隨機 HTTP 錯誤，這是目前已知的穩定性問題。</p>
+      <ol>
+        <li>等幾秒鐘後重試</li>
+        <li>如果持續報錯，退出後重新啟動 <code>gemini</code></li>
+        <li>確認網路正常（能正常訪問 Google 網站）</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-q"><span class="q-badge">Q</span>助手省略程式碼或把任務推回給我</div>
+    <div class="faq-a">
+      <p>這是 Gemini CLI 的已知行為特點。應對方法：</p>
+      <ol>
+        <li>明確要求：「請寫出完整程式碼，不要省略」</li>
+        <li>把大任務拆分成小步驟，一步一步來</li>
+        <li>如果問題持續，這個特定任務可以換用 Claude Code 或 Codex CLI</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-q"><span class="q-badge">Q</span>助手忘記了上次的對話內容</div>
+    <div class="faq-a">
+      <p><strong>這是正常現象。</strong>Gemini CLI 每次對話是獨立的。</p>
+      <ol>
+        <li>開始時告訴助手：「請讀取 <code>memory/tasks/XX任務/context.md</code>，繼續上次的工作」</li>
+        <li>養成習慣：每次結束對話前，讓助手更新 context.md</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-q"><span class="q-badge">Q</span>真的完全免費嗎？</div>
+    <div class="faq-a">
+      <p>是的，個人 Google 賬號完全免費。有每分鐘請求數限制（rate limit），高頻使用時可能遇到限速，但日常使用完全夠用。</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-q"><span class="q-badge">Q</span>想把助手名字改成別的</div>
+    <div class="faq-a">
+      <p>用任意文字編輯器（VS Code、TextEdit 等）開啟 <code>GEMINI.md</code> 和 <code>config/identity.md</code>，把所有「小星」替換成你想要的名字，儲存後重啟 Gemini CLI 即可。</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-q"><span class="q-badge">Q</span>如何讓助手操作瀏覽器？</div>
+    <div class="faq-a">
+      <p>安裝 Playwright 後即可實現瀏覽器自動化：</p>
+      <div class="code" style="margin-top:10px;"><div class="code-lang">Terminal</div><pre><span class="cmd">npm</span> install -g playwright
+<span class="cmd">npx</span> playwright install</pre></div>
+      <p style="margin-top:10px;">之後告訴助手：「幫我開啟瀏覽器，訪問 XX 網站，截圖儲存」。</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-q"><span class="q-badge">Q</span>GEMINI.md 和其他配置檔案能修改嗎？</div>
+    <div class="faq-a">
+      <p>完全可以。<code>GEMINI.md</code> 是助手的「行為準則」，你隨時可以增加新規則、修改工作偏好。改完後重啟 Gemini CLI 生效。推薦用 VS Code 編輯（免費下載：<code>code.visualstudio.com</code>）。</p>
+    </div>
+  </div>
+
+  <div class="hr"></div>
+
+  <h2>三大 CLI Agent 對比</h2>
+  <p>如果你想了解不同工具的區別，或考慮升級：</p>
+
+  <table class="cmp-table">
+    <tr>
+      <th>專案</th>
+      <th>Gemini CLI</th>
+      <th>Claude Code</th>
+      <th>Codex CLI</th>
+    </tr>
+    <tr>
+      <td><strong>開發者</strong></td>
+      <td>Google</td>
+      <td>Anthropic</td>
+      <td>OpenAI</td>
+    </tr>
+    <tr>
+      <td><strong>AI 模型</strong></td>
+      <td>Gemini 2.5 Pro</td>
+      <td>Claude Opus 4.6</td>
+      <td>GPT-5</td>
+    </tr>
+    <tr>
+      <td><strong>安裝命令</strong></td>
+      <td><code>npm i -g @google/gemini-cli</code></td>
+      <td><code>npm i -g @anthropic-ai/claude-code</code></td>
+      <td><code>npm i -g @openai/codex</code></td>
+    </tr>
+    <tr>
+      <td><strong>配置檔案</strong></td>
+      <td><code>GEMINI.md</code></td>
+      <td><code>CLAUDE.md</code></td>
+      <td><code>AGENTS.md</code></td>
+    </tr>
+    <tr>
+      <td><strong>費用</strong></td>
+      <td class="highlight">免費（個人賬號）</td>
+      <td>按量付費 / 訂閱</td>
+      <td>按量付費</td>
+    </tr>
+    <tr>
+      <td><strong>上下文視窗</strong></td>
+      <td class="highlight">100 萬 token</td>
+      <td>約 200K</td>
+      <td>約 128K</td>
+    </tr>
+    <tr>
+      <td><strong>開源</strong></td>
+      <td class="highlight">是</td>
+      <td>否</td>
+      <td>是</td>
+    </tr>
+    <tr>
+      <td><strong>程式碼理解</strong></td>
+      <td>跑分最高</td>
+      <td class="highlight">實際最強（+23%）</td>
+      <td>一般</td>
+    </tr>
+    <tr>
+      <td><strong>實際穩定性</strong></td>
+      <td>偶爾不穩定</td>
+      <td class="highlight">最穩定</td>
+      <td>穩定</td>
+    </tr>
+    <tr>
+      <td><strong>最適合</strong></td>
+      <td>零成本入門</td>
+      <td>複雜專案、長期使用</td>
+      <td>終端指令碼自動化</td>
+    </tr>
+  </table>
+
+  <div class="callout info">
+    <div class="icon">💡</div>
+    <div class="body">
+      <strong>可以全裝</strong>
+      <p>三者互不衝突。Gemini 用 <code>gemini</code>，Claude Code 用 <code>claude</code>，Codex 用 <code>codex</code>。同一個專案資料夾裡各自讀自己的配置檔案，互不干擾。推薦先用免費的 Gemini 入門，覺得好用再考慮 Claude Code。</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<div class="page">
+  <div class="footer">
+    <div class="g-dots" style="margin-bottom:20px;"><span class="db"></span><span class="dr"></span><span class="dy"></span><span class="dg"></span></div>
+    <p style="font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 8px;">
+      AI 助手不是用來「一次性回答問題」的，<br>
+      而是用來「<strong style="color:var(--g-blue);">陪你一起成長</strong>」的。
+    </p>
+    <p style="color: var(--text-muted); font-size: 15px; margin-top: 16px;">
+      關鍵習慣只有兩個：<strong>遇到問題，讓助手查文件</strong> · <strong>解決問題，讓助手寫總結</strong>
+    </p>
+    <p style="color: var(--text-muted); font-size: 13px; margin-top: 24px;">
+      由 <strong>澄澄</strong> 整理 · 2026 年 3 月 27 日
+    </p>
+  </div>
+</div>
+
+<script>
+function copyBootstrap(btn) {
+  const text = document.getElementById('bootstrap-content').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = '已复制 ✓';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = '点击复制全部';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+</script>
+</body>
+</html>
