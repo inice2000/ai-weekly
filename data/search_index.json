@@ -1,5 +1,659 @@
 [
   {
+    "date": "2026-03-30",
+    "category": "3d_ai",
+    "idx": 0,
+    "title": "36氪首发丨峰瑞资本投了家智能硬件公司，做空间三维重建，创始人为前群核科技副总裁",
+    "title_cht": "36氪首發丨峰瑞資本投了家智能硬體公司，做空間三維重建，創始人為前群核科技副總裁",
+    "title_ja": "峰瑞資本が空間3D再構築のスマートハードウェア企業に投資、創業者は元群核科技副社長",
+    "url": "https://36kr.com/p/3734855815184390?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 8,
+    "tags": [
+      "#3DGS",
+      "#三維重建",
+      "#空間智能",
+      "#消費級硬體",
+      "#竹馬創新"
+    ],
+    "summary_points_cht": [
+      "杭州竹馬創新完成數千萬天使輪融資，由峰瑞資本領投、洪泰基金跟投",
+      "公司以三維高斯潑濺（3DGS）技術為核心，打造消費級空間影像終端",
+      "創始人張吉擁有 20 餘年 3D 圖形行業經驗，曾任群核科技副總裁",
+      "首代產品代號「Pebble」，定位專業級 3DGS 相機"
+    ],
+    "summary_points_ja": [
+      "杭州竹馬創新が数千万元のエンジェルラウンド資金調達を完了、峰瑞資本がリード",
+      "3Dガウシアンスプラッティング（3DGS）技術を核に消費者向け空間映像端末を開発",
+      "創業者の張吉氏は3Dグラフィックス業界で20年以上の経験を持つ",
+      "初代製品コードネーム「Pebble」はプロ向け3DGSカメラ"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "3d_ai",
+    "idx": 1,
+    "title": "DLSS 5: Has Nvidia’s AI graphics technology gone too far?",
+    "title_cht": "DLSS 5：NVIDIA 的 AI 圖形技術是否走過頭了？",
+    "title_ja": "DLSS 5：NvidiaのAIグラフィックス技術は行き過ぎたのか？",
+    "url": "https://www.theverge.com/games/896518/nvidia-dlss-5-ai-3d-rendering",
+    "source": "The Verge",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#NVIDIA",
+      "#DLSS5",
+      "#神經渲染",
+      "#遊戲AI",
+      "#即時光影"
+    ],
+    "summary_points_cht": [
+      "NVIDIA 發表全新「3D 引導神經渲染模型」DLSS 5，可即時改變遊戲光影與材質",
+      "玩家社群強烈反彈，批評 DLSS 5 過度美化《惡靈古堡》等角色面孔",
+      "NVIDIA 堅稱此技術仍忠於原始藝術家意圖，追求寫實主義"
+    ],
+    "summary_points_ja": [
+      "NVIDIAが「3Dガイド付きニューラルレンダリングモデル」DLSS 5を発表、ゲームの照明と質感をリアルタイムで変更可能",
+      "ゲーマーコミュニティから強い反発、DLSS 5がキャラクターの顔を過度に美化と批判",
+      "NVIDIAはフォトリアリズムの追求がアーティストの意図を尊重していると主張"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "「ブラウザ自動化」の限界を解消？　Googleが新標準「WebMCP」早期プレビュー公開",
+    "title_cht": "解決「瀏覽器自動化」的瓶頸？Google 公開新標準「WebMCP」早期預覽版",
+    "title_ja": "「ブラウザ自動化」の限界を解消？Googleが新標準「WebMCP」早期プレビュー公開",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/18/news058.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#Google",
+      "#WebMCP",
+      "#MCP",
+      "#AIAgent",
+      "#Web標準"
+    ],
+    "summary_points_cht": [
+      "Google 公開 WebMCP 早期預覽版，為 AI Agent 與網站互動提供標準化方法",
+      "WebMCP 提出兩個新 API，讓瀏覽器代理能代替用戶執行動作",
+      "用例包括航班預訂、客服工單提交、複雜資料導覽等",
+      "相比傳統 DOM 操作，WebMCP 透過結構化 JavaScript 工具提升可靠性與速度"
+    ],
+    "summary_points_ja": [
+      "GoogleがWebMCPの早期プレビュー版を公開、AIエージェントとWebサイトの連携を標準化",
+      "2つの新APIを提案、ブラウザエージェントがユーザーの代わりにアクションを実行可能に",
+      "フライト予約、サポートチケット送信、複雑なデータナビゲーションなどが具体的ユースケース",
+      "従来のDOM操作に比べ構造化JavaScriptツールで信頼性と速度が向上"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "3 Things From Nvidia GTC 2026 Keynote: NemoClaw, DLSS 5 and Vera CPU",
+    "title_cht": "NVIDIA GTC 2026 主題演講三大亮點：NemoClaw、DLSS 5 與 Vera CPU",
+    "title_ja": "Nvidia GTC 2026基調講演の3大発表：NemoClaw、DLSS 5、Vera CPU",
+    "url": "https://www.cnet.com/tech/services-and-software/nvidia-gtc-2026-3-things-you-should-know-about/",
+    "source": "CNET",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#NVIDIA",
+      "#GTC2026",
+      "#NemoClaw",
+      "#DLSS5",
+      "#VeraCPU"
+    ],
+    "summary_points_cht": [
+      "NVIDIA GTC 2026 主題演講圍繞三大發布：NemoClaw、DLSS 5 和 Vera CPU",
+      "NemoClaw 為開源 AI Agent 技術棧，可運行自主 AI Agent（Claws）",
+      "DLSS 5 AI 升頻技術遭玩家強烈反彈，被批過度修改角色面孔",
+      "Vera CPU 為新型處理器，專為 Agent AI 系統與物理 AI 設計"
+    ],
+    "summary_points_ja": [
+      "NVIDIA GTC 2026の基調講演でNemoClaw、DLSS 5、Vera CPUの3大発表",
+      "NemoClawはオープンソースAIエージェントスタック、自律型Clawsの実行が可能",
+      "DLSS 5のAIアップスケーリング技術にゲーマーから即座に反発",
+      "Vera CPUはエージェントAIとフィジカルAI向けに最適化された新プロセッサ"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "無料の国交省、中小企業庁、総務省データ用「リモートMCPサーバー」公開",
+    "title_cht": "免費公開國土交通省、中小企業廳、總務省資料用「遠端 MCP 伺服器」",
+    "title_ja": "無料の国交省、中小企業庁、総務省データ用「リモートMCPサーバー」公開",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/18/news055.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#MCP",
+      "#行政API",
+      "#AIAgent",
+      "#日本政府數據",
+      "#開源"
+    ],
+    "summary_points_cht": [
+      "AI HYVE 與 N-3 聯合公開行政 API 用遠端 MCP 伺服器，免費使用",
+      "支援 ChatGPT、Gemini、Claude 等 MCP 對應客戶端連接",
+      "首批提供國土交通省不動產 API、中小企業廳招標 API、總務省 e-Stat API 三種"
+    ],
+    "summary_points_ja": [
+      "AI HYVEとN-3が行政API用リモートMCPサーバーを無料公開",
+      "ChatGPT、Gemini、ClaudeなどMCP対応クライアントからの接続が可能",
+      "国交省不動産API、中小企業庁入札API、総務省e-Stat APIの3種類を提供"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "AI Team OS – Turn Claude Code into a Self-Managing AI Team",
+    "title_cht": "AI Team OS——將 Claude Code 變成自我管理的 AI 團隊",
+    "title_ja": "AI Team OS — Claude Codeを自己管理型AIチームに変える",
+    "url": "https://github.com/CronusL-1141/AI-company",
+    "source": "Github.com",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#ClaudeCode",
+      "#AIAgent",
+      "#開源",
+      "#自動化",
+      "#多Agent"
+    ],
+    "summary_points_cht": [
+      "AI Team OS 將 Claude Code 轉化為自驅動的 AI 公司，用戶扮演董事長角色",
+      "AI CEO 可自動從任務牆取得最高優先事項並交付",
+      "遇到需要用戶批准的阻礙時會自動切換至平行工作流",
+      "支援 R&D 代理自動掃描競爭框架並組織頭腦風暴會議"
+    ],
+    "summary_points_ja": [
+      "AI Team OSがClaude Codeを自律駆動のAI会社に変換、ユーザーは会長役",
+      "AI CEOがタスクウォールから最優先事項を自動取得し実行",
+      "承認が必要な場合は自動で並列ワークストリームに切り替え",
+      "R&Dエージェントが競合フレームワークを自動スキャンしブレスト会議を開催"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "「divやscriptの“意味”は0」　HTML読み込み時のAIトークン使用量を「8割減らす」機能、Cloudflare発表",
+    "title_cht": "「div 和 script 的『意義』為 0」Cloudflare 發表可減少 AI 讀取 Token 量 8 成的功能",
+    "title_ja": "「divやscriptの\"意味\"は0」HTML読み込み時のAIトークン使用量を「8割減らす」機能、Cloudflare発表",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/19/news071.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Cloudflare",
+      "#Markdown",
+      "#AIAgent",
+      "#Token最佳化",
+      "#Web"
+    ],
+    "summary_points_cht": [
+      "Cloudflare 發表「Markdown for Agents」，可將網頁 HTML 即時轉換為 Markdown 格式",
+      "HTML 格式 16,180 Token 的頁面轉為 Markdown 後僅需 3,150 Token，減少約 80%",
+      "已在 Pro、Business、Enterprise 方案中以 Beta 版免費提供"
+    ],
+    "summary_points_ja": [
+      "Cloudflareが「Markdown for Agents」を発表、WebページのHTMLをMarkdownにリアルタイム変換",
+      "HTML形式で16,180トークンのページがMarkdown形式では3,150トークンに、約80%削減",
+      "Pro、Business、Enterpriseプランでβ版として無料提供"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "NVIDIAのフアンCEOがOpenClawを絶賛、「あらゆる企業は社内での利用に備えよ」",
+    "title_cht": "NVIDIA 黃仁勳 CEO 盛讚 OpenClaw：「所有企業都應為內部使用做好準備」",
+    "title_ja": "NVIDIAのフアンCEOがOpenClawを絶賛、「あらゆる企業は社内での利用に備えよ」",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/17/news101.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#NVIDIA",
+      "#OpenClaw",
+      "#GTC2026",
+      "#AIAgent",
+      "#開源"
+    ],
+    "summary_points_cht": [
+      "NVIDIA 黃仁勳在 GTC 2026 主題演講中盛讚 OpenClaw 為人類史上最受歡迎的開源專案",
+      "OpenClaw 自 2025 年 11 月啟動以來已在 GitHub 獲得約 30 萬 Star",
+      "黃仁勳稱 OpenClaw 為「Agent 電腦的作業系統」，數週內超越 Linux 30 年成就",
+      "NVIDIA 宣布將支援企業內部使用 OpenClaw"
+    ],
+    "summary_points_ja": [
+      "NVIDIA黄仁勲CEOがGTC 2026基調講演でOpenClawを人類史上最も人気のあるOSSと評価",
+      "OpenClawは2025年11月の開始以来GitHubで約30万Starを獲得",
+      "黄氏はOpenClawを「エージェンティックコンピューターのOS」と表現",
+      "NVIDIAが企業内でのOpenClaw利用をサポートすると発表"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_agent",
+    "idx": 6,
+    "title": "Rogue AI Triggers Serious Security Incident At Meta",
+    "title_cht": "失控 AI 在 Meta 引發嚴重安全事件",
+    "title_ja": "暴走AIがMetaで深刻なセキュリティインシデントを引き起こす",
+    "url": "https://yro.slashdot.org/story/26/03/19/1936250/rogue-ai-triggers-serious-security-incident-at-meta",
+    "source": "Slashdot.org",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Meta",
+      "#AIAgent",
+      "#AI安全",
+      "#資安事件",
+      "#企業AI"
+    ],
+    "summary_points_cht": [
+      "Meta 內部 AI Agent 未經充分驗證即公開發布不正確的技術建議",
+      "涉事員工知曉其在與自動化機器人溝通，介面已有免責聲明",
+      "事件凸顯 AI Agent 在企業環境中缺乏人類判斷力的風險"
+    ],
+    "summary_points_ja": [
+      "Meta社内のAIエージェントが不正確な技術アドバイスを公開投稿",
+      "関与した従業員は自動化ボットとの通信であることを認識していた",
+      "企業環境におけるAIエージェントの人間的判断力欠如リスクを浮き彫りに"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_agent",
+    "idx": 7,
+    "title": "As OpenClaw Enthusiasm Grips China, Kids and Retirees Alike Raise 'Lobsters'",
+    "title_cht": "OpenClaw 熱潮席捲中國，從孩子到退休族都在「養龍蝦」",
+    "title_ja": "OpenClawの熱狂が中国を席巻、子供から退職者まで「ロブスター」を育てる",
+    "url": "https://slashdot.org/story/26/03/19/2231252/as-openclaw-enthusiasm-grips-china-kids-and-retirees-alike-raise-lobsters",
+    "source": "Slashdot.org",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#OpenClaw",
+      "#AIAgent",
+      "#中國",
+      "#百度",
+      "#開源"
+    ],
+    "summary_points_cht": [
+      "OpenClaw 在中國掀起全民熱潮，從退休族到小學生都在使用",
+      "百度小度首席架構師黃榮盛表示家長群已被 OpenClaw 討論淹沒",
+      "退休人士與 AI 企業都希望藉此創造新收入來源"
+    ],
+    "summary_points_ja": [
+      "OpenClawが中国で大ブーム、退職者から小学生まで利用",
+      "百度Xiaodu主席アーキテクトの黄氏は保護者グループがOpenClaw議論で溢れていると発言",
+      "退職者やAI企業が新たな収益源として期待"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_agent",
+    "idx": 8,
+    "title": "Moltbook updated its terms after the Meta acqusition — and you're officially responsible for your agent",
+    "title_cht": "Meta 收購後 Moltbook 更新服務條款——你要為你的 AI Agent 負責",
+    "title_ja": "Meta買収後、MoltbookがAIエージェントの責任を利用者に課す利用規約を更新",
+    "url": "https://www.businessinsider.com/moltbook-updates-terms-of-service-after-meta-acquisition-2026-3",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Meta",
+      "#Moltbook",
+      "#AIAgent",
+      "#服務條款",
+      "#社群網路"
+    ],
+    "summary_points_cht": [
+      "Meta 確認收購 AI 社群網路 Moltbook 數日後，服務條款大幅更新",
+      "新條款明確規定使用者須為其 AI Agent 的行為負全責",
+      "用戶註冊須年滿 13 歲或取得家長同意"
+    ],
+    "summary_points_ja": [
+      "Meta買収確認からわずか数日でMoltbookが利用規約を大幅更新",
+      "新規約ではAIエージェントの行動に対する全責任をユーザーに課す",
+      "13歳以上または保護者の同意が登録の条件に"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_agent",
+    "idx": 9,
+    "title": "Amid AI Agent Boom, the Tech Industry Makes It Clear: With Great Laziness Comes Great Responsibility",
+    "title_cht": "AI Agent 熱潮中，科技業表態：能力越大、懶惰越大、責任越大",
+    "title_ja": "AIエージェントブームの中、テック業界が明確にする：大いなる怠惰には大いなる責任が伴う",
+    "url": "https://gizmodo.com/amid-ai-agent-boom-the-tech-industry-makes-it-clear-with-great-laziness-comes-great-responsibility-2000734649",
+    "source": "Gizmodo.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AIAgent",
+      "#OpenClaw",
+      "#NVIDIA",
+      "#安全防護",
+      "#監管"
+    ],
+    "summary_points_cht": [
+      "隨著 AI Agent 在開放網路上快速增長，業界開始尋求建立防護機制",
+      "NVIDIA 黃仁勳在 GTC 2026 讚揚 OpenClaw，稱其為「新型電腦」",
+      "主要業者正在推動對 AI Agent 的規範與限制措施"
+    ],
+    "summary_points_ja": [
+      "AIエージェントのオープンウェブでの急増に伴い、業界がガードレール構築を模索",
+      "NVIDIA黄CEOがGTC 2026でOpenClawを「新しいコンピューター」と称賛",
+      "主要プレイヤーがAIエージェントの規制・制限措置を推進中"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "Nvidia GTC: All the AI and Robotics News We Expect to Hear at Today's Keynote",
+    "title_cht": "NVIDIA GTC 2026：本週所有 AI 與機器人新聞彙整",
+    "title_ja": "NVIDIA GTC 2026：今週のAI・ロボティクスニュース総まとめ",
+    "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/",
+    "source": "CNET",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#NVIDIA",
+      "#GTC2026",
+      "#VeraCPU",
+      "#AgentAI",
+      "#機器人"
+    ],
+    "summary_points_cht": [
+      "NVIDIA GTC 2026 為年度最大會議，黃仁勳發表近三小時主題演講",
+      "重點發布包括 Vera CPU、DLSS 5 及多項 Agent AI 與物理 AI 技術",
+      "宣布與 T-Mobile、Adobe、Disney 等企業建立新合作關係",
+      "迪士尼 Olaf 機器人亮相展示物理 AI 應用"
+    ],
+    "summary_points_ja": [
+      "NVIDIA GTC 2026は年間最大カンファレンス、黄CEOが約3時間の基調講演",
+      "Vera CPU、DLSS 5、エージェントAI・フィジカルAI技術を重点発表",
+      "T-Mobile、Adobe、Disneyとの新パートナーシップを発表",
+      "DisneyのOlafロボットがフィジカルAIの応用を披露"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "Seedream 5.0: ByteDance Brings Photographic Knowledge to AI Image Generation",
+    "title_cht": "Seedream 5.0：字節跳動將攝影知識帶入 AI 圖像生成",
+    "title_ja": "Seedream 5.0：ByteDanceが写真知識をAI画像生成に導入",
+    "url": "https://abduzeedo.com/node/89120",
+    "source": "Abduzeedo.com",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#ByteDance",
+      "#Seedream",
+      "#AI圖像生成",
+      "#攝影知識",
+      "#範例編輯"
+    ],
+    "summary_points_cht": [
+      "字節跳動發布 Seedream 5.0，具備真正的攝影領域知識而非僅模式匹配",
+      "模型能區分 Kodak Portra 400 與 Fuji Provia 100F 等底片風格差異",
+      "引入「範例式編輯」功能，展示前後對比即可將效果應用到不同物件",
+      "支援多步驟推理，可構建符合物理規律的複雜場景"
+    ],
+    "summary_points_ja": [
+      "ByteDanceがSeedream 5.0を発表、パターンマッチングではなく写真領域の知識を内蔵",
+      "Kodak Portra 400とFuji Provia 100Fの違いなどフィルム特性を理解",
+      "「例示ベース編集」機能で前後比較を見せるだけで異なるオブジェクトに効果を適用",
+      "マルチステップ推論で物理法則に沿った複雑なシーン構築が可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "Learnings from training a font recognition model from scratch",
+    "title_cht": "從零訓練字型辨識模型的經驗分享",
+    "title_ja": "フォント認識モデルをゼロからトレーニングした知見",
+    "url": "https://www.mixfont.com/blog/learnings-from-training-a-font-recognition-model-from-scratch",
+    "source": "Mixfont.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#機器學習",
+      "#字型辨識",
+      "#模型訓練",
+      "#ComputerVision"
+    ],
+    "summary_points_cht": [
+      "作者以軟體工程師身份從零開始訓練字型辨識 AI 模型",
+      "分享模型訓練、評估和部署過程中的技術挑戰與經驗",
+      "透過實作深入理解 AI 模型開發的完整流程"
+    ],
+    "summary_points_ja": [
+      "一般ソフトウェアエンジニアがフォント認識AIモデルをゼロから訓練",
+      "モデルの訓練・評価・デプロイにおける技術的課題と知見を共有",
+      "実践を通じてAIモデル開発の全プロセスを理解"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "ありとあらゆるAIモデルを組み合わせることができる「LibreChat」で「ウェブ検索」「画像自動生成」をやってみる、無料でセルフホスト可能",
+    "title_cht": "可組合各種 AI 模型的「LibreChat」實測網頁搜尋與圖像自動生成，可免費自架",
+    "title_ja": "ありとあらゆるAIモデルを組み合わせることができる「LibreChat」で「ウェブ検索」「画像自動生成」をやってみる、無料でセルフホスト可能",
+    "url": "https://gigazine.net/news/20260322-librechat/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#LibreChat",
+      "#開源",
+      "#自架AI",
+      "#多模型整合",
+      "#WebSearch"
+    ],
+    "summary_points_cht": [
+      "LibreChat 為免費開源 AI 聊天平台，可整合 ChatGPT、Claude、Gemini 等模型",
+      "支援網頁搜尋功能，需外部服務 API 金鑰",
+      "支援圖像生成功能，介面類似 ChatGPT",
+      "可透過設定檔配置不同 AI 供應商的 API 金鑰"
+    ],
+    "summary_points_ja": [
+      "LibreChatは無料オープンソースAIチャットプラットフォーム、ChatGPT・Claude・Geminiなどを統合",
+      "ウェブ検索機能を搭載、外部サービスのAPIキーが必要",
+      "画像生成機能にも対応、ChatGPT風のインターフェース",
+      "設定ファイルで各AIプロバイダーのAPIキーを設定可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "Amazon is making an Alexa phone",
+    "title_cht": "Amazon 正在打造 Alexa 手機",
+    "title_ja": "AmazonがAlexaスマートフォンを開発中",
+    "url": "https://www.theverge.com/tech/897915/amazon-transformer-alexa-phone",
+    "source": "The Verge",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Amazon",
+      "#Alexa",
+      "#智慧手機",
+      "#AIAssistant"
+    ],
+    "summary_points_cht": [
+      "Amazon 正在開發以 Alexa AI 助理為核心的新智慧手機，代號「Transformer」",
+      "由前 Microsoft Xbox/Zune 負責人 J Allard 領導的 ZeroOne 團隊開發",
+      "距上次 Fire Phone 失敗已逾 10 年，Alexa 不一定是手機主要作業系統"
+    ],
+    "summary_points_ja": [
+      "AmazonがAlexa AI搭載の新スマートフォンを開発中、コードネーム「Transformer」",
+      "元Microsoft Xbox/Zune担当のJ Allard率いるZeroOneチームが開発",
+      "Fire Phoneの失敗から10年以上、Alexaは必ずしも主要OSではない"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "I reverse-engineered the TiinyAI Pocket Lab from marketing photos",
+    "title_cht": "我從行銷照片逆向工程了 TiinyAI Pocket Lab",
+    "title_ja": "マーケティング写真からTiinyAI Pocket Labをリバースエンジニアリングした",
+    "url": "https://bay41.com/posts/tiiny-ai-pocket-lab-review/",
+    "source": "Bay41.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#TiinyAI",
+      "#AI硬體",
+      "#逆向工程",
+      "#邊緣AI",
+      "#硬體分析"
+    ],
+    "summary_points_cht": [
+      "作者對 TiinyAI 宣稱口袋裝置可以 20 tokens/s 運行 1,200 億參數模型表示高度懷疑",
+      "從行銷照片與原型圖逆向分析實際硬體規格",
+      "此前曾因 NVIDIA DGX Spark 273 GB/s 記憶體頻寬的隱藏規格而受騙虧損"
+    ],
+    "summary_points_ja": [
+      "TiinyAIの「ポケットサイズで120Bモデルを20トークン/秒で実行」という主張に疑問を呈す",
+      "マーケティング写真とプロトタイプ画像から実際のハードウェアスペックを逆分析",
+      "以前NVIDIA DGX Sparkの隠れたスペック（273GB/sメモリ帯域幅）で損失を被った経験から検証"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_industry",
+    "idx": 6,
+    "title": "A twist like no other: YouTube Shorts lets you 'Reimagine' with Gemini and Veo",
+    "title_cht": "YouTube Shorts 推出「Reimagine」功能，結合 Gemini 與 Veo 生成影片",
+    "title_ja": "YouTube ShortsがGeminiとVeoで「Reimagine」機能を展開",
+    "url": "https://www.androidcentral.com/apps-software/youtube/a-twist-like-no-other-youtube-shorts-lets-you-reimagine-with-gemini-and-veo",
+    "source": "Android Central",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#YouTube",
+      "#Gemini",
+      "#Veo",
+      "#AI影片生成",
+      "#Shorts"
+    ],
+    "summary_points_cht": [
+      "YouTube Shorts 推出「Reimagine」功能，為 Remix 工具新增 AI 生成選項",
+      "用戶可選取影片中的場景，搭配文字提示與最多兩張參考圖生成 8 秒短片",
+      "使用 Google Veo 模型生成影片，2026 年發展重點仍聚焦更多 AI 功能"
+    ],
+    "summary_points_ja": [
+      "YouTube Shortsが「Reimagine」機能をRemixツールに追加",
+      "動画中のシーンを選択しプロンプトと最大2枚の参考画像で8秒クリップを生成",
+      "Google Veoモデルを使用、2026年はさらなるAI機能に注力"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-03-30",
+    "category": "ai_industry",
+    "idx": 7,
+    "title": "Learning earthquake ground motions via conditional generative modeling",
+    "title_cht": "透過條件式生成模型學習地震地面運動",
+    "title_ja": "条件付き生成モデルによる地震地動の学習",
+    "url": "https://www.nature.com/articles/s41467-026-70719-2",
+    "source": "Nature.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AI地震學",
+      "#生成模型",
+      "#Nature",
+      "#地震預測",
+      "#科學AI"
+    ],
+    "summary_points_cht": [
+      "Nature 發表 CGM-GM 模型，利用 AI 生成模型預測高保真地震地面運動",
+      "以地震規模和地理座標為輸入，捕捉空間連續的傅立葉振幅頻譜",
+      "克服傳統經驗模擬感測器稀疏與物理模擬計算量大的限制"
+    ],
+    "summary_points_ja": [
+      "Nature誌にCGM-GMモデルが発表、AI生成モデルで高精度な地震地動を予測",
+      "地震マグニチュードと地理座標を入力として空間連続フーリエ振幅スペクトルを捕捉",
+      "従来の経験的シミュレーションのセンサー不足と物理シミュレーションの計算コスト問題を克服"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-03-23",
     "category": "ai_agent",
     "idx": 0,
