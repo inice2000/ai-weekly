@@ -1,5 +1,833 @@
 [
   {
+    "date": "2026-04-06",
+    "category": "3d_ai",
+    "idx": 0,
+    "title": "Maya 2027 is out: discover its new features",
+    "title_cht": "Maya 2027 正式發布：探索全新功能總覽",
+    "title_ja": "Maya 2027リリース：新機能を一挙紹介",
+    "url": "https://www.cgchannel.com/2026/03/autodesk-releases-maya-2027-and-maya-creative-2027/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#Maya2027",
+      "#Autodesk",
+      "#3D動畫",
+      "#AI動畫",
+      "#MotionMaker"
+    ],
+    "summary_points_cht": [
+      "Autodesk正式推出Maya 2027，涵蓋3D建模、骨架綁定、動畫、模擬與渲染的全面升級",
+      "新增Smart Bevel智能倒角系統，並整合蒙皮插件ngSkinTools",
+      "Bifrost液體模擬新增表面張力支援，提升視覺逼真度",
+      "搭載實驗性AI助理，以及可為馬匹動畫生成動作的MotionMaker生成式AI系統",
+      "同步發布面向中小型工作室的精簡版Maya Creative 2027"
+    ],
+    "summary_points_ja": [
+      "AutodeskがMaya 2027をリリース、3Dモデリング・リギング・アニメーション・シミュレーション・レンダリング全域を強化",
+      "新しいSmart Bevelシステムとスキニングアドオン「ngSkinTools」の統合が追加",
+      "Bifrost液体シミュレーションで表面張力のサポートが新たに追加",
+      "実験的AIアシスタントと、馬のアニメーション生成が可能なジェネレーティブAIシステム「MotionMaker」を搭載",
+      "中小規模スタジオ向けの廉価版「Maya Creative 2027」も同時リリース"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "3d_ai",
+    "idx": 1,
+    "title": "From Reality to Virtual Reality: The Impact of 3DGS on Training, Education, and Beyond",
+    "title_cht": "從現實到虛擬：3DGS對訓練、教育及更廣領域的影響",
+    "title_ja": "現実からバーチャルへ：3DGSがトレーニング、教育、そしてその先に与える影響",
+    "url": "https://www.sei.cmu.edu/blog/from-reality-to-virtual-reality-the-impact-of-3dgs-on-training-education-and-beyond/",
+    "source": "Carnegie Mellon University",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#3DGS",
+      "#XR",
+      "#VR",
+      "#擴增實境",
+      "#軍事訓練"
+    ],
+    "summary_points_cht": [
+      "卡內基梅隆大學探討3D高斯噴濺（3DGS）技術在XR延展實境訓練與教育場景的應用潛力",
+      "FY26美國國防授權法案（NDAA）強調軍事訓練現代化的重要性，勞工部報告同樣呼籲善用新興技術培育下一代人才",
+      "擴增實境（AR）可在真實世界疊加數位元素，虛擬實境（VR）則可創造完全沉浸式訓練環境",
+      "3DGS能從真實場景快速建構高品質虛擬環境，具商業與國防雙重應用潛力",
+      "文章定位為政策與技術交叉的探討，非單一產品發布"
+    ],
+    "summary_points_ja": [
+      "カーネギーメロン大学が3DGS（3Dガウシアンスプラッティング）技術のXRトレーニング・教育応用の可能性を探求",
+      "FY26国防授権法（NDAA）が軍事訓練の近代化の重要性を強調、労働省報告も新興技術による人材育成を推奨",
+      "ARは現実世界にデジタル要素を重ね、VRは完全没入型トレーニング環境を構築可能",
+      "3DGSは実環境から高品質な仮想空間を迅速に構築でき、商業・防衛両分野で活用可能",
+      "政策と技術の交差点を探る論考で、特定製品の発表ではない"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "「型安全でコードを呼び出す」　AIエージェント開発の新基盤「Agent Framework」RC版公開",
+    "title_cht": "「型別安全地呼叫程式碼」——AI Agent開發新基礎「Microsoft Agent Framework」RC版發布",
+    "title_ja": "「型安全でコードを呼び出す」　AIエージェント開発の新基盤「Agent Framework」RC版公開",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/27/news057.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#MicrosoftAgentFramework",
+      "#AI框架",
+      "#SemanticKernel",
+      "#AutoGen",
+      "#開源"
+    ],
+    "summary_points_cht": [
+      "Microsoft Agent Framework已在.NET和Python雙語言達到RC（發布候選）狀態，v1.0 GA正式版即將推出",
+      "該框架為Semantic Kernel與AutoGen的繼承者，提供統一程式設計模型",
+      "RC代表API規格已穩定、v1.0計劃功能全部完成，進入正式發布前最終階段",
+      "提供AI Agent的構建、協調（Orchestration）與部署的開源解決方案",
+      "已為原Semantic Kernel和AutoGen用戶提供遷移指南"
+    ],
+    "summary_points_ja": [
+      "Microsoft Agent FrameworkがNETとPython両方でRC（リリース候補）ステータスに到達、v1.0 GA正式版リリースが間近",
+      "Semantic KernelとAutoGenの後継として統一プログラミングモデルを提供",
+      "RCはAPIの安定化とv1.0全機能の完成を意味し、GA前の最終段階",
+      "AIエージェントの構築・オーケストレーション・デプロイのオープンソースフレームワーク",
+      "既存のSemantic Kernel / AutoGenユーザー向けの移行ガイドも公開済み"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "Apple is testing a standalone app for its overhauled Siri",
+    "title_cht": "蘋果正測試改版Siri的獨立App",
+    "title_ja": "Appleが刷新されたSiri専用スタンドアロンアプリをテスト中",
+    "url": "https://www.theverge.com/tech/899801/apple-wwdc-2026-new-siri-apple-intelligence-standalone-app",
+    "source": "The Verge",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#Apple",
+      "#Siri",
+      "#iOS27",
+      "#WWDC2026",
+      "#AI助理"
+    ],
+    "summary_points_cht": [
+      "全面改版的Siri將在2026年WWDC（6月8日）首次亮相，定位為「跨應用系統級AI智能體」",
+      "新Siri將深度整合iOS和macOS應用，能代替用戶完成跨App的複雜任務",
+      "Bloomberg記者Mark Gurman報導Apple正測試Siri獨立App",
+      "新Siri將作為iOS 27和macOS 27的重要功能推出",
+      "這是Apple重建Apple Intelligence AI平台整體努力的核心一環"
+    ],
+    "summary_points_ja": [
+      "全面刷新されたSiriが2026年WWDC（6月8日）でデビュー予定、「アプリをまたぐシステム全体のAIエージェント」として機能",
+      "新SiriはiOS・macOSのアプリと深く統合し、ユーザーの要求タスクをクロスアプリで代行実行",
+      "BloombergのMark GurmanがAppleのSiri専用スタンドアロンアプリのテストを報道",
+      "新SiriはiOS 27とmacOS 27の目玉機能として登場",
+      "AppleのApple Intelligence AIプラットフォーム全面刷新の中核"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "AIコードエディタ「Cursor」がプラグイン拡張に対応　開発ライフサイクルをエディタ内で完結",
+    "title_cht": "AI程式碼編輯器「Cursor」支援插件擴充——開發生命週期可在編輯器內一站完成",
+    "title_ja": "AIコードエディタ「Cursor」がプラグイン拡張に対応　開発ライフサイクルをエディタ内で完結",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/26/news055.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#Cursor",
+      "#AI程式設計",
+      "#插件",
+      "#MCP",
+      "#CursorMarketplace"
+    ],
+    "summary_points_cht": [
+      "Cursor宣布支援插件擴充，可整合MCP伺服器、技能、子智能體、規則與鉤子等功能",
+      "3月11日已有AWS、Atlassian、Datadog、GitLab等30+合作夥伴的插件在Cursor Marketplace上架",
+      "支援Amplitude、Figma、Linear、Stripe等主流開發工具插件",
+      "插件覆蓋計畫、設計、支付、基礎設施等軟體開發全生命週期",
+      "開發者可在同一介面完成從程式碼生成到產品全流程管理"
+    ],
+    "summary_points_ja": [
+      "CursorがプラグインによるMCPサーバー・スキル・サブエージェント・ルール・フックの統合拡張に対応を発表",
+      "3月11日にAWS・Atlassian・Datadog・GitLabなど30以上のパートナーによるプラグインが「Cursor Marketplace」に公開",
+      "Amplitude・Figma・Linear・Stripeなど主要開発ツールのプラグインに対応",
+      "計画・設計・支払い・インフラなどソフトウェア開発ライフサイクル全体をカバー",
+      "コード生成から製品開発全工程を同一インターフェースで一元管理可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "AI agents are cybersecurity firms' newest employees",
+    "title_cht": "AI智能體成為資安公司的最新員工",
+    "title_ja": "AIエージェントがサイバーセキュリティ企業の最新「従業員」に",
+    "url": "https://www.businessinsider.com/ai-agents-are-changing-cybersecurity-jobs-and-cutting-workloads-2026-3",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#AI智能體",
+      "#網路安全",
+      "#Huntress",
+      "#威脅偵測",
+      "#自動化"
+    ],
+    "summary_points_cht": [
+      "資安公司正導入AI智能體應對日益複雜的網路威脅，減輕分析師人力短缺壓力",
+      "Huntress使用AI智能體進行威脅偵測，工作量與調查時間削減90%",
+      "與生成式AI不同，AI智能體被指定特定角色並自主執行多步驟工作流程",
+      "2025年麥肯錫調查顯示62%的受訪組織正在試驗AI智能體",
+      "高風險情況下仍需人類監督，AI智能體對複雜任務尚有局限性"
+    ],
+    "summary_points_ja": [
+      "セキュリティ企業がAIエージェントを導入してサイバー脅威に対応し、アナリスト不足の問題を解消",
+      "HuntressはAIエージェントで脅威検知を実施、作業量と調査時間を90%削減",
+      "生成AIと異なり、AIエージェントは特定の役割を与えられてマルチステップのワークフローを自律実行",
+      "マッキンゼーの2025年調査で62%の組織がAIエージェントを試験中と回答",
+      "高リスク状況では依然として人間の監督が必要で、複雑なタスクには限界がある"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "AIエージェントは「便利なだけ」では普及しない？　標準化へ、イニシアチブ発足",
+    "title_cht": "AI智能體「光靠方便還不夠普及」？NIST標準化倡議正式發足",
+    "title_ja": "AIエージェントは「便利なだけ」では普及しない？　標準化へ、イニシアチブ発足",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/26/news158.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#NIST",
+      "#AI標準化",
+      "#AIAgent標準",
+      "#相互運用性",
+      "#AI治理"
+    ],
+    "summary_points_cht": [
+      "NIST的AI標準創新中心（CAISI）宣布啟動「AI Agent Standards Initiative」，推進自律AI的信任與互通性",
+      "目前AI智能體因缺乏統一連接規範，導致跨智能體及數位資源的互通性與安全性信任不足",
+      "倡議與NSF及其他跨部會合作，圍繞三大支柱推進標準化",
+      "NIST將在數月內發布研究成果與指南，並透過會議和RFI廣徵意見",
+      "標準化目標在於支援AI智能體新使用案例創建與全產業導入"
+    ],
+    "summary_points_ja": [
+      "NISTのAI標準イノベーションセンター（CAISI）が「AI Agent Standards Initiative」の発足を発表、自律型AIの信頼性と相互運用性の確保を目指す",
+      "現在AIエージェントは外部システムとの連携仕様が統一されておらず、相互運用性と安全性への信頼欠如が普及の障壁",
+      "NSFおよび省庁間パートナーと協力し、3つの柱に沿って標準化を推進",
+      "NISTは数ヶ月以内に研究成果・ガイドラインを発表し、会議やRFIを通じて広く意見収集予定",
+      "標準化によりAIエージェントの新ユースケース創出と産業全体での導入を支援"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "画像のリサイズからファイル整理まで「判断を伴う定型業務」も自動化。AIエージェント「Claude Cowork」の実力",
+    "title_cht": "從圖片縮放到檔案整理，「需要判斷的定型工作」也能自動化——AI智能體「Claude Cowork」實力解析",
+    "title_ja": "画像のリサイズからファイル整理まで「判断を伴う定型業務」も自動化。AIエージェント「Claude Cowork」の実力",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/27/news017.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#ClaudeCowork",
+      "#Anthropic",
+      "#AI智能體",
+      "#電腦自動化",
+      "#Windows11"
+    ],
+    "summary_points_cht": [
+      "Claude Cowork是Anthropic推出的本地AI智能體，可直接讀寫、創建、修改沙盒環境內的PC檔案",
+      "與一般AI聊天不同，可處理「需要判斷的定型業務」，如依圖片原始尺寸差異進行批量智慧縮放",
+      "支援Windows 11，Microsoft已宣布將Claude Cowork整合入Microsoft 365 Copilot（Copilot Cowork）",
+      "適用場景包括大量資料整形、定型報告生成、批量檔案整理等任務",
+      "對不擅長傳統自動化工具的用戶提供低門檻的判斷型自動化能力"
+    ],
+    "summary_points_ja": [
+      "Claude CoworkはAnthropicが提供するローカルAIエージェントで、サンドボックス環境内のPCファイルを実際に読み書き・作成・変更できる",
+      "通常のAIチャットと異なり、画像の元サイズに応じた一括リサイズなど「判断を伴う定型業務」を自動化",
+      "Windows 11に対応し、MicrosoftはClaude CoworkをMicrosoft 365 Copilot（Copilot Cowork）に統合すると発表",
+      "大量データ整形・定型レポート生成・ファイル整理などのタスクに最適",
+      "従来の自動化ツールが苦手なユーザーでも使える低しきい値の判断型自動化を提供"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_agent",
+    "idx": 6,
+    "title": "蚂蚁集团安全团队发现OpenClaw多个高危漏洞并协助快速修复",
+    "title_cht": "螞蟻集團安全團隊發現OpenClaw多個高危漏洞並協助快速修復",
+    "title_ja": "アリグループのセキュリティチームがOpenClawの複数の高危険度脆弱性を発見し修正を支援",
+    "url": "https://36kr.com/newsflashes/3744930102149120?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 6,
+    "tags": [
+      "#OpenClaw",
+      "#安全漏洞",
+      "#AI框架安全",
+      "#螞蟻集團",
+      "#漏洞修復"
+    ],
+    "summary_points_cht": [
+      "螞蟻AI安全實驗室對開源自主智能體框架OpenClaw進行三天深度安全審計，共提交33個漏洞報告",
+      "OpenClaw在2026.3.28版本確認並修復8個漏洞（1個嚴重、4個高危、3個中危）",
+      "此次審計凸顯AI智能體框架在安全防護上面臨的現實挑戰",
+      "螞蟻集團表示將持續關注AI智能體的安全風險",
+      "對開發者而言，AI智能體框架的安全審計已成為生產部署前的必要步驟"
+    ],
+    "summary_points_ja": [
+      "アリグループAIセキュリティラボがオープンソースAIエージェントフレームワーク「OpenClaw」に3日間の深度セキュリティ監査を実施、33件の脆弱性レポートを提出",
+      "OpenClawは2026.3.28バージョンで8件の脆弱性を修正（深刻1件・高危険度4件・中危険度3件）",
+      "AIエージェントフレームワークが直面するセキュリティ課題を浮き彫りに",
+      "アリグループはAIエージェントのセキュリティリスクを継続的に監視すると表明",
+      "本番デプロイ前のAIエージェントフレームワークへのセキュリティ監査の重要性を示す事例"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_agent",
+    "idx": 7,
+    "title": "無料でiPhone/iPad・AndroidスマホでいろいろなローカルAIを動かしチャット＆ローカルAIベンチマークができるオープンソースアプリ「PocketPal AI」、サブスク不要＆オフラインでどこでも利用可能",
+    "title_cht": "免費開源應用「PocketPal AI」：iPhone／iPad及Android可離線執行本地AI模型，無需訂閱",
+    "title_ja": "無料でiPhone/iPad・AndroidスマホでいろいろなローカルAIを動かしチャット＆ローカルAIベンチマークができるオープンソースアプリ「PocketPal AI」、サブスク不要＆オフラインでどこでも利用可能",
+    "url": "https://gigazine.net/news/20260330-pocketpal-ai/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#PocketPalAI",
+      "#本地AI",
+      "#SLM",
+      "#離線AI",
+      "#隱私保護"
+    ],
+    "summary_points_cht": [
+      "PocketPal AI是開源手機應用，可在iOS和Android上完全離線執行多種本地小型語言模型（SLM）",
+      "所有運算在裝置端完成，對話、提示詞和資料不會傳送至任何外部伺服器",
+      "支援多種SLM下載與切換，並可進行本地AI基準測試",
+      "無需訂閱，完全免費，適合注重隱私的用戶",
+      "作者實際示範了在iPhone 15 Pro上的安裝與使用流程"
+    ],
+    "summary_points_ja": [
+      "PocketPal AIはiOS・Android対応のオープンソースアプリで、完全オフラインで複数のローカルSLMを実行可能",
+      "全処理はデバイス上で完結し、会話・プロンプト・データは外部サーバーに送信されない",
+      "複数のSLMのダウンロード・切り替えとローカルAIベンチマークに対応",
+      "サブスクリプション不要・無料、プライバシー重視のユーザーに最適",
+      "iPhone 15 Proでの実際のインストールと使用手順をデモ"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_agent",
+    "idx": 8,
+    "title": "The future of consulting is a real-time dashboard where humans monitor the work of AI agents, IBM says",
+    "title_cht": "IBM：諮詢業的未來是讓人類透過即時儀表板監控AI智能體",
+    "title_ja": "IBMが語るコンサルティングの未来——人間がAIエージェントをリアルタイムで監視するダッシュボード",
+    "url": "https://www.businessinsider.com/consulting-management-ai-agents-future-ibm-2026-3",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#IBM",
+      "#AI諮詢",
+      "#AI智能體",
+      "#數位員工",
+      "#企業AI"
+    ],
+    "summary_points_cht": [
+      "IBM諮詢部門使用即時儀表板讓人類監控AI智能體工作，安全調查時間從45分鐘縮短至數分鐘",
+      "IBM Consulting高級副總裁Mohamad Ali展示這套人機協作儀表板，目前已對客戶開放",
+      "IBM Consulting 2025年營收達210億美元，AI解決方案需求為主要驅動力",
+      "IBM認為「數位員工＋人類監管」將成為新諮詢模式",
+      "此模式對資安、法遵等高風險業務場景具有重要示範意義"
+    ],
+    "summary_points_ja": [
+      "IBMコンサルティング部門がAIエージェントの作業をリアルタイム監視するダッシュボードを使用、セキュリティ調査時間が45分から数分に短縮",
+      "IBM ConsultingシニアVPのMohamad Aliが人間とAIの協働ダッシュボードを紹介、クライアント向けにも公開済み",
+      "IBM Consultingの2025年収益は210億ドル、AI需要が成長を牽引",
+      "「デジタルワーカー＋人間の監督」が新しいコンサルティングモデルになるとIBMは主張",
+      "セキュリティ・コンプライアンスなど高リスク業務での応用に示唆的な事例"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_agent",
+    "idx": 9,
+    "title": "The mobile app traffic your security team can't see — and AI agents are generating it",
+    "title_cht": "你的資安團隊看不見的行動App流量——正由AI智能體產生",
+    "title_ja": "セキュリティチームが把握できないモバイルアプリトラフィック——AIエージェントが生成している",
+    "url": "https://www.techradar.com/pro/the-mobile-app-traffic-your-security-team-cant-see-and-ai-agents-are-generating-it",
+    "source": "TechRadar",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AI安全",
+      "#AI智能體",
+      "#行動安全",
+      "#攻擊向量",
+      "#資安風險"
+    ],
+    "summary_points_cht": [
+      "AI智能體直接寫程式碼、觸發工作流程並呼叫生產API，多數組織資安團隊對此毫不知情",
+      "最新民調顯示48%資安專業人員預期智能體AI將在年底成為首要攻擊向量，超越深偽技術",
+      "開發者正在無意中為AI智能體攻擊開啟大門",
+      "這不是未來風險，而是當前正在發生的安全盲點",
+      "企業需要新的監控策略以應對AI智能體帶來的行動端安全挑戰"
+    ],
+    "summary_points_ja": [
+      "AIエージェントはコード記述・ワークフロー起動・本番APIへの直接アクセスを行うが、多くの組織のセキュリティチームはこれを把握していない",
+      "最新調査では48%のセキュリティ専門家がエージェントAIを年内の最大攻撃ベクターと予想し、ディープフェイクを上回る",
+      "開発者が意図せずAIエージェント攻撃の扉を開いている",
+      "これは将来のリスクではなく、現在進行中のセキュリティ上の盲点",
+      "企業はAIエージェントがもたらすモバイルセキュリティの課題に対応する新たな監視戦略が必要"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_agent",
+    "idx": 10,
+    "title": "「AIコーディングは後から苦しくなる」「いま勢いのあるツールは？」――エージェントに揺れる開発現場",
+    "title_cht": "「AI程式設計後來會很痛苦」「當下最火的工具是？」——在智能體浪潮中搖盪的開發現場",
+    "title_ja": "「AIコーディングは後から苦しくなる」「いま勢いのあるツールは？」――エージェントに揺れる開発現場",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/28/news018.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#AI程式設計",
+      "#理解負債",
+      "#認知負債",
+      "#AgentSkills",
+      "#開發工具"
+    ],
+    "summary_points_cht": [
+      "AI輔助程式設計帶來「理解負債」和「認知負債」等新挑戰，與傳統技術負債並列為「AI時代三大負債」",
+      "Anthropic Academy新增Claude Code的Agent Skills（智能體技能）課程，約22分鐘影片講解新開發模式",
+      "State of JavaScript 2025調查揭露前端框架與工具的使用率、滿意度排名",
+      "Gartner預測：2027年前以AI為由削減客服人員的企業中有半數將重新招聘",
+      "屬日本IT媒體多主題週排行榜彙整，非單一深度報導"
+    ],
+    "summary_points_ja": [
+      "AIコーディングによる「理解負債」と「認知負債」が新たな課題として注目、技術負債と合わせてAI時代の三大負債と整理",
+      "Anthropic AcademyにClaude Codeの「エージェントスキル」を解説する新コースが追加（約22分）",
+      "State of JavaScript 2025調査でフレームワーク・ツールの利用状況・満足度が明らかに",
+      "Gartner予測：AI理由で顧客サービス削減した企業の半数が2027年までに再雇用",
+      "日本IT媒体の週間人気記事ランキング彙整であり、単独の深掘りレポートではない"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "Anthropic’s Claude Code gets ‘safer’ auto mode",
+    "title_cht": "Anthropic的Claude Code獲得「更安全」的自動模式",
+    "title_ja": "AnthropicのClaude Codeに「より安全な」自動モードが登場",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/900201/anthropic-claude-code-auto-mode",
+    "source": "The Verge",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#ClaudeCode",
+      "#Anthropic",
+      "#AutoMode",
+      "#AI安全",
+      "#氛圍程式設計"
+    ],
+    "summary_points_cht": [
+      "Anthropic為Claude Code推出自動模式（auto mode），讓AI代替用戶做出許可權層級的決策",
+      "此功能定位為「過度謹慎的手把手模式」與「危險高度自主模式」之間的安全中間地帶",
+      "Claude Code原本可獨立執行刪除檔案、傳送敏感資料、執行惡意程式碼等高風險操作",
+      "自動模式設計用於標記並阻止此類風險操作，保護vibe coder（氛圍程式設計師）",
+      "這是Anthropic為Claude Code強化安全保護措施的最新重要更新"
+    ],
+    "summary_points_ja": [
+      "AnthropicがClaude Codeに「自動モード（auto mode）」を追加、AIがユーザーに代わって権限レベルの判断を行う",
+      "機能は「過保護なハンドホールディング」と「危険なほど高い自律性」の安全な中間点として位置づけ",
+      "Claude Codeはファイル削除・機密データ送信・悪意あるコード実行などのリスク操作を自律的に行える",
+      "自動モードはこれらのリスク操作にフラグを立て阻止するよう設計、バイブコーダーを保護",
+      "AnthropicによるClaude Codeのセキュリティ強化の最新重要アップデート"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "单张显卡跑出15倍推理速度，aiX-apply-4B小模型加速企业AI研发落地",
+    "title_cht": "單張顯示卡跑出15倍推理速度——aiX-apply-4B小模型加速企業AI研發落地",
+    "title_ja": "シングルGPUで15倍の推論速度——aiX-apply-4B小型モデルが企業AI開発の実装を加速",
+    "url": "https://www.qbitai.com/2026/03/392787.html",
+    "source": "量子位",
+    "language": "zh",
+    "score": 8,
+    "tags": [
+      "#aiXapply4B",
+      "#小模型",
+      "#企業AI",
+      "#程式碼模型",
+      "#推理速度"
+    ],
+    "summary_points_cht": [
+      "硅心科技（aiXcoder）推出aiX-apply-4B，專為「程式碼變更應用」場景設計的4B輕量模型",
+      "在20+主流程式語言測試中，平均準確率93.8%，超越千億級大模型DeepSeek-V3.2",
+      "算力成本僅為DeepSeek-V3.2的5%，推理速度提升15倍，僅需一張消費級顯示卡即可企業部署",
+      "針對金融、通信、能源等私有部署算力受限的企業痛點設計",
+      "隨著多智能體協作普及，單任務可能需10~50次模型調用，輕量模型優勢尤為突出"
+    ],
+    "summary_points_ja": [
+      "硅心科技（aiXcoder）が「コード変更適用」シナリオ向けに設計された軽量4BモデルaiX-apply-4Bをリリース",
+      "20以上の主要プログラミング言語テストで平均精度93.8%を達成、1000億規模のDeepSeek-V3.2を上回る",
+      "計算コストはDeepSeek-V3.2の5%、推論速度は15倍向上、コンシューマーグレードGPU1枚で企業デプロイ可能",
+      "金融・通信・エネルギーなどプライベートデプロイで算力が制限される企業の課題に対応",
+      "マルチエージェント協業の普及により1タスクで10〜50回のモデル呼び出しが必要になる中、軽量モデルの優位性が際立つ"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "打破代码大模型训练瓶颈：MicroCoder将算法数据框架训练经验升级",
+    "title_cht": "打破程式碼大模型訓練瓶頸：MicroCoder升級算法、資料、框架與訓練經驗",
+    "title_ja": "コード大規模モデルの訓練ボトルネックを打破：MicroCoderがアルゴリズム・データ・フレームワーク・訓練経験をアップグレード",
+    "url": "https://www.qbitai.com/2026/03/393164.html",
+    "source": "量子位",
+    "language": "zh",
+    "score": 8,
+    "tags": [
+      "#MicroCoder",
+      "#程式碼模型",
+      "#GRPO",
+      "#微軟研究院",
+      "#強化學習"
+    ],
+    "summary_points_cht": [
+      "微軟亞洲研究院聯合劍橋大學、普林斯頓大學提出MicroCoder，解決新世代程式碼推理模型的訓練瓶頸",
+      "現有強化學習方法（如GRPO）和主流資料集在最新推理模型上幾乎「失效」，因模型能力已超越資料難度",
+      "MicroCoder包含三大核心貢獻：MicroCoder-GRPO算法、MicroCoder-Dataset資料集、MicroCoder-Evaluator評估框架",
+      "從30+組受控實驗中總結34條訓練洞察，七個面向公開分享",
+      "核心創新包括條件截斷遮罩（Conditional Cutoff Mask），解決被截斷輸出參與策略優化引發的問題"
+    ],
+    "summary_points_ja": [
+      "マイクロソフトアジア研究院がケンブリッジ・プリンストン大学と共同でMicroCoderを提案、次世代コード推論モデルの訓練ボトルネックを解決",
+      "既存のGRPOなどの強化学習手法と主流データセットは最新推論モデルでほぼ「無効化」、モデル能力がデータ難易度を超えたため",
+      "MicroCoderはMicroCoder-GRPOアルゴリズム・MicroCoder-Datasetデータセット・MicroCoder-Evaluator評価フレームワークの3つの主要貢献から構成",
+      "30以上の制御実験から34の訓練インサイトを7つの観点で公開共有",
+      "切り捨てられた出力がポリシー最適化に参加する問題を解決する条件付きカットオフマスクが主要イノベーション"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "Anthropic's Claude AI Can Now Use Your Mac While You're Away",
+    "title_cht": "Anthropic的Claude AI現在可在你離開時操控你的Mac",
+    "title_ja": "AnthropicのClaude AIが留守中にMacを操作できるように",
+    "url": "https://www.macrumors.com/2026/03/24/claude-use-mac-remotely-iphone/",
+    "source": "MacRumors",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#ClaudeCowork",
+      "#電腦使用",
+      "#Anthropic",
+      "#MacOS",
+      "#AI自動化"
+    ],
+    "summary_points_cht": [
+      "Anthropic為Claude Cowork和Claude Code添加遠端控制Mac電腦的能力，實現真正的「電腦使用」",
+      "當Claude缺乏特定App（如Slack、Google Calendar）的直接連接器時，可像人類一樣用滑鼠點擊螢幕導覽",
+      "功能包括開啟檔案、使用瀏覽器、自動執行開發工具，無需任何手動設定",
+      "搭配上週發布的Dispatch功能，可從iPhone指派任務，離開後返回查看完成結果",
+      "這是AI智能體「電腦使用（Computer Use）」能力走向生產可用的重要里程碑"
+    ],
+    "summary_points_ja": [
+      "AnthropicがClaude CoworkとClaude Codeに、Macコンピューターのリモートコントロール機能を追加、真の「コンピューター使用」を実現",
+      "SlackやGoogle CalendarなどのアプリへのダイレクトコネクターがないときはClaudeが画面をマウスクリックで操作してナビゲート",
+      "ファイルを開く・ブラウザを使用する・開発ツールを自動実行できる、セットアップ不要",
+      "先週リリースされたDispatch機能と組み合わせ、iPhoneからタスクを割り当てて後から結果確認が可能",
+      "AIエージェントの「コンピューター使用（Computer Use）」能力が本番利用に近づいた重要なマイルストーン"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "AMD releases FSR SDK 2.2 with new AI denoiser Ray Regeneration",
+    "title_cht": "AMD發布FSR SDK 2.2，新增AI降噪器 Ray Regeneration",
+    "title_ja": "AMD、AIデノイザー「Ray Regeneration」搭載のFSR SDK 2.2をリリース",
+    "url": "https://www.cgchannel.com/2026/03/amd-releases-fsr-sdk-2-2-with-new-ai-denoiser-ray-regeneration/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#AMD",
+      "#FSRSDK",
+      "#RayRegeneration",
+      "#AI渲染",
+      "#Redstone神經渲染"
+    ],
+    "summary_points_cht": [
+      "AMD發布FSR SDK 2.2，整合Redstone神經網路渲染技術，包括全新AI降噪器FSR Ray Regeneration",
+      "此次更新為SDK重新命名，將原有渲染升頻系統納入更廣泛的AI渲染技術套件",
+      "示範圖像在AMD Radeon RX 9070 XT顯示卡上以4K解析度擷取",
+      "SDK面向遊戲和CG工具開發者，提供整合AI渲染技術的工具集",
+      "Ray Regeneration為光線追蹤場景提供AI驅動的高品質降噪處理，提升即時渲染畫質"
+    ],
+    "summary_points_ja": [
+      "AMDがFSR SDK 2.2をリリース、RedstoneニューラルレンダリングとAIデノイザー「FSR Ray Regeneration」を統合",
+      "今回のアップデートでSDKがリブランディングされ、従来のレンダリングアップスケーラーを広いAIレンダリング技術スイートに統合",
+      "デモ画像はAMD Radeon RX 9070 XTにて4K解像度で撮影",
+      "SDKはゲームおよびCGツール開発者向けにAIレンダリング技術統合のツールセットを提供",
+      "Ray RegenerationはレイトレーシングシーンにおいてAI駆動の高品質デノイズ処理を提供し、リアルタイムレンダリング品質を向上"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "Deepfake X-rays are so real even doctors can’t tell the difference",
+    "title_cht": "AI偽造X光片以假亂真，連醫生都無法分辨",
+    "title_ja": "AIによる偽造X線画像は精巧すぎて医師でも見破れない",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260326011452.htm",
+    "source": "Science Daily",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#深偽技術",
+      "#醫療AI",
+      "#X光",
+      "#AI安全",
+      "#Radiology期刊"
+    ],
+    "summary_points_cht": [
+      "北美放射學學會期刊《Radiology》刊載研究：AI生成的假X光片已能欺騙放射科醫師與多模態LLM",
+      "放射科醫師在不知情的情況下辨識假圖片的成功率有限",
+      "潛在風險包括偽造醫療理賠、竄改診斷結果等詐欺行為",
+      "專家強調必須建立更強的防護措施和AI偵測工具",
+      "研究於2026年3月24日發表，凸顯AI深偽在醫療場景的具體危害"
+    ],
+    "summary_points_ja": [
+      "北米放射線学会（RSNA）の学術誌「Radiology」にAI生成の偽X線画像が放射線科医と多モーダルLLMを騙せることを示す研究が掲載",
+      "放射線科医は事前情報なしに偽画像を識別する際に成功率が限定的",
+      "偽造医療請求や診断結果の改ざんなどの詐欺行為のリスクが浮上",
+      "専門家は技術の進歩に伴い、より強固な保護措置と検出ツールの確立を強調",
+      "2026年3月24日発表の研究で、医療現場でのAIディープフェイクの具体的な危害を浮き彫りに"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_industry",
+    "idx": 6,
+    "title": "「微元合成」获3亿元A+轮融资，联合发布AI生物计算开放合作平台 | 36氪首发",
+    "title_cht": "「微元合成」完成3億元A+輪融資，聯合發布AI生物計算開放合作平台",
+    "title_ja": "「微元合成」が3億元のA+ラウンド資金調達を完了、AI生物計算オープン協力プラットフォームを共同発表",
+    "url": "https://36kr.com/p/3744666471088389?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 6,
+    "tags": [
+      "#微元合成",
+      "#AI生物計算",
+      "#分子對接",
+      "#PoseX",
+      "#合成生物學"
+    ],
+    "summary_points_cht": [
+      "微元合成完成3億元A+輪融資，由河南投資集團匯融基金等參與",
+      "聯合斯坦福、普林斯頓、北大、字節跳動、NVIDIA於ICLR 2026發表分子對接平台PoseX",
+      "PoseX是面向全球科學家的開放協作平台，解決真實場景（而非理想實驗環境）下的蛋白質動態分子對接難題",
+      "傳統分子對接高度依賴科學家經驗或成本高昂的物理模擬，PoseX旨在提供統一公平評測基準",
+      "融資將加大AI生物計算核心技術研發與場景化落地力度"
+    ],
+    "summary_points_ja": [
+      "微元合成が3億元のA+ラウンド資金調達を完了、河南投資グループなどが参加",
+      "スタンフォード・プリンストン・北京大学・ByteDance・NVIDIAと共同でICLR 2026に分子ドッキングプラットフォームPoseXを発表",
+      "PoseXは世界の科学者向けオープン協力プラットフォームで、実環境下でのタンパク質動態分子ドッキング問題に取り組む",
+      "従来の分子ドッキングは科学者の経験や高コストな物理シミュレーションに大きく依存、PoseXは統一・公正な評価基準を提供",
+      "資金調達でAI生物計算の中核技術研究開発と実用展開を強化"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_industry",
+    "idx": 7,
+    "title": "ClawBench：智谱、字节、小米共有4款模型跻身全球前十",
+    "title_cht": "ClawBench：智譜、字節、小米共4款模型躋身全球前十",
+    "title_ja": "ClawBench：智譜・ByteDance・小米から計4モデルがグローバルトップ10入り",
+    "url": "https://36kr.com/newsflashes/3745013883240710?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 6,
+    "tags": [
+      "#ClawBench",
+      "#大模型排行",
+      "#GLM5Turbo",
+      "#智譜",
+      "#中國AI"
+    ],
+    "summary_points_cht": [
+      "評測機構ClawBench發布最新大模型榜單，中國智譜、字節、小米共4款模型進入全球前十",
+      "智譜GLM-5-Turbo以93.9分登頂榜首",
+      "字節Doubao-Seed-2.0-lite位居第二，使用成本為全榜最低",
+      "小米MiMo-V2-Omni位列第9，運行速度最快",
+      "顯示中國AI模型在全球競爭力的顯著提升"
+    ],
+    "summary_points_ja": [
+      "評価機関ClawBenchの最新大規模モデルランキングで中国の智譜・ByteDance・小米から計4モデルがトップ10入り",
+      "智譜GLM-5-Turboが93.9点でトップに立つ",
+      "ByteDanceのDoubao-Seed-2.0-liteが2位、使用コストはランキング最低水準",
+      "小米MiMo-V2-Omniが9位、動作速度は最速",
+      "中国AIモデルのグローバルな競争力の顕著な向上を示す"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_industry",
+    "idx": 8,
+    "title": "This researcher has a new way to measure AI performance. It's BS, literally.",
+    "title_cht": "這位研究者有個評測AI的新方法：BullshitBench，就是字面意思",
+    "title_ja": "研究者がAI性能を測る新しい方法を提案：BullshitBench、文字通りの意味で",
+    "url": "https://www.businessinsider.com/ai-test-spotting-bullshit-peter-gostev-arena-anthropic-openai-google-2026-3",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#BullshitBench",
+      "#AI評測",
+      "#GoogleGemini",
+      "#LLM基準測試",
+      "#廢話偵測"
+    ],
+    "summary_points_cht": [
+      "研究者Peter Gostev創建「BullshitBench」，以故意無意義的問題測試AI能否識破廢話",
+      "Google Gemini 3.0在BullshitBench表現不佳，超過50%情況下未能拒絕無意義問題",
+      "某一家AI公司的表現遠優於其他所有競爭者",
+      "自2月底推出以來，GitHub已累積超過1200顆星",
+      "此評測揭示各大模型在語義理解和批判性思維能力上的顯著差距"
+    ],
+    "summary_points_ja": [
+      "研究者Peter GostevがAIがナンセンスを見抜けるかテストする「BullshitBench」を開発",
+      "Google Gemini 3.0はBullshitBenchで低成績、50%以上のケースでナンセンスな質問を拒否できず",
+      "ある1社のAI企業が他の競合を大幅に上回る成績を記録",
+      "2月末のリリース以来GitHubで1200以上のスターを獲得",
+      "各モデルの意味理解と批判的思考力の格差を浮き彫りに"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-06",
+    "category": "ai_industry",
+    "idx": 9,
+    "title": "Webtoon is adding AI localization tools to its comics platform",
+    "title_cht": "Webtoon為漫畫平台新增AI在地化工具",
+    "title_ja": "WebtoonがコミックプラットフォームにAIローカライゼーションツールを追加",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/899108/webtoon-canvas-ai-translation-localization-yongsoo-kim",
+    "source": "The Verge",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Webtoon",
+      "#AI翻譯",
+      "#漫畫在地化",
+      "#Canvas",
+      "#創作者工具"
+    ],
+    "summary_points_cht": [
+      "Webtoon旗下Canvas平台宣布重大改版，即將推出AI驅動翻譯工具",
+      "漫畫腳本可一鍵本地化為英語、西班牙語、法語、印尼語等多種語言",
+      "同步擴大獨立創作者的廣告收益分潤計畫",
+      "新功能幫助創作者建立全球粉絲群並深入了解受眾互動數據",
+      "對有國際化需求的亞洲漫畫創作者具有重要意義"
+    ],
+    "summary_points_ja": [
+      "Webtoonのユーザー投稿プラットフォーム「Canvas」が大幅刷新を発表、AI翻訳ツールをまもなく導入",
+      "漫画スクリプトを英語・スペイン語・フランス語・インドネシア語などに自動ローカライズ可能",
+      "インディークリエイター向けの広告収益分配プログラムも拡大予定",
+      "漫画家がグローバルなファン層を構築し、読者エンゲージメントを深く理解するのに役立つ",
+      "国際展開を希望するアジアの漫画クリエイターにとって重要な機能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-03-30",
     "category": "3d_ai",
     "idx": 0,
