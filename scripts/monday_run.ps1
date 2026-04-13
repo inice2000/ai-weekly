@@ -55,23 +55,38 @@ if (-not (Test-Path "data\filtered.json")) {
     exit 1
 }
 
-# .env 讀取已移除：不再需要載入環境變數
-# claude -p 直接使用 Claude 訂閱，不需要 API key
-
-# ── 階段一：評分（一次完成全部文章）─────────────────────────
-$statusJson = python scripts/ai_score.py status $today | ConvertFrom-Json
-if ($null -eq $statusJson) {
-    Log "錯誤：無法取得狀態，中止"
-    exit 1
+# 載入郵件相關環境變數（GMAIL_SENDER, GMAIL_APP_PASSWORD, NOTIFY_EMAILS）
+$envFile = "C:\Users\inice\claudeAgent\.env"
+if (Test-Path $envFile) {
+    Get-Content $envFile | ForEach-Object {
+        if ($_ -match '^\s*([^#][^=]+)=(.*)$') {
+            [System.Environment]::SetEnvironmentVariable($matches[1].Trim(), $matches[2].Trim(), "Process")
+        }
+    }
+    Log "已載入 .env 環境變數"
 }
 
-if ($statusJson.phase -eq "scoring") {
-    Log "階段一：評分 $($statusJson.pending_count) 篇文章"
+# ── 階段一：評分（分批循環，每批 SCORING_BATCH_SIZE 篇，避免輸出截斷）───────────
+$scoringBatch = 0
+$scoringFails = 0
+$maxScoringFails = 3
 
-    $prompt = python scripts/ai_score.py scoring-prompt $today
-    if (-not $prompt) {
-        Log "錯誤：無法生成評分 prompt，中止"
+while ($true) {
+    $statusJson = python scripts/ai_score.py status $today | ConvertFrom-Json
+    if ($null -eq $statusJson) {
+        Log "錯誤：無法取得狀態，中止"
         exit 1
+    }
+    if ($statusJson.phase -ne "scoring") { break }
+    if ($statusJson.pending_count -eq 0) { break }
+
+    $scoringBatch++
+    Log "評分第 $scoringBatch 批（剩餘 $($statusJson.pending_count) 篇未評分）"
+
+    $prompt = python scripts/ai_score.py scoring-batch-prompt $today
+    if (-not $prompt) {
+        Log "評分 prompt 為空，評分完成"
+        break
     }
 
     Log "呼叫 claude -p 進行評分..."
@@ -82,19 +97,31 @@ if ($statusJson.phase -eq "scoring") {
         $json | Out-File -Encoding utf8 "data\_scores_temp.json"
         python scripts/ai_score.py save-scores $today data\_scores_temp.json
         Remove-Item "data\_scores_temp.json" -ErrorAction SilentlyContinue
-        Log "評分完成，已儲存"
+        Log "第 $scoringBatch 批評分完成"
+        $scoringFails = 0
     } else {
-        Log "錯誤：評分輸出中找不到 <result> 標籤，中止"
-        Log "claude 原始輸出前 500 字：$($output.Substring(0, [Math]::Min(500, $output.Length)))"
-        exit 1
+        $scoringFails++
+        $outputText = if ($output -is [array]) { $output -join "`n" } else { "$output" }
+        Log "警告：第 $scoringBatch 批評分輸出中找不到 <result> 標籤（連續失敗 $scoringFails 次）"
+        if ($outputText) {
+            $preview = $outputText.Substring(0, [Math]::Min(500, $outputText.Length))
+            Log "claude 原始輸出前 500 字：$preview"
+        }
+        if ($scoringFails -ge $maxScoringFails) {
+            Log "錯誤：評分連續失敗 $maxScoringFails 次，中止"
+            exit 1
+        }
     }
 }
+Log "評分階段完成，進入翻譯"
 
 # ── 階段二：翻譯（逐篇循環，避免 claude -p 輸出截斷）─────────
 $maxBatches = 30
 $batchCount = 0
 $failCount = 0
-$maxFails = 3    # 連續失敗超過此數則中止
+$maxFails = 3           # 連續「非限流」失敗超過此數則中止
+$rateLimitRetries = 0
+$maxRateLimitRetries = 3  # 限流最多重試 3 次（每次等待後重試）
 
 while ($batchCount -lt $maxBatches) {
     $statusJson = python scripts/ai_score.py status $today | ConvertFrom-Json
@@ -111,8 +138,9 @@ while ($batchCount -lt $maxBatches) {
         break
     }
 
-    Log "呼叫 claude -p 進行翻譯..."
-    $output = $prompt | claude --dangerously-skip-permissions -p
+    # 翻譯使用 Sonnet 模型（降低撞限風險，翻譯品質足夠）
+    Log "呼叫 claude -p --model sonnet 進行翻譯..."
+    $output = $prompt | claude --dangerously-skip-permissions -p --model sonnet
 
     $json = Extract-Result $output
     if ($json) {
@@ -121,16 +149,47 @@ while ($batchCount -lt $maxBatches) {
         Remove-Item "data\_batch_temp.json" -ErrorAction SilentlyContinue
         Log "第 $batchCount 篇翻譯完成"
         $failCount = 0
+        $rateLimitRetries = 0
     } else {
-        $failCount++
-        Log "警告：第 $batchCount 篇輸出中找不到 <result> 標籤（連續失敗 $failCount 次）"
-        if ($output) {
-            $preview = if ($output -is [array]) { ($output -join "`n").Substring(0, [Math]::Min(500, ($output -join "`n").Length)) } else { $output.Substring(0, [Math]::Min(500, $output.Length)) }
-            Log "claude 原始輸出前 500 字：$preview"
-        }
-        if ($failCount -ge $maxFails) {
-            Log "錯誤：連續失敗 $maxFails 次，中止翻譯"
-            break
+        # 判斷是否為限流錯誤
+        $outputText = if ($output -is [array]) { $output -join "`n" } else { "$output" }
+        $isRateLimit = $outputText -match "hit your limit|rate.?limit|resets \d"
+
+        if ($isRateLimit) {
+            $rateLimitRetries++
+            Log "限流：第 $rateLimitRetries 次（上限 $maxRateLimitRetries 次）"
+
+            if ($rateLimitRetries -ge $maxRateLimitRetries) {
+                Log "錯誤：限流重試已達上限，中止翻譯"
+                break
+            }
+
+            # 嘗試解析重置時間，否則遞增回退（10m / 20m / 30m）
+            $waitMinutes = $rateLimitRetries * 10
+            if ($outputText -match "resets (\d{1,2})(am|pm)") {
+                $resetHour = [int]$matches[1]
+                if ($matches[2] -eq "pm" -and $resetHour -ne 12) { $resetHour += 12 }
+                $nowJst = Get-JstNow
+                $resetTime = $nowJst.Date.AddHours($resetHour)
+                if ($resetTime -gt $nowJst) {
+                    $waitMinutes = [Math]::Ceiling(($resetTime - $nowJst).TotalMinutes) + 2
+                }
+            }
+
+            Log "等待 $waitMinutes 分鐘後重試..."
+            Start-Sleep -Seconds ($waitMinutes * 60)
+            $batchCount--  # 不計入本次，重新翻譯同一篇
+        } else {
+            $failCount++
+            Log "警告：第 $batchCount 篇輸出中找不到 <result> 標籤（連續失敗 $failCount 次）"
+            if ($outputText) {
+                $preview = $outputText.Substring(0, [Math]::Min(500, $outputText.Length))
+                Log "claude 原始輸出前 500 字：$preview"
+            }
+            if ($failCount -ge $maxFails) {
+                Log "錯誤：連續失敗 $maxFails 次，中止翻譯"
+                break
+            }
         }
     }
 }

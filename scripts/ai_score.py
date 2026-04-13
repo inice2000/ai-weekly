@@ -37,6 +37,9 @@ TARGET_CHARS = 12000
 # 超過此長度的單篇文章獨立成一批
 LONG_ARTICLE_CHARS = 10000
 
+# 評分每批文章數（避免 claude -p 輸出截斷）
+SCORING_BATCH_SIZE = 10
+
 # 進度檔路徑
 def _progress_path(date: str) -> str:
     return f"data/_progress_{date}.json"
@@ -161,29 +164,41 @@ def show_next_batch(date: str = None) -> dict:
 
 def save_scores(date: str, results: list):
     """
-    儲存階段一的評分結果，並自動篩選入選文章進入翻譯階段。
+    儲存階段一的評分結果（支援分批累積）。
+    全部文章評完後自動篩選入選文章並進入翻譯階段。
 
     results: list of dict，每項必須包含：
       key, score, title_cht, title_ja, tags,
       summary_points_cht, summary_points_ja
     """
+    filtered = load_filtered()
+    total_count = sum(len(v) for v in filtered.values())
     progress = _load_progress(date)
 
     for r in results:
         progress["scores"][r["key"]] = r
 
-    # 篩選入選文章（score >= MIN_SCORE），維持原始順序
-    selected = [r["key"] for r in results if r.get("score", 0) >= MIN_SCORE]
-    progress["selected_keys"] = selected
-    progress["phase"] = "translating"
+    scored_count = len(progress["scores"])
 
-    _save_progress(date, progress)
-
-    total = len(results)
-    selected_count = len(selected)
-    skipped = total - selected_count
-    print(f"✅ 評分完成：{total} 篇中 {selected_count} 篇入選（score ≥ {MIN_SCORE}），{skipped} 篇略過")
-    print(f"接下來執行 show_next_batch('{date}') 開始翻譯")
+    if scored_count >= total_count:
+        # 全部評分完成 → 篩選入選文章，進入翻譯階段
+        # 按 filtered 原始順序維持 key 順序
+        all_keys = [f"{cat}/{idx}"
+                    for cat, articles in filtered.items()
+                    for idx in range(len(articles))]
+        selected = [k for k in all_keys
+                    if progress["scores"].get(k, {}).get("score", 0) >= MIN_SCORE]
+        progress["selected_keys"] = selected
+        progress["phase"] = "translating"
+        _save_progress(date, progress)
+        selected_count = len(selected)
+        skipped = scored_count - selected_count
+        print(f"✅ 評分全部完成：{scored_count} 篇中 {selected_count} 篇入選（score ≥ {MIN_SCORE}），{skipped} 篇略過")
+        print(f"接下來執行 show_next_batch('{date}') 開始翻譯")
+    else:
+        _save_progress(date, progress)
+        remaining = total_count - scored_count
+        print(f"✅ 本批評分完成：已評 {scored_count}/{total_count} 篇，剩餘 {remaining} 篇")
 
 
 def save_batch(date: str, results: list):
@@ -413,6 +428,68 @@ def build_scoring_prompt(date: str = None) -> str:
 - JSON 字符串值中若含引號，必須轉義為 \\\"（或改用「」代替）"""
 
 
+def build_scoring_batch_prompt(date: str = None) -> str:
+    """生成下一批評分 prompt（每批 SCORING_BATCH_SIZE 篇，供 claude -p 循環調用）。"""
+    if not date:
+        date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    filtered = load_filtered()
+    progress = _load_progress(date)
+
+    all_keys = [f"{cat}/{idx}"
+                for cat, articles in filtered.items()
+                for idx in range(len(articles))]
+    scored_keys = set(progress["scores"].keys())
+    pending_keys = [k for k in all_keys if k not in scored_keys]
+
+    if not pending_keys:
+        return ""
+
+    batch_keys = pending_keys[:SCORING_BATCH_SIZE]
+
+    article_map = {}
+    for cat, articles in filtered.items():
+        for idx, a in enumerate(articles):
+            article_map[f"{cat}/{idx}"] = {"cat": cat, "article": a}
+
+    articles_list = []
+    for key in batch_keys:
+        item = article_map.get(key, {})
+        a = item.get("article", {})
+        cat = item.get("cat", "")
+        preview = a.get("content_original", "")[:SCORING_CONTENT_PREVIEW]
+        articles_list.append({
+            "key": key,
+            "category": cat,
+            "language": a.get("language", ""),
+            "title": a.get("title", ""),
+            "source": a.get("source", ""),
+            "content_preview": preview,
+        })
+
+    total = len(all_keys)
+    done = len(scored_keys)
+    articles_json = json.dumps(articles_list, ensure_ascii=False, indent=2)
+
+    return f"""你是澄澄，AI 新聞週報的評分助理。
+
+{SCORING_GUIDE}
+
+評分進度：{done}/{total} 篇已完成，本批 {len(batch_keys)} 篇。
+
+以下是本批待評分文章（JSON，content_preview 為正文前 {SCORING_CONTENT_PREVIEW} 字）：
+
+{articles_json}
+
+---
+請對每篇文章完成評分，並在 <result></result> 標籤內輸出 JSON 陣列。
+每個元素必須包含以下欄位：
+  key, score, title_cht, title_ja, tags, summary_points_cht, summary_points_ja
+
+⚠️ 嚴格要求：
+- <result> 標籤外不得有任何文字或說明
+- JSON 字符串值中若含引號，必須轉義為 \\\"（或改用「」代替）"""
+
+
 def build_translation_prompt(date: str = None, single: bool = False) -> str:
     """生成階段二當前批次翻譯的完整 prompt，供 claude -p 調用。
     single=True 時只取 1 篇文章，避免 claude -p 輸出截斷。"""
@@ -499,10 +576,15 @@ def get_status(date: str = None) -> dict:
     """回傳目前處理狀態的 dict（供 PowerShell 解析）。"""
     if not date:
         date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    filtered = load_filtered()
     progress = _load_progress(date)
     phase = progress["phase"]
     if phase == "scoring":
-        count = sum(len(v) for v in load_filtered().values())
+        all_keys = [f"{cat}/{idx}"
+                    for cat, articles in filtered.items()
+                    for idx in range(len(articles))]
+        scored_keys = set(progress["scores"].keys())
+        count = len([k for k in all_keys if k not in scored_keys])
     elif phase == "translating":
         pending = [k for k in progress["selected_keys"]
                    if k not in progress["translated_keys"]]
@@ -527,6 +609,9 @@ if __name__ == "__main__":
 
     elif cmd == "scoring-prompt":
         print(build_scoring_prompt(date_arg))
+
+    elif cmd == "scoring-batch-prompt":
+        print(build_scoring_batch_prompt(date_arg))
 
     elif cmd == "translation-prompt":
         print(build_translation_prompt(date_arg))

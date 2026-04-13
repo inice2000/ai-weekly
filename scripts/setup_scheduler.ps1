@@ -16,7 +16,7 @@ $trigger1 = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday -At "09:30"
 $trigger2 = New-ScheduledTaskTrigger -AtLogOn
 
 $settings = New-ScheduledTaskSettingsSet `
-    -ExecutionTimeLimit (New-TimeSpan -Hours 1) `
+    -ExecutionTimeLimit (New-TimeSpan -Hours 2) `
     -StartWhenAvailable `
     -RunOnlyIfNetworkAvailable
 
