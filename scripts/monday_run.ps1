@@ -156,9 +156,9 @@ while ($batchCount -lt $maxBatches) {
         break
     }
 
-    # 翻譯使用 Sonnet 模型（降低撞限風險，翻譯品質足夠）
-    Log "呼叫 claude -p --model sonnet 進行翻譯..."
-    $output = $prompt | claude --dangerously-skip-permissions -p --model sonnet
+    # 翻譯使用 Haiku 模型（成本約 Sonnet 的 1/20，翻譯品質對週報足夠）
+    Log "呼叫 claude -p --model haiku 進行翻譯..."
+    $output = $prompt | claude --dangerously-skip-permissions -p --model haiku
 
     $json = Extract-Result $output
     if ($json) {
