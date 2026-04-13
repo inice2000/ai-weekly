@@ -1,5 +1,537 @@
 [
   {
+    "date": "2026-04-13",
+    "category": "3d_ai",
+    "idx": 0,
+    "title": "Sony buys machine learning firm behind volumetric 3D images to level-up PlayStation tech",
+    "title_cht": "Sony收購以靜態照片生成體積式3D影像的機器學習公司，強化PlayStation技術",
+    "title_ja": "Sonyが静止画から体積型3D映像を生成するML企業を買収、PlayStation技術を強化",
+    "url": "https://www.tweaktown.com/news/110848/sony-buys-machine-learning-firm-behind-volumetric-3d-images-to-level-up-playstation-tech/index.html",
+    "source": "TweakTown",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Sony",
+      "#CinemersiveLabs",
+      "#体積型3D",
+      "#PSVR2",
+      "#PlayStation"
+    ],
+    "summary_points_cht": [
+      "Sony互動娛樂收購英國機器學習公司Cinemersive Labs，該公司可從靜態照片生成沉浸式3D視圖",
+      "收購後可能用於強化PSVR2體驗，或為PlayStation 6的「未來沉浸式娛樂」平台提供技術支撐",
+      "Cinemersive Labs使用AI與機器學習將一般照片轉換為可在VR中瀏覽的3D空間"
+    ],
+    "summary_points_ja": [
+      "Sony Interactive EntertainmentがUKのML企業Cinemersive Labsを買収、静止画からVR向け没入型3D映像を生成する技術を持つ",
+      "PSVR2の延命や、PlayStation 6向け「Future Immersive Entertainment」プラットフォームへの技術活用が見込まれる",
+      "AIと機器学習により通常の写真を閲覧可能な3D空間に変換する独自技術を保有"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "「AIがコードを書いてセルフレビュー」　GitHub Copilot コーディングエージェントがアップデート",
+    "title_cht": "GitHub Copilot 程式碼智能體更新：新增 AI 模型選擇、自我審查等五大功能",
+    "title_ja": "GitHub Copilot コーディングエージェントがアップデート——モデル選択・セルフレビューなど5機能追加",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/06/news044.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#GitHub",
+      "#Copilot",
+      "#AIエージェント",
+      "#セルフレビュー",
+      "#コーディング"
+    ],
+    "summary_points_cht": [
+      "Agents 面板新增 AI 模型選擇器，可依任務難度切換模型（高速 vs 高性能），也支援自動選擇",
+      "智能體建立 PR 前會先用「Copilot code review」自我審查並改善程式碼",
+      "整合程式碼掃描、機密掃描、依賴關係漏洞檢查，在 PR 建立前標記問題，且在此智能體中免費提供",
+      "可在 .github/agents/ 建立自定義智能體，定義特定工作流程，可在組織層級共享",
+      "支援雲端任務移交到本地終端機繼續，保留完整分支、操作記錄和上下文"
+    ],
+    "summary_points_ja": [
+      "Agentsパネルにモデルピッカーが追加され、タスクの難易度に応じてAIモデルを切り替え可能（自動選択も対応）",
+      "エージェントはPR作成前に「Copilot code review」で自身の変更を自動レビューし改善する",
+      "コードスキャン・シークレットスキャン・依存関係の脆弱性チェックをワークフロー内で直接実行（このエージェントでは無料）",
+      ".github/agents/配下でカスタムエージェントを定義し、組織・エンタープライズ全体で共有できる",
+      "クラウドで開始した作業をローカルターミナルに引き継ぎ、ブランチ・作業ログ・コンテキストを保持して継続可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "Meet 'Dobby': The AI agent that could kill the app economy",
+    "title_cht": "Karpathy 的「多比」：用 AI 智能體取代家中六款 App",
+    "title_ja": "Karpathyの「ドビー」——AIエージェントが自宅の6つのアプリを置き換える",
+    "url": "https://www.businessinsider.com/andrej-karpathy-dobby-ai-apps-disappear-2026-4",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Karpathy",
+      "#OpenClaw",
+      "#Dobby",
+      "#AIエージェント",
+      "#IoT"
+    ],
+    "summary_points_cht": [
+      "Karpathy 用 OpenClaw AI 智能體建立了「Dobby（多比）」，統一用自然語言控制家中所有智慧設備",
+      "Dobby 自動掃描區域網路、識別設備、逆向工程找出未公開 API，取代了 Sonos、燈光、安防等六款 App",
+      "「Vibe coding 之父」親身驗證：AI 智能體可讓一般使用者在不需要寫程式的情況下自動化複雜工作流程",
+      "更深層意義：生成式 AI 和智能體正在威脅整個 App 生態系統，互動界面從點擊 App 轉向自然語言"
+    ],
+    "summary_points_ja": [
+      "KarpathyはOpenClaw AIエージェント「Dobby（ドビー）」でスマートホームの全デバイスを自然言語で一元管理",
+      "DobbyはLANをスキャンしデバイスを識別、非公開APIをリバースエンジニアリングでSonos・照明・セキュリティなど6つのアプリを置換",
+      "「Vibeコーディングの父」自身が実証：AIエージェントはプログラミング不要で複雑なワークフローを自動化できる",
+      "より重要な示唆：生成AIとエージェントはアプリエコシステム全体への脅威であり、UIはタップからAI音声へ移行しつつある"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "Opera Neon now supports MCP Connector that let you control the browser through other AI clients",
+    "title_cht": "Opera Neon 支援 MCP Connector：Claude Code 等 AI 工具可直接控制瀏覽器",
+    "title_ja": "Opera NeonがMCP Connectorをサポート——Claude Codeなど外部AIがブラウザを直接操作可能に",
+    "url": "https://blogs.opera.com/news/2026/03/opera-neon-adds-mcp-connector-to-the-browser/",
+    "source": "Opera.com",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Opera",
+      "#Neon",
+      "#MCP",
+      "#MCPサーバー",
+      "#ブラウザAI"
+    ],
+    "summary_points_cht": [
+      "Opera Neon 成為首款內建 MCP 伺服器的主流 AI 瀏覽器，支援 Claude Code、Lovable、n8n 等外部 AI 工具直接控制瀏覽器",
+      "外部 AI 可讀取你的即時頁面內容、截圖，甚至直接點擊、填表、開啟標籤，無需手動複製貼上",
+      "使用 OAuth2 認證保障安全，持久代理伺服器確保連線穩定（即使 Neon 關閉也不斷線）",
+      "預設啟用讀取工具（讀標籤、讀頁面、截圖）；需在設定中手動啟用點擊、填表等操作型工具",
+      "需要 Opera Neon 訂閱，在 MCP 圖示點選「Allow AI connection」後開始配置"
+    ],
+    "summary_points_ja": [
+      "Opera Neonは主要AIブラウザとして初めて内蔵MCPサーバーをサポート、Claude Code・Lovable・n8nなどの外部AIがブラウザを直接操作可能に",
+      "外部AIはリアルタイムのページ内容読み取り・スクリーンショット・クリック・フォーム入力・タブ操作を実行でき、手動コピペが不要に",
+      "OAuth2認証で安全性を確保し、永続プロキシサーバーでPC電源オフ時の接続断を防止",
+      "デフォルト有効はReadツール（タブ一覧・ページ内容・スクリーンショット）；クリック・フォーム入力などWriteツールは手動で有効化が必要",
+      "利用にはOpera Neonサブスクリプションが必要。MCPアイコンから「Allow AI connection」を選択して設定"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "ChatGPTやClaudeが知らぬ間に操られる「間接的プロンプトインジェクション」の脅威",
+    "title_cht": "間接提示注入攻擊（XPIA）：AI 智能體讀取外部資料的瞬間就可能被劫持",
+    "title_ja": "間接的プロンプトインジェクション（XPIA）——AIエージェントが外部データを読み込む瞬間に乗っ取られる",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/05/news007.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#プロンプトインジェクション",
+      "#AIセキュリティ",
+      "#XPIA",
+      "#ChatGPT",
+      "#Claude"
+    ],
+    "summary_points_cht": [
+      "XPIA 攻擊者預先在 AI 智能體讀取的外部資料（網頁、郵件、文件）中埋入惡意指令，讓智能體在不知情下執行",
+      "比直接提示注入更隱蔽、更難檢測，且試行次數更少就能成功攻擊",
+      "ChatGPT、Claude、VS Code 等主流工具均已確認存在 XPIA 風險，各廠商正陸續引入人工確認機制",
+      "若智能體具備郵件發送、文件操作等權限，XPIA 等同於攻擊者直接控制用戶電腦",
+      "防護核心：在 AI 讀取外部資料前設置人工確認環節，並最小化智能體的執行權限"
+    ],
+    "summary_points_ja": [
+      "XPIAは攻撃者がAIエージェントの自律参照先（Webサイト・メール・共有ファイル）に悪意ある命令を仕込む手法",
+      "直接的プロンプトインジェクションより少ない試行で成功するため攻撃者に好まれ、ユーザーは検知困難",
+      "ChatGPT・Claude・VS Codeなど主要ツールでXPIAリスクが確認され、各社が人間の確認を挟む仕組みを導入",
+      "メール送信・ファイル操作などの権限を持つエージェントが乗っ取られると、実質的に攻撃者がPCを操作するのと同等の被害",
+      "対策の核心：AIが外部データを取得する前に人間の確認を挟み、エージェントの権限を最小化する"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "ベンチマークの過信は危険？　AIコーディングに潜む「非効率性」を見抜き、最適化するアプローチ",
+    "title_cht": "Kiro 的 CORAL 系統：自動找出 AI 編程智能體的隱性低效，讓無效步驟歸零",
+    "title_ja": "KiroのCORALシステム——ベンチマークでは見えないAI非効率を自動検出・修正",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/01/news051.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Kiro",
+      "#AIコーディング",
+      "#CORAL",
+      "#エージェント最適化",
+      "#IDE"
+    ],
+    "summary_points_cht": [
+      "CORAL 採用「軌跡學習」分析智能體所有操作歷程，找出測試通過但浪費大量步驟的隱性低效",
+      "每日抽樣數千個真實 Session，LLM 分析軌跡並提取通用教訓，高可信度改善直接更新工具說明，無需重新訓練模型",
+      "案例一：修正工具說明一行（加入 ** 遞迴搜尋說明），本機 grep 錯誤率降低 99%",
+      "案例二：引入 cd 路徑自動補正，Shell 呼叫錯誤率從 100% 降至接近 0%，影響 18% Session 的問題解決",
+      "未來計劃完全自動化改善循環，用戶的 Kiro 反饋也將被納入改善機制"
+    ],
+    "summary_points_ja": [
+      "CORALは「軌跡ベースの学習」でエージェントの全操作履歴を分析し、テスト合格でも無駄なステップを浪費する隠れた非効率を特定",
+      "毎日数千件の実際のKiroセッションをサンプリングし、LLMが軌跡を分析して一般化可能な教訓を抽出、モデル再訓練なしに適用",
+      "事例1：ツール説明に1行追記（**による再帰検索の明示）で本番環境のgrepパターンエラーを約99%削減",
+      "事例2：cdコマンドの自動補正機構を導入し、Shell呼び出しエラー率を100%から約0%に低減（18%のセッションに影響した問題）",
+      "将来は改善ループの完全自動化を目指し、ユーザーのフィードバックも取り込む予定"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "众筹300万美元的Agent盒子，想彻底解决你的算力焦虑",
+    "title_cht": "眾籌300萬美元的Agent盒子，想徹底解決你的算力焦慮",
+    "title_ja": "300万ドルを調達したAgentボックス「Tiiny AI Pocket Lab」が算力問題に挑む",
+    "url": "https://36kr.com/p/3754812277998083?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 6,
+    "tags": [
+      "#AgentBox",
+      "#TiinyAI",
+      "#ローカルAI",
+      "#ハードウェア",
+      "#OpenClaw"
+    ],
+    "summary_points_cht": [
+      "Tiiny AI Pocket Lab 在 Kickstarter 眾籌超 280 萬美元（預計突破 400 萬），重約 300g，早鳥價 1,399 美元",
+      "支援本地部署最高 120B 參數模型，零 Token 費用、7×24 小時後台運行、完全離線可用",
+      "核心技術 PowerInfer 將模型參數分為冷熱激活兩類，用普通 SoC+dNPU 實現媲美頂級 GPU 的推理速度",
+      "定位「AI 水龍頭」——雲端模型負責高精度任務，本地模型負責日常高頻個性化需求",
+      "預計 2026 年 8 月交付，量產硬體仍是最大挑戰"
+    ],
+    "summary_points_ja": [
+      "Tiiny AI PocketLabはKickstarterで280万ドル超を調達（最終400万ドル超の見込み）、重さ約300g、早期価格1,399ドル",
+      "最大120Bパラメータのローカルモデルをゼロトークン費用で24時間365日稼働、完全オフライン動作も可能",
+      "独自技術PowerInferが「ホット/コールド活性化パラメータ」を分離し、低スペックSoC+dNPUで高性能GPU相当の推論を実現",
+      "「AIの蛇口」として位置づけ——クラウドモデルは高精度タスク向け、ローカルモデルは日常的な高頻度ニーズ向け",
+      "2026年8月出荷予定だが、量産・ハードウェア製造の課題を乗り越える必要がある"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_agent",
+    "idx": 6,
+    "title": "「AIエージェントは6割が稼働」も拡大に壁か？　日本では8割が「ロックイン」を懸念",
+    "title_cht": "Docker 調查：60% 企業已在正式環境部署 AI 智能體，但安全性仍是最大障礙",
+    "title_ja": "Docker調査：60%の企業がAIエージェントを本番導入済み、最大の課題はセキュリティ",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/06/news028.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Docker",
+      "#AIエージェント",
+      "#MCP",
+      "#ベンダーロックイン",
+      "#調査レポート"
+    ],
+    "summary_points_cht": [
+      "60% 受訪組織已在正式環境運行 AI 智能體，94% 將其列為經營戰略優先事項",
+      "40% 認為安全性是擴大應用的最大障礙，MCP 的安全缺陷被認為是阻礙生產規模部署的關鍵問題",
+      "79% 的組織同時使用多個 AI 模型和雲端服務，33% 認為多元件編排複雜度是挑戰",
+      "76% 對廠商綁定表示擔憂（日本 83%），尤其在 LLM、模型托管和雲端基礎設施方面",
+      "Docker 建議建構「Trust Layer（信任層）」，在容器基礎設施中整合治理與可信度保障機制"
+    ],
+    "summary_points_ja": [
+      "60%の所属組織でAIエージェントが本番稼働中、94%が経営戦略の優先事項に位置づけ",
+      "40%がセキュリティを最大の拡大障壁と回答、MCPのセキュリティ欠陥が本番スケール展開を阻害",
+      "79%が複数AIモデル・クラウドを併用、33%がオーケストレーションの複雑さを課題と回答",
+      "76%がベンダーロックインを懸念（日本83%）、LLM・モデルホスティング・クラウドインフラでの懸念が顕著",
+      "Dockerは「トラストレイヤー」の構築を提言——コンテナインフラに認証・監査・ポリシー執行を集約"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "Claude Code leak exposes a Tamagotchi-style ‘pet’ and an always-on agent",
+    "title_cht": "Claude Code 原始碼洩漏：51 萬行程式碼揭示「電子雞寵物」功能與常駐智能體 KAIROS",
+    "title_ja": "Claude Codeのソースコード漏洩——51万行超から「たまごっち風ペット」と常駐エージェント「KAIROS」が発覚",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak",
+    "source": "The Verge",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#ClaudeCode",
+      "#Anthropic",
+      "#ソースリーク",
+      "#AIエージェント",
+      "#未公開機能"
+    ],
+    "summary_points_cht": [
+      "Anthropic 在 Claude Code 2.1.88 更新中意外將 TypeScript 原始碼打包進 npm 套件，洩漏超過 51 萬行程式碼",
+      "洩漏代碼揭示多個未公開功能：類似電子雞的寵物（坐在輸入框旁、對編程行為反應）、常駐後台智能體 KAIROS",
+      "代碼被迅速複製到 GitHub 並累積超過 5 萬次 Fork，Anthropic 表示「無敏感客戶資料洩漏，屬人為打包錯誤」",
+      "Gartner 分析師：長期影響可能僅限於促使 Anthropic 投入更多改善運營成熟度，而非嚴重安全事件"
+    ],
+    "summary_points_ja": [
+      "Claude Code 2.1.88のnpmパッケージに内部TypeScriptソースコードが誤って同梱され、51万行超が流出",
+      "漏洩コードからたまごっち風ペット・常駐バックグラウンドエージェント「KAIROS」など未公開機能が発覚",
+      "コードはGitHubに複製され5万フォーク超に。Anthropicは「顧客データ流出なし、人的ミスによるパッケージングエラー」と説明",
+      "Gartnerアナリスト：長期的影響はAnthropicの運用成熟度向上への投資促進にとどまる可能性が高い"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "Microsoft released 3 new AI models, ramping up competition with its close partner, OpenAI",
+    "title_cht": "微軟發布三款自研 AI 模型：轉錄、語音、圖片生成，直接挑戰 OpenAI",
+    "title_ja": "マイクロソフトが自社開発AI3モデルを発表——文字起こし・音声・画像生成でOpenAIと競合",
+    "url": "https://www.businessinsider.com/microsoft-ai-models-azure-mai-transcribe-voice-image-foundry-openai-2026-4",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#Microsoft",
+      "#MAIモデル",
+      "#AzureFoundry",
+      "#OpenAI",
+      "#独自AI"
+    ],
+    "summary_points_cht": [
+      "微軟在 Azure Foundry 平台發布三款自研模型：MAI-Transcribe-1（轉錄）、MAI-Voice-1（語音生成）、MAI-Image-2（圖片生成）",
+      "三款模型僅在 Microsoft Foundry 提供，面向企業客戶，直接競爭 OpenAI 的 Whisper、TTS、DALL·E",
+      "Mustafa Suleiman 稱 MAI-Transcribe-1 為「全球最準確的轉錄模型」、MAI-Voice-1「為自然語音設立新標準」",
+      "此舉是微軟加速「AI 自給自足」戰略的一部分，去年 11 月已成立超級智能團隊自研前沿模型",
+      "今年 10 月新協議允許微軟和 OpenAI 各自獨立追求 AGI，兩者關係從深度依賴走向競合"
+    ],
+    "summary_points_ja": [
+      "マイクロソフトがAzure Foundryプラットフォームで自社開発の3モデルを発表：MAI-Transcribe-1（文字起こし）・MAI-Voice-1（音声生成）・MAI-Image-2（画像生成）",
+      "3モデルはMicrosoft Foundry限定・企業顧客向けで、OpenAIのWhisper・TTS・DALL·Eと直接競合",
+      "Mustafa Suleiman CEOはMAI-Transcribe-1を「世界で最も正確な文字起こしモデル」と称した",
+      "マイクロソフトの「AI自給自足」戦略の一環。昨年11月に自社フロンティアモデル開発を目指す超知性チームを設立",
+      "今年10月の新協議でOpenAIと各々が独立してAGIを追求できるとされ、両者の関係は深い連携から競合へ移行しつつある"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "OpenAI新模型不是GPTX！全新预训练“土豆”曝光，Sora成弃子的原因找到了",
+    "title_cht": "OpenAI 新模型代號「土豆」、Sora 被砍原因曝光：Greg Brockman 首度親自揭秘",
+    "title_ja": "OpenAIの新モデルは「ジャガイモ（Spud）」——Greg BrockmanがSora終了の真相とAGI戦略を語る",
+    "url": "https://www.qbitai.com/2026/04/396535.html",
+    "source": "量子位",
+    "language": "zh",
+    "score": 8,
+    "tags": [
+      "#OpenAI",
+      "#Spud",
+      "#SuperApp",
+      "#Sora",
+      "#AGI"
+    ],
+    "summary_points_cht": [
+      "Greg Brockman 揭示：Sora 關閉核心原因是「算力不夠」，所有算力都流向 Agentic 應用（如 Codex）",
+      "OpenAI 正訓練代號「Spud（土豆）」的小型開源模型，接近 Gemma 3 9B 尺寸，預計今年發布，為 OpenAI 首款預訓練開源模型",
+      "Brockman：算力是「收入中心」而非成本，OpenAI 今年融資 1100 億美元，「可以買的算力全部買下」",
+      "預訓練仍不可或缺，更強基礎使後續推理和強化學習效率倍增；目標是「智能×成本」最優解",
+      "AI 下一步：讓 AI 真正能操作電腦做任何人能做的事，語音交互將成為巨大應用場景（早上 AI 彙報 Agent 進展）"
+    ],
+    "summary_points_ja": [
+      "Greg BrockmanがSora終了の真相を明かす：核心的理由は「算力（コンピュート）不足」——全リソースがCodexなどAgentic応用に流れた",
+      "OpenAIはコードネーム「Spud（ジャガイモ）」の小型オープンソースモデルを訓練中、Gemma 3 9B相当、今年リリース予定",
+      "Brockman：算力は「収入センター」。今年の1100億ドル調達はほぼ全額算力へ、「買える算力はすべて買う」",
+      "事前学習は依然不可欠——より強い基盤は推論・強化学習など後工程の効率を高める。「知能×コスト」の最適解を追求",
+      "次の一手：AIが本当にPCを操作して何でもできるように。音声インタラクションも巨大ユースケースになると予測"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "Talk Python to Me: #543: Deep Agents: LangChain's SDK for Agents That Plan and Delegate",
+    "title_cht": "LangChain Deep Agents：用純 Python 函數打造企業級 AI 深度智能體框架",
+    "title_ja": "LangChain Deep Agents——純粋なPython関数で本格的AIエージェントを構築するフレームワーク",
+    "url": "https://talkpython.fm/episodes/show/543/deep-agents-langchains-sdk-for-agents-that-plan-and-delegate",
+    "source": "Talkpython.fm",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#LangChain",
+      "#DeepAgents",
+      "#MCP",
+      "#Pythonフレームワーク",
+      "#AIエージェント"
+    ],
+    "summary_points_cht": [
+      "AI 智能體的核心能力來自「框架（Harness）」而非模型本身——系統提示、計劃工具、文件存取、子智能體的組合",
+      "Deep Agents 的四大支柱：計劃工具（ToDoList）、文件系統存取、子智能體（並行化）、含記憶的系統提示",
+      "工具定義即 Python 函數——類型提示+文檔字串自動生成 JSON Schema，無需額外配置，基於 Pydantic",
+      "支援任意模型（OpenAI、Anthropic、Google、本地模型），子智能體可使用不同模型（計劃用強模型、執行用快速模型）",
+      "支援 MCP 協議，可接入外部 MCP 伺服器工具；MIT 授權，已獲超過 15,000 GitHub Stars"
+    ],
+    "summary_points_ja": [
+      "AIエージェントの力はモデルではなく「ハーネス」から——システムプロンプト・計画ツール・ファイルアクセス・サブエージェントの組み合わせ",
+      "Deep Agentsの4つの柱：計画ツール（ToDoList）・ファイルシステムアクセス・サブエージェント（並列化）・メモリ付きシステムプロンプト",
+      "ツール定義はPython関数のまま——型ヒント付きdocstringからPydantic経由でJSON Schemaを自動生成",
+      "OpenAI・Anthropic・Google・ローカルモデルに対応、サブエージェントで異なるモデルを使い分け可能",
+      "MCPサポートで外部ツールエコシステムを活用可能；MITライセンス、GitHub Stars 15,000超"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "Google Launches Veo 3.1 Lite, a More Cost-Effective AI Video Generator Model",
+    "title_cht": "Google 發布 Veo 3.1 Lite：比 Veo 3.1 Fast 便宜 50%，仍支援音頻生成",
+    "title_ja": "GoogleがVeo 3.1 Liteを発表——Veo 3.1 Fast比50%コスト削減、音声生成も対応",
+    "url": "https://www.cnet.com/tech/services-and-software/google-announces-a-more-cost-effective-ai-video-generator-model/",
+    "source": "CNET",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Google",
+      "#Veo3",
+      "#Veo31Lite",
+      "#AI動画生成",
+      "#テキスト動画変換"
+    ],
+    "summary_points_cht": [
+      "Veo 3.1 Lite 比 Veo 3.1 Fast 便宜 50%，速度相同，支援音頻，提供 1080p 解析度（不支援 4K）",
+      "支援文字生成影片、圖片生成影片；比例 16:9 / 9:16；影片長度可選 4/6/8 秒，費用隨之調整",
+      "透過 Gemini API 付費方案、Google AI Studio 及 Google 電影製作工作室 Flow 向開發者提供",
+      "發布時機微妙：上週 OpenAI 剛關閉 AI 影片 App Sora，Google 此舉傳遞「持續深耕生成媒體」的信號",
+      "Veo 3.1 Fast 定價也將「即將」更新，整體策略是讓 AI 影片生成更廉價、更普及"
+    ],
+    "summary_points_ja": [
+      "Veo 3.1 LiteはVeo 3.1 Fast比50%コスト削減・同速度・音声対応・解像度最大1080p（4K非対応）",
+      "テキスト→動画・画像→動画をサポート；縦横比16:9/9:16；動画長4/6/8秒から選択、費用は比例",
+      "Gemini APIの有料プラン・Google AI Studio・GoogleのFlowスタジオを通じて開発者向けに提供",
+      "タイミングの意味：先週OpenAIがSoraを終了した直後のリリースで、Googleの生成メディアへの継続コミットを示す",
+      "Veo 3.1 Fastの価格も近日中に改定予定。全体戦略はAI動画をより安く・より普及させること"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "「Claude Code」に追加されたリモート接続機能は安全？　注意点は？",
+    "title_cht": "Claude Code 新增「Remote Control」：可從手機或瀏覽器連接本機 Session，程式碼不上雲",
+    "title_ja": "Claude CodeにRemote Control機能追加——スマートフォンやブラウザからローカルセッションに接続",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/03/news053.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#ClaudeCode",
+      "#RemoteControl",
+      "#Anthropic",
+      "#セキュリティ",
+      "#モバイルAI"
+    ],
+    "summary_points_cht": [
+      "Claude Code 新增 Remote Control 功能，可從手機或其他裝置的瀏覽器連接本機執行中的 Session 繼續操作",
+      "本機 Session 僅發出向外的 HTTPS 請求，不開放入站端口；所有流量經 TLS 加密透過 Anthropic API 傳輸",
+      "支援所有方案（Pro/Max/Team/Enterprise），但 Team/Enterprise 預設關閉，需手動啟用",
+      "Remote Control 在本機執行（可用本機 MCP 伺服器和工具）；Claude Code on the Web 則在 Anthropic 雲端執行",
+      "執行 claude remote-control 或 /remote-control 啟動；/config 中可設定所有 Session 自動啟用"
+    ],
+    "summary_points_ja": [
+      "Claude CodeにRemote Control機能を追加。スマートフォンや別PCのブラウザからローカルセッションに接続して作業を継続可能",
+      "ローカルセッションはアウトバウンドHTTPSのみ送信、インバウンドポートを開放しない。全通信はTLS経由でAnthropic APIを通過",
+      "Pro・Max・Team・Enterprise全プラン対応。ただしTeam・Enterpriseはデフォルト無効（手動で有効化が必要）",
+      "Remote Controlはローカル実行（ローカルMCPサーバ・ツール・設定が利用可能）；Claude Code on the webはクラウド実行",
+      "claude remote-controlまたは/remote-controlコマンドで起動；/configで全セッション自動有効化も設定可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-13",
+    "category": "ai_industry",
+    "idx": 6,
+    "title": "Mr. Chatterbox is a Victorian-era ethically trained model",
+    "title_cht": "Mr. Chatterbox：完全以維多利亞時代版權到期文本訓練的語言模型，可本地運行",
+    "title_ja": "Mr. Chatterbox——19世紀著作権切れテキストのみで訓練した言語モデルをローカル実行",
+    "url": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/",
+    "source": "Simonwillison.net",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#MrChatterbox",
+      "#LLM研究",
+      "#BritishLibrary",
+      "#ビクトリア時代",
+      "#オープンソース"
+    ],
+    "summary_points_cht": [
+      "Trip Venturella 發布 Mr. Chatterbox，完全用 1837-1899 年英國圖書館版權到期文本訓練，不含任何 1899 年後資料",
+      "訓練語料 28,035 本書籍（約 29.3 億 Token），模型僅 2.05GB（3.4 億參數），帶有濃濃維多利亞時代風格",
+      "實測效果很糟：對話感覺像馬可夫鏈而非 LLM，幾乎無法得到有用答案；Chinchilla 建議需至少 70 億 Token",
+      "可透過 LLM 框架本地安裝運行：llm install llm-mrchatterbox；首次運行會下載 2.05GB 模型",
+      "有趣的概念驗證：監督微調用了 Claude Haiku 生成合成數據，稍微稀釋了「無現代數據」的主張"
+    ],
+    "summary_points_ja": [
+      "Trip VenturellaがリリースしたMr. Chatterboxは1837〜1899年の著作権切れテキストのみで訓練、1899年以降のデータは一切不使用",
+      "訓練コーパスは28,035冊・約29.3億トークン、モデルサイズ2.05GB・3.4億パラメータ、ビクトリア朝の風味が強い",
+      "実際の使い勝手は残念：マルコフ連鎖に近く有用な回答が出にくい。Chinchillaによれば70億トークン以上が必要",
+      "llm install llm-mrchatterboxでローカルインストール可能、初回実行時に2.05GBのモデルを自動ダウンロード",
+      "面白い概念実証：ただしSFT段階でClaude HaikuとGPT-4o-miniの合成データを使っており「現代データなし」の主張を一部稀釈"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-04-06",
     "category": "3d_ai",
     "idx": 0,
