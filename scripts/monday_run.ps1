@@ -70,8 +70,12 @@ if (Test-Path $envFile) {
 $scoringBatch = 0
 $scoringFails = 0
 $maxScoringFails = 3
+$maxScoringBatches = 20   # 防止無進展時死循環（33篇÷10批=4批正常，留足餘量）
+$noProgressCount = 0
+$maxNoProgress = 3        # 連續「有輸出但 pending 未減少」次數上限
+$lastPending = -1
 
-while ($true) {
+while ($scoringBatch -lt $maxScoringBatches) {
     $statusJson = python scripts/ai_score.py status $today | ConvertFrom-Json
     if ($null -eq $statusJson) {
         Log "錯誤：無法取得狀態，中止"
@@ -81,7 +85,8 @@ while ($true) {
     if ($statusJson.pending_count -eq 0) { break }
 
     $scoringBatch++
-    Log "評分第 $scoringBatch 批（剩餘 $($statusJson.pending_count) 篇未評分）"
+    $currentPending = $statusJson.pending_count
+    Log "評分第 $scoringBatch 批（剩餘 $currentPending 篇未評分）"
 
     $prompt = python scripts/ai_score.py scoring-batch-prompt $today
     if (-not $prompt) {
@@ -97,8 +102,21 @@ while ($true) {
         $json | Out-File -Encoding utf8 "data\_scores_temp.json"
         python scripts/ai_score.py save-scores $today data\_scores_temp.json
         Remove-Item "data\_scores_temp.json" -ErrorAction SilentlyContinue
-        Log "第 $scoringBatch 批評分完成"
-        $scoringFails = 0
+
+        # 驗證是否真的有進展（防止重複 key 導致的無效成功）
+        $afterStatus = python scripts/ai_score.py status $today | ConvertFrom-Json
+        if ($afterStatus.pending_count -ge $currentPending) {
+            $noProgressCount++
+            Log "警告：本批未減少 pending（$currentPending → $($afterStatus.pending_count)），無進展 $noProgressCount 次"
+            if ($noProgressCount -ge $maxNoProgress) {
+                Log "錯誤：連續 $maxNoProgress 批無進展，中止評分"
+                exit 1
+            }
+        } else {
+            Log "第 $scoringBatch 批評分完成（$currentPending → $($afterStatus.pending_count) 篇）"
+            $scoringFails = 0
+            $noProgressCount = 0
+        }
     } else {
         $scoringFails++
         $outputText = if ($output -is [array]) { $output -join "`n" } else { "$output" }

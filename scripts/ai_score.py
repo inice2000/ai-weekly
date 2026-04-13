@@ -172,11 +172,22 @@ def save_scores(date: str, results: list):
       summary_points_cht, summary_points_ja
     """
     filtered = load_filtered()
-    total_count = sum(len(v) for v in filtered.values())
+    all_keys = {f"{cat}/{idx}"
+                for cat, articles in filtered.items()
+                for idx in range(len(articles))}
+    total_count = len(all_keys)
     progress = _load_progress(date)
 
+    invalid_keys = []
     for r in results:
-        progress["scores"][r["key"]] = r
+        key = r["key"]
+        if key in all_keys:
+            progress["scores"][key] = r
+        else:
+            invalid_keys.append(key)
+
+    if invalid_keys:
+        print(f"⚠️  忽略 {len(invalid_keys)} 個無效 key：{invalid_keys[:5]}")
 
     scored_count = len(progress["scores"])
 
