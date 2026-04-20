@@ -1,5 +1,525 @@
 [
   {
+    "date": "2026-04-20",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "AIエージェントの「スキル」の品質低下を防ぐ？　テストと検証機能を強化",
+    "title_cht": "Anthropic 強化 Claude Agent Skills 評估與基準測試功能，防止技能品質下降",
+    "title_ja": "AIエージェントの「スキル」の品質低下を防ぐ？　テストと検証機能を強化",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/10/news060.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Claude",
+      "#Anthropic",
+      "#AgentSkills",
+      "#skill-creator",
+      "#AIAgent"
+    ],
+    "summary_points_cht": [
+      "Anthropic 於 2026年3月為 Claude 的 skill-creator 工具新增評估與基準測試功能，無需寫程式碼即可驗證技能品質",
+      "新功能在 Claude.ai 網頁版、桌面版 Cowork 及 Claude Code 插件中均可使用",
+      "Anthropic 發現自 2025年10月推出以來，多數技能創建者是業務專家而非工程師，存在測試與品質管控缺口",
+      "此次強化將軟件開發常見手法（測試、基準測試、迭代改進）導入技能創建流程，不需任何程式碼",
+      "技能分為兩大類，評估功能與其分類直接相關，可判斷模型改進後某技能是否仍有存在必要"
+    ],
+    "summary_points_ja": [
+      "Anthropicが2026年3月、Claude向けAgent Skills作成ツール「skill-creator」に評価・ベンチマーク機能を追加",
+      "コードを書かずにスキルの動作検証や品質測定が可能になり、Claude.ai・Cowork・Claude Codeプラグインで利用可能",
+      "2025年10月の公開以来、スキル作成者の多くがエンジニアではなく業務専門家であることが判明",
+      "ソフトウェア開発の一般的手法（テスト・ベンチマーク・反復改善）をノーコードでスキル作成に導入",
+      "スキルを2種類に分類し、モデル改善によるスキル陳腐化の時期を評価で把握できる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "4分の1の生成AIアプリが“静かに事故る”　MCP時代の落とし穴をGartnerが指摘",
+    "title_cht": "四分之一的生成式 AI 應用「靜悄悄出事」——Gartner 點出 MCP 時代的安全陷阱",
+    "title_ja": "4分の1の生成AIアプリが「静かに事故る」　MCP時代の落とし穴をGartnerが指摘",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/13/news027.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Gartner",
+      "#MCP",
+      "#AI安全",
+      "#生成AI",
+      "#AIAgent"
+    ],
+    "summary_points_cht": [
+      "Gartner 預測到 2028 年，25% 的企業生成 AI 應用每年將遭遇至少 5 次輕微安全事件，較 2025 年預測的 9% 大幅上升",
+      "到 2029 年，15% 的企業生成 AI 應用每年將遭遇至少 1 次重大安全事件",
+      "MCP 等協議設計優先考慮互通性和開發速度，並未內建強固的安全機制",
+      "Agent 在同一流程中同時存取敏感資料和不可信內容，大幅增加風險暴露面"
+    ],
+    "summary_points_ja": [
+      "Gartnerは2028年までに企業向け生成AIアプリの25%が年間5件以上の軽微なセキュリティインシデントを経験すると予測（2025年予測の9%から大幅増）",
+      "2029年までに15%が年間1件以上の重大なセキュリティインシデントを経験すると予測",
+      "MCPなどのプロトコルは相互運用性と開発速度を優先しており、堅固なセキュリティは基本設計に組み込まれていない",
+      "同一フロー内で機密データへのアクセスと信頼できないコンテンツの取り込みが重なり、リスクエクスポージャが大幅に拡大する"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "36氪首发｜港中文博士和前大疆智能制造负责人创业，要做AI时代的“个性化乐高”",
+    "title_cht": "港中文博士與前大疆智能製造負責人創業，打造AI時代的「個性化樂高」",
+    "title_ja": "香港中文大学博士と元DJI幹部が起業、AI時代の「パーソナライズLEGO」を目指すUNICUS",
+    "url": "https://36kr.com/p/3763919765226240?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 6,
+    "tags": [
+      "#UNICUS",
+      "#AI製造",
+      "#積木大模型",
+      "#個性化定製",
+      "#生成式AI"
+    ],
+    "summary_points_cht": [
+      "UNICUS（深圳千帜科技）完成數百萬美元新一輪融資，由線性資本領投，九坤創投、天際資本跟投",
+      "公司自研積木大模型 LEGO Maker，是首個採用自回歸網絡進行通用樂高積木模型生成的大模型",
+      "用戶僅需上傳一張照片，即可獲得一件個性化積木實物作品，生產流程全自動化",
+      "本輪資金主要用於積木生成大模型訓練、AI Agent 研發及海外市場拓展",
+      "全球積木市場年規模達700億元，UNICUS 試圖打破樂高主導的「IP驅動標準化工業」格局"
+    ],
+    "summary_points_ja": [
+      "UNICUS（深圳千帜科技）が数百万ドルの新ラウンド資金調達を完了、線性資本がリード",
+      "自社開発の積み木生成大規模モデル「LEGO Maker」は、自己回帰ネットワークによる汎用LEGOモデル生成初のLLM",
+      "ユーザーは写真1枚をアップロードするだけで、パーソナライズされた実物積み木作品を入手可能",
+      "調達資金は積み木生成モデルの訓練・AIエージェント開発・海外市場拡大に活用",
+      "世界の積み木市場は年間700億元規模、UNICUSはLEGO主導の標準化モデルに挑戦"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "「Lemonade」を使ってFirefoxのサイドバーにあるAIチャット機能を完全ローカル化してみた",
+    "title_cht": "使用「Lemonade」將 Firefox 側邊欄 AI 聊天功能完全本地化",
+    "title_ja": "「Lemonade」を使ってFirefoxのサイドバーにあるAIチャット機能を完全ローカル化してみた",
+    "url": "https://gigazine.net/news/20260411-lemonade-firefox-localhost/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Lemonade",
+      "#Firefox",
+      "#本地AI",
+      "#隱私保護",
+      "#LocalLLM"
+    ],
+    "summary_points_cht": [
+      "Firefox 側邊欄內建 AI 聊天功能，標準僅支援 Claude、ChatGPT 等五個雲端服務",
+      "透過修改 about:config 中的隱藏設定 browser.ml.chat.hideLocalhost 為 false，可啟用本地 AI 選項",
+      "使用開源工具 Lemonade（支援 Windows/Linux/macOS，特別針對 AMD GPU/NPU 優化）作為本地 AI 後端",
+      "設定 Lemonade 監聽 Port 8080 後，Firefox 側邊欄即可接入完全本地化的 AI，保護隱私且無需網路"
+    ],
+    "summary_points_ja": [
+      "FirefoxのサイドバーAIチャット機能は標準でClaude・ChatGPTなど5つのクラウドサービスのみ対応",
+      "about:configで「browser.ml.chat.hideLocalhost」をfalseに変更することでローカルAI選択肢が有効化",
+      "オープンソースの「Lemonade」（AMD GPU/NPU最適化、Win/Linux/macOS対応）をローカルAIバックエンドとして使用",
+      "Port 8080でLemonadeを起動後、Firefoxのサイドバーから完全ローカルのAIが利用可能になりプライバシーを保護"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "AIコーディングと“スライド作成”が同時にできる「DexCode」、オープンソースで公開",
+    "title_cht": "可在 AI 寫程式碼同時製作簡報的開源工具「DexCode」正式發布",
+    "title_ja": "AIコーディングと\"スライド作成\"が同時にできる「DexCode」、オープンソースで公開",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/10/news053.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#DexCode",
+      "#ClaudeCode",
+      "#開源工具",
+      "#簡報生成",
+      "#AIAgent"
+    ],
+    "summary_points_cht": [
+      "日本 AI 公司 Koré 於 2026年3月發布開源工具 DexCode，讓開發者在終端機中使用自然語言指令製作簡報",
+      "DexCode 整合 Claude Code、Codex 等 AI 編程 Agent，以 MDX（Markdown+JSX）格式生成與編輯投影片",
+      "標準內建16:9寬螢幕多種投影片類型（封面、比較、時間軸、統計等）及豐富組件（圖表、程式碼區塊等）",
+      "以 MIT 授權在 GitHub 免費開放，解決開發者在寫程式與製作簡報之間切換導致的生產力下降問題"
+    ],
+    "summary_points_ja": [
+      "日本のAI企業コーレが2026年3月にオープンソースツール「DexCode」を公開、ターミナルから自然言語でスライドを作成可能",
+      "Claude CodeやCodexなどのAIコーディングエージェントと統合し、MDX形式でスライドを生成・編集",
+      "16:9ワイドスクリーン対応の多様なスライドタイプとチャート・コードブロック等の豊富なコンポーネントを標準搭載",
+      "MITライセンスでGitHubより無料提供、コーディングと資料作成のコンテキストスイッチによる生産性低下を解消"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "EY's new AI agents will make life harder for entry-level accountants at first, a top exec says",
+    "title_cht": "EY 推出稽核 AI Agent，高管表示初階會計師短期面臨更陡峭學習曲線",
+    "title_ja": "EYの新しいAIエージェントが会計業界を変革、初級会計士には当初より難しくなると幹部が発言",
+    "url": "https://www.businessinsider.com/ey-launches-ai-agent-framework-for-assurance-audit-big-four-2026-4",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#EY",
+      "#AIAgent",
+      "#稽核自動化",
+      "#企業AI",
+      "#多Agent框架"
+    ],
+    "summary_points_cht": [
+      "EY 在稽核平台 EY Canvas 中推出全球多代理框架，由逾100,000名員工使用，自動化重複性稽核工作",
+      "新工具將取代初級員工過去透過大量重複操作學習稽核的傳統路徑，形成更陡峭的學習曲線",
+      "EY 高管 Marc Jeschonneck 表示，AI Agent 長期將讓初級員工的工作更輕鬆，但短期需重新培訓",
+      "EY 正在為初級員工設計新的培訓方法，以適應「與 AI 協作稽核」的新工作模式"
+    ],
+    "summary_points_ja": [
+      "EYが稽核プラットフォーム「EY Canvas」にグローバルマルチエージェントフレームワークを導入、10万人以上の従業員が利用",
+      "AIエージェントが反復作業を代替することで、初級スタッフが経験を積む従来の学習経路が変化",
+      "EY幹部Marc Jeschonneck氏は短期的には学習曲線が急峻になるが、長期的には業務が容易になると述べた",
+      "EYは初級スタッフのためのAI協働型監査に対応する新しい研修プログラムを設計中"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_agent",
+    "idx": 6,
+    "title": "「正規のOSSパッケージがマルウェアだった」　ソフトウェアSC攻撃対策2機能を追加、Takumi byGMO",
+    "title_cht": "「正規 OSS 套件竟是惡意軟體」——Takumi byGMO 新增兩項軟體供應鏈攻擊防護功能",
+    "title_ja": "「正規のOSSパッケージがマルウェアだった」　ソフトウェアSC攻撃対策2機能を追加、Takumi byGMO",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/09/news051.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#TakumibyGMO",
+      "#供應鏈安全",
+      "#AIAgent",
+      "#OSS安全",
+      "#惡意軟體"
+    ],
+    "summary_points_cht": [
+      "GMO Flatt Security 為安全 AI Agent「Takumi byGMO」新增兩項軟體供應鏈攻擊防護功能",
+      "Sonatype 報告指出，2025 年 10-12 月三個月內檢測到超過 39 萬個 OSS 惡意套件，較前九個月累計增加 476%",
+      "攻擊者偽裝成合法 OSS 套件的惡意軟體，尤其集中於 npm TypeScript/JavaScript 套件",
+      "2025 年 9 月和 11 月確認「Shai Hulud」惡意軟體，透過 npm 套件感染開發環境和 CI/CD 環境"
+    ],
+    "summary_points_ja": [
+      "GMO Flatt SecurityはセキュリティAIエージェント「Takumi byGMO」にソフトウェアサプライチェーン攻撃対策機能を2つ追加",
+      "Sonatypeのレポートでは2025年10〜12月の3か月で39万件以上の新規OSSマルウェアパッケージが検出され、前9か月比で476%増加",
+      "正規OSSパッケージに偽装したマルウェアはnpm（TypeScript/JavaScript）を中心に被害が拡大",
+      "2025年9月・11月には「Shai Hulud」マルウェアがnpm経由で開発環境やCI/CD環境に感染する事例が報告された"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_agent",
+    "idx": 7,
+    "title": "PortX、\"誰も全体像を説明できない\"業務システムの構造を読み解くAI AgentをFormulaに搭載",
+    "title_cht": "PortX 於 Formula 搭載「現行解析 AI Agent」，解讀「無人能說清全貌」的業務系統架構",
+    "title_ja": "PortX、「誰も全体像を説明できない」業務システムの構造を読み解くAI AgentをFormulaに搭載",
+    "url": "https://ascii.jp/elem/000/004/394/4394389/?rss",
+    "source": "ASCII.jp",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#PortX",
+      "#AIAgent",
+      "#COBOL",
+      "#系統現代化",
+      "#企業AI"
+    ],
+    "summary_points_cht": [
+      "PortX 為 AI 開發運營平台「Formula」新增「現行解析 AI Agent」，可自動解讀既有系統原始碼和設計文件並生成規格資訊",
+      "支援大型主機上的 COBOL 原始碼，解決長年累積改修導致無人了解系統全貌的企業痛點",
+      "從現行業務結構理解到 ToBe 設計與實作，提供一條龍支援",
+      "主要針對製造業供應鏈領域，涵蓋庫存管理、訂單、生產、物流調整等核心業務"
+    ],
+    "summary_points_ja": [
+      "PortXはAI開発・運用基盤「Formula」に「現行解析AI Agent」を追加し、既存システムのソースコードや設計書から業務構造を自動解析する",
+      "メインフレーム上のCOBOLソースコードにも対応し、長年の改修で全体像を把握できなくなった業務システムの解析を実現",
+      "AIがソースコード・設計書・業務ドキュメントを読み解き、変革の起点となる仕様情報を自動生成する",
+      "製造業のサプライチェーン（在庫管理・受発注・生産物流調整など）をメインターゲットとする"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_agent",
+    "idx": 8,
+    "title": "マルチエージェントは「チーム」になれるのか　50年前の古典が突きつける不都合な法則",
+    "title_cht": "多代理能成為「團隊」嗎？50 年前的古典著作揭示令人不安的定律",
+    "title_ja": "マルチエージェントは「チーム」になれるのか　50年前の古典が突きつける不都合な法則",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/13/news016.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#多代理",
+      "#AIAgent",
+      "#布魯克斯法則",
+      "#協調成本",
+      "#工作流"
+    ],
+    "summary_points_cht": [
+      "作者類比《人月神話》中的布魯克斯法則，指出增加 AI Agent 數量同樣會帶來指數級的溝通與協調成本",
+      "6 人團隊有 15 條溝通路徑，12 人暴增至 66 條；多 Agent 系統面臨完全相同的問題",
+      "多 Agent 系統中各代理獨立處理資訊，容易產生「版本漂移」，導致決策依據不一致",
+      "多 Agent 架構僅在任務分工真正獨立、無需頻繁同步的情況下才能發揮效益"
+    ],
+    "summary_points_ja": [
+      "「人月の神話」のブルックスの法則を引用し、AIエージェントを増やすほど調整コストが指数的に増大すると指摘",
+      "6人チームで通信経路15本、12人では66本に膨張するのと同様に、マルチエージェントでも同じ問題が生じる",
+      "各エージェントが独自に情報処理することで「バージョンドリフト」が発生し、意思決定の根拠が一致しなくなる",
+      "マルチエージェントが有効なのは、タスク分担が真に独立しており頻繁な同期が不要な場合に限られる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "那个“爱马仕”，想拯救“智障”小龙虾",
+    "title_cht": "那個「愛馬仕」，想拯救「智障」小龍蝦",
+    "title_ja": "「エルメス」は「低性能ロブスター」を救えるか——Hermes Agentの実力を問う",
+    "url": "https://36kr.com/p/3761883183530502?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 7,
+    "tags": [
+      "#HermesAgent",
+      "#ClaudeCode",
+      "#NousResearch",
+      "#AIAgent",
+      "#CLI工具"
+    ],
+    "summary_points_cht": [
+      "Nous Research 於 2 月發布 Hermes Agent，核心賣點是閉環學習系統：完成任務後自動將經驗固化為 Skill 並持續改進",
+      "文章指出 Claude Code 成功的基石不是 Skill 自動進化，而是 GlobTool、GrepTool、LSPTool 等扎實的 CLI 工具支撐",
+      "OpenClaw（俗稱「小龍蝦」）的主要問題是 token 消耗大和長時間工作穩定性差，這些都不是 Skill 自動進化能解決的",
+      "作者認為 CLI 工具是 Agent 能力的真正地基，「Skill 自動進化」的敘事遮蔽了更基本的工具基礎設施問題"
+    ],
+    "summary_points_ja": [
+      "Nous Researchが2月にHermes Agentをリリース。完了タスクの経験を自動でSkillとして固定化・再利用するクローズドループ学習が売り",
+      "Claude Codeの強みはSkillの自動進化ではなく、GlobTool・GrepTool・LSPToolなど堅実なCLIツール群にあると筆者は指摘",
+      "OpenClaw（通称「ロブスター」）の主な問題（高トークン消費・長時間動作の不安定性）はSkill自動進化では解決できない",
+      "CLIツールこそがエージェント能力の真の土台であり、「Skill自動進化」という物語が基本的なインフラ問題を覆い隠していると論じる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "Planet Labs Tests AI-Powered Object Detection On Satellite",
+    "title_cht": "Planet Labs測試衛星上的AI驅動物件偵測",
+    "title_ja": "Planet Labs、衛星上でのAI物体検出テストに成功",
+    "url": "https://tech.slashdot.org/story/26/04/08/0145220/planet-labs-tests-ai-powered-object-detection-on-satellite",
+    "source": "Slashdot.org",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Planet Labs",
+      "#NVIDIA Jetson",
+      "#Edge AI",
+      "#Satellite AI",
+      "#Earth Observation"
+    ],
+    "summary_points_cht": [
+      "Planet Labs在衛星上成功測試AI物件偵測，使用NVIDIA Jetson Orin模組，在圖像拍攝後即刻執行偵測模型",
+      "傳統衛星需將大量數據傳輸至地面站、延遲數小時處理；邊緣AI可大幅縮短這一延遲",
+      "此技術可讓太空船近乎即時分析災難、基礎設施變化或飛機活動等事件",
+      "VP Kiruthika Devaraj稱此次成功是「行星智能規模化的未來一瞥」",
+      "衛星邊緣AI運算代表地球觀測領域從延遲處理轉向即時分析的重大技術轉變"
+    ],
+    "summary_points_ja": [
+      "Planet Labsが衛星上でのAI物体検出テストに成功。NVIDIA Jetson Orinモジュールで撮影直後にモデルを実行",
+      "従来は大量データを地上局に送信して数時間後に処理していたが、エッジAIにより遅延を大幅削減",
+      "災害、インフラ変化、航空機活動などをほぼリアルタイムで分析できるようになる",
+      "VP Kiruthika Devaraj氏が「Planetary Intelligence規模化の未来を垣間見た」と述べた",
+      "衛星上でのAI処理は地球観測における遅延処理からリアルタイム分析への重要な技術転換を意味する"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "Google makes it easy to deepfake yourself",
+    "title_cht": "Google 讓用戶輕鬆「深偽」自己",
+    "title_ja": "GoogleがYouTube Shortsで「自分自身のディープフェイク」を簡単に作れる機能を提供",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/909104/youtube-shorts-make-ai-avatar",
+    "source": "The Verge",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#YouTube",
+      "#AI虛擬人",
+      "#深偽技術",
+      "#生成AI",
+      "#Google"
+    ],
+    "summary_points_cht": [
+      "YouTube Shorts 推出 AI 新功能，讓創作者輕鬆製作自己的數位分身（Avatar）插入影片或生成全新影片",
+      "此功能反映平台的矛盾態度：一邊增加生成式 AI 功能，一邊努力遏制 AI 垃圾內容、深偽詐騙和帳號冒充行為",
+      "此舉發生於 OpenAI 關閉 Sora 影片生成平台之後，顯示各平台搶佔 AI 影片市場"
+    ],
+    "summary_points_ja": [
+      "YouTube ShortsがAI新機能を展開し、クリエイターが自分自身のデジタルアバターを簡単に作成・挿入できるようになった",
+      "AIスラム・ディープフェイク詐欺・なりすましへの対策に苦慮しながら生成機能を追加するという矛盾した姿勢を示している",
+      "OpenAIがSora動画生成プラットフォームを終了した後の動きとして注目される"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "What Pichai’s Interview Reveals About Google’s Search Direction via @sejournal, @MattGSouthern",
+    "title_cht": "Pichai訪談揭示Google搜尋未來方向",
+    "title_ja": "ピチャイのインタビューが明かすGoogleの検索方向性",
+    "url": "https://www.searchenginejournal.com/what-pichais-interview-reveals-about-googles-search-direction/571574/",
+    "source": "Search Engine Journal",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Google",
+      "#Sundar Pichai",
+      "#AI Agent",
+      "#Search",
+      "#AI Strategy"
+    ],
+    "summary_points_cht": [
+      "Pichai在與Stripe CEO Patrick Collison的長達一小時訪談中，描述搜尋未來將演變為「代理管理器」，讓用戶同時運行多個任務線程",
+      "訪談揭示基礎設施限制是阻礙AI搜尋願景快速落地的主要障礙",
+      "Pichai透露已在使用內部代理工具，表明Google正在內部測試這種未來搜尋模式",
+      "Pichai語言使用的逐步升級顯示Google對AI代理搜尋的承諾正在加深",
+      "對搜尋從業者而言，此訪談提供了Google搜尋AI轉型的具體時間線與進展參考"
+    ],
+    "summary_points_ja": [
+      "ピチャイ氏はStripe CEOとの約1時間のインタビューで、検索が将来「エージェントマネージャー」に進化し複数タスクを並行処理できると説明",
+      "インフラ制約が採用を妨げる主要障壁として明示され、ビジョン実現のスピードを制限している",
+      "ピチャイ氏は内部エージェントツールを既に使用していることを明かし、Googleが将来の検索モデルを内部テスト中であることが判明",
+      "同氏の言語使用のエスカレーションがGoogleのエージェント検索へのコミットメントの深化を示している",
+      "検索プロフェッショナルにとってGoogleの検索AI転換のタイムラインと障壁を示す重要な一次資料"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "Cloudflare and GoDaddy team up to help websites fend off Big Tech's AI bot swarm",
+    "title_cht": "Cloudflare與GoDaddy合作，助網站抵禦大型科技AI爬蟲攻勢",
+    "title_ja": "CloudflareとGoDaddy、AIボットからウェブサイトを守るために提携",
+    "url": "https://www.businessinsider.com/cloudflare-godaddy-ai-bot-swarms-crawlers-google-openai-anthropic-2026-4",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Cloudflare",
+      "#GoDaddy",
+      "#AI Crawl Control",
+      "#Web Protection",
+      "#AI Bot"
+    ],
+    "summary_points_cht": [
+      "Cloudflare與GoDaddy合作，將AI Crawl Control整合至GoDaddy的虛擬主機服務",
+      "網站所有者可控制AI爬蟲如何與其內容互動——選擇允許存取、封鎖或收費",
+      "此合作旨在應對AI時代互聯網傳統商業模式的崩潰——AI爬蟲大量抓取內容破壞廣告流量收益",
+      "合作建立基於許可的系統，讓網站為AI驅動的網路內容使用設立規則",
+      "標誌著網路內容所有者爭取對AI內容使用進行許可控制的重要里程碑"
+    ],
+    "summary_points_ja": [
+      "CloudflareとGoDaddyが提携し、AI Crawl ControlをGoDaddyのウェブホスティングに統合",
+      "サイト所有者はAIボットのアクセスを許可、ブロック、または課金制でコントロール可能に",
+      "AIがウェブをクロールし広告収益を損なう問題への対応として、従来のウェブビジネスモデルを守る取り組み",
+      "パーミッションベースのシステムを構築し、AIによるコンテンツ利用のルールを設定",
+      "ウェブコンテンツ所有者がAI利用に対して許可制御を求める動きの重要な節目"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-20",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "拿下豪华种子轮，一家明星AI公司宣布倒闭",
+    "title_cht": "拿下豪華種子輪，一家明星AI公司宣告倒閉",
+    "title_ja": "豪華シードラウンドを調達したスターAI企業が閉鎖を宣言",
+    "url": "https://36kr.com/p/3762088319484419?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 6,
+    "tags": [
+      "#Yupp",
+      "#AI Startup",
+      "#Failure",
+      "#a16z",
+      "#AI Evaluation"
+    ],
+    "summary_points_cht": [
+      "AI模型評測平台Yupp於2026年4月15日正式關閉，距產品上線不足一年，存活僅22個月",
+      "公司2024年完成3,300萬美元種子輪融資，投資人包括a16z合夥人、Google首席科學家等超45位天使投資人",
+      "Yupp商業模式：免費AI模型服務吸引用戶評測，再將測評數據賣給模型廠商",
+      "失敗原因：AI技術快速演進讓其所在市場不復存在，投資人的錢尚未花完即宣告關閉",
+      "為AI浪潮中商業模式脆弱性的典型案例——技術演進速度快過商業落地速度"
+    ],
+    "summary_points_ja": [
+      "AIモデル評価プラットフォームYuppが2026年4月15日に正式閉鎖、製品ローンチから1年未満、存続期間わずか22ヶ月",
+      "2024年に3,300万ドルのシードラウンドを完了、a16zパートナーやGoogleチーフサイエンティストなど45人以上の投資家が参加",
+      "ビジネスモデル：無料AIモデルサービスでユーザーを評価に誘導し、評価データをモデルメーカーに販売",
+      "失敗の原因：AI技術の急速な進化により市場が消滅、資金が残っているにもかかわらず事業終了",
+      "技術進化速度がビジネス展開速度を上回るAIブームにおけるビジネスモデルの脆弱性を示す典型事例"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-04-13",
     "category": "3d_ai",
     "idx": 0,
