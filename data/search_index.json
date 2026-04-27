@@ -1,5 +1,639 @@
 [
   {
+    "date": "2026-04-27",
+    "category": "3d_ai",
+    "idx": 0,
+    "title": "Have a Look at This Surreal 3D Character Based on a 2D Illustration",
+    "title_cht": "欣賞這個基於2D插畫的超現實3D角色",
+    "title_ja": "2Dイラストをもとにした幻想的な3Dキャラクターを見てみよう",
+    "url": "https://80.lv/articles/have-a-look-at-this-surreal-3d-character-based-on-a-2d-illustration/",
+    "source": "80.lv",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#ZBrush",
+      "#3D角色",
+      "#MetaHuman",
+      "#MarvelousDesigner",
+      "#80lv"
+    ],
+    "summary_points_cht": [
+      "藝術家 Ange Capitaine 在 Think Tank Training Center 導師計畫中，基於 Jiun Qui 的2D插畫創作了一個超現實3D角色",
+      "工作流程包含 MetaHuman 底模、ZBrush 雕刻、Marvelous Designer 服裝製作",
+      "角色概念為「存在於眼淚中的宇宙」，探索肉眼無法見到的世界",
+      "獲得角色藝術家 Piotr Zieliński 的指導與反饋，持續完善作品細節"
+    ],
+    "summary_points_ja": [
+      "アーティスト Ange CapitaineがThink Tank Training CenterのメンターシッププロジェクトでJiun QuiによるイラストをベースにシュールなキャラクターをZBrushで制作",
+      "MetaHumanベースメッシュ・ZBrushスカルプト・Marvelous Designerでの服制作というワークフローを使用",
+      "キャラクターコンセプトは「涙の中に存在する宇宙」という幻想的な世界観",
+      "キャラクターアーティスト Piotr Zielińskiのフィードバックを受けて作品を磨き上げた"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "3d_ai",
+    "idx": 1,
+    "title": "How to Sculpt a Detailed Environment of a Hidden Temple Using ZBrush",
+    "title_cht": "如何使用ZBrush雕刻細節豐富的隱秘神廟環境",
+    "title_ja": "ZBrushで詳細な隠し寺院の環境を彫刻する方法",
+    "url": "https://80.lv/articles/how-to-sculpt-a-detailed-environment-of-a-hidden-temple-using-zbrush/",
+    "source": "80.lv",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#ZBrush",
+      "#環境雕刻",
+      "#3D遊戲美術",
+      "#紋理貼圖",
+      "#80lv"
+    ],
+    "summary_points_cht": [
+      "遊戲美術師 Rui Cunha 分享了在 ZBrush 中雕刻隱秘神廟環境的完整工作流程，目標是提升雕刻技能",
+      "詳細說明如何活用參考資料建構更具說服力的場景構圖",
+      "使用主材質（master materials）對場景資產進行紋理貼圖，提高材質製作效率",
+      "Cunha 曾就讀於倫敦 Escape Studios，從高中起學習2D動畫與3dsMax，深耕3D美術多年"
+    ],
+    "summary_points_ja": [
+      "ゲームアーティスト Rui CunhaがZBrushで隠し寺院環境を彫刻したワークフローを詳細に解説し、スカルプティングスキル向上を目的とした制作過程を共有",
+      "参考画像を効果的に活用してより説得力のあるシーンを構築する方法を説明",
+      "マスターマテリアルを使ったアセットのテクスチャリング手法を紹介",
+      "ロンドンのEscape Studios出身で、高校時代から2DアニメーションとZBrushを学んだ豊富な背景を持つ"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "「AI＝チャット」時代を終わらせたClaude CoworkがM365 Copilotに　Excel／メール操作はどう変わる？",
+    "title_cht": "終結「AI＝聊天」時代的Claude Cowork整合進M365 Copilot，Excel與郵件操作將如何改變？",
+    "title_ja": "「AI＝チャット」時代を終わらせたClaude CoworkがM365 Copilotに　Excel／メール操作はどう変わる？",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/17/news061.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#ClaudeCowork",
+      "#Microsoft365",
+      "#CopilotCowork",
+      "#AIAgent",
+      "#Anthropic"
+    ],
+    "summary_points_cht": [
+      "微軟與 Anthropic 合作，將 Claude Cowork 技術整合進 M365 Copilot，命名為「Copilot Cowork」，已透過 Frontier 計畫開始提供",
+      "Copilot Cowork 是代理型AI，能自動完成任務與工作流程，而非傳統的對話回答模式",
+      "採用多模型架構（multi-model approach），根據不同任務需求自動選擇最佳 AI 模型",
+      "以「Work IQ」為智能基礎，整合 Outlook、Teams、Excel 等 M365 全套應用數據，理解用戶工作情境並主動行動",
+      "內建 Claude 技能與微軟技能，支援行事曆管理、每日簡報等功能，從單次任務延伸至持續性工作流"
+    ],
+    "summary_points_ja": [
+      "MicrosoftがAnthropicと緊密に連携し、Claude Cowork技術をM365 Copilotに統合した「Copilot Cowork」をFrontierプログラム経由で提供開始",
+      "従来のチャット型AIとは異なり、ユーザーに代わってタスクとワークフローを自動実行するエージェント型AI",
+      "タスクに応じて最適なAIモデルを自動選択するマルチモデルアプローチを採用",
+      "Outlook・Teams・ExcelなどM365全体のデータを活用する「Work IQ」をインテリジェンス基盤として使用し、ユーザーの状況を理解して行動",
+      "Claudeとマイクロソフトのスキルが組み込まれカレンダー管理やデイリーブリーフィングなど継続的ワークフローに対応"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "Perplexity Launches Personal Computer for Mac, Turning a Mac mini Into an Always-On AI Agent",
+    "title_cht": "Perplexity 推出Mac版個人電腦功能，將Mac mini打造成全天候AI Agent",
+    "title_ja": "PerplexityがMac向けPersonal Computerを発表、Mac miniを常時稼働AIエージェントに",
+    "url": "https://www.macrumors.com/2026/04/16/perplexity-personal-computer-for-mac/",
+    "source": "MacRumors",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Perplexity",
+      "#AIAgent",
+      "#PersonalComputer",
+      "#Mac",
+      "#工作流自動化"
+    ],
+    "summary_points_cht": [
+      "Perplexity 正式推出 Personal Computer for Mac，讓 Mac（包含 Mac mini）成為全天候 AI Agent",
+      "能直接訪問本地文件系統和原生App，雙擊 Command 鍵即可啟動，支援文字與語音指令",
+      "可跨所有 Mac App 進行操作，自動識別活躍應用並顯示快速動作建議",
+      "目前向 Max 訂閱者正式開放，此前已在等候名單階段進行測試"
+    ],
+    "summary_points_ja": [
+      "PerplexityがPersonal Computer for Macを正式リリースし、Mac（Mac miniを含む）を常時稼働AIエージェントに変えることができる",
+      "ローカルファイルシステムやネイティブアプリにアクセスでき、Commandキーを両方同時押しで起動、テキストと音声コマンドに対応",
+      "全Macアプリにまたがる操作が可能で、アクティブなアプリを認識して自動でクイックアクションを表示",
+      "現在はMaxサブスクライバー向けに正式公開（以前はウェイトリスト制でテスト中だった）"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "Google、Gemini CLIに読み取りモードで調査や設計ができる「Plan Mode」追加",
+    "title_cht": "Google 為 Gemini CLI 新增「計劃模式」，可在唯讀狀態下安全探索程式碼庫與進行設計",
+    "title_ja": "Google、Gemini CLIに読み取りモードで調査や設計ができる「Plan Mode」追加",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/16/news045.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#GeminiCLI",
+      "#Google",
+      "#PlanMode",
+      "#AIコーディング",
+      "#MCP"
+    ],
+    "summary_points_cht": [
+      "Google 為 Gemini CLI 新增「Plan Mode」，以唯讀模式運行，完全不修改程式碼庫",
+      "在計劃模式中，AI 可進行程式碼探索、模式搜尋與文件參考，但不執行任何檔案寫入",
+      "新增「ask_user」工具，讓 Agent 可在調查過程中向用戶提問以釐清目標與前提假設",
+      "計劃模式支援外部唯讀 MCP 工具，可整合 GitHub Issues、CI/CD 狀態等外部資訊",
+      "適合「調查資料庫遷移方法」或「規劃新功能架構」等設計前期工作"
+    ],
+    "summary_points_ja": [
+      "GoogleがGemini CLIに「Plan Mode」を追加、読み取り専用でコードベースを安全に探索",
+      "コード変更なしに依存関係のマッピングや解決策の提案が可能",
+      "新ツール「ask_user」によりエージェントがユーザーに質問して曖昧さを解消できる",
+      "読み取り専用MCPツールと連携し、GitHub IssuesやCI/CD状態も参照可能",
+      "「この移行方法を調査して」などの設計前フェーズでの活用に最適"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "Microsoft is testing OpenClaw-like AI bots for 365 Copilot",
+    "title_cht": "微軟正在為365 Copilot測試類OpenClaw的AI機器人",
+    "title_ja": "MicrosoftはOpenClawのようなAIボットを365 Copilotでテスト中",
+    "url": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
+    "source": "The Verge",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Microsoft",
+      "#Copilot",
+      "#AIAgent",
+      "#Microsoft365",
+      "#自律AI"
+    ],
+    "summary_points_cht": [
+      "微軟正在測試將類似 OpenClaw 的自主AI功能整合進 Microsoft 365 Copilot",
+      "目標是讓 Copilot 能「全天候自主運行」，代替用戶持續完成工作任務",
+      "微軟企業副總裁 Omar Shahine 確認正在企業環境中探索 OpenClaw 技術的潛力",
+      "此舉代表微軟將 Copilot 從對話式AI向全自主 AI Agent 轉型的重要戰略方向"
+    ],
+    "summary_points_ja": [
+      "MicrosoftがOpenClawのような自律型AI機能をMicrosoft 365 Copilotに統合するテストを実施中",
+      "目標はCopilotが「24時間365日自律稼働」してユーザーに代わってタスクを継続的に完了すること",
+      "Microsoft企業副社長Omar Shahineが企業環境でのOpenClaw技術の可能性探索を確認",
+      "チャット型AIからフル自律型AIエージェントへのCopilot転換を示す重要な戦略的動向"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "Buzzy vibe-coding startup Emergent is launching an AI agent to take on OpenClaw and NanoBot",
+    "title_cht": "熱門Vibe-Coding新創Emergent推出AI Agent「Wingman」，挑戰OpenClaw與NanoBot",
+    "title_ja": "話題のVibe-CodingスタートアップEmergentがAIエージェント「Wingman」を発表、OpenClawとNanoBotに対抗",
+    "url": "https://www.businessinsider.com/vibe-coding-startup-emergent-launching-agent-rival-openclaw-nanobot-2026-4",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Emergent",
+      "#Wingman",
+      "#AIAgent",
+      "#VibeCoding",
+      "#個人助理"
+    ],
+    "summary_points_cht": [
+      "Emergent 正式推出個人 AI Agent「Wingman」，與 OpenClaw、NanoBot 等產品展開正面競爭",
+      "Wingman 運行於 WhatsApp、iMessage 等訊息平台，擁有自己的電話號碼和電郵地址",
+      "整合 Gmail、Google Calendar、Slack 等常用工具，用戶可像與真人互動一樣與其溝通",
+      "Emergent 強調 Wingman 的安全性設計，提供防駭客和防數據洩漏的保護機制"
+    ],
+    "summary_points_ja": [
+      "EmergentがパーソナルAIエージェント「Wingman」を正式ローンチし、OpenClawやNanoBotと真っ向から競合",
+      "WhatsApp、iMessageなどのメッセージングプラットフォームで動作し、独自の電話番号とメールアドレスを持つ",
+      "Gmail、Googleカレンダー、Slackなどのツールと連携し、まるで人間のように対話できる",
+      "ハッキングやデータ漏洩を防ぐセキュリティ機能を重点的に設計"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "Research: What China’s AI Agents Reveal About the Future of Commerce",
+    "title_cht": "研究：中國AI Agent揭示商業的未來",
+    "title_ja": "リサーチ：中国のAIエージェントが示す商取引の未来",
+    "url": "https://hbr.org/2026/04/research-what-chinas-ai-agents-reveal-about-the-future-of-commerce",
+    "source": "Harvard Business Review",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#中國AI",
+      "#AIAgent",
+      "#美團",
+      "#電商自動化",
+      "#哈佛商業評論"
+    ],
+    "summary_points_cht": [
+      "哈佛商業評論研究指出，中國AI Agent在商業應用上揭示了消費模式的未來走向",
+      "美團2025年底推出的「小美」AI Agent 在公司內部被定義為「協調器＋執行代理」，而非聊天機器人",
+      "用戶可用自然語言委託複雜任務，例如「今天晚點20分鐘送我平時的午餐」，Agent 自動解讀意圖並完成交易，全程零介面互動",
+      "中國市場高度數字化與行動支付的普及，為 AI Agent 商業應用提供了理想的試驗場域"
+    ],
+    "summary_points_ja": [
+      "ハーバード・ビジネス・レビューの研究が、中国のAIエージェントが消費行動の未来を示していると指摘",
+      "美団が2025年末に発表した「小美」AIエージェントは社内で「オーケストレーター＋実行エージェント」と定義され、チャットボットとは一線を画す",
+      "ユーザーが「いつものランチを今日は20分遅く届けて」と自然言語で依頼するだけで、エージェントが意図を解釈して取引を完了、画面操作はゼロ",
+      "中国市場の高度なデジタル化とモバイル決済の普及がAIエージェントの商業応用に理想的な実験場を提供"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "Introspective Diffusion Language Models",
+    "title_cht": "內省式擴散語言模型（I-DLM）：首個與自迴歸模型品質相當的擴散語言模型",
+    "title_ja": "内省的拡散言語モデル（I-DLM）：自己回帰モデルと同等品質を初めて達成した拡散LM",
+    "url": "https://introspective-diffusion.github.io/",
+    "source": "Github.io",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#拡散言語モデル",
+      "#I-DLM",
+      "#LLM研究",
+      "#自己回帰モデル",
+      "#並列生成"
+    ],
+    "summary_points_cht": [
+      "擴散語言模型（DLM）理論上可並行生成 token，但品質長期落後自迴歸（AR）模型",
+      "核心問題在於「內省一致性失敗」——AR 模型認同自己生成的內容，DLM 則否",
+      "I-DLM 引入內省步進解碼（ISD），在同一前向傳播中同時驗證已生成 token 並推進新 token",
+      "I-DLM-8B 是首個在相同規模下與自迴歸模型品質相當的擴散語言模型",
+      "對比基準 LLaDA-2.1-mini 分別高出 43.3 與 30.4 分"
+    ],
+    "summary_points_ja": [
+      "拡散言語モデル（DLM）は並列生成の可能性を持つが、品質面でAR（自己回帰）モデルに一貫して劣ってきた",
+      "核心的な問題は「内省的一貫性の失敗」——ARモデルは自分の出力に同意するが、DLMはしない",
+      "I-DLMは「内省的ストライドデコーディング（ISD）」を導入、1回のフォワードパスで検証と生成を同時実行",
+      "I-DLM-8Bは同規模のARモデルと同等の品質を達成した初のDLM",
+      "ベースラインのLLaDA-2.1-miniを43.3点・30.4点上回るスコアを記録"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "OpenAI Codex Update Adds Computer Use, Image Generation, and Memory on Mac",
+    "title_cht": "OpenAI Codex 重大更新：Mac 版新增電腦操控、圖像生成與記憶功能",
+    "title_ja": "OpenAI Codex、Mac向けにコンピューター操作・画像生成・メモリ機能を追加",
+    "url": "https://www.macrumors.com/2026/04/16/openai-codex-mac-update/",
+    "source": "MacRumors",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#OpenAI",
+      "#Codex",
+      "#コンピューター使用",
+      "#AIエージェント",
+      "#Mac"
+    ],
+    "summary_points_cht": [
+      "Codex 現可在 Mac 上操控桌面應用程式，使用自己的游標進行點擊、輸入等完整操作",
+      "支援在 Mac 上同時執行多個 Agent，且不干擾用戶自身的工作",
+      "新增記憶功能，可記住用戶的偏好、工作流程、技術棧等個人化資訊",
+      "支援在暫停後恢復工作，並可排程跨日期的未來任務，適合長期執行的工作",
+      "可基於專案上下文、記憶及關聯工具主動提議下一步工作"
+    ],
+    "summary_points_ja": [
+      "CodexがMacでデスクトップアプリを操作可能に、独自カーソルでクリックや入力が行える",
+      "複数のエージェントをMac上で並列実行でき、ユーザーの作業に干渉しない",
+      "メモリ機能追加により、ユーザーの設定・ワークフロー・技術スタックを記憶",
+      "中断後の再開・将来の作業スケジューリング・数日〜数週間にわたるタスク実行に対応",
+      "プロジェクトコンテキスト・メモリ・連携ツールを基にした作業提案も可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "Anthropic Debuts Claude Design for Building Marketing Assets Decks, and UIs",
+    "title_cht": "Anthropic 發布 Claude Design：自動生成行銷素材、簡報與 UI 的 AI 設計平台",
+    "title_ja": "AnthropicがClaude Designを発表：マーケティング素材・スライド・UIを自動生成するAIデザインプラットフォーム",
+    "url": "https://www.adweek.com/media/anthropic-debuts-claude-design-for-building-marketing-assets-decks-and-uis/",
+    "source": "Adweek",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#Anthropic",
+      "#ClaudeDesign",
+      "#ClaudeOpus4.7",
+      "#AI設計工具",
+      "#生成AI"
+    ],
+    "summary_points_cht": [
+      "Anthropic 推出 Claude Design，基於旗艦模型 Claude Opus 4.7 構建，可自動生成設計稿、簡報、單頁文件及各類行銷與銷售素材",
+      "產品定位直接對標 Figma 與 Adobe，兩家公司近年均大力投資 AI 設計工具以簡化設計工作流",
+      "同時服務有經驗的設計師與完全不具技術背景的普通用戶，支援自然語言輸入操作",
+      "由 Anthropic Labs（負責孵化實驗性 AI 產品的內部團隊）開發，與 Claude Opus 4.7 同步發布",
+      "目標用戶涵蓋設計師、行銷人員、創意工作者與銷售團隊"
+    ],
+    "summary_points_ja": [
+      "AnthropicがClaude Opus 4.7をベースにClaude Designを発表、デザイン・スライド・ワンページャー・マーケティング資料の自動生成が可能",
+      "FigmaやAdobeと直接競合する位置づけで、両社もAIデザインツールに積極投資",
+      "熟練デザイナーから技術知識のない一般ユーザーまで対応し、自然言語で操作可能",
+      "Claude Opus 4.7と同タイミングでAnthropic Labsが発表した実験的AIプロダクト",
+      "デザイナー・マーケター・クリエイター・営業チームが対象ユーザー"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "智元机器人，要做AI大模型平台和开放生态",
+    "title_cht": "智元機器人，要做AI大模型平台和開放生態",
+    "title_ja": "智元ロボット、AI大規模モデルプラットフォームとオープンエコシステムを構築へ",
+    "url": "https://36kr.com/p/3770721219035649?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 7,
+    "tags": [
+      "#智元機器人",
+      "#具身智能",
+      "#AIモデル",
+      "#ロボット",
+      "#オープンエコシステム"
+    ],
+    "summary_points_cht": [
+      "智元機器人量產已突破一萬台里程碑，並在合作夥伴大會上大量介紹軟體新品",
+      "一次發布六大AI模型，涵蓋運動智能、交互智能、作業智能三大領域",
+      "首次公開 AIMA（AI Machine Architecture）全棧生態技術體系，向「具身智能公司」轉型",
+      "三季度將發布業界首個端到端具身多模態交互大模型 WITA Omni 1.0",
+      "以「一體三智」架構（機器人本體＋三層智能）構成完整具身智能解決方案"
+    ],
+    "summary_points_ja": [
+      "智元ロボットが量産1万台を突破し、パートナー大会でソフトウェア新製品を大量発表",
+      "運動知能・交互知能・作業知能をカバーする6つのAIモデルを一挙公開",
+      "AIMA（AI Machine Architecture）フルスタック生態技術体系を初公開、「具身知能企業」への転換を宣言",
+      "第3四半期に業界初の端到端具身マルチモーダルインタラクションモデルWITA Omni 1.0を発表予定",
+      "「一体三智」アーキテクチャ（ロボット本体＋3層の知能）で完全な具身知能ソリューションを構築"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "OpenAI Starts Offering a Biology-Tuned LLM",
+    "title_cht": "OpenAI 開始提供生物學調校專用 LLM，訓練涵蓋 50 種生物工作流程",
+    "title_ja": "OpenAI、生物学向けに調整されたLLMの提供を開始",
+    "url": "https://science.slashdot.org/story/26/04/17/1721205/openai-starts-offering-a-biology-tuned-llm",
+    "source": "Slashdot.org",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#OpenAI",
+      "#生物学LLM",
+      "#ドラッグターゲット",
+      "#バイオテク",
+      "#専門LLM"
+    ],
+    "summary_points_cht": [
+      "OpenAI 推出生物學專用 LLM，訓練資料涵蓋 50 種最常見生物工作流程及主要公共資料庫",
+      "模型可建議可能的生物路徑並排序潛在藥物靶點，連接基因型與表現型",
+      "特別調校以增加「懷疑態度」，能主動告知用戶某個藥物靶點不佳，降低 LLM 過度樂觀傾向",
+      "可推斷蛋白質結構或功能特性，運用機制性理解進行生物學分析"
+    ],
+    "summary_points_ja": [
+      "OpenAIが生物学専門に調整されたLLMを提供開始、50種の生物ワークフローと主要公開データベースでトレーニング",
+      "生物学的経路の提案や潜在的な薬剤ターゲットの優先順位付けが可能",
+      "過度な楽観主義を避けるため「懐疑的」になるよう調整、悪い薬剤ターゲットを積極的に指摘",
+      "ゲノム型から表現型へのつながりを予測し、タンパク質の構造・機能特性の推論も対応"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "Google's AI Mode Update Tries to Kill Tab Hopping in Chrome",
+    "title_cht": "Google AI Mode 更新：Chrome 側欄整合讓你告別分頁跳轉",
+    "title_ja": "Google AI Modeアップデート：ChromeのサイドバーでタブHoppingが不要に",
+    "url": "https://www.wired.com/story/google-ai-mode-update-tries-to-kill-tab-hopping-in-chrome/",
+    "source": "Wired",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Google",
+      "#AIMode",
+      "#Chrome",
+      "#AI搜尋",
+      "#GoogleSearch"
+    ],
+    "summary_points_cht": [
+      "Google 更新桌面版 Chrome 的 AI Mode，點擊搜尋結果連結後頁面直接在右側開啟，左側保留 AI 對話欄",
+      "舊版行為是連結跳至新分頁並徹底離開 AI Mode；新版讓搜尋旅程保持連續不中斷",
+      "功能今日起在美國桌面版 Chrome 正式上線",
+      "旨在消除用戶在 AI 搜尋與網頁瀏覽之間反覆切換分頁的困擾",
+      "是 Google 將 AI 深度嵌入瀏覽器核心體驗的重要里程碑"
+    ],
+    "summary_points_ja": [
+      "GoogleがChromeデスクトップのAI Modeを更新、検索結果リンクをクリックするとサイドバーで表示され、左のAIチャットが残る",
+      "従来はリンクで新タブが開いてAI Modeから離れる形だったが、新版では検索体験が継続",
+      "本日より米国のデスクトップChrome向けに提供開始",
+      "AIチャットとウェブ閲覧の間でタブを行き来する手間をなくすことが目的",
+      "GoogleがAIをブラウザのコア体験に深く統合する重要なマイルストーン"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_industry",
+    "idx": 6,
+    "title": "Agents, Code Reviews, and the Bottleneck Shift, Oh My!",
+    "title_cht": "AI Agent、代碼審查與瓶頸轉移：RavenDB 的 AI 實戰心得",
+    "title_ja": "AIエージェント、コードレビュー、ボトルネックのシフト：RavenDBの実践レポート",
+    "url": "https://ravendb.net/articles/agents-code-reviews-and-the-bottleneck-shift-oh-my",
+    "source": "Ravendb.net",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#AIAgent",
+      "#代碼審查",
+      "#RavenDB",
+      "#AI開發工作流",
+      "#生產環境"
+    ],
+    "summary_points_cht": [
+      "資料庫引擎 RavenDB（擁有 18 年歷史的成熟代碼庫、數十名全職開發者）分享全面導入 AI 編碼助理的生產實戰經驗",
+      "AI 工具導入後，開發瓶頸正從「寫代碼」轉移到「審查代碼」——審查速度成為新的制約因素",
+      "RavenDB 高度重視正確性、性能與可維護性，文章聚焦這類生產環境下使用 AI 的特殊挑戰",
+      "團隊在評估包括 Claude、Codex 等工具後，決定在大多數團隊中全面鋪開使用",
+      "這是少見的「真實成熟企業級代碼庫 + AI Agent」深度實踐分析，對評估 AI 導入的工程團隊具高參考價值"
+    ],
+    "summary_points_ja": [
+      "18年の歴史を持つ成熟コードベース・数十名のフルタイム開発者を抱えるRavenDBが、AIコーディングアシスタント全面導入の実践報告",
+      "AI導入後、開発ボトルネックは「コードを書く」から「コードをレビューする」へシフト",
+      "正確性・パフォーマンス・保守性を重視するプロダクション環境でのAI活用の特殊な課題を詳述",
+      "Claude・Codexなど複数のAIツールを評価の上、ほぼ全チームへ全面展開",
+      "「成熟したエンタープライズコードベース＋AIエージェント」の貴重な実践分析"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_industry",
+    "idx": 7,
+    "title": "The Strange Origin of AI’s ‘Reasoning’ Abilities",
+    "title_cht": "AI「推理」能力的奇特起源",
+    "title_ja": "AIの「推論」能力の奇妙な起源",
+    "url": "https://www.theatlantic.com/technology/2026/04/4chan-ai-dungeon-thinking-reasoning/686794/",
+    "source": "The Atlantic",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#RLHF",
+      "#AI推理",
+      "#AI歷史",
+      "#大語言模型",
+      "#AI起源"
+    ],
+    "summary_points_cht": [
+      "文章追溯 AI 推理能力的起源至 2020 年的文字角色扮演遊戲 AI Dungeon，玩家在 4chan 上意外發現提升模型輸出品質的方法",
+      "玩家對 AI 內容的主觀評分與偏好反饋，無意中成為人類反饋強化學習（RLHF）的早期雛形",
+      "文章挑戰主流敘事，指出現代 AI 推理能力並非頂尖研究者精心設計，而是從民間實驗中演化而來",
+      "這段歷史揭示 AI 能力發展的高度偶然性與不可預測性",
+      "由《大西洋》月刊發表，屬深度歷史回顧性長文"
+    ],
+    "summary_points_ja": [
+      "AIの推論能力の起源を2020年のAI Dungeonゲームと4chanプレイヤーたちによる草の根実験にさかのぼる",
+      "プレイヤーのフィードバック評価が、後のRLHF（人間フィードバックによる強化学習）の原型となった",
+      "現代AIの推論能力はトップ研究者の意図的設計ではなく、偶発的な民間実験から生まれたと指摘",
+      "AI能力開発の偶発性と予測不可能性を歴史的に明らかにする内容",
+      "The Atlantic誌掲載の深掘り歴史レポート"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_industry",
+    "idx": 8,
+    "title": "I went to an AI conference and got a crash course in middle management",
+    "title_cht": "我參加了一場 AI 大會，上了一堂中階管理速成課",
+    "title_ja": "AI会議に参加してミドルマネジメントを速習した",
+    "url": "https://www.businessinsider.com/ai-agent-management-software-engineer-openai-anthropic-google-coding-2026-4",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AIAgent",
+      "#AI工程師",
+      "#工作未來",
+      "#軟體開發",
+      "#AI會議"
+    ],
+    "summary_points_cht": [
+      "倫敦 AI 工程師大會核心主題為「AI Agent」，與會者來自 Google、Anthropic、OpenAI 等頂尖公司",
+      "大會清晰傳達：軟體工程師的角色已根本性轉變——從「寫代碼」演變為「管理 AI 代理人」",
+      "工程師的日常工作正變成：指示 Agent 目標與方向、回答其追問、糾正其錯誤",
+      "隨著 Agent 從編碼領域擴展至其他行業，「管理 AI」可能成為未來各職場的普遍工作形態",
+      "文章以記者親身參會的觀察視角呈現，屬現場報導"
+    ],
+    "summary_points_ja": [
+      "ロンドンのAIエンジニア会議はAIエージェントが中心テーマ、Google・Anthropic・OpenAIなど参加",
+      "ソフトウェアエンジニアの役割は「コードを書く」から「AIエージェントを管理する」へ根本的に変化",
+      "日常業務はエージェントへの指示・追加質問への回答・ミスの修正へとシフト",
+      "エージェントが他分野に拡大するにつれ「AIを管理する」ことが将来の主要な仕事形態になる可能性",
+      "記者が実際に参加した現場観察レポート"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-04-27",
+    "category": "ai_industry",
+    "idx": 9,
+    "title": "Respect to the Man Chasing AI Immortality, While Freeloading Off Our Platform",
+    "title_cht": "向那位追求 AI 永生、白嫖我們平台的人致敬",
+    "title_ja": "AIの不死を追い求め、プラットフォームをタダ乗りした男への敬意",
+    "url": "https://blog.mulerun.com/p/ai-immortality-postmortem/",
+    "source": "Mulerun.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AI安全",
+      "#GitHubActions",
+      "#AI平台濫用",
+      "#自動化帳號",
+      "#安全事件"
+    ],
+    "summary_points_cht": [
+      "安全事件揭露：一名菲律賓年輕男性透過 GitHub Actions 自動化系統，同時在 11 個 AI 平台維護 900 個帳號",
+      "事件起因於 2026 年 4 月 13 日，兩個可疑郵件域名在 1 小時 20 分鐘內大量湧現（202 個帳號）",
+      "當事人聲稱從未寫過一行代碼，完全依靠 AI 工具構建了這套寄生性的資源收割系統",
+      "目標是用所有能獲取的免費算力，拼湊出一個「永生 AI 助理」",
+      "案例以虛構安全團隊 AI Agent 事後調查報告的形式呈現，文筆生動且引發廣泛傳播"
+    ],
+    "summary_points_ja": [
+      "セキュリティインシデント：フィリピンの若者がGitHub Actionsで11のAIプラットフォームに900アカウントを自動管理していた",
+      "2026年4月13日、不審なメールドメインが1時間20分で202アカウント登録されたことで発覚",
+      "本人はコードを一行も書いたことがないと主張、AIツールだけでこの寄生システムを構築",
+      "目的は無料計算資源をかき集めて「不死のAIアシスタント」を作り上げること",
+      "架空のセキュリティチームAIエージェントによる事後調査報告の形式で語られ、広く拡散"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-04-20",
     "category": "ai_agent",
     "idx": 0,
