@@ -1,5 +1,585 @@
 [
   {
+    "date": "2026-05-04",
+    "category": "3d_ai",
+    "idx": 0,
+    "title": "Sparseal Launches 3D Texturing App Wafer For PC",
+    "title_cht": "Sparseal 發布 PC 版 3D 貼圖應用 Wafer",
+    "title_ja": "SparseaがPC向け3DテクスチャリングアプリWaferをリリース",
+    "url": "https://80.lv/articles/sparseal-launches-3d-texturing-app-wafer-for-pc/",
+    "source": "80.lv",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Wafer",
+      "#Sparseal",
+      "#3Dテクスチャリング",
+      "#NPR",
+      "#PC版"
+    ],
+    "summary_points_cht": [
+      "Sparseal 旗下 3D 貼圖軟件 Wafer 正式推出 Windows 版本，此前僅支持 iPad 平台。",
+      "Wafer 專為 NPR（非寫實渲染）風格及手繪 3D 資產設計，操作界面沿用插畫軟件的設計邏輯。",
+      "新版本基於全新跨平台架構構建，未來可能將 Sparseal 其他應用（如 CozyBlanket、Uniform）也帶到 PC。",
+      "目前尚無官方文件說明 PC 版與 iPad 版的差異，功能預計大體相近。"
+    ],
+    "summary_points_ja": [
+      "SparseaのiPad専用3DテクスチャリングソフトWaferが正式にWindowsバージョンをリリース。",
+      "WaferはNPR（非フォトリアリスティック）スタイルや手描きアセット向けで、イラストソフト的なUIを採用。",
+      "新バージョンはクロスプラットフォーム基盤で開発され、将来的に他のSparseaアプリもPC対応の可能性あり。",
+      "PC版とiPad版の機能差異についての公式ドキュメントは現時点で存在しない。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "無料でプログラミングの専門知識がなくてもAIエージェントやワークフローを作成できるローコードプラットフォーム「Langflow」",
+    "title_cht": "免費無需程式設計知識即可建立 AI 代理和工作流程的低代碼平台「Langflow」",
+    "title_ja": "無料でプログラミングの専門知識がなくてもAIエージェントやワークフローを作成できるローコードプラットフォーム「Langflow」",
+    "url": "https://gigazine.net/news/20260426-langflow/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Langflow",
+      "#LangChain",
+      "#AIエージェント",
+      "#ローコード",
+      "#オープンソース"
+    ],
+    "summary_points_cht": [
+      "Langflow 是基於 LangChain 的開源低代碼平台，以流程圖拖拉方式構建 AI 代理和 RAG 應用，無需程式設計知識。",
+      "支持 Docker 一鍵部署，可整合 OpenAI、Google Gemini 等多種主流 AI 模型提供商的 API。",
+      "提供預建組件，適用於搜索、PDF 處理、資料庫連接、業務自動化等多種場景。",
+      "GitHub 開源倉庫 langflow-ai/langflow 已提供完整代碼，可在 localhost:7860 運行本地實例。"
+    ],
+    "summary_points_ja": [
+      "LangflowはLangChainベースのオープンソースローコードプラットフォームで、フロー図操作でAIエージェントやRAGアプリを構築可能。",
+      "Dockerで簡単にデプロイでき、OpenAI・Google GeminiなどのAPIと統合可能。",
+      "検索・PDF処理・DB接続・業務自動化など多様なシナリオ向けプリビルドコンポーネントを提供。",
+      "GitHub（langflow-ai/langflow）でオープンソース公開され、localhost:7860でローカル実行可能。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "Google Cloud Pushes Hard on AI Agents and Hardcore Computing",
+    "title_cht": "Google Cloud 全力推進 AI 代理與高效能運算",
+    "title_ja": "Google CloudがAIエージェントとハイパフォーマンスコンピューティングを全力推進",
+    "url": "https://www.cnet.com/tech/services-and-software/google-cloud-next-2026-ai-agents-computing-chips-news/",
+    "source": "CNET",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#GoogleCloud",
+      "#AIエージェント",
+      "#CloudNext",
+      "#EnterpriseAI",
+      "#Agentspace"
+    ],
+    "summary_points_cht": [
+      "在 Google Cloud Next 大會上，Google 宣布一系列協助企業客戶以 AI 代理自動化業務流程的重大更新。",
+      "Google Cloud 報告其 75% 的客戶已在業務中使用 AI，並持續加碼投入追求「代理型企業」（agentic enterprise）願景。",
+      "AI 代理技術正快速發展，尤其在程式設計輔助和職場任務自動化方面取得顯著突破。",
+      "Google 積極透過新產品讓企業能以較少人工干預，讓 AI 代理自主完成複雜業務任務。"
+    ],
+    "summary_points_ja": [
+      "Google Cloud Nextカンファレンスでエンタープライズ向けAIエージェント自動化ソリューションを多数発表。",
+      "Google Cloud顧客の75%がビジネスでAIを活用していると報告し、「agentic enterprise」ビジョンへの投資を強化。",
+      "AIエージェント技術はコーディング支援や職場タスク自動化で特に急速に進化している。",
+      "最小限の人間の監視でAIエージェントが複雑な業務タスクを自律完了できる環境整備を推進。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "「もうAIブラウザはいらない」　プロンプト要らずのブラウザ操作AI「Copelf」リリース",
+    "title_cht": "「不再需要 AI 瀏覽器」——無需提示詞的瀏覽器操作 AI「Copelf」正式發布",
+    "title_ja": "「もうAIブラウザはいらない」　プロンプト要らずのブラウザ操作AI「Copelf」リリース",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/24/news049.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Copelf",
+      "#ブラウザ自動化",
+      "#AIエージェント",
+      "#RPA",
+      "#ワークフロー自動化"
+    ],
+    "summary_points_cht": [
+      "日本 Kohre 公司於 2026 年 3 月 10 日發布 Copelf，可通過分析使用者瀏覽器操作的螢幕錄影，自動提取作業步驟並構建可執行工作流程，完全無需編寫提示詞。",
+      "系統能處理條件變化的重複作業（如數百組關鍵字查詢），並在「單純作業」與「需判斷的知識型作業」之間自動切換 AI 推理等級。",
+      "重要操作可暫停自動化流程，讓使用者確認或介入，兼顧靈活性與安全性。",
+      "採用自研通用指令語法「Agentic Workflow RITSU」，架構不依賴特定工具，可與其他 AI 代理工具互通。"
+    ],
+    "summary_points_ja": [
+      "コーレが2026年3月10日にCopelfをリリース。ブラウザ操作の画面録画からAIが作業手順を自動抽出し実行可能なワークフローを構築、プロンプト設計不要。",
+      "条件を変えた反復作業や判断を伴う知的作業を識別し、AIが推論レベルを自動切り替えして対応。",
+      "重要処理では自動実行を一時停止してユーザーが確認・介入できる安全機能を搭載。",
+      "独自開発の「Agentic Workflow RITSU」を採用し、特定ツールに依存せず他のAIエージェントとの連携も可能。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "Kuri – Zig based agent-browser alternative",
+    "title_cht": "Kuri – 以 Zig 語言打造的 AI 代理瀏覽器自動化工具",
+    "title_ja": "Kuri – Zigベースのエージェント向けブラウザ自動化ツール",
+    "url": "https://github.com/justrach/kuri",
+    "source": "Github.com",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Kuri",
+      "#ZigLang",
+      "#BrowserAutomation",
+      "#AIAgent",
+      "#OpenSource"
+    ],
+    "summary_points_cht": [
+      "Kuri 是以 Zig 語言開發的瀏覽器自動化工具，二進位檔案小於 2MB，零 Node.js 依賴",
+      "專為 AI 代理循環設計，實測一次完整代理循環（go→snap→click→snap→eval）僅消耗 3,392 個 tokens",
+      "支援 CDP 自動化、無障礙快照（A11y snapshots）、HAR 錄製、安全測試等多項功能",
+      "定位為 QA 工具的替代品，強調低 token 成本、穩定引用與快速行動的代理優先設計哲學"
+    ],
+    "summary_points_ja": [
+      "ZigベースのブラウザオートメーションツールKuri、バイナリは2MB以下でNode.jsゼロ依存",
+      "エージェントループに特化した設計で、1回のフルループあたり3,392トークンを実測",
+      "CDP自動化・アクセシビリティスナップショット・HARレコーディング・セキュリティテストに対応",
+      "QAエンジニア向けではなくエージェントループのための低トークンコスト・安定参照設計を重視"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "LayerX、初M＆Aはセキュリティ領域　AIエージェントでペンテスト自動化に期待",
+    "title_cht": "LayerX 首次併購安全企業 AgenticSec，以 AI 代理推動滲透測試自動化",
+    "title_ja": "LayerX、初M＆AはセキュリティのAgenticSec、AIエージェントでペンテスト自動化に期待",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/24/news051.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#LayerX",
+      "#AgenticSec",
+      "#PenTest",
+      "#AIAgent",
+      "#M&A"
+    ],
+    "summary_points_cht": [
+      "LayerX 宣布首次 M&A，於 2026 年 4 月 23 日將安全新創 AgenticSec（前身 SecDevLab）納入集團",
+      "AgenticSec 主力產品「AgenticSec Pentest」僅需輸入 IP 位址即可自動獲取內部侵入存取權限",
+      "AI 代理能自律分析攻擊面、發現弱點與侵入路徑，支援高頻次驗證與靈活攻擊情境生成",
+      "LayerX 判斷 AI 加速軟體開發的同時，實作後的安全驗證重要性同步大幅提升，因而進軍資安領域"
+    ],
+    "summary_points_ja": [
+      "LayerXが初のM&AとしてAgenticSec（旧SecDevLab、2026年4月17日に改名）をグループ化",
+      "主力製品「AgenticSec Pentest」はIPアドレス入力のみで内部侵入アクセスを自動取得",
+      "AIエージェントが自律的に攻撃面を分析し脆弱性・侵入経路を発見、高頻度検証と柔軟なシナリオ生成が可能",
+      "AIによるソフトウェア開発高速化と同時に、実装後の安全検証ニーズが高まったことが参入背景"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "MetaがAmazonのAIチップ「AWS Graviton」の供給契約を締結、次世代AIエージェント構築の基盤に",
+    "title_cht": "Meta 與 Amazon 簽署 AWS Graviton 晶片供應協議，為下一代 AI 代理建構基礎",
+    "title_ja": "MetaがAmazonのAIチップ「AWS Graviton」の供給契約を締結、次世代AIエージェント構築の基盤に",
+    "url": "https://gigazine.net/news/20260425-meta-signs-agreement-aws-graviton/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Meta",
+      "#AWSGraviton",
+      "#AIChip",
+      "#AIAgent",
+      "#CloudInfrastructure"
+    ],
+    "summary_points_cht": [
+      "Meta 與 Amazon 簽署 AWS Graviton 晶片長期供應協議，Meta 成為全球最大 Graviton 客戶之一",
+      "初期將提供數千萬個 AWS Graviton 核心，專用於建構次世代 AI 代理基礎設施",
+      "Amazon 指出 AI 代理崛起帶動即時推論、程式碼生成、搜尋及多步驟任務編排等 CPU 密集型工作負載需求急增",
+      "GPU 仍是大型模型訓練主力，但 AI 代理推論任務的特性更適合 CPU 架構，體現基礎設施建構方式的轉變"
+    ],
+    "summary_points_ja": [
+      "MetaとAmazonがAWS Graviton供給の長期契約を締結、Metaは世界最大級のGraviton顧客の一社に",
+      "まず数千万個のAWS Gravitonコアを供給、次世代AIエージェント構築の基盤として活用予定",
+      "AIエージェントの台頭でリアルタイム推論・コード生成・検索・マルチステップオーケストレーションなどCPU負荷の高いワークロードが急増",
+      "大規模モデルのトレーニングにはGPUが不可欠だが、エージェント推論にはCPUが適切とAmazonが説明"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_agent",
+    "idx": 6,
+    "title": "Meta To Start Capturing Employee Mouse Movements, Keystrokes For AI Training Data",
+    "title_cht": "Meta 將開始收集員工滑鼠移動和鍵盤輸入作為 AI 訓練數據",
+    "title_ja": "MetaがAIトレーニングデータのため従業員のマウス移動・キーストロークの収集を開始へ",
+    "url": "https://tech.slashdot.org/story/26/04/21/1849217/meta-to-start-capturing-employee-mouse-movements-keystrokes-for-ai-training-data",
+    "source": "Slashdot.org",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Meta",
+      "#AIトレーニング",
+      "#AIエージェント",
+      "#MCI",
+      "#職場データ"
+    ],
+    "summary_points_cht": [
+      "Meta 計劃收集美國員工的滑鼠移動、點擊、鍵盤輸入及偶發螢幕截圖，用於訓練能更好模擬人類電腦使用行為的 AI 代理。",
+      "該計劃名為「模型能力計劃」（MCI），官方聲明不用於員工績效評估，並設有保護敏感內容的安全機制。",
+      "Meta CTO Andrew Bosworth 宣布強化內部數據收集，作為重新品牌化為「Agent Transformation Accelerator（ATA）」的「AI for Work」計劃一環。",
+      "此舉代表職場監控從「衡量工作」演進為「學習工作方式」，目標是訓練 AI 代理直接執行工作任務。"
+    ],
+    "summary_points_ja": [
+      "MetaはAIエージェント訓練のため米国社員のマウス移動・クリック・キーストローク・スクリーンショットを収集予定。",
+      "プログラム名は「Model Capability Initiative（MCI）」で、人事評価には使用せず機密コンテンツ保護措置も設置。",
+      "Meta CTOのAndrew Bosworthが「Agent Transformation Accelerator（ATA）」の一環として内部データ収集強化を発表。",
+      "この動きは職場監視が「業務測定」から「業務学習」へと進化し、AIエージェントに作業を任せる方向性を示す。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_agent",
+    "idx": 7,
+    "title": "How OpenClaw turned into China's next big thing",
+    "title_cht": "OpenClaw 如何成為中國下一個爆紅現象",
+    "title_ja": "OpenClawはいかにして中国の次の大ヒット現象になったか",
+    "url": "https://www.businessinsider.com/china-ai-raise-lobsters-openclaw-ai-agent-boom-2026-4",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#OpenClaw",
+      "#AIエージェント",
+      "#中国テック",
+      "#オープンソース",
+      "#自動化"
+    ],
+    "summary_points_cht": [
+      "OpenClaw 是一款開源 AI 代理工具，其代理在中國被暱稱為「龍蝦」，已從工程師小圈子迅速走向大眾市場。",
+      "中國各地出現「龍蝦」社群、聚會和安裝活動，深圳、無錫等地方政府也積極跟進支持。",
+      "有人收費最高 299 人民幣（約 44 美元）幫助他人設置「龍蝦」，催生出新型副業模式。",
+      "部分使用者將 AI 代理應用於股市交易，OpenClaw 的熱潮連帶引發 Mac Mini 市場供貨緊張。"
+    ],
+    "summary_points_ja": [
+      "OpenClawはオープンソースのAIエージェントツールで、中国では「ロブスター」と呼ばれエンジニア界隈から大衆市場へ急拡大。",
+      "中国各地で「ロブスター」コミュニティや集会が開催され、深セン・無錫などの地方政府も支援に乗り出す。",
+      "セットアップ代行で最大299元（約44ドル）を請求する副業ビジネスが誕生し新たな収益機会に。",
+      "株式市場でAIエージェントを活用しようとするユーザーも登場し、Mac Miniの品薄状態を引き起こしている。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_agent",
+    "idx": 8,
+    "title": "「AIエージェントには任せられない」　Difyが実践する問い合わせメールのトリアージ自動化事例",
+    "title_cht": "「不能完全交給 AI 代理」：Dify 將客服詢問郵件分類自動化率提升至 85% 的實踐案例",
+    "title_ja": "「AIエージェントには任せられない」Difyが実践する問い合わせメールのトリアージ自動化事例",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/23/news047.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Dify",
+      "#AIAgent",
+      "#EmailAutomation",
+      "#Workflow",
+      "#CustomerSupport"
+    ],
+    "summary_points_cht": [
+      "Dify 支援團隊於 2026 年 3 月公開成功將客服詢問郵件分類作業 85% 自動化的實踐內容",
+      "純規則式分類靈活性不足，全自主 AI 代理行為不可預測，兩者皆無法適用於生產環境",
+      "最終採用工作流程定義確定性處理流程與分支，AI 僅作為「受控檢查點」參與分類判斷",
+      "此架構能應對帳單糾紛、合規案件等高風險情境，在自動化效率與可控性之間取得平衡"
+    ],
+    "summary_points_ja": [
+      "DifyのサポートチームがAI活用で問い合わせメールの分類を85%自動化、2026年3月に公式ブログで解説",
+      "ルールベース分類は柔軟性が低く、完全自律型AIエージェントは予測不能な挙動リスクがあり両者とも不適",
+      "ワークフローで確定的な処理フローと分岐を定義し、AIを「制御されたチェックポイント」として活用する設計を採用",
+      "請求上の紛争やコンプライアンス案件などの高リスクシナリオにも対応できる制御性と自動化効率を両立"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "The eighth-generation TPU: An architecture deep dive",
+    "title_cht": "Google 第八代 TPU 架構深度剖析",
+    "title_ja": "第8世代TPU：アーキテクチャの詳細解説",
+    "url": "https://cloud.google.com/blog/products/compute/tpu-8t-and-tpu-8i-technical-deep-dive",
+    "source": "Google News",
+    "language": "en",
+    "score": 9,
+    "tags": [
+      "#GoogleTPU",
+      "#AI硬體",
+      "#MoE",
+      "#GoogleCloud",
+      "#AIInfrastructure"
+    ],
+    "summary_points_cht": [
+      "Google 第八代 TPU 以可擴展性、可靠性、效率三大支柱為設計核心，應對 AI 模型從 LLM 演進至 MoE 與推理密集型架構的需求",
+      "新架構針對混合專家模型（MoE）的稀疏計算特性與推理密集型工作負載進行了專項優化",
+      "AI 代理崛起要求基礎設施能夠處理長上下文視窗與複雜的序列邏輯",
+      "設計哲學從單純增加 FLOPS 轉向滿足最新工作負載的特定運算密度需求，世界模型（World Models）也被列為重要演進方向"
+    ],
+    "summary_points_ja": [
+      "Google第8世代TPUはスケーラビリティ・信頼性・効率の3本柱を設計哲学とし、LLMからMoE・推論重視型アーキテクチャへの進化に対応",
+      "MoE（Mixture-of-Experts）のスパース計算特性と推論密度の高いワークロードに特化した最適化を実装",
+      "AIエージェントの台頭により長いコンテキストウィンドウと複雑な順次ロジック処理への対応がインフラに求められる",
+      "FLOPSの単純増加より最新ワークロードの演算密度要件への対応にシフト、ワールドモデルも重要な進化方向として言及"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "OpenAI Launches ChatGPT Images 2.0 With Thinking Capabilities and Better Text Rendering",
+    "title_cht": "OpenAI 發布 ChatGPT Images 2.0，首款具備思考能力的圖像生成模型",
+    "title_ja": "OpenAI、思考機能搭載の「ChatGPT Images 2.0」をリリース、テキスト描画も大幅改善",
+    "url": "https://www.macrumors.com/2026/04/22/openai-chatgpt-images-2-0/",
+    "source": "MacRumors",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#OpenAI",
+      "#ChatGPT",
+      "#Images2.0",
+      "#ImageGeneration",
+      "#ThinkingModel"
+    ],
+    "summary_points_cht": [
+      "OpenAI 發布 ChatGPT Images 2.0，這是該公司首款具備「思考能力」的圖像生成模型",
+      "新模型能更精確地遵循詳細指示，準確放置物件、保留細節並渲染密集版面",
+      "支援網路搜尋獲取即時資訊，單次提示最多可生成 8 張圖片，並能自動複查輸出結果",
+      "改良的構圖感與視覺品味使生成圖像減少 AI 感，文字渲染能力也獲得顯著提升"
+    ],
+    "summary_points_ja": [
+      "OpenAIがChatGPT Images 2.0をリリース、同社初の「思考機能」搭載画像生成モデル",
+      "詳細な指示への追従、正確なオブジェクト配置、細部の保持、高密度レイアウトの描画が向上",
+      "ウェブ検索でリアルタイム情報を取得可能、1プロンプトで最大8枚の画像生成と出力の自動確認に対応",
+      "構図センスと視覚的センスの改善によりAI生成感が低減、テキスト描画能力も大幅に向上"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "全球首个医疗视频理解大模型开源！6k+组精标测试集与英雄榜同步上线，开发者速来！",
+    "title_cht": "全球首個醫療視頻理解大模型開源！6000+ 組精標測試集同步上線",
+    "title_ja": "世界初の医療動画理解大規模モデルがオープンソース化！6000件超の精密標注テストセットも同時公開",
+    "url": "https://www.qbitai.com/2026/04/407486.html",
+    "source": "量子位",
+    "language": "zh",
+    "score": 8,
+    "tags": [
+      "#醫療AI",
+      "#視頻理解",
+      "#開源模型",
+      "#CVPR2026",
+      "#uAINexus"
+    ],
+    "summary_points_cht": [
+      "uAI Nexus MedVLM（元智醫療視頻理解大模型）正式開源，為全球規模最大的醫療視頻理解模型，論文已被 CVPR 2026 收錄",
+      "訓練數據超過 53 萬條視頻-指令對，支援 4B/7B 參數規模，單張 GPU 即可部署",
+      "同步發布含 6245 個視頻-指令對的標準測試集，首次為醫療視頻理解領域提供公共評估標尺",
+      "手術安全評估準確率達 89.7%，大幅超越 GPT-5.4（16.4%）、Gemini-3.1（24.2%）及國產大模型（30.9%）",
+      "整合 8 個醫學專業數據集，涵蓋內鏡、腹腔鏡、機器人手術、護理操作等多種臨床場景"
+    ],
+    "summary_points_ja": [
+      "uAI Nexus MedVLMがオープンソース化、世界最大規模の医療動画理解モデルとしてCVPR 2026に採択",
+      "53万件超の動画-指示データで学習、4B/7Bパラメータ対応でシングルGPU推論が可能",
+      "6245件の動画-指示ペアからなる標準テストセットを公開し、医療動画理解初の共通評価基準を確立",
+      "手術安全評価の精度89.7%を達成、GPT-5.4の16.4%・Gemini-3.1の24.2%を大幅に上回る",
+      "内視鏡・腹腔鏡・ロボット手術など8つの専門医学データセットを統合しほぼ全ての手術シーンをカバー"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "Otoy releases OctaneRender 2026.3",
+    "title_cht": "Otoy 發布 OctaneRender 2026.3，虛擬紋理系統延伸至網路渲染",
+    "title_ja": "OtoyがOctaneRender 2026.3をリリース、仮想テクスチャをネットワークレンダリングに対応",
+    "url": "https://www.cgchannel.com/2026/04/otoy-releases-octanerender-2026-3/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#OctaneRender",
+      "#Otoy",
+      "#3DRendering",
+      "#GPURender",
+      "#VirtualTexture"
+    ],
+    "summary_points_cht": [
+      "Otoy 發布 OctaneRender 2026.3，將虛擬紋理（Virtual Textures）系統擴展至網路渲染環境",
+      "虛擬紋理技術可在渲染時以串流方式動態載入超出 GPU 顯存容量的超大尺寸紋理貼圖",
+      "此前虛擬紋理僅支援本機渲染，2026.3 版本正式開放網路渲染節點使用此功能",
+      "本次更新為 OctaneRender 2026.1 引入的主要新功能的延伸，同時包含 Trace Sets 系統的更新"
+    ],
+    "summary_points_ja": [
+      "OtoyがOctaneRender 2026.3をリリース、仮想テクスチャシステムをネットワークレンダリングに拡張",
+      "仮想テクスチャはレンダリング時にGPUメモリに収まらない大型テクスチャをストリーミング処理する技術",
+      "これまで仮想テクスチャはローカルレンダリングのみ対応だったが、本バージョンでネットワークレンダリングにも対応",
+      "OctaneRender 2026.1で導入されたメジャー機能（仮想テクスチャ・トレースセット）を拡張するアップデート"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "Autodesk releases Flame 2027",
+    "title_cht": "Autodesk 發布 Flame 2027：兩款新 AI 深度圖模型與全新注釋系統",
+    "title_ja": "AutodeskがFlame 2027をリリース――AIによるデプスマップ生成モデル2種と新規アノテーションシステム",
+    "url": "https://www.cgchannel.com/2026/04/autodesk-releases-flame-2027/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Autodesk",
+      "#Flame2027",
+      "#視覺特效",
+      "#AI深度圖",
+      "#後期製作"
+    ],
+    "summary_points_cht": [
+      "Autodesk 發布 Flame 2027，新增 Annotations 注釋系統，可直接在素材上標記文字或繪製箭頭、圓圈等修改意見，無需切換至獨立審片平台",
+      "導入兩款全新 AI 模型，可從影片片段自動生成深度圖（Depth Map），提升合成與特效製作效率",
+      "新增 OpenTimelineIO 支援，強化與其他後期製作軟件的時間線互通性",
+      "精簡版 Flare 及 Flame Assist 同步更新"
+    ],
+    "summary_points_ja": [
+      "Autodesk Flame 2027がリリース、新アノテーションシステムにより素材上に直接テキスト・矢印・円などの修正指示を記入可能に",
+      "映像から自動的にデプスマップを生成する新AIモデルを2種類搭載し、合成・VFX制作の効率化に貢献",
+      "OpenTimelineIO対応を追加し、他の編集・仕上げソフトウェアとのタイムライン連携が向上",
+      "廉価版のFlareおよびFlame Assistも同時アップデート"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "Yelp's New AI-Powered Assistant Will Book a Reservation for You",
+    "title_cht": "Yelp 全新 AI 助理可代你預訂餐廳",
+    "title_ja": "YelpのAI搭載新アシスタントが予約を代行してくれる",
+    "url": "https://www.cnet.com/tech/services-and-software/yelp-launches-a-new-ai-powered-yelp-assistant/",
+    "source": "CNET",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Yelp",
+      "#AIAgent",
+      "#聊天機器人",
+      "#訂位服務",
+      "#代理型AI"
+    ],
+    "summary_points_cht": [
+      "Yelp 推出 AI 助理，用戶可透過單一對話完成詢問與預訂，支援 iOS 和 Android 雙平台",
+      "功能涵蓋 Yelp 平台所有服務類別，不僅限於餐廳",
+      "延續 Google Gemini、ChatGPT 等平台將代理型 AI 應用於日常生活服務的趨勢",
+      "用戶以自然語言提問後，AI 直接代為安排預訂，無需自行瀏覽評論或操作流程"
+    ],
+    "summary_points_ja": [
+      "YelpがiOS・Android対応のAIアシスタントを発表、一度の会話で質問から予約まで完結できる",
+      "レストランに限らずYelp上のすべてのサービスカテゴリに対応",
+      "Google GeminiやChatGPTと同様に、日常サービスへのエージェント型AI活用の流れに乗る",
+      "ユーザーが自然言語で要望を伝えるだけでAIが代わりに予約を完了してくれる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-04",
+    "category": "ai_industry",
+    "idx": 6,
+    "title": "Geminiを使って利用料が数百万円？　高額請求を防ぐには",
+    "title_cht": "Gemini API 金鑰外洩致數百萬日圓費用！防範高額帳單的方法",
+    "title_ja": "Geminiを使って利用料が数百万円？　高額請求を防ぐには",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/23/news040.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Gemini",
+      "#APIKey",
+      "#資安警告",
+      "#GoogleAIStudio",
+      "#不正利用"
+    ],
+    "summary_points_cht": [
+      "雲端整合商 G-gen 發出警告：Google AI Studio 的 API 金鑰外洩後遭大量不正當請求，多個實際案例產生數百萬日圓費用，原則上由使用者自行承擔",
+      "主因是 API 金鑰被硬編碼至原始碼或上傳至公開儲存庫，導致第三方可取得並濫用",
+      "Google Maps、Firebase 等客戶端用途金鑰因公開性質更易被轉用於 Gemini API",
+      "同一專案內多個 API 共用同一金鑰，事後啟用的 Gemini API 也可透過原有金鑰存取，形成結構性安全隱患"
+    ],
+    "summary_points_ja": [
+      "G-genが注意喚起：Google AI StudioのAPIキー漏洩で不正な大量リクエストが発生、複数事例で数百万円の費用が発生し原則ユーザー負担となる",
+      "主な原因はソースコードへのキー直書きや公開リポジトリへの登録によるキー流出",
+      "Google Maps・Firebase向けキーはクライアント側での公開が前提のためGemini APIへの転用リスクが高い",
+      "プロジェクト内で有効化された複数APIが同一キーを共有する構造により、後から追加されたGemini APIへのアクセスも可能になる問題がある"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-04-27",
     "category": "3d_ai",
     "idx": 0,
