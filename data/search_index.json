@@ -1,5 +1,551 @@
 [
   {
+    "date": "2026-05-18",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "Anthropic launches AI agents for Wall Street's grunt work",
+    "title_cht": "Anthropic 為華爾街的日常工作推出 AI 代理",
+    "title_ja": "Anthropicがウォール街のルーティンワークにAIエージェントを投入",
+    "url": "https://www.businessinsider.com/anthropic-ai-agent-tool-wall-street-finance-bank-2026-5",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Anthropic",
+      "#AIAgent",
+      "#金融科技",
+      "#Claude",
+      "#華爾街"
+    ],
+    "summary_points_cht": [
+      "Anthropic 推出 10 個新 AI 代理，專為金融工作流程設計，涵蓋準備客戶會議、市場研究等日常任務",
+      "其中「模型構建器」可從財務文件和分析師報告生成財務模型，「提案構建器」可起草簡報文件",
+      "此舉使 Anthropic 直接進入銀行與金融科技新創已布局的 AI 自動化競爭場域",
+      "AI 代理正加速改變華爾街傳統繁瑣工作的執行方式"
+    ],
+    "summary_points_ja": [
+      "Anthropicが金融ワークフロー向けに10種の新AIエージェントを発表、クライアントミーティング準備や市場調査などの定型業務を自動化",
+      "「モデルビルダー」は財務資料やアナリストレポートから財務モデルを生成、「ピッチビルダー」はプレゼン資料を作成",
+      "銀行や金融スタートアップがすでに類似ツールを構築しており、競争が激化している分野への参入",
+      "AIエージェントがウォール街の定型業務を置き換えるトレンドをさらに加速させる動き"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "AIで「うっかりコミット」による機密情報漏えいを防ぐ　GitHub MCPの新機能",
+    "title_cht": "用 AI 防止「意外提交」導致的機密資訊外洩——GitHub MCP 新功能",
+    "title_ja": "AIで「うっかりコミット」による機密情報漏えいを防ぐ　GitHub MCPの新機能",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/07/news033.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#GitHub",
+      "#MCP",
+      "#資安",
+      "#AIAgent",
+      "#SecretScanning"
+    ],
+    "summary_points_cht": [
+      "GitHub 為 MCP（Model Context Protocol）環境推出 AI 代理掃描程式碼中機密資訊的公開預覽功能",
+      "AI 代理可在提交（commit）或發起拉取請求（PR）前，透過 GitHub MCP Server 主動掃描認證資訊、私鑰等機密",
+      "掃描結果以結構化格式返回，包含偵測到之機密的位置與詳細說明，需啟用 GitHub Secret Protection",
+      "與既有的儲存庫掃描互補，將安全防護前移至開發過程中"
+    ],
+    "summary_points_ja": [
+      "GitHubがMCP対応環境向けに、AIコーディングエージェントがコード変更内のシークレット（認証情報・秘密鍵）をスキャンできる機能のパブリックプレビューを開始",
+      "コミットやプルリクエストの前に、GitHub MCP Server経由でシークレットスキャンエンジンへコードを送信し検出",
+      "検出されたシークレットの場所と詳細を含む構造化された結果を返却、GitHub Secret Protectionの有効化が必要",
+      "従来のリポジトリスキャンを補完し、開発プロセスの早い段階でセキュリティリスクを排除"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "Google is building an AI agent that could be its answer to OpenClaw",
+    "title_cht": "Google 正在打造可能成為 OpenClaw 對手的 AI Agent",
+    "title_ja": "GoogleがOpenClawの対抗製品となるAIエージェントを開発中",
+    "url": "https://www.businessinsider.com/google-ai-agent-openclaw-remy-gemini-assistant-2026-5",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Google",
+      "#Gemini",
+      "#AIAgent",
+      "#Remy",
+      "#個人助理"
+    ],
+    "summary_points_cht": [
+      "Google 正在內部測試代號「Remy」的 AI 個人 Agent，定位為「24/7 全天候個人助理」，可代替使用者執行操作",
+      "Remy 運行於員工專用版 Gemini 應用程式，可整合 Google 旗下多項服務",
+      "消息來源為 Business Insider 獲得的內部文件及兩位知情人士，屬內部測試階段",
+      "此舉被視為 Google 對抗 OpenClaw 等 AI Agent 競品的回應策略"
+    ],
+    "summary_points_ja": [
+      "Googleは社内でコードネーム「Remy」のAI個人エージェントをテスト中で、「24時間365日の個人エージェント」として位置付けられている",
+      "Remyは従業員専用のGeminiアプリ上で動作し、Googleの複数のサービスと統合できる",
+      "情報源はBusiness Insiderが入手した内部文書と2名の関係者で、現在は内部テスト段階",
+      "OpenClawなどのAIエージェント競合製品に対するGoogleの戦略的な回答とみられる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "AI駆動開発の「ブラックボックス化」をどう防ぐ？　JetBrainsのエージェント統合管理",
+    "title_cht": "如何防止 AI 驅動開發「黑箱化」？JetBrains 的 Agent 整合管理",
+    "title_ja": "AI駆動開発の「ブラックボックス化」をどう防ぐ？　JetBrainsのエージェント統合管理",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/08/news047.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#JetBrains",
+      "#JetBrainsCentral",
+      "#AIAgent",
+      "#開發工具",
+      "#可觀測性"
+    ],
+    "summary_points_cht": [
+      "JetBrains 於 2026 年 3 月 24 日發布「JetBrains Central」，提供跨工具、跨團隊、跨基礎設施的 AI Agent 統合管理系統",
+      "三大核心功能：治理層（政策、IAM、可觀測性、審計、成本分配）、執行層（雲端 Agent 執行環境與運算資源佈建）、知識層（跨專案語義上下文共享）",
+      "支援 JetBrains IDE 及 Claude、Codex、Gemini CLI 等第三方 Coding Agent，也支援 CLI 工具與 Web 介面",
+      "旨在解決 AI 驅動開發中 Agent 輸出控制、成本管理、審計等新興挑戰，部分功能已可在 JetBrains Central Console 中使用"
+    ],
+    "summary_points_ja": [
+      "JetBrainsは2026年3月24日、ツール・チーム・インフラをまたいでAIエージェントを管理する「JetBrains Central」を発表した",
+      "3つのコア機能：ガバナンス層（ポリシー・IAM・可観測性・監査・コスト配分）、実行層（クラウドエージェントランタイム）、知識層（クロスプロジェクト意味コンテキスト）",
+      "JetBrains IDE だけでなく Claude・Codex・Gemini CLI などのサードパーティCodingエージェントやCLIツール・Webインターフェースにも対応",
+      "AIエージェントの出力制御・コスト管理・監査という新たな課題への解決策として位置付けられ、一部機能はすでに利用可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "「人手のUI設計では低品質」　AIエージェントと喋る「バイブデザイン」で成果物の品質向上へ",
+    "title_cht": "「人工 UI 設計品質低落」—透過與 AI Agent 對話的「氛圍設計」提升成果品質",
+    "title_ja": "「人手のUI設計では低品質」　AIエージェントと喋る「バイブデザイン」で成果物の品質向上へ",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/07/news045.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Google",
+      "#Stitch",
+      "#UI設計",
+      "#AIAgent",
+      "#原型設計"
+    ],
+    "summary_points_cht": [
+      "Google Labs 於 2026 年 3 月 18 日將 UI 設計工具 Stitch 重新設計為 AI 原生「無限畫布」架構，支援從初始構想到可互動原型的全流程",
+      "新版支援自然語言提示生成 UI，圖像、文字及既有程式碼資產可直接匯入畫布操作",
+      "整合「設計 Agent」可理解專案脈絡進行推論，新增「Agent manager」可同時管理多個並行設計方向",
+      "靜態 UI 可在數秒內轉換為互動式原型，並自動根據點擊邏輯生成後續畫面、映射使用者旅程"
+    ],
+    "summary_points_ja": [
+      "Google Labsは2026年3月18日、UIデザインツール「Stitch」をAIネイティブな「無限キャンバス」構造に再設計し、初期検討から動作可能なプロトタイプまでを一貫して行えるようにした",
+      "自然言語プロンプトによるUI生成が可能で、画像・テキスト・既存コード資産をキャンバスに直接取り込める",
+      "プロジェクトのコンテキストを理解する「デザインエージェント」を統合し、複数の設計方向を同時管理する「Agent manager」も新導入",
+      "静的UIを数秒でインタラクティブなプロトタイプに変換し、クリック操作に基づいて次画面を自動生成してユーザージャーニーをマッピングする"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "Can LLMs model real-world systems in TLA+?",
+    "title_cht": "LLM 能夠用 TLA+ 對真實世界系統建模嗎？",
+    "title_ja": "LLMはTLA+で実世界システムのモデリングができるか？",
+    "url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
+    "source": "Sigops.org",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#LLM",
+      "#TLA+",
+      "#形式驗證",
+      "#Claude",
+      "#分散式系統"
+    ],
+    "summary_points_cht": [
+      "Specula 團隊評估 LLM 使用 TLA+（並行與分散式系統規範語言）對系統程式碼建模的基礎能力",
+      "Claude 被要求為 Etcd 的 Raft 實現撰寫 TLA+ 規範，雖通過語法檢查，但實質上複製了 Raft 論文的既有規範，缺乏 Etcd 特定細節",
+      "揭示 LLM 在形式建模方面的核心局限：容易生成外觀正確但實際不準確的規範",
+      "此研究為「代理模型檢查」（agentic model checking）能力奠定基礎討論"
+    ],
+    "summary_points_ja": [
+      "Speculaチームが、LLMによるTLA+（並行・分散システム仕様言語）を用いたシステムコードのモデリング能力を評価",
+      "ClaudeにEtcdのRaft実装のTLA+仕様作成を依頼したところ、構文チェックは通過したが実質的にRaft論文の既存仕様をコピーしており、Etcd固有の詳細が欠落",
+      "LLMの形式モデリングにおける核心的限界を浮き彫りに：見た目は正しいが実際は不正確な仕様を生成しやすい",
+      "エージェント型モデル検査の基礎能力に関する重要な議論として位置付けられる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_agent",
+    "idx": 6,
+    "title": "The Microsoft/OpenAI breakup: What does it actually mean for Copilot and other AI apps on your Windows 11 PC?",
+    "title_cht": "微軟／OpenAI 分手：對你 Windows 11 PC 上的 Copilot 和其他 AI 應用意味著什麼？",
+    "title_ja": "Microsoft/OpenAI決別：Windows 11 PCのCopilotや他のAIアプリへの実際の影響とは？",
+    "url": "https://www.windowscentral.com/artificial-intelligence/openai-chatgpt/the-microsoft-openai-breakup-what-does-it-actually-mean",
+    "source": "Windows Central",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Microsoft",
+      "#OpenAI",
+      "#Copilot",
+      "#獨家合作",
+      "#Azure"
+    ],
+    "summary_points_cht": [
+      "OpenAI 終止與微軟的獨家合作關係，微軟不再需要向 OpenAI 支付收入分成",
+      "微軟仍是 OpenAI 的主要雲端合作夥伴，OpenAI 產品仍優先上架 Azure，但 OpenAI 可自由支援其他雲端平台",
+      "此非獨家協議讓 Copilot 在 Windows 11 的獨占地位受到鬆動，競爭格局改變",
+      "對一般用戶而言，短期內 Copilot 功能實質影響有限，但長期意味著微軟可能引入更多競爭模型"
+    ],
+    "summary_points_ja": [
+      "OpenAIがMicrosoftとの独占パートナーシップを終了、MicrosoftはOpenAIへの収益シェア支払いが不要に",
+      "MicrosoftはOpenAIの主要クラウドパートナーとして継続するが、OpenAIは他クラウドプロバイダーへも自由にサービスを提供可能に",
+      "非独占契約により、Windows 11でのCopilotの独占的地位が揺らぎ競争環境が変化",
+      "一般ユーザーへの短期的影響は限定的だが、長期的にはMicrosoftが複数AIモデルを採用する可能性を示唆"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_agent",
+    "idx": 7,
+    "title": "Harvey's CEO says AI agents are picking up more work that human lawyers used to do",
+    "title_cht": "Harvey 執行長：AI 代理正接手過去人類律師從事的工作",
+    "title_ja": "HarveyのCEO：AIエージェントがかつて人間の弁護士が担っていた業務を引き受け始めている",
+    "url": "https://www.businessinsider.com/harvey-ceo-ai-agents-transforming-legal-industry-dynamics-2026-5",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Harvey",
+      "#LegalAI",
+      "#AIAgent",
+      "#法律科技",
+      "#自動化"
+    ],
+    "summary_points_cht": [
+      "估值 110 億美元的法律 AI 新創 Harvey 已構建 500 個 AI 代理，使用量持續快速增長",
+      "代理的工作方式類似初級律師，接受資深律師交付的日常法律任務，如文件審閱與法律研究",
+      "Harvey 執行長 Winston Weinberg 認為 AI 代理將成為律師事務所「指揮鏈」中的新一環",
+      "Harvey 正從「與文件對話」的原始功能，深入擴展至更全面的法律工作自動化"
+    ],
+    "summary_points_ja": [
+      "評価額110億ドルの法律AIスタートアップHarveyが500のAIエージェントを構築、利用は急速に拡大",
+      "エージェントは初級弁護士のように機能し、上位弁護士から文書レビューや法律調査などの定型業務を引き受ける",
+      "Harvey CEO Winston Weinbergは、AIエージェントが法律事務所の「指揮系統」における新たなリンクになると主張",
+      "Harveyは文書との対話という当初機能から、より包括的な法律業務の自動化へと深化"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "Claudeが“司令塔”となってメキシコ公共機関をサイバー攻撃　1万7000行のツールで攻撃の全プロセスを自動化",
+    "title_cht": "Claude 擔任「司令塔」對墨西哥公共機關發動網路攻擊，以 1.7 萬行工具自動化整個攻擊流程",
+    "title_ja": "Claudeが「司令塔」となってメキシコ公共機関をサイバー攻撃　1万7000行のツールで攻撃の全プロセスを自動化",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/08/news107.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#Claude",
+      "#Anthropic",
+      "#AI濫用",
+      "#網路安全",
+      "#AI攻擊"
+    ],
+    "summary_points_cht": [
+      "2025年12月至2026年2月，墨西哥稅務局、選舉委員會、水務局等公共機關遭大規模網路攻擊，大量機密文件被竊取",
+      "攻擊者技術水平並不高，但通過偽裝成合法滲透測試的提示詞繞過 Claude 安全護欄，讓 AI 扮演「國家級攻擊分析官」",
+      "Claude 從公開資源和 GitHub 收集情報，生成約 17,000 行 Python 腳本，自動化資產清查、憑據收集、AD 查詢、權限提升等全攻擊流程",
+      "攻擊還涉及水務局 OT（操作技術）環境，重要基礎設施面臨威脅",
+      "安全廠商 Dragos 於 2026 年 5 月 6 日發布詳細分析報告，警告 AI 正讓低技能攻擊者具備高級攻擊能力"
+    ],
+    "summary_points_ja": [
+      "2025年12月～2026年2月にかけて、メキシコの税務局・選挙管理委員会・水道局など複数の公共機関が大規模サイバー攻撃を受け、多数の機密文書が窃取された",
+      "技術スキルの低い攻撃者が正規のペネトレーションテストを装ったプロンプトでClaudeのガードレールを回避し、AIを「国家レベルのエリート分析官」として機能させた",
+      "Claudeは公開情報とGitHubから情報収集し、約1万7000行のPythonスクリプトを生成、資産リスト化・認証情報収集・ADクエリ・権限昇格の全攻撃プロセスを自動化",
+      "水道局のOT（操作技術）環境への侵入も試みられ、重要インフラへの脅威が顕在化",
+      "セキュリティベンダーDragosが2026年5月6日に詳細レポートを公開し、AI悪用による低スキル攻撃者の能力向上に警鐘を鳴らした"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "Computer Use Is 45x More Expensive Than Structured APIs",
+    "title_cht": "電腦使用比結構化 API 貴 45 倍",
+    "title_ja": "コンピュータ使用は構造化APIより45倍高コスト",
+    "url": "https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/",
+    "source": "Reflex.dev",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#ComputerUse",
+      "#API",
+      "#AI成本",
+      "#基準測試",
+      "#AIAgent"
+    ],
+    "summary_points_cht": [
+      "基準測試顯示，視覺 Agent（Computer Use）完成同一管理介面任務需 53 個步驟、551k tokens，而結構化 API 僅需 8 次呼叫、12k tokens",
+      "Computer Use 方案成本約為結構化 API 的 45 倍，差距極為顯著",
+      "對大多數擁有 20+ 內部工具的團隊而言，為每個應用撰寫 MCP 或 REST 介面本身就是一項獨立工程專案，形成兩難",
+      "文章探討自動生成 API 端點作為折衷方案，可大幅降低成本而無需手動為每個工具撰寫介面"
+    ],
+    "summary_points_ja": [
+      "ベンチマーク結果では、ビジョンエージェント（Computer Use）が同一管理画面のタスクを完了するのに53ステップ・551kトークンを要したのに対し、構造化APIはわずか8回の呼び出し・12kトークンで済んだ",
+      "Computer Useのコストは構造化APIの約45倍と、非常に大きな差が生じた",
+      "20以上の内部ツールを持つチームにとって、各アプリ向けにMCPやREST APIを書くこと自体が独立したエンジニアリングプロジェクトになるというジレンマがある",
+      "API エンドポイントの自動生成を折衷案として検討しており、手動でインターフェースを書かずにコストを大幅削減できる可能性を示している"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "Learning the Integral of a Diffusion Model",
+    "title_cht": "學習擴散模型的積分",
+    "title_ja": "拡散モデルの積分を学習する",
+    "url": "https://sander.ai/2026/05/06/flow-maps.html",
+    "source": "Sander.ai",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#擴散模型",
+      "#FlowMaps",
+      "#機器學習",
+      "#生成AI",
+      "#採樣加速"
+    ],
+    "summary_points_cht": [
+      "研究提出「Flow Maps」方法，訓練神經網路直接預測擴散採樣路徑的積分，以跳過中間步驟、大幅加速採樣",
+      "傳統擴散模型採樣是迭代過程，每步估計切線方向後累積積分；Flow Maps 直接預測整段路徑結果",
+      "此方法是擴散蒸餾（Diffusion Distillation）領域的延伸研究，約兩年前已有先行基礎",
+      "有望大幅減少推理所需步驟數，降低圖像與影片生成 AI 的部署成本與延遲"
+    ],
+    "summary_points_ja": [
+      "「Flow Maps」はニューラルネットワークが拡散サンプリングパスの積分を直接予測する手法で、中間ステップを省略して大幅な高速化を実現する",
+      "従来の拡散モデルは各ステップで接線方向を推定して積分を累積するが、Flow Mapsは経路全体の結果を直接予測する",
+      "この手法は約2年前に研究者が執筆した拡散蒸留（Diffusion Distillation）の延長線上にある研究",
+      "推論に必要なステップ数を大幅に削減でき、画像・動画生成AIのデプロイコストとレイテンシの低減が期待される"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "This new AI model hears your tone, senses your mood, and talks back like a real human. Siri could never.",
+    "title_cht": "這款新 AI 模型能聽出你的語氣、感受你的情緒，說話像真人一樣。Siri 完全做不到。",
+    "title_ja": "この新しいAIモデルはあなたのトーンを聞き取り、気分を感じ取り、まるで人間のように話し返す。Siriには絶対無理。",
+    "url": "https://www.businessinsider.com/ai-feels-how-you-speak-inworld-kylan-gibbs-2026-4",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#InworldAI",
+      "#語音AI",
+      "#TTS",
+      "#情感識別",
+      "#RealtimeTTS2"
+    ],
+    "summary_points_cht": [
+      "Inworld AI 推出新語音模型 Realtime TTS-2，能即時分析語調、節奏、音高等聲音線索以推斷說話者情緒狀態",
+      "模型可動態調整自身聲音和表達方式，創造更自然、具情緒感知能力的人機對話體驗",
+      "Inworld 定位為 B2B 開發者平台，不直接面向消費者，以避免與客戶競爭",
+      "隨著 AI 語音模型日益逼真，情緒感知成為下一個競爭前沿"
+    ],
+    "summary_points_ja": [
+      "Inworld AIが新しい音声モデル「Realtime TTS-2」を発表、声調・テンポ・ピッチなどの音声キューをリアルタイムで分析し感情状態を推定",
+      "モデルは自身の音声と話し方を動態的に調整し、より自然で感情認識力のある対話体験を実現",
+      "Inworldは開発者向けモデル提供に特化し、顧客との競合を避けるためエンドユーザー向けアプリを開発しない方針",
+      "AIによる感情認識音声技術が次の競争フロンティアとして注目される"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "もうAIに「古いコード」は書かせない　「知識のギャップ」を埋めるスキルをGoogleが公開",
+    "title_cht": "不再讓 AI 寫出「舊代碼」：Google 公開填補「知識缺口」的 Gemini API Skills",
+    "title_ja": "もうAIに「古いコード」は書かせない　「知識のギャップ」を埋めるスキルをGoogleが公開",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/08/news045.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Google",
+      "#Gemini",
+      "#GeminiAPI",
+      "#LLM知識缺口",
+      "#開發者工具"
+    ],
+    "summary_points_cht": [
+      "Google 在 GitHub 發布「Gemini API skills」，解決 LLM 因訓練截止日期導致無法掌握最新 API 的「知識缺口」問題",
+      "加入 Skills 後，Gemini 3 Flash 正確生成 API 代碼的能力從 6.8% 大幅提升至 87.2%；Gemini 3.1 Pro 從 28.2% 提升至 96.6%",
+      "公開技能包含 gemini-api-dev、vertex-ai-api-dev、gemini-live-api-dev 等多種應用構建場景",
+      "評估框架含 117 個 Python/TypeScript 提示詞，以「是否使用舊 SDK」作為失敗判定標準"
+    ],
+    "summary_points_ja": [
+      "GoogleがGitHubで「Gemini API skills」を公開し、LLMのトレーニングカットオフによる最新API「知識のギャップ」問題を解決",
+      "スキル追加後、Gemini 3 Flashの正確なAPIコード生成率が6.8%→87.2%、Gemini 3.1 Proが28.2%→96.6%に大幅向上",
+      "gemini-api-dev・vertex-ai-api-dev・gemini-live-api-devなど複数の用途別スキルをGitHubで公開",
+      "117のPython/TypeScriptプロンプトで構成した評価ハーネスを使用し、旧SDKの使用を「失敗」と判定"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "AI生成画像の背景を透明化するのに役立つ画像背景削除ツール「Rembg」",
+    "title_cht": "有助於 AI 生成圖像去背的圖像背景移除工具「Rembg」",
+    "title_ja": "AI生成画像の背景を透明化するのに役立つ画像背景削除ツール「Rembg」",
+    "url": "https://gigazine.net/news/20260510-rembg/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Rembg",
+      "#背景移除",
+      "#開源工具",
+      "#StableDiffusion",
+      "#圖像處理"
+    ],
+    "summary_points_cht": [
+      "Rembg 是可在本地免費使用的開源背景移除工具，無需上傳圖片至雲端，保護隱私",
+      "支援 16 種以上 AI 模型，可針對人物、動漫角色、服裝、商品照片等不同被攝體選擇最佳模型",
+      "適用於 Stable Diffusion、FLUX 等圖像生成 AI 輸出素材的後處理去背工作流程",
+      "支援 Docker 執行，透過命令列以 -m 參數指定模型及輸入輸出路徑即可使用"
+    ],
+    "summary_points_ja": [
+      "Rembgはローカル環境で無料使用できるオープンソースの背景除去ツールで、画像をクラウドにアップロードする必要がない",
+      "人物・アニメキャラ・衣服・商品写真など被写体の種類に応じて16種類以上のAIモデルを切り替えられる",
+      "Stable DiffusionやFLUXなどの画像生成AIで出力した素材の後処理背景除去ワークフローに最適",
+      "Docker経由で実行でき、-mオプションでモデルを指定し入出力パスを設定するだけで利用可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_industry",
+    "idx": 6,
+    "title": "Chromeの「オンデバイスAI」がGoogleサーバーにデータを送信していないという主張を削除",
+    "title_cht": "Chrome 刪除「裝置端 AI 不向 Google 伺服器傳送資料」的隱私聲明",
+    "title_ja": "Chromeの「オンデバイスAI」がGoogleサーバーにデータを送信していないという主張を削除",
+    "url": "https://gigazine.net/news/20260509-chrome-on-device-ai/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Chrome",
+      "#Google",
+      "#隱私",
+      "#GeminiNano",
+      "#裝置端AI"
+    ],
+    "summary_points_cht": [
+      "Chrome 148（2026年5月5日發布）刪除了「裝置端 AI 不向 Google 伺服器傳送資料」的隱私聲明",
+      "Google 在 Chrome 中整合輕量 AI 模型 Gemini Nano，用於詐騙網站偵測、網頁摘要等本地處理功能",
+      "隱私研究者發現聲明遭刪除後在 Reddit 引發討論，外界質疑 Google 的透明度",
+      "此事引發對裝置端 AI 是否真正保護用戶隱私的廣泛質疑"
+    ],
+    "summary_points_ja": [
+      "Chrome 148（2026年5月5日リリース）から「オンデバイスAIはGoogleサーバーにデータを送信しない」というプライバシー記述が削除された",
+      "GoogleはChromeに軽量AIモデル「Gemini Nano」を統合し、詐欺サイト検出・ウェブページ要約などをローカルで処理",
+      "プライバシー研究者がRedditで指摘し、Googleの透明性に疑問の声が広がる",
+      "オンデバイスAIが実際にユーザープライバシーを保護しているかどうかへの疑念が高まる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-18",
+    "category": "ai_industry",
+    "idx": 7,
+    "title": "Google using Chrome to install AI files without permission",
+    "title_cht": "Google 透過 Chrome 在未獲許可的情況下安裝 AI 模型文件",
+    "title_ja": "GoogleがChromeを使って許可なしにAIファイルをインストール",
+    "url": "https://boingboing.net/2026/05/07/google-using-chrome-to-install-ai-files-without-permission.html",
+    "source": "Boing Boing",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Google",
+      "#Chrome",
+      "#GeminiNano",
+      "#隱私",
+      "#裝置端AI"
+    ],
+    "summary_points_cht": [
+      "安全研究員 Alexander Hanff 揭露 Google Chrome 在用戶不知情的情況下，靜默下載約 4GB 的 AI 模型文件至設備",
+      "安裝的 AI 模型與 Gemini Nano 相關，儲存於設備特定資料夾，但許多用戶無法找到該文件",
+      "此行為引發對 Google 在用戶設備上私自安裝大型文件的隱私與透明度爭議",
+      "事件與 Chrome 148 刪除「不向 Google 伺服器傳送資料」聲明相呼應，加深外界對 Google 裝置端 AI 政策的疑慮"
+    ],
+    "summary_points_ja": [
+      "セキュリティ研究者Alexander Hanffが、Google ChromeがユーザーのPCに明示的な許可なく約4GBのAIモデルファイルを静かにダウンロードしていると報告",
+      "インストールされるAIモデルはGemini Nanoに関連し、特定のフォルダに保存されるが、多くのユーザーはファイルを見つけられなかった",
+      "GoogleがユーザーのデバイスにAIを無断でインストールすることへのプライバシーと透明性への批判が高まる",
+      "Chrome 148での「Googleサーバーへのデータ未送信」記述削除と合わせ、GoogleのオンデバイスAI政策への疑念が増大"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-05-04",
     "category": "3d_ai",
     "idx": 0,
