@@ -1,5 +1,621 @@
 [
   {
+    "date": "2026-05-25",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "3个人带100个AI程序员，一个月烧掉130万美元！OpenAI：钱我出",
+    "title_cht": "3人帶100個AI程式設計師，一個月燒掉130萬美元！OpenAI：錢我出",
+    "title_ja": "3人で100台のAIプログラマーを率いて1ヶ月で130万ドルを消費！OpenAIが費用を負担",
+    "url": "https://36kr.com/p/3812925591887368?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 8,
+    "tags": [
+      "#OpenAI",
+      "#Codex",
+      "#AIAgent",
+      "#OpenClaw",
+      "#AI工作流"
+    ],
+    "summary_points_cht": [
+      "OpenClaw 之父 Peter Steinberger 帶領的3人小團隊一個月花費 130.5 萬美元（約900萬人民幣），消耗 6,030 億 token，發起 760 萬次請求",
+      "費用由 OpenAI 報銷，團隊在雲端持續運行約 100 個 Codex 實例承擔最繁瑣的軟體工程工作",
+      "AI agents 負責審 PR、查找安全漏洞、去重 issue、修 bug、監控 benchmark、開完會直接開 PR 等高重複性任務",
+      "Steinberger 表示關閉快速模式後成本低於雇用一位工程師，但整體幫助遠大於此"
+    ],
+    "summary_points_ja": [
+      "OpenClawの生みの親Peter Steinbergerの3人チームが1ヶ月で130.5万ドルを消費、6,030億トークンを処理し760万件のリクエストを実行",
+      "費用はOpenAIが全額負担し、チームはクラウドで常時約100台のCodexインスタンスを稼働させる",
+      "AIエージェントはPRレビュー・脆弱性検出・issue重複排除・バグ修正・ベンチマーク監視・会議後の自動PR作成など繁雑作業を担当",
+      "Steinbergerは高速モードをオフにすると1人のエンジニアコスト以下で、はるかに大きな成果が得られると説明"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "GitHub Copilot「使い放題」終了でどうなる？　6月から従量課金制に、月額100ドルの「Max」プラン追加も",
+    "title_cht": "GitHub Copilot「無限使用」終止！6月起改採計量收費，個人新增月費100美元「Max」方案",
+    "title_ja": "GitHub Copilot「使い放題」終了でどうなる？　6月から従量課金制に、月額100ドルの「Max」プラン追加も",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/14/news053.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#GitHubCopilot",
+      "#AI程式碼助手",
+      "#計量收費",
+      "#GitHub",
+      "#開發者工具"
+    ],
+    "summary_points_cht": [
+      "GitHub Copilot 所有付費方案將於2026年6月1日起改採計量收費制，原「Premium Request Units（PRU）」改稱「GitHub AI Credits」，依Token使用量計費",
+      "個人用戶新增月費基本費100美元的「Max」方案；原有Pro（$10）、Pro+（$39）、Business（$19/人）、Enterprise（$39/人）定價維持不變",
+      "GitHub已於2026年5月12日提供4月使用量換算報告供下載，幫助用戶預估費用影響",
+      "同步推出「彈性配額（Flex Allocation）」機制，應對使用量超限情況"
+    ],
+    "summary_points_ja": [
+      "GitHub Copilotの全有料プランが2026年6月1日から従量課金制に移行し、従来の「PRU」が「GitHub AIクレジット」に置き換えられトークン使用量で課金される",
+      "個人向けに月額100ドル基本料の「Max」プランが新設。既存のPro（$10）、Pro+（$39）、Business（$19/人）、Enterprise（$39/人）の価格は据え置き",
+      "2026年5月12日に4月分の利用状況をAIクレジットに換算したレポートのダウンロードが可能になった",
+      "使用量超過に対応する「フレックス割り当て」メカニズムも同時に導入される"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "JavaでAIエージェントを制御する方法とは？　Google「ADK for Java 1.0.0」の全容",
+    "title_cht": "如何用Java控制AI Agent？Google「ADK for Java 1.0.0」完整解析",
+    "title_ja": "JavaでAIエージェントを制御する方法とは？　Google「ADK for Java 1.0.0」の全容",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/14/news064.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#GoogleADK",
+      "#AIAgent",
+      "#Java",
+      "#開源框架",
+      "#GeminiAI"
+    ],
+    "summary_points_cht": [
+      "Google於2026年3月30日公開開源AI代理框架「ADK for Java 1.0.0」，新增強大外部工具整合、HITL工作流程、Agent2Agent（A2A）協定支援等功能",
+      "ADK針對Gemini LLM優化但不依賴特定模型，同時支援Java、Python、TypeScript，「ADK Go 1.0」亦於3月31日同步公開",
+      "Grounding基礎功能大幅強化，除原有Google搜尋外，新增Google地圖資訊補強代理回答準確度",
+      "設計目標是讓代理開發更接近軟體開發體驗，從簡單任務到複雜工作流程均可輕鬆構建、部署與協作"
+    ],
+    "summary_points_ja": [
+      "Googleが2026年3月30日にオープンソースのAIエージェントフレームワーク「ADK for Java 1.0.0」を公開。外部ツール連携、HITLワークフロー、A2Aプロトコル対応などを強化",
+      "ADKはGemini LLM向けに最適化されているが特定モデルに依存せず、Java・Python・TypeScriptに対応。「ADK Go 1.0」も3月31日に公開",
+      "グラウンディング機能が大幅強化され、Google検索に加えGoogleマップの情報でエージェントの回答精度を向上できるようになった",
+      "エージェント開発をソフトウェア開発に近い感覚で進められるよう設計されており、単純なタスクから複雑なワークフローまで対応"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "Claude AI agents are driving record Mac mini demand",
+    "title_cht": "Claude AI Agent正在推動Mac mini需求創歷史新高",
+    "title_ja": "Claude AIエージェントがMac miniの記録的需要を牽引している",
+    "url": "https://thenextweb.com/news/claude-mac-mini-openclaw-ai-agents-shortage/",
+    "source": "The Next Web",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#ClaudeAI",
+      "#MacMini",
+      "#AIAgent",
+      "#消費者AI硬體",
+      "#Anthropic"
+    ],
+    "summary_points_cht": [
+      "亞利桑那州小企業主Tyler Cadwell將Mac mini連接行動電源和Starlink打造行動AI辦公室，Claude代理「Etchie」負責程式碼、行銷文案及Etsy訂單管理",
+      "Bloomberg封面故事揭示Mac mini已成為消費者AI硬體新形態，被重新定位為家庭AI伺服器",
+      "Claude AI代理的廣泛應用正在推動Mac mini銷售需求創下歷史紀錄",
+      "此趨勢代表AI硬體消費已超越手機與穿戴裝置，桌上型電腦找到了全新的AI使用場景"
+    ],
+    "summary_points_ja": [
+      "アリゾナ州の中小企業主タイラー・カドウェルがMac miniをポータブルバッテリーとStarlinkに接続してモバイルAIオフィスを構築し、Claudeエージェント「Etchie」がコード執筆、マーケティング文章、Etsy注文管理を担当している",
+      "Bloomberg表紙記事が、Mac miniが消費者向けAIハードウェアの新形態として家庭用AIサーバーに再定義されていることを明らかにした",
+      "Claude AIエージェントの普及がMac miniの販売需要を記録的水準に押し上げている",
+      "このトレンドはAIハードウェア消費がスマートフォンやウェアラブルに限らず、デスクトップPCが新たな用途を見出していることを示す"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "iOS 27 Getting Major Siri Redesign With Chat Interface and Dedicated App",
+    "title_cht": "iOS 27 將推出重大 Siri 改版，新增聊天介面與專屬 App",
+    "title_ja": "iOS 27でSiriが大幅刷新、チャットインターフェースと専用アプリを搭載",
+    "url": "https://www.macrumors.com/2026/05/12/ios-27-siri-redesign/",
+    "source": "MacRumors",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Siri",
+      "#iOS27",
+      "#Apple",
+      "#AI助理",
+      "#聊天機器人"
+    ],
+    "summary_points_cht": [
+      "Apple 正在 iOS 27 中推出全面改版的 Siri，將其進化為能與 ChatGPT、Claude、Gemini 競爭的 AI 聊天機器人",
+      "Siri 將主要透過動態島（Dynamic Island）呈現膠囊狀動畫，並首次推出獨立的 Siri 專屬 App",
+      "詢問問題後會出現透明結果卡片，滑動可進入類似 iMessage 的對話模式",
+      "這是 Apple 將 Siri 從傳統語音助理升級為完整 AI Agent 的重大轉型"
+    ],
+    "summary_points_ja": [
+      "AppleはiOS 27でSiriを全面刷新し、ChatGPT・Claude・Geminiと競合できるAIチャットボットへと進化させる",
+      "SiriはDynamic Islandにカプセル型アニメーションとして表示され、初めて専用のSiriアプリも登場する",
+      "質問への回答は透明なカードで表示され、スワイプするとiMessageに似た会話モードに切り替わる",
+      "これはAppleがSiriを従来の音声アシスタントから本格的なAIエージェントへと転換する重要な刷新"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "Claude Code's creator says his setup involves thousands of AI sub-agents doing 'deeper work' overnight",
+    "title_cht": "Claude Code 創作者：我的設定讓數千個 AI 子 Agent 在夜間執行「深度工作」",
+    "title_ja": "Claude Codeの生みの親が語る：数千のAIサブエージェントが夜間に「深い作業」を行うセットアップ",
+    "url": "https://www.businessinsider.com/anthropic-engineer-claude-boris-cherny-ai-agent-use-overnight-2026-5",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#ClaudeCode",
+      "#BorisCherny",
+      "#Anthropic",
+      "#AIAgent",
+      "#AI工作流"
+    ],
+    "summary_points_cht": [
+      "Anthropic 工程師、Claude Code 開發者 Boris Cherny 表示他每晚讓「數千個」AI coding agents 持續為他工作",
+      "Cherny 主要透過手機管理和啟動這些 agents，顯示 AI 助理已從聊天工具演化為全天候自主助理",
+      "他在 2025 年 5 月 4 日接受 Sequoia Capital 訪談時分享此工作流程細節",
+      "Claude Code 提供兩個功能讓用戶安排定期重複性任務，支援隔夜排程作業"
+    ],
+    "summary_points_ja": [
+      "AnthropicエンジニアでClaude Codeの開発者Boris Chernyは、毎晩「数千台」のAIコーディングエージェントを稼働させていると語る",
+      "Chernyは主にスマートフォンでエージェントを管理しており、AIアシスタントがチャットツールから常時稼働の自律型アシスタントへ進化したことを示す",
+      "2025年5月4日のSequoia Capitalインタビューでこのワークフローの詳細を共有",
+      "Claude Codeには定期的な繰り返しタスクをスケジュールできる2つの機能があり、夜間作業の自動化をサポート"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_agent",
+    "idx": 6,
+    "title": "Not just an OS: Gemini Intelligence shines with Android automation this summer",
+    "title_cht": "不只是作業系統：Gemini Intelligence今夏為Android帶來任務自動化",
+    "title_ja": "OSだけじゃない：Gemini Intelligenceが今夏Androidに自動化をもたらす",
+    "url": "https://www.androidcentral.com/apps-software/ai/not-just-an-os-gemini-intelligence-shines-with-android-automation-this-summer",
+    "source": "Android Central",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#GeminiIntelligence",
+      "#Android",
+      "#AI自動化",
+      "#GooglePixel10",
+      "#GalaxyS26"
+    ],
+    "summary_points_cht": [
+      "Android Show 揭示 Galaxy S26 系列與 Pixel 10 今夏將獲得 Gemini Intelligence 任務自動化功能",
+      "Gemini Intelligence 具備理解視覺情境與螢幕內容的能力，可主動協助使用者自動化特定任務",
+      "Google 強調「Agent 化未來」將保留使用者的完全掌控權，AI 不會在未獲明確授權下自行執行操作",
+      "使用者可隨時開啟或關閉 Gemini Intelligence 功能，安全措施完整"
+    ],
+    "summary_points_ja": [
+      "Android ShowでGalaxy S26シリーズとPixel 10に今夏Gemini Intelligenceのタスク自動化機能が来ることが明らかになった",
+      "Gemini Intelligenceは視覚的なコンテキストと画面上の情報を理解し、特定のタスクを自動化する能力を持つ",
+      "Googleは「エージェント的未来」においてユーザーの明示的な許可なしにAIが何もしないよう、完全なコントロールをユーザーに保証する",
+      "ユーザーはいつでもGemini Intelligence機能をオン/オフできる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_agent",
+    "idx": 7,
+    "title": "How Heathrow partnered with Salesforce to build a customer-service AI agent",
+    "title_cht": "希思羅機場如何與Salesforce合作打造客服AI Agent「Hallie」",
+    "title_ja": "ヒースロー空港がSalesforceと提携してカスタマーサービスAIエージェント「Hallie」を構築した方法",
+    "url": "https://www.businessinsider.com/heathrow-salesforce-ai-chatbot-customer-service-2026-5",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AIAgent",
+      "#希思羅機場",
+      "#Salesforce",
+      "#Hallie",
+      "#企業AI應用"
+    ],
+    "summary_points_cht": [
+      "希思羅機場與Salesforce合作打造AI助手「Hallie」，透過WhatsApp處理旅客詢問，2025年途經旅客達近8,500萬人次",
+      "Hallie可回答安檢等候時間、最近星巴克位置、遺失行李尋回等旅客常見問題",
+      "此工具建立在希思羅與Salesforce多年合作夥伴關係的基礎上",
+      "Hallie預計今年稍晚擴展至機場官方網站及應用程式"
+    ],
+    "summary_points_ja": [
+      "ヒースロー空港はSalesforceと提携してAIアシスタント「Hallie」を構築し、WhatsApp経由で旅行者の問い合わせに対応。2025年の通過旅行者は約8,500万人に達した",
+      "Hallieはセキュリティ通過時間、最寄りのスターバックス、置き忘れた荷物の見つけ方など旅行者のよくある質問に答える",
+      "このツールはヒースローとSalesforceの長年のパートナーシップを活用して構築された",
+      "Hallieは今年後半に空港のウェブサイトとアプリにも展開される予定"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_agent",
+    "idx": 8,
+    "title": "Bob Belderbos: Learn agentic AI in Python with 10 small exercises",
+    "title_cht": "Bob Belderbos：用10個小練習學習Python中的Agentic AI",
+    "title_ja": "Bob Belderbos：10の小演習でPythonのエージェント型AIを学ぶ",
+    "url": "https://belderbos.dev/blog/learn-agentic-ai-python-10-step-journey/",
+    "source": "Belderbos.dev",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AgenticAI",
+      "#Python",
+      "#AI開發教學",
+      "#Claude",
+      "#HumanInTheLoop"
+    ],
+    "summary_points_cht": [
+      "作者發布了10個基於瀏覽器的Python練習，逐步講解從「可以調用Claude」到完整代理迴路的每個模式",
+      "大多數AI代理教程只給框架卻跳過底層原理，此系列旨在填補這個學習缺口",
+      "練習使用Pyodide在瀏覽器端運行，包含可測試架構與人在迴路（HITL）工作流程",
+      "配合6週隊列課程，目標是讓學習者能實際部署代理，而非只寫API包裝器"
+    ],
+    "summary_points_ja": [
+      "著者は10のブラウザベースのPython演習を公開し、「Claudeを呼び出せる」から完全なエージェントループまでの各パターンを段階的に解説する",
+      "ほとんどのAIエージェントチュートリアルはフレームワークを渡すだけで基礎原理を省略するが、このシリーズはそのギャップを埋めることを目的とする",
+      "演習はPyodideを使用してブラウザ上で実行され、テスト可能なアーキテクチャとヒューマンインザループ（HITL）ワークフローを含む",
+      "6週間のコホートコースと組み合わせ、単なるAPIラッパーではなく実際にデプロイされたエージェントの構築を目標とする"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution",
+    "title_cht": "Orthrus-Qwen3：在 Qwen3 上實現最高 7.8 倍 token 生成速度，輸出分佈完全相同",
+    "title_ja": "Orthrus-Qwen3：Qwen3で最大7.8倍のトークン生成速度を実現し同一出力分布を保証",
+    "url": "https://github.com/chiennv2000/orthrus",
+    "source": "Github.com",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#Orthrus",
+      "#Qwen3",
+      "#LLM推理加速",
+      "#擴散模型",
+      "#開源"
+    ],
+    "summary_points_cht": [
+      "Orthrus 是一種雙架構框架，結合自回歸 LLM 的精確生成保真度與擴散模型的高速並行 token 生成能力。",
+      "基於 Qwen3 骨幹，每次前向傳播可達最高 7.8 倍的 token 生成速度，且輸出分佈與原版 Qwen3 嚴格等同（無損失）。",
+      "支援 Flash Attention 2，可透過 HuggingFace Transformers 介面輕鬆調用，相容現有生態。",
+      "開源代碼與模型檢查點已發佈於 GitHub，提供 8B 參數版本（chiennv/Orthrus-Qwen3-8B）。",
+      "此研究為 LLM 推理加速提供了無需犧牲輸出質量的新方向。"
+    ],
+    "summary_points_ja": [
+      "Orthrus は自己回帰 LLM の生成精度と拡散モデルの高速並列トークン生成を統合するデュアルアーキテクチャフレームワーク。",
+      "Qwen3 バックボーンを基盤に、1 フォワードパスあたり最大 7.8 倍のトークン生成速度を実現しつつ元の Qwen3 と厳密に同一の出力分布を保証（無損失）。",
+      "Flash Attention 2 をサポートし、HuggingFace Transformers インターフェースから利用可能で既存エコシステムと互換性がある。",
+      "オープンソースコードとモデルチェックポイントが GitHub に公開され、8B パラメータ版（chiennv/Orthrus-Qwen3-8B）が提供されている。",
+      "出力品質を犠牲にしない LLM 推論高速化の新たな方向性を示す研究。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "Interaction Models",
+    "title_cht": "互動模型：原生實時 AI 協作的新範式",
+    "title_ja": "インタラクションモデル：ネイティブリアルタイムAI協調の新パラダイム",
+    "url": "https://thinkingmachines.ai/blog/interaction-models/",
+    "source": "Thinkingmachines.ai",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#互動模型",
+      "#實時AI",
+      "#多模態",
+      "#AI研究",
+      "#ThinkingMachines"
+    ],
+    "summary_points_cht": [
+      "Thinkingmachines.ai 發佈「互動模型」研究預覽，將互動能力原生整合於模型本身，而非依賴外部鷹架（scaffolding）。",
+      "採用多流（multi-stream）微回合（micro-turn）設計，使模型能實時持續接收音訊、視訊和文字並即時回應與行動。",
+      "從零開始訓練，確保實時響應性能與模型智能水準同步提升，而非相互妥協。",
+      "研究展示了在智能與響應速度綜合表現上達到最先進水準的質性新互動能力。",
+      "強調互動性應與 AI 智能同步擴展，不應被視為事後補充的工程問題。"
+    ],
+    "summary_points_ja": [
+      "Thinkingmachines.ai が「インタラクションモデル」研究プレビューを発表。外部スキャフォールディングではなくインタラクション能力をモデル自体にネイティブ統合。",
+      "マルチストリーム・マイクロターン設計を採用し、音声・映像・テキストをリアルタイムで継続的に受信・処理・応答・行動できる。",
+      "リアルタイム応答性を確保するためゼロからトレーニングし、知性と応答性を同時向上させることを目指す。",
+      "知性と応答速度の両面で最先端の総合パフォーマンスを示す質的に新しいインタラクション能力を実証。",
+      "インタラクティビティは AI の知性と並行してスケールすべきであり、後付けとして扱うべきではないと主張。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "SFT别急着接RL！你的多模态大模型可能一直在“带伤训练”",
+    "title_cht": "SFT 別急著接 RL！你的多模態大模型可能一直在「帶傷訓練」",
+    "title_ja": "SFTの後すぐにRLを適用するな！マルチモーダル大規模モデルは「傷を抱えたまま訓練」されているかもしれない",
+    "url": "https://www.qbitai.com/2026/05/418814.html",
+    "source": "量子位",
+    "language": "zh",
+    "score": 8,
+    "tags": [
+      "#SFT",
+      "#強化學習",
+      "#PRISM",
+      "#多模態大模型",
+      "#訓練優化"
+    ],
+    "summary_points_cht": [
+      "香港科技大學（廣州）、南洋理工大學、清華大學等機構研究（PRISM）發現，SFT 不僅未能為 RL 鋪路，反而在悄悄挖坑。",
+      "8B 模型實測：SFT 後性能下降 5.2 個百分點（63.3%→58.1%），完成 RL 後才剛爬回基線，即 RL 一直在「還債」而非「提升」。",
+      "根本原因：SFT 強迫模型模仿更窄的分佈（如 GPT/Gemini 蒸餾數據），以「窄」覆蓋「廣」，舊能力被沖掉、新能力又沒真正學到。",
+      "模型越強、越接近部署水平（如 Qwen3-VL 等強 Instruct 模型），SFT 引入的分佈偏移問題越嚴重。",
+      "PRISM 提出系統性解決方案，旨在填補 SFT 到 RL 之間被長期忽視的「隱形斷層」。"
+    ],
+    "summary_points_ja": [
+      "香港科技大学（広州）・南洋理工大学・清華大学などの研究（PRISM）により、SFT が RL への道を整えるどころか隠れた問題を引き起こすことが判明。",
+      "8B モデルの実測：SFT 後に性能が 5.2 ポイント低下（63.3%→58.1%）し、RL 完了後にようやく基線水準に回復。つまり RL は「改善」ではなく「借金返済」をしていた。",
+      "根本原因：SFT がモデルをより狭い分布（GPT/Gemini 蒸留データなど）に模倣させ、広い既存能力を上書きする「隠れた断層」が生じる。",
+      "モデルが強力なほど・デプロイに近いほど（Qwen3-VL などの強力な Instruct モデル）、SFT による分布シフト問題が深刻になる。",
+      "PRISM 研究は SFT から RL の間の長期間見過ごされてきた「隠れた落とし穴」を埋める体系的解決策を提案。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "NVIDIAが1分間の動画を生成できるAI「SANA-WM」を発表、カメラ移動を精密に制御可能",
+    "title_cht": "NVIDIA發表可生成1分鐘影片的AI「SANA-WM」，可精確控制鏡頭移動",
+    "title_ja": "NVIDIAが1分間の動画を生成できるAI「SANA-WM」を発表、カメラ移動を精密に制御可能",
+    "url": "https://gigazine.net/news/20260518-nvidia-sana-wm/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#NVIDIA",
+      "#SANA-WM",
+      "#世界模型",
+      "#影片生成AI",
+      "#開源"
+    ],
+    "summary_points_cht": [
+      "NVIDIA研究團隊發表開源世界模型「SANA-WM」，擁有26億參數，可在720p解析度下生成最長1分鐘的影片",
+      "支援6自由度鏡頭軌跡控制（前後、左右、上下移動及旋轉），可精確控制畫面視角",
+      "採用混合線性擴散Transformer架構，在保持接近大型工業模型畫質的同時大幅提升計算效率",
+      "特別適用於遊戲開發及機器人模擬等需要精確視點控制的應用場景"
+    ],
+    "summary_points_ja": [
+      "NVIDIAが26億パラメータのオープンソースワールドモデル「SANA-WM」を発表、720p解像度で最長1分間の動画生成が可能",
+      "6自由度のカメラ軌道に対応し、前後・左右・上下の移動と回転を含む精密なカメラ制御を実現",
+      "ハイブリッド線形拡散Transformerを採用し、大規模産業向けモデルに近い画質を維持しながら計算効率を向上",
+      "ゲームやロボット向けシミュレーションなど、精確な視点制御が必要な用途への応用が期待される"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "Interfaze: A new model architecture built for high accuracy at scale",
+    "title_cht": "Interfaze：專為大規模高精度任務打造的全新模型架構",
+    "title_ja": "Interfaze：大規模な高精度タスク向けに構築された新しいモデルアーキテクチャ",
+    "url": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+    "source": "Interfaze.ai",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Interfaze",
+      "#AI架構",
+      "#OCR",
+      "#基準測試",
+      "#視覺AI"
+    ],
+    "summary_points_cht": [
+      "Interfaze 聲稱在 OCR、視覺、語音轉文字和結構化輸出等 9 項頭對頭基準測試中超越 Gemini、Claude、GPT 和 Grok",
+      "針對電腦層級精確任務設計，如將 50 頁 PDF 每個詞彙映射至另一份文件的 XY 位置並翻譯，強調確定性而非創意性",
+      "採用有別於 Transformer 的全新架構，專為結構化高精度任務優化，而非通用創意任務",
+      "適用於文件處理、大規模資料提取等需要嚴格精準度的企業應用場景"
+    ],
+    "summary_points_ja": [
+      "InterfazeはOCR・ビジョン・音声認識・構造化出力の9つのベンチマークでGemini・Claude・GPT・Grokを上回ると主張",
+      "50ページPDFの全単語のXY座標マッピングと翻訳など、コンピューターレベルの精密タスクを想定した設計で、創造性より確実性を重視",
+      "Transformerとは異なる新アーキテクチャを採用し、構造化・高精度タスクに特化して最適化",
+      "文書処理・大規模データ抽出など高い精度が要求されるエンタープライズ用途に適する"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "Google updates its spam rules to include attempts to ‘manipulate’ AI",
+    "title_cht": "Google 更新垃圾內容規則，將操縱 AI 搜尋的行為納入其中",
+    "title_ja": "GoogleがAI検索操作を含むスパムポリシーを更新",
+    "url": "https://www.theverge.com/tech/931416/google-ai-search-spam-policy",
+    "source": "The Verge",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Google",
+      "#AI搜尋",
+      "#垃圾內容政策",
+      "#SEO",
+      "#AI概覽"
+    ],
+    "summary_points_cht": [
+      "Google 更新垃圾內容政策，明確將試圖「操縱」AI 搜尋系統的行為定義為垃圾內容。",
+      "新規則涵蓋 AI 概覽（AI Overview）及 AI 模式（AI Mode）等生成式搜尋功能。",
+      "偏頗的「最佳清單」或「推薦中毒」等操縱手法，將可能導致網站被搜尋引擎封禁。",
+      "此政策更新對 SEO 從業者和內容創作者具有直接的實務合規影響。"
+    ],
+    "summary_points_ja": [
+      "Google がスパムポリシーを更新し、AI 検索システムを「操作」しようとする行為を明確にスパムと定義した。",
+      "新ルールは AI 概要（AI Overview）や AI モードなど生成 AI 検索機能にも適用される。",
+      "偏ったおすすめリストや「推薦ポイズニング」などの操作手法はサイト削除につながる恐れがある。",
+      "この政策変更は SEO 実務者やコンテンツクリエイターに直接的なコンプライアンス上の影響を与える。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_industry",
+    "idx": 6,
+    "title": "Microsoft researchers find AI models and agents can't handle long-running tasks",
+    "title_cht": "微軟研究人員發現 AI 模型和代理無法處理長時間運行的任務",
+    "title_ja": "MicrosoftがAIモデルとエージェントは長時間タスクを処理できないと研究で発見",
+    "url": "https://www.theregister.com/ai-ml/2026/05/11/microsoft-researchers-find-ai-models-and-agents-cant-handle-long-running-tasks/5238263",
+    "source": "Theregister.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Microsoft",
+      "#AIAgent",
+      "#AI研究",
+      "#LLM限制",
+      "#長任務"
+    ],
+    "summary_points_cht": [
+      "微軟研究人員發現現有 AI 模型和代理在處理長時間運行任務時存在根本性局限。",
+      "此研究結果揭示了當前 AI 代理在企業部署和自主工作流中的實際瓶頸。",
+      "對於正在開發長期自主任務的 AI Agent 應用而言，此研究具有重要的參考與警示價值。"
+    ],
+    "summary_points_ja": [
+      "Microsoft の研究者が現在の AI モデルとエージェントが長時間タスクの処理に根本的な限界を抱えていることを発見。",
+      "この研究結果は企業展開や自律的ワークフローにおける AI エージェントの実際のボトルネックを明らかにしている。",
+      "長期自律タスクを開発する AI エージェントアプリケーションにとって重要な参考・警鐘となる研究。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_industry",
+    "idx": 7,
+    "title": "AIモデルでブラウザを自動操作できる「Browser-Use」、オープンソースで開発され自然言語で簡単に指示可能",
+    "title_cht": "可用AI模型自動操控瀏覽器的開源工具「Browser-Use」，支援自然語言輕鬆下達指令",
+    "title_ja": "AIモデルでブラウザを自動操作できる「Browser-Use」、オープンソースで開発され自然言語で簡単に指示可能",
+    "url": "https://gigazine.net/news/20260517-browser-use/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Browser-Use",
+      "#AI代理人",
+      "#瀏覽器自動化",
+      "#開源",
+      "#LLM"
+    ],
+    "summary_points_cht": [
+      "開源工具「Browser-Use」讓LLM可透過自然語言指令執行點擊、輸入、搜尋等瀏覽器操作，無需撰寫複雜腳本",
+      "透過實際操控瀏覽器取得資訊，有效避免AI幻覺問題，確保獲得正確的網頁內容",
+      "支援Google Gemini等多種主流LLM，可在遠端瀏覽器中即時顯示操作過程",
+      "相較於傳統的Playwright或Selenium，大幅降低瀏覽器自動化的技術門檻"
+    ],
+    "summary_points_ja": [
+      "オープンソースの「Browser-Use」は自然言語の指示でLLMがブラウザのクリック・入力・検索を自動実行できるツール",
+      "実際のブラウザを操作して情報を取得するため、AIのハルシネーションを防ぎ正確な情報取得が可能",
+      "Google Geminiなど複数のLLMに対応し、リモートブラウザで操作過程をリアルタイム確認できる",
+      "PlaywrightやSeleniumと異なり詳細なスクリプト記述が不要で、AIエージェント構築のハードルを大幅に下げる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-05-25",
+    "category": "ai_industry",
+    "idx": 8,
+    "title": "Google Details the New Magic Pointer Features Coming to Googlebooks",
+    "title_cht": "Google詳述即將登陸Googlebooks筆電的AI新功能「Magic Pointer」",
+    "title_ja": "GoogleがGooglebooksに搭載予定のAI新機能「Magic Pointer」の詳細を発表",
+    "url": "https://www.cnet.com/tech/computing/google-new-magic-pointer-features-googlebooks/",
+    "source": "CNET",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Google",
+      "#DeepMind",
+      "#MagicPointer",
+      "#Googlebooks",
+      "#AIPC"
+    ],
+    "summary_points_cht": [
+      "Google DeepMind發表「Magic Pointer」功能，以AI重新詮釋滑鼠游標，預計今年稍晚搭載於新款AI筆電「Googlebooks」",
+      "只需輕輕晃動游標即可觸發情境感知功能，可直接指向PDF等文件進行閱讀與互動操作",
+      "DeepMind表示目標是將AI工具的邊界從獨立視窗延伸至整個電腦使用環境",
+      "此功能為Google Android Show發布後DeepMind隨即公布的重點AI電腦整合功能之一"
+    ],
+    "summary_points_ja": [
+      "Google DeepMindがAIでマウスポインタを再発明した「Magic Pointer」を発表、今年後半にGooglebooksへ搭載予定",
+      "ポインタを軽く振るだけでコンテキスト理解やスマートツールが起動し、PDFなどのファイルを直接操作可能",
+      "DeepMindはAIツールを専用ウィンドウ内に留まらせず、コンピュータ全体の操作体験に統合することを目指している",
+      "Google Android Showの発表直後にDeepMindがブログで詳細を公開したAI PC向け統合機能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-05-18",
     "category": "ai_agent",
     "idx": 0,
