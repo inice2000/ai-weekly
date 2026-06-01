@@ -1,5 +1,650 @@
 [
   {
+    "date": "2026-06-01",
+    "category": "3d_ai",
+    "idx": 0,
+    "title": "Celsys releases Clip Studio Paint 5",
+    "title_cht": "Celsys 發布 Clip Studio Paint 5",
+    "title_ja": "CelsysがClip Studio Paint 5をリリース",
+    "url": "https://www.cgchannel.com/2026/05/celsys-releases-clip-studio-paint-5/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#ClipStudioPaint",
+      "#數位繪畫",
+      "#動畫軟體",
+      "#漫畫工具",
+      "#3D手部模型"
+    ],
+    "summary_points_cht": [
+      "Celsys 正式推出 Clip Studio Paint 5，新增筆觸穩定系統，可消除手繪線條抖動",
+      "內建 3D 手部模型，讓藝術家在繪製手部時有即時姿態參考",
+      "目前最新版本為 5.0.4（5.0 版本於 2026 年 3 月發布，當時未被廣泛報導）",
+      "軟體支援桌面與行動裝置，廣泛應用於漫畫、插圖與概念美術創作"
+    ],
+    "summary_points_ja": [
+      "CelsysがClip Studio Paint 5をリリース、手書きストロークのブレを滑らかにする新しいストローク安定化システムを追加",
+      "手を描く際のポーズ参考として使用できる内蔵3Dハンドモデルが搭載された",
+      "現在の最新バージョンはClip Studio Paint 5.0.4（5.0は2026年3月にリリース済みだが当時見落とされていた）",
+      "デスクトップとモバイル両対応で、コミック・イラスト・コンセプトアートの分野で広く使用されている"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "3d_ai",
+    "idx": 1,
+    "title": "36氪首发 | 商汤国香投了一家消费级空间相机公司，为具身智能采集真实世界数据",
+    "title_cht": "36氪首發｜商湯國香投資消費級空間相機公司，為具身智能採集真實世界數據",
+    "title_ja": "SenseTime国香が消費者向け空間カメラ会社に出資、具身知能向けリアルワールドデータ収集へ",
+    "url": "https://36kr.com/p/3824089662853513?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 7,
+    "tags": [
+      "#空間相機",
+      "#具身智能",
+      "#3DGS",
+      "#商湯國香",
+      "#天使輪融資"
+    ],
+    "summary_points_cht": [
+      "竹馬創新完成數千萬元天使+輪融資，由商湯國香資本領投，鼎暉VGC、峰瑞資本跟投",
+      "旗艦產品 Pebble 整合 3D Gaussian Splatting 技術，讓用戶像拍影片一樣掃描真實三維世界",
+      "公司定位為機器人時代的數據採集基礎設施，提供具備第一視角與空間語義的 3D 數據",
+      "創始人張吉曾任群核科技副總裁，首席科學家過潔為南京大學副教授及 3DGS 領域頂尖科學家",
+      "具身智能與 VLA 大模型的興起，使真實世界三維數據需求正在發生結構性變化"
+    ],
+    "summary_points_ja": [
+      "竹馬創新が数千万元の天使+ラウンドを完了、SenseTime国香資本がリード投資家として参加",
+      "フラッグシップ製品「Pebble」は3D Gaussian Splattingを搭載し、動画を撮るように3D世界を記録できる",
+      "ロボット時代のデータ収集インフラとして、一人称視点・空間セマンティクスを含む3Dデータを提供",
+      "創業者の張吉は群核科技の元副社長、チーフサイエンティストの過潔は南京大学准教授で3DGSの権威",
+      "具身知能とVLA大規模モデルの台頭により、リアルワールド3Dデータへの需要が構造的に変化しつつある"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "3d_ai",
+    "idx": 2,
+    "title": "World Machine 4059 ‘Dragontail Peak’ is out",
+    "title_cht": "World Machine 4059「Dragontail Peak」正式發布",
+    "title_ja": "World Machine 4059「Dragontail Peak」がリリース",
+    "url": "https://www.cgchannel.com/2026/05/world-machine-software-ships-world-machine-4059-dragontail-peak/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#WorldMachine",
+      "#地形生成",
+      "#VDM",
+      "#向量位移貼圖",
+      "#遊戲開發"
+    ],
+    "summary_points_cht": [
+      "World Machine 4059 引入「真實 3D 地形」支援，採用向量位移貼圖（VDM）取代高度圖，可生成懸崖等懸空地形",
+      "3D 視窗全面升級，新增 HDR 光照與環境霧效，並改善多項常見工作流程",
+      "「Dragontail Peak」系列後續版本將新增 macOS 與 Linux 支援（目前僅支援 Windows）",
+      "World Machine 是遊戲與視覺效果領域的元老級地形生成工具，已有逾二十年歷史"
+    ],
+    "summary_points_ja": [
+      "World Machine 4059が「真の3Dテレイン」をサポート、ハイトフィールドに代わりVDMを採用しオーバーハングの生成が可能に",
+      "3DビューポートをHDRライティングと環境フォグに対応するよう大幅刷新し、一般的なワークフローも多数改善",
+      "「Dragontail Peak」シリーズの今後のリリースでmacOSとLinuxのサポートを追加予定（現在はWindowsのみ）",
+      "World Machineはゲームおよびvfx業界で20年以上の歴史を持つ老舗地形生成ツール"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "AIコーディングツールの利用率、「GitHub Copilot」一強揺らぐ？　「Claude Code」急伸",
+    "title_cht": "AI 程式輔助工具使用率：GitHub Copilot 一強地位動搖，Claude Code 急速崛起",
+    "title_ja": "AIコーディングツールの利用率、「GitHub Copilot」一強揺らぐ？　「Claude Code」急伸",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/21/news040.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#ClaudeCode",
+      "#GitHubCopilot",
+      "#JetBrains",
+      "#AI開發工具",
+      "#開發者調查"
+    ],
+    "summary_points_cht": [
+      "JetBrains 調查逾 1 萬名開發者，顯示 90% 的開發者定期使用至少一款 AI 工具",
+      "GitHub Copilot 認知度 76%、業務採用率 29%，仍居首位但成長已明顯放緩",
+      "Claude Code 成長最快：認知度 57%、採用率 18%，相較 2025 年 4–6 月成長近 6 倍",
+      "Cursor 認知度 69%、業務採用率 18%；美加地區 Claude Code 業務採用率高達 24%"
+    ],
+    "summary_points_ja": [
+      "JetBrainsが1万人以上の開発者を対象に調査、90%が少なくとも1つのAIツールを定期的に使用していることが判明",
+      "GitHub Copilotは認知度76%・採用率29%でトップを維持するも、成長は明らかに鈍化",
+      "Claude Codeが最も急成長：認知度57%・採用率18%、2025年4〜6月比で約6倍の伸び",
+      "Cursorは認知度69%・業務採用率18%、米加地域ではClaude Codeの業務採用率が24%に達した"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "Google thinks Gemini 3.5 Flash can finally make AI agents more useful",
+    "title_cht": "Google認為Gemini 3.5 Flash終於能讓AI代理更實用",
+    "title_ja": "GoogleはGemini 3.5 FlashがついにAIエージェントをより実用的にできると考える",
+    "url": "https://www.androidcentral.com/apps-software/google-thinks-gemini-3-5-flash-can-finally-make-ai-agents-more-useful",
+    "source": "Android Central",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#Gemini3.5Flash",
+      "#Google",
+      "#AIエージェント",
+      "#LLM",
+      "#ベンチマーク"
+    ],
+    "summary_points_cht": [
+      "Google在Gemini應用程式、AI Search模式、Google AI Studio、Android Studio及企業平台全球推出Gemini 3.5 Flash",
+      "Gemini 3.5 Flash在Terminal-Bench 2.1、GDPval-AA、MCP Atlas等多項基準測試上超越Gemini 3.1 Pro",
+      "回應生成速度比競爭對手前沿AI系統快4倍，同時維持高端性能水準",
+      "Google將此次發布定位為進軍更具代理能力（agentic）未來的關鍵一步，主打的不僅是速度"
+    ],
+    "summary_points_ja": [
+      "Geminiアプリ・AI Mode in Search・Google AI Studio・Android Studio・エンタープライズ向けにGemini 3.5 Flashをグローバル展開",
+      "Terminal-Bench 2.1・GDPval-AA・MCP AtlasなどのベンチマークでGemini 3.1 Proを上回る成績を記録",
+      "競合フロンティアAIシステムより4倍速くレスポンスを生成しつつ高性能を維持",
+      "Googleはエージェント的な未来への布石としてGemini 3.5 Flashを位置づけ、速度以上の価値を訴求"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "AIエージェントを導入したい企業が今すぐやるべき6施策　ガートナーが提言",
+    "title_cht": "企業導入AI代理應立即採取的6項措施，Gartner提言",
+    "title_ja": "AIエージェントを導入したい企業が今すぐやるべき6施策　ガートナーが提言",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/22/news041.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#AIエージェント",
+      "#Gartner",
+      "#セキュリティ",
+      "#エンタープライズ",
+      "#リスク管理"
+    ],
+    "summary_points_cht": [
+      "Gartner日本於2026年5月21日發布AI代理安全對策6項優先施策，指出企業導入議論遠超防護能力",
+      "調查顯示59.3%的日本國內企業表示AI代理的安全討論不足，遠落後於導入計畫進度",
+      "6項重點施策包括：生命週期管理（防止廢棄代理淪為攻擊入口）、AI專用認證（不能套用人類2FA）、最小權限存取控制等",
+      "Gartner分析師矢野薫指出，AI代理普及需要防禦模型本身的變革，靜態安全機制已無法應對動態威脅"
+    ],
+    "summary_points_ja": [
+      "ガートナージャパンが2026年5月21日、AIエージェントのセキュリティ対策で企業が優先すべき6項目を発表",
+      "国内企業調査で59.3%が「セキュリティ面の議論が後回しになっている」と回答し、導入議論との乖離が明らかに",
+      "6施策はライフサイクル管理（廃棄エージェントの放置防止）・AI専用認証（人間用の2FAは適用不可）・最小権限アクセス制御などを含む",
+      "シニアアナリストは「AIエージェント普及に伴い静的セキュリティでは対応不可、動的・状況依存型の監視制御が必須」と指摘"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "I was laid off from eBay. Now I run a business with 27 AI agents — these are the human parts I still handle myself.",
+    "title_cht": "我從 eBay 被裁員，現在靠 27 個 AI 代理運營公司——這些是仍需親手處理的人工環節",
+    "title_ja": "eBayでレイオフされた私が27体のAIエージェントでビジネスを運営する——それでも人間がやる部分",
+    "url": "https://www.businessinsider.com/laid-off-founded-a-business-with-27-ai-agent-employees-2026-5",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AI代理",
+      "#創業",
+      "#行銷自動化",
+      "#AIAgent",
+      "#工作流程"
+    ],
+    "summary_points_cht": [
+      "Linara Bozieva 在 eBay 工作 11 年後遭裁員，數月後創辦行銷代理公司 Ravenopus",
+      "儘管無行銷背景，她建立了含 27 個自訂 AI 代理的三層 AI 工作流程自動化業務",
+      "客戶關係維護、創意決策與需要人際判斷的工作仍由她親自處理",
+      "此案例展示後裁員時代個人如何善用 AI 工具低成本創業"
+    ],
+    "summary_points_ja": [
+      "Linara BoziavaはeBayで11年間勤務後にレイオフされ、数ヶ月後にマーケティング代理店Ravenopusを創業",
+      "マーケティング経験がないにもかかわらず、27体のカスタムAIエージェントからなる3層ワークフローを構築",
+      "顧客関係の維持、クリエイティブな意思決定、人間的判断が必要な作業は自身で担当",
+      "レイオフ後にAIツールを活用して低コストで起業する現代的な事例を示している"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "Building Portable AI Workflows That You Can Take Anywhere",
+    "title_cht": "打造可移植的 AI 工作流程，讓業務不綁定單一平台",
+    "title_ja": "どこでも使えるポータブルAIワークフローの構築方法",
+    "url": "https://www.socialmediaexaminer.com/?p=278390",
+    "source": "Socialmediaexaminer.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AI工作流",
+      "#平台無關",
+      "#AI自動化",
+      "#提示詞工程"
+    ],
+    "summary_points_cht": [
+      "AI 工作流過度依賴單一平台會帶來服務中斷與模型更新品質波動等潛在風險",
+      "打造可移植工作流的核心是讓提示詞與流程設計盡量獨立於特定工具",
+      "平台切換策略包括保留結構化提示詞文件與採用標準化輸出格式"
+    ],
+    "summary_points_ja": [
+      "単一プラットフォームへの依存はサービス障害・モデル更新による品質変動などのリスクをもたらす",
+      "ポータブルなワークフロー構築の核心は、プロンプトとプロセス設計を特定ツールから独立させること",
+      "プラットフォーム切り替え戦略には、プロンプトのドキュメント化や標準化された出力形式の採用が含まれる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "Runwayが動画編集AI「Aleph 2.0」をリリース、動画の一部分を編集すると残りはAIが自動で編集してくれる",
+    "title_cht": "Runway發布動畫編輯AI「Aleph 2.0」，編輯部分畫面後其餘由AI自動完成",
+    "title_ja": "Runwayが動画編集AI「Aleph 2.0」をリリース、動画の一部分を編集すると残りはAIが自動で編集してくれる",
+    "url": "https://gigazine.net/news/20260525-runway-aleph-video-edit-ai/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#Runway",
+      "#Aleph2.0",
+      "#動画編集AI",
+      "#EditStudio",
+      "#生成AI"
+    ],
+    "summary_points_cht": [
+      "Runway發布動畫編輯AI「Aleph 2.0」及配套工具「Edit Studio」，支援1080p、30秒動畫的局部精確編輯",
+      "Aleph 2.0可在保持動畫整體一致性的前提下完成「更換手持物品」「更改服裝顏色」「全片動畫風格轉換」等複雜操作",
+      "僅需輸入1幀已編輯的靜態圖像，即可將編輯效果自動套用至整部動畫",
+      "Edit Studio支援與Google Nano Banana Pro及OpenAI GPT Image 2等圖像AI整合，可搭配自然語言指令進行高精度編輯"
+    ],
+    "summary_points_ja": [
+      "Runwayが動画編集AI「Aleph 2.0」と編集ツール「Edit Studio」をリリース、1080p・30秒の動画をピンポイント編集可能",
+      "動画全体の一貫性を保ちながら「手持ち物の変更」「服の色変更」「全体アニメ風変換」などの高度な編集が実現",
+      "1フレームの編集済み画像を入力するだけで動画全体に編集を自動適用できる革新的な機能を搭載",
+      "Edit StudioはGoogle Nano Banana ProやOpenAI GPT Image 2と統合可能で、自然言語指示との組み合わせでより高精度な編集が可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "Adobe releases Photoshop 27.7",
+    "title_cht": "Adobe發布Photoshop 27.7，Remove工具AI模型可本機執行",
+    "title_ja": "AdobeがPhotoshop 27.7をリリース、RemoveツールのAIモデルがローカル実行に対応",
+    "url": "https://www.cgchannel.com/2026/05/adobe-releases-photoshop-27-7/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Photoshop",
+      "#Adobe",
+      "#ローカルAI推論",
+      "#画像生成AI",
+      "#クリエイティブツール"
+    ],
+    "summary_points_cht": [
+      "Adobe發布Photoshop 27.7，主要更新為Remove工具的AI模型現可在本機執行，無需上傳雲端",
+      "Remove工具支援自由手繪選取欲移除的物件，AI自動生成乾淨的背景填補替代區域",
+      "使用者現可選擇是否使用生成式AI，以及是否在本機運行，提供更靈活的隱私與速度控制",
+      "此版本主要面向娛樂產業專業人員，用於概念藝術、材質貼圖編輯和渲染修飾工作流程"
+    ],
+    "summary_points_ja": [
+      "AdobeがPhotoshop 27.7をリリース、主な更新はRemoveツールのAIモデルをローカルで実行可能にしたこと",
+      "Removeツールは手描きで削除対象オブジェクトを選択し、AIが背景を自動生成して補完する機能",
+      "生成AI使用の有無とローカル/クラウド実行をユーザーが選択可能になり、プライバシーと速度の柔軟なコントロールを実現",
+      "エンタメ産業向けのコンセプトアート・テクスチャ編集・レンダリング修正ワークフローを対象とした更新"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "华为具身大脑一号位做类脑智能世界模型，对标JEPA，获亿元级融资｜硬氪首发",
+    "title_cht": "華為具身大腦核心人員打造類腦智能世界模型，對標JEPA，獲億元級融資",
+    "title_ja": "華為の具身AIキーパーソンが類脳インテリジェント世界モデルを開発、JEPAに対抗し億元規模の資金調達",
+    "url": "https://36kr.com/p/3819931562414467?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 7,
+    "tags": [
+      "#具身智能",
+      "#世界モデル",
+      "#類脳AI",
+      "#ロボットAI",
+      "#スタートアップ資金調達"
+    ],
+    "summary_points_cht": [
+      "具身智能公司「具腦磐石」完成新一輪億元級融資，由頂尖產業資本領投，多家基金跟投，另一輪同步交割中",
+      "公司由前華為具身大腦核心人員朱森華創立，專注於認知世界模型（Cognitive World Model）研發，對標Meta JEPA架構",
+      "創始人具備認知神經科學博士背景，曾主導華為盤古具身大模型、AI腦科學雲平台等重大項目",
+      "公司以類腦智能為底層範式，資金將重點投入核心技術研發、人才擴充及全球化市場拓展"
+    ],
+    "summary_points_ja": [
+      "具身知能スタートアップ「具脳磐石」が億元規模の新規資金調達を完了、産業資本主導で複数ファンドが追加投資",
+      "元Huawei具身AIのキーパーソンである朱森華氏が設立、MetaのJEPAアーキテクチャに対抗する認知世界モデルの研究開発に注力",
+      "創業者は認知神経科学の博士号を持ち、HuaweiのPanGu具身大モデル・AIブレインサイエンスクラウドプラットフォームなどを主導",
+      "類脳知能を基盤パラダイムとし、調達資金はコア技術研究・人材拡充・グローバル市場開拓に重点投入予定"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "Gemini Voice Capabilities and Gemini Spark Coming to MacOS This Summer",
+    "title_cht": "Gemini語音功能與Gemini Spark將於今夏登陸MacOS",
+    "title_ja": "GeminiボイスとGemini SparkがこのサマーにmacOSへ登場",
+    "url": "https://www.cnet.com/tech/services-and-software/gemini-spark-is-coming-to-macos-this-summer/",
+    "source": "CNET",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Gemini",
+      "#GoogleIO2026",
+      "#GeminiSpark",
+      "#MacOS",
+      "#AIAgent"
+    ],
+    "summary_points_cht": [
+      "Google在I/O 2026宣布將為MacOS版Gemini應用程式新增語音功能，預計今夏推出",
+      "Gemini Spark是爪狀自主AI助理，可在MacOS上處理本地文件並自動化桌面工作流程",
+      "用戶可透過長按功能鍵語音指示AI，對已上傳的文件（如寵物疫苗記錄）執行複雜任務",
+      "示範顯示Gemini Spark可根據文件內容自動起草電子郵件並完成相關預約"
+    ],
+    "summary_points_ja": [
+      "GoogleはI/O 2026でmacOS版GeminiアプリへのGemini Sparkと音声機能の追加を発表、今夏提供開始予定",
+      "Gemini Sparkはかぎ爪状の自律AIアシスタントで、ローカルファイルを使ったデスクトップワークフローを自動化できる",
+      "ユーザーはファンクションキーを長押しして音声指示を出すだけで、アップロードした文書（ペットのワクチン記録など）を使った複雑なタスクを実行できる",
+      "Google Labs VP Josh WoodwardのI/O実演では、文書内容をもとにメールを起草し関連予約まで自動完了する様子が示された"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "5 important Gemini updates from Google I/O that could genuinely save you time",
+    "title_cht": "Google I/O 2026中5項真正能節省時間的重要Gemini更新",
+    "title_ja": "Google I/O 2026から本当に時間を節約できる5つの重要なGemini更新",
+    "url": "https://www.androidcentral.com/apps-software/ai/5-important-gemini-updates-from-google-i-o-2026-that-could-genuinely-save-you-time",
+    "source": "Android Central",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Gemini",
+      "#GoogleIO2026",
+      "#Google",
+      "#AIUpdate",
+      "#AI生產力"
+    ],
+    "summary_points_cht": [
+      "Google I/O 2026幾乎全程圍繞Gemini，從新模型到AI購物車幾乎所有產品均整合Gemini",
+      "新推出的Gemini驅動購物車可自動追蹤商品價格與優惠，為用戶省去比價功夫",
+      "相較過去幾屆I/O，今年功能更深度整合進Google日常服務，實用性獲作者認可",
+      "Gemini已不再只是舞台效果，而是滲透進Google生態系的日常工作流程工具"
+    ],
+    "summary_points_ja": [
+      "Google I/O 2026はほぼすべてがGeminiを中心に展開され、新モデルからAIショッピングカートまで全製品にGeminiを統合",
+      "新しいGemini搭載ショッピングカートが商品の価格やお得な情報を自動追跡し、ユーザーの価格比較の手間を省く",
+      "過去のI/Oと比べ今年の機能はGoogleの日常サービスにより深く統合されており、実用性が向上したと筆者が評価",
+      "GeminiはもはやステージデモにとどまらずGoogleエコシステムの日常ワークフローに浸透しつつある"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "Google's new Gemini features will take all the annoying busywork off your plate",
+    "title_cht": "Google全新Gemini功能將替你處理所有繁瑣雜務",
+    "title_ja": "GoogleのGemini新機能があなたの面倒な雑務をすべて片付けてくれる",
+    "url": "https://www.androidcentral.com/apps-software/ai/googles-new-gemini-features-will-take-all-the-annoying-busywork-off-your-plate",
+    "source": "Android Central",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Gemini",
+      "#GoogleIO2026",
+      "#DailyBrief",
+      "#AndroidHalo",
+      "#AIAgent"
+    ],
+    "summary_points_cht": [
+      "Daily Brief功能整合Gmail與日曆資料，每天早晨生成個人化摘要，功能定位類似三星Now Brief",
+      "Gemini Spark即將登陸MacOS，可自動化涉及本地文件與桌面任務的工作流程",
+      "Android Halo可在手機螢幕上即時顯示AI代理執行活動，且不中斷使用者的當前工作",
+      "此批更新聚焦桌面工作流程整合、個人化資訊簡報與更深層的Android系統整合三大方向"
+    ],
+    "summary_points_ja": [
+      "Daily Brief機能がGmailとカレンダーデータを活用し、毎朝パーソナライズされたダイジェストを生成、サムスンNow Briefに近いコンセプト",
+      "Gemini SparkがmacOSに登場し、ローカルファイルとデスクトップタスクを含むワークフローを自動化する",
+      "Android Haloがスマートフォン上でAIエージェントのライブ活動をリアルタイム表示し、現在の作業を中断しない",
+      "今回のアップデートはデスクトップワークフロー統合・パーソナライズドブリーフィング・Android深部統合の3方向に集約される"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_industry",
+    "idx": 6,
+    "title": "Don't Want to Wait for iOS 27? Shortcuts Playground From MacStories Generates Shortcuts Using AI",
+    "title_cht": "不想等iOS 27？MacStories的Shortcuts Playground現可用AI生成Apple捷徑",
+    "title_ja": "iOS 27を待たなくていい？MacStoriesのShortcuts PlaygroundがAIでAppleショートカットを生成",
+    "url": "https://www.macrumors.com/2026/05/21/macstories-shortcuts-playground/",
+    "source": "MacRumors",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#ClaudeCode",
+      "#AppleShortcuts",
+      "#ワークフロー自動化",
+      "#OpenAICodex",
+      "#オープンソース"
+    ],
+    "summary_points_cht": [
+      "MacStories的Federico Viticci發布Shortcuts Playground，可用自然語言透過AI生成Apple捷徑",
+      "此工具為Claude Code和OpenAI Codex的外掛程式，幾分鐘內可生成捷徑並輸出至Finder，直接上傳至Apple捷徑應用程式",
+      "Shortcuts Playground完全免費且開源，已在GitHub發布並附有詳細技術說明文件",
+      "Apple預計在iOS 27的捷徑應用程式加入類似AI功能，但此工具現在即可使用"
+    ],
+    "summary_points_ja": [
+      "MacStoriesのFederico ViticciがShortcuts Playgroundを公開、自然言語でAppleショートカットを作成可能に",
+      "Claude CodeとOpenAI Codexのプラグインとして機能し、数分でショートカットを生成してFinderに出力、Appleショートカットアプリへの直接アップロードが可能",
+      "完全無料・オープンソースでGitHubで公開、詳細なドキュメントとコード検証も可能",
+      "AppleはiOS 27のショートカットアプリに同様のAI機能の追加を検討中だが、このツールは現時点で利用可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_industry",
+    "idx": 7,
+    "title": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026",
+    "title_cht": "未來推理將消耗70%算力，30%留給訓練｜矽谷投資人張璐@AIGC2026",
+    "title_ja": "将来は推論が70%の算力を消費し30%がトレーニング向けに｜シリコンバレー投資家張璐@AIGC2026",
+    "url": "https://www.qbitai.com/2026/05/423441.html",
+    "source": "量子位",
+    "language": "zh",
+    "score": 6,
+    "tags": [
+      "#AI推論算力",
+      "#AIインフラ",
+      "#Fusion Fund",
+      "#物理AI",
+      "#データセンター"
+    ],
+    "summary_points_cht": [
+      "Fusion Fund創始合夥人張璐預測，AI算力需求重心將從訓練轉向推理，推理算力比例將從現在的50%持續攀升至70%",
+      "資料中心「通信層」耗電量可能是計算本身的百倍以上，光學通信等新一代通信技術的戰略價值遠被低估",
+      "物理AI目前瓶頸在於缺乏足夠高質量的真實世界數據，合成數據只能補充，無法替代邊緣場景的真實採集",
+      "下一個值得押注的投資方向是高質量真實數據，以及醫療、太空、奈米機器人三大AI應用領域"
+    ],
+    "summary_points_ja": [
+      "Fusion Fund創業パートナーの張璐氏は、AI算力需要の重心がトレーニングから推論に移行し、推論算力比率が現在の50%から70%まで上昇すると予測",
+      "データセンターの「通信層」消費電力は計算自体の100倍以上になる可能性があり、光通信技術の戦略的価値が過小評価されている",
+      "物理AIの現在のボトルネックは高品質な実世界データの不足であり、合成データはエッジケースの実データを代替できない",
+      "次の注目投資分野は質の高いリアルデータと、医療・宇宙・ナノロボットの3つのAIアプリケーション領域"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_industry",
+    "idx": 8,
+    "title": "AIがAmazonの偽レビューを93％の精度で検出、星評価と感情傾向のズレも分析可能に",
+    "title_cht": "AI以93%精準度偵測Amazon假評論，可分析星級評分與情感傾向的落差",
+    "title_ja": "AIがAmazonの偽レビューを93％の精度で検出、星評価と感情傾向のズレも分析可能に",
+    "url": "https://gigazine.net/news/20260525-ai-spot-fake-review/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#偽レビュー検出",
+      "#Amazon",
+      "#NLP",
+      "#ハイブリッドAI",
+      "#研究論文"
+    ],
+    "summary_points_cht": [
+      "英國東倫敦大學研究團隊發布AI模型，可以93%精準度偵測Amazon假評論，Yelp達91%",
+      "模型採用「混合融合模型」，整合評論文字語義、評論長度、情感傾向及星級評分進行綜合判定",
+      "可偵測「負面文字配5星評分」或「正面文字配低評分」等情感傾向與星級不一致的可疑評論",
+      "模型全名為「元數據增強混合融合架構」，採用Transformer嵌入技術，論文已發表於FinTech and Sustainable Innovation期刊"
+    ],
+    "summary_points_ja": [
+      "英国イースト・ロンドン大学の研究チームが、Amazonで93%・Yelpで91%の精度で偽レビューを検出するAIモデルを発表",
+      "「ハイブリッド融合モデル」はレビュー文章の意味・長さ・感情傾向・星評価を組み合わせて総合的に判定",
+      "「ネガティブな文章なのに5つ星」「好意的な文章なのに低評価」など感情傾向と星評価の不一致を偽レビューとして検出",
+      "Transformer埋め込み技術を使用した「メタデータ強化ハイブリッド融合アーキテクチャ」として論文はFinTech and Sustainable Innovationジャーナルに掲載"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_industry",
+    "idx": 9,
+    "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
+    "title_cht": "Megalodon GitHub攻擊：6小時內向5,561個儲存庫植入惡意CI/CD工作流程",
+    "title_ja": "MegalodonがGitHub攻撃：6時間以内に5,561リポジトリへ悪意あるCI/CDワークフローを注入",
+    "url": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
+    "source": "Internet",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Megalodon",
+      "#GitHub",
+      "#CI/CD",
+      "#供應鏈攻擊",
+      "#資安研究"
+    ],
+    "summary_points_cht": [
+      "名為Megalodon的自動化攻擊活動在6小時內向5,561個GitHub儲存庫推送5,718個惡意提交",
+      "攻擊者偽裝成build-bot、auto-ci等CI機器人帳號，注入含Base64編碼惡意腳本的GitHub Actions工作流程",
+      "竊取目標包括AWS憑證、Google Cloud存取令牌、SSH金鑰、OIDC令牌及CI環境變數",
+      "所有竊取資料外傳至C2伺服器216.126.225[.]129:8443，由SafeDep研究團隊揭露"
+    ],
+    "summary_points_ja": [
+      "「Megalodon」と呼ばれる自動化攻撃キャンペーンが6時間以内に5,561のGitHubリポジトリへ5,718件の悪意あるコミットをプッシュした",
+      "攻撃者はbuild-bot、auto-ciなどのCIボットアカウントを偽装し、Base64エンコードされた悪意あるスクリプトを含むGitHub Actionsワークフローを注入した",
+      "AWSクレデンシャル、Google Cloudアクセストークン、SSHキー、OIDCトークン、CI環境変数が窃取対象となった",
+      "すべての窃取データはC2サーバー216.126.225[.]129:8443に送出され、SafeDepの研究チームが詳細を公開した"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-01",
+    "category": "ai_industry",
+    "idx": 10,
+    "title": "What AI coding benchmarks still miss about software quality",
+    "title_cht": "AI編程基準測試仍忽略的軟體品質問題",
+    "title_ja": "AIコーディングベンチマークがまだ見落としているソフトウェア品質の問題",
+    "url": "https://www.techradar.com/pro/what-ai-coding-benchmarks-still-miss-about-software-quality",
+    "source": "TechRadar",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AI編程",
+      "#基準測試",
+      "#程式碼品質",
+      "#AIAgent",
+      "#軟體工程"
+    ],
+    "summary_points_cht": [
+      "現有AI編程基準測試主要衡量「代碼是否通過當前測試」，但這個問題對軟體品質而言過於狹隘",
+      "軟體開發是迭代過程，今天通過測試的代碼可能讓未來修改更慢、風險更高",
+      "隨著AI大幅提高代碼生成量，評估重點應從「代理能否生成可運行補丁」轉為「長期使用代理後代碼庫品質如何」",
+      "業界需要新的評估框架來衡量AI生成代碼對代碼庫長期可維護性與技術債務的影響"
+    ],
+    "summary_points_ja": [
+      "現在のAIコーディングベンチマークの大半は「現在のテストをパスするコードを生成できるか」という問いに答えるに過ぎず、ソフトウェア品質の観点では視野が狭い",
+      "ソフトウェア開発は反復的であり、今日テストをパスするコードが将来の変更をより困難でリスクの高いものにする可能性がある",
+      "AIによるコード生成量が増加する中、評価の本質的な問いは「パッチが動作するか」から「長期的にどんなコードベースが作られるか」へ移行すべきだ",
+      "AIが生成したコードの長期保守性と技術的負債への影響を測定する新しい評価フレームワークが業界には必要とされている"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-05-25",
     "category": "ai_agent",
     "idx": 0,
