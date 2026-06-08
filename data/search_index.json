@@ -1,5 +1,561 @@
 [
   {
+    "date": "2026-06-08",
+    "category": "3d_ai",
+    "idx": 0,
+    "title": "Check Out This Highly Detailed and Gritty 3D Character Model",
+    "title_cht": "欣賞這個高度細緻且充滿硬派質感的3D角色模型",
+    "title_ja": "非常に詳細でグリッティな3Dキャラクターモデルを紹介",
+    "url": "https://80.lv/articles/check-out-this-highly-detailed-and-gritty-3d-character-model/",
+    "source": "80.lv",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#ZBrush",
+      "#3D角色建模",
+      "#Unreal Engine",
+      "#角色美術",
+      "#Substance3D"
+    ],
+    "summary_points_cht": [
+      "3D角色藝術家Junki Ahn在ArtStation分享了一個賽博龐克風格逃獄囚犯角色的詳細製作分解",
+      "這是藝術家首次製作現代風格角色，重點學習現代材質貼圖技術",
+      "使用工具包括Unreal Engine、ZBrush、Marvelous Designer、Substance 3D Painter、MetaHuman Creator等十餘款軟件",
+      "概念藝術由Ningbo Jiang創作，角色兼具豐富個性與細節層次"
+    ],
+    "summary_points_ja": [
+      "3DキャラクターアーティストJunki AhnがArtStationでサイバーパンク風脱獄囚キャラの詳細制作分解を公開",
+      "現代スタイルのキャラクター制作は初挑戦、現代的テクスチャリング技術を重点的に習得",
+      "Unreal Engine、ZBrush、Marvelous Designer、Substance 3D Painter、MetaHuman Creatorなど10以上のツールを使用",
+      "コンセプトアートはNingbo Jiangが担当、豊かな個性と細部の層を持つキャラクター"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "3d_ai",
+    "idx": 1,
+    "title": "MacBook Neo Blender Sculpting: Honest Polycount and Memory Performance Test",
+    "title_cht": "MacBook Neo Blender 雕刻測試：面數與記憶體效能誠實實測",
+    "title_ja": "MacBook NeoのBlenderスカルプトテスト：ポリカウントとメモリ性能の正直な実測",
+    "url": "https://www.blendernation.com/2026/05/27/macbook-neo-blender-sculpting-honest-polycount-and-memory-performance-test/",
+    "source": "BlenderNation",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Blender",
+      "#MacBook Neo",
+      "#效能測試",
+      "#3D雕刻",
+      "#Sculpt Mode"
+    ],
+    "summary_points_cht": [
+      "Michael Bridges對MacBook Neo進行Blender雕刻模式壓力測試，從20萬到1200萬多邊形逐步測試",
+      "在600萬多邊形時記憶體壓力轉紅，Blender開始使用磁碟交換，最終需強制終止進程",
+      "約300萬多邊形以下表現流暢，繪製、折痕、蛇鉤及平滑筆刷均表現良好",
+      "動態拓撲（Dyntopo）測試結果特別值得關注，並與兩台差異極大的機器進行比較"
+    ],
+    "summary_points_ja": [
+      "Michael BridgesがMacBook NeoでBlenderスカルプトモードの負荷テストを実施、20万〜1200万ポリゴンを段階的にテスト",
+      "600万ポリゴンでメモリ圧力が赤くなりBlenderがディスクスワップを開始、最終的にプロセスの強制終了が必要",
+      "約300万ポリゴン以下はdraw・crease・snake hook・smoothブラシで快適に動作",
+      "ダイナミックトポロジー（Dyntopo）のテスト結果が特に注目で、2台の異なるマシンとも比較"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "AIコーディングツール「Cursor 3」公開　エージェント共同開発用UI「Agents Window」で開発はどう変わる？",
+    "title_cht": "AI程式編輯器「Cursor 3」發布，代理協作新UI「Agents Window」將如何改變開發方式？",
+    "title_ja": "AIコーディングツール「Cursor 3」公開　エージェント共同開発用UI「Agents Window」で開発はどう変わる？",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/29/news076.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#Cursor3",
+      "#AI代碼編輯器",
+      "#Agents Window",
+      "#多代理開發",
+      "#Anysphere"
+    ],
+    "summary_points_cht": [
+      "Cursor 3於2026年4月發布，UI從零重建為「代理優先」設計思想",
+      "新UI「Agents Window」標準支援多工作空間，人與代理可跨儲存庫協作",
+      "側邊欄整合本地和雲端所有代理，含來自Linear、Slack、GitHub啟動的代理",
+      "支援代理會話在雲端與本地之間無縫切換，離線時可繼續在雲端執行",
+      "本地執行採用獨家Composer模型，支援高速迭代開發"
+    ],
+    "summary_points_ja": [
+      "Cursor 3が2026年4月にリリース、UIをエージェントファーストの思想で一から再構築",
+      "新UI「Agents Window」はマルチワークスペースに標準対応、人とエージェントがリポジトリをまたいで作業可能",
+      "サイドバーにローカル・クラウド全エージェントを統合、Linear・Slack・GitHubからの起動も含む",
+      "エージェントセッションをクラウドとローカル間でシームレスに移行可能、オフライン中もクラウドで継続実行",
+      "ローカル実行では独自Composerモデルで高速な反復開発が可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "CVE-Bench: testing LLM agents on real-world vulnerability patches",
+    "title_cht": "CVE-Bench：測試LLM代理修復真實世界漏洞的能力",
+    "title_ja": "CVE-Bench：実世界の脆弱性パッチにおけるLLMエージェントのテスト",
+    "url": "https://giovannigatti.github.io/cve-bench/",
+    "source": "Github.io",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#CVE-Bench",
+      "#LLM",
+      "#安全漏洞",
+      "#AI Agent",
+      "#基準測試"
+    ],
+    "summary_points_cht": [
+      "作者創建CVE-Bench基準測試，使用20個真實CVE漏洞、5個模型、三種提示條件進行評估",
+      "測試在沙盒容器中運行，對比維護者的安全測試套件進行評分",
+      "Poolside的Laguna模型是主要測試對象之一，旨在評估其真實安全修復能力",
+      "填補SWE-Bench通用代碼測試與安全漏洞專項修復之間的評估空白"
+    ],
+    "summary_points_ja": [
+      "著者が実世界の20件のCVE、5つのモデル、3つのプロンプト条件を使った基準「CVE-Bench」を作成",
+      "テストはサンドボックスコンテナで実行され、メンテナーのセキュリティテストスイートでスコアリング",
+      "PoolsideのLagunaモデルが主なテスト対象の一つで、実際のセキュリティ修復能力を評価",
+      "SWE-Benchの汎用コードテストとセキュリティ脆弱性修復の間の評価ギャップを埋めることを目的"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "Robinhood will let your AI agent trade stocks and make (or lose) lots of money",
+    "title_cht": "Robinhood將開放AI代理自動買賣股票，賺錢賠錢皆有可能",
+    "title_ja": "RobinhoodがAIエージェントによる株式売買を解禁、利益も損失も可能",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/938095/robinhood-ai-agent-stock-trading",
+    "source": "The Verge",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Robinhood",
+      "#AI交易",
+      "#AI Agent",
+      "#金融科技",
+      "#自動投資"
+    ],
+    "summary_points_cht": [
+      "Robinhood開放交易平台給AI代理，用戶可為代理創建獨立帳戶並注入指定金額",
+      "AI代理可跨市場買賣股票，如監控特定產業自動交易或再平衡投資組合",
+      "Robinhood警告AI驅動交易「存在重大風險，包括可能損失全部投資」",
+      "此功能定位為自動化投資決策工具，風險提示顯著"
+    ],
+    "summary_points_ja": [
+      "RobinhoodがAIエージェントに取引プラットフォームを開放、ユーザーはエージェント用の独立口座を作成し資金を投入可能",
+      "AIエージェントは市場を横断して株を売買でき、特定業界の監視や既存ポートフォリオの自動リバランスなどが可能",
+      "Robinhoodは「AI駆動の取引には重大なリスクがあり、投資全額を失う可能性がある」と警告",
+      "自動化された投資判断ツールとして位置付けられるが、リスク警告が強調されている"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "CodexがWindowsの自動操作に対応、自動でペイントで絵を描いたりブラウザを操作したりできる",
+    "title_cht": "Codex 支援 Windows 自動操作，可自動用小畫家作畫、控制瀏覽器",
+    "title_ja": "CodexがWindowsの自動操作に対応、自動でペイントで絵を描いたりブラウザを操作したりできる",
+    "url": "https://gigazine.net/news/20260601-codex-windows-computer-use/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Codex",
+      "#OpenAI",
+      "#ComputerUse",
+      "#AIAgent",
+      "#Windows"
+    ],
+    "summary_points_cht": [
+      "OpenAI Codex 的 Computer Use 功能於 2025 年 5 月 29 日更新後正式支援 Windows，此前僅限 macOS",
+      "使用者可透過「@應用名稱」格式指定操作程式，例如輸入「@paint 畫一隻哥布林」即可自動繪製",
+      "支援 iPhone 及 Android 手機遠端控制 Windows PC 進行自動操作",
+      "OpenAI 表示正持續開發「隨時隨地推進工作」的更多功能"
+    ],
+    "summary_points_ja": [
+      "OpenAIのCodex「Computer Use」が2025年5月29日のアップデートでmacOSに続きWindowsに対応",
+      "「@アプリ名」形式でアプリを指定して自動操作が可能（例：@paint でゴブリンの絵を自動描画）",
+      "iPhoneやAndroidからWindows PCをリモートで自動操作できるモバイル連携機能も提供",
+      "OpenAIは「どこにいても作業を進めるための方法をさらに開発中」と今後の展開を示唆"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "Token贵只因你喂给模型的垃圾太多了丨@亚马逊王晓野AIGC2026",
+    "title_cht": "Token費用昂貴只因你餵給模型的垃圾太多了｜亞馬遜王曉野 AIGC2026",
+    "title_ja": "Tokenが高いのはモデルに無駄なデータを与えすぎているから｜Amazon王暁野 AIGC2026",
+    "url": "https://www.qbitai.com/2026/05/426970.html",
+    "source": "量子位",
+    "language": "zh",
+    "score": 6,
+    "tags": [
+      "#企業AI",
+      "#AI Agent",
+      "#Amazon雲",
+      "#Token優化",
+      "#多智能體"
+    ],
+    "summary_points_cht": [
+      "87%企業宣稱大規模部署AI，但真正獲得生產價值的僅有10%",
+      "個人AI使用與企業級多代理系統是完全不同維度的工程複雜度",
+      "Token費用昂貴的根本原因是企業將過多低質量數據餵給模型，而非單價高",
+      "AI不只是大模型，模型之外的「Harness」基礎設施才是企業落地的關鍵",
+      "Working Agent的出現正在真正顛覆過去30年從未被撼動的個人生產力"
+    ],
+    "summary_points_ja": [
+      "87%の企業がAIの大規模展開を主張するが、実際に生産的な価値を得ているのは10%のみ",
+      "個人のAI使用と企業レベルのマルチエージェントシステムはエンジニアリングの複雑さが全く異なる",
+      "Tokenコストが高い本質的な理由は低品質なデータをモデルに大量投入することで、単価の問題ではない",
+      "AIは大規模モデルだけでなく、モデル外の「Harness」インフラが企業実装の鍵",
+      "Working Agentの登場により、過去30年間変わらなかった個人生産性が真に変革されつつある"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "「開発者はおいしい脆弱性になった」　AIコーディング、採用、OSS、CI/CD“4つの包囲網”と生存戦略",
+    "title_cht": "「開發者成了最甜美的漏洞」— AI 編碼、招募、OSS、CI/CD 四面包圍與生存策略",
+    "title_ja": "「開発者はおいしい脆弱性になった」　AIコーディング、採用、OSS、CI/CD「4つの包囲網」と生存戦略",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/31/news005.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#サプライチェーン攻撃",
+      "#AIコーディング",
+      "#セキュリティ",
+      "#CI/CD",
+      "#OSS"
+    ],
+    "summary_points_cht": [
+      "開發者因握有 GitHub、CI/CD、API 金鑰、生產環境等廣泛存取權限，已成攻擊者最具效益的入侵口",
+      "AI 編碼工具、招募活動（社工攻擊）、OSS 套件植入、CI/CD 自動化是攻擊開發者的四大主要途徑",
+      "攻擊者只需滲透一名開發者，即可觸及廣泛系統與供應鏈，造成大規模損害",
+      "Microsoft 點名 API Token、雲端認證資訊、簽名金鑰、密碼管理器資料為攻擊者主要目標資產",
+      "AI 普及使供應鏈攻擊與社交工程攻擊的精準度和規模大幅提升，開發者需提高安全意識"
+    ],
+    "summary_points_ja": [
+      "AI開発ツールの普及で開発者はGitHub・CI/CD・APIキー・本番環境への広範なアクセス権を持ち、攻撃者の最も効率的な侵入口になった",
+      "AIコーディング・採用活動（ソーシャルエンジニアリング）・OSSパッケージ汚染・CI/CD自動化が開発者を狙う4大攻撃経路",
+      "開発者1人を侵害するだけでサプライチェーン全体への侵入が可能になる高リスク構造",
+      "MicrosoftはAPIトークン、クラウド認証情報、署名鍵、パスワードマネージャーのデータを主要標的として列挙",
+      "AIの普及によりサプライチェーン攻撃とソーシャルエンジニアリングの精度・規模が拡大し、開発者のセキュリティ意識向上が急務"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_agent",
+    "idx": 6,
+    "title": "LLMを「危ないプロンプト」から守る“総務省お墨付き”の具体策とは？",
+    "title_cht": "日本總務省發布指南：保護 LLM 免受「危險提示詞」攻擊的具體對策",
+    "title_ja": "LLMを「危ないプロンプト」から守る「総務省お墨付き」の具体策とは？",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/29/news066.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#プロンプトインジェクション",
+      "#LLMセキュリティ",
+      "#総務省",
+      "#AIガイドライン",
+      "#DoS攻撃"
+    ],
+    "summary_points_cht": [
+      "日本總務省於 2026 年 3 月 27 日發布「AI 安全保障技術對策指南」，由 AI 安全分科會研討制定",
+      "指南針對 LLM 及含 LLM 的 AI 系統，主要讀者為 AI 開發者與提供者",
+      "重點防範兩類攻擊：提示詞注入（直接輸入惡意提示 / 透過外部資料庫間接植入）與 DoS 攻擊",
+      "DoS 攻擊指輸入大量需耗費計算資源的提示，導致 AI 系統響應遲緩或停止服務",
+      "指南同時列舉其他潛在威脅類型，涵蓋機密資訊洩露及 AI 系統意外變更等情境"
+    ],
+    "summary_points_ja": [
+      "総務省が2026年3月27日「AIのセキュリティ確保のための技術的対策に係るガイドライン」を公表",
+      "LLMおよびLLMを含むAIシステムを対象に、AI開発者・提供者向けに技術的対策例を整理",
+      "プロンプトインジェクション攻撃（直接攻撃・外部経由の間接攻撃）とDoS攻撃の2種類を重点対象に",
+      "DoS攻撃は計算量の多いプロンプトを入力してAIシステムの応答遅延・停止を引き起こすもの",
+      "機密情報漏洩やAIシステムの意図しない変更・停止防止を目的とした実践的な対策例を収録"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_agent",
+    "idx": 7,
+    "title": "「ITインフラ運用は人依存、でもAI活用はPoC止まり」の“二重苦”にキンドリルが打開策",
+    "title_cht": "IT 基礎設施靠人運維、AI 應用卡在 PoC — Kyndryl Japan 以 AI 代理推出解決方案",
+    "title_ja": "「ITインフラ運用は人依存、でもAI活用はPoC止まり」の「二重苦」にキンドリルが打開策",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2605/28/news054.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Kyndryl",
+      "#AIAgent",
+      "#ITインフラ",
+      "#自動化",
+      "#日本企業"
+    ],
+    "summary_points_cht": [
+      "Kyndryl Japan 於 2026 年 5 月 26 日推出「IT 服務高度化解決方案」，以多個 AI 代理協作自律執行 IT 基礎設施業務",
+      "服務涵蓋設計、建構、運維、維護等 IT 基礎設施工作，AI 代理可自主判斷並執行所需動作",
+      "系統變更影響調查由 AI 代理橫向分析多個資料來源，自動生成含處理時間影響與系統相依關係的報告",
+      "目標解決日本企業中 AI 應用停留在 PoC 階段、IT 運維過度依賴熟練工程師的雙重困境",
+      "解決方案基於 Kyndryl 自有 AI 代理功能與方法論框架，協助企業逐步實現 IT 自動化導入"
+    ],
+    "summary_points_ja": [
+      "キンドリルジャパンが2026年5月26日「ITサービス高度化ソリューション」を開始、複数AIエージェントが協調しIT業務を自律実行",
+      "設計・構築・運用・保守などITインフラ関連業務全般を対象に、AIエージェントが必要な作業を自律判断・実行",
+      "システム変更の影響調査でAIエージェントが複数データソースを横断分析し、依存関係・処理影響を含むレポートを自動生成",
+      "熟練ITエンジニア依存とAI活用がPoC止まりという日本企業特有の「二重苦」解消を目指す",
+      "キンドリル独自のAIエージェント向け機能・方法論フレームワークを基盤に、企業のIT自動化導入を段階的に支援"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
+    "title_cht": "以 Claude Code 作為日常主力：CLAUDE.md、Skills、子代理、插件與 MCP 深度實戰指南",
+    "title_ja": "日常ドライバーとしてのClaude Code：Claude.md、スキル、サブエージェント、プラグイン、MCPの活用法",
+    "url": "https://arps18.github.io/posts/claude-code-mastery/",
+    "source": "Github.io",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#ClaudeCode",
+      "#AIAgent",
+      "#MCP",
+      "#SubAgent",
+      "#開発ワークフロー"
+    ],
+    "summary_points_cht": [
+      "本文展示如何將 Claude Code 從「高級自動補全」升級為具備持久記憶、自訂指令、平行工作樹的自律代理工作流",
+      "CLAUDE.md 是 AI 代理的行為規格書，可定義工具使用規則、編碼標準、禁止行為等持久性指示",
+      "Skills（技能）讓使用者以 /skill-name 觸發可重複使用的多步驟工作流，無需每次重複撰寫提示",
+      "Subagents（子代理）可在不同 git worktrees 平行處理獨立任務，大幅縮短開發週期",
+      "MCP 伺服器可將外部工具（資料庫、API 等）接入 Claude Code，大幅擴展代理能力範圍"
+    ],
+    "summary_points_ja": [
+      "Claude Codeを単なるオートコンプリートから持続メモリ・カスタムコマンド・並行ワークツリーを持つ自律エージェントへ昇格させる実践ガイド",
+      "CLAUDE.mdはAIエージェントの行動仕様書として、ツール使用ルール・コーディング標準・禁止事項などを永続的に定義する",
+      "スキル（Skills）は/コマンド名で呼び出せる再利用可能な多ステップワークフローで、毎回プロンプトを書く手間を省く",
+      "サブエージェント（Subagents）は独立タスクを複数のgit worktreeで並列処理し、開発サイクルを大幅に短縮できる",
+      "MCPサーバーにより外部ツール（DB・APIなど）をClaude Codeに統合し、エージェントの能力範囲を拡張できる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "90以上の言語でオリジナルの話者の感情・トーン・ペースを維持しながらコンテンツと同期する音声AI「Dubbing v2」をElevenLabsがリリース",
+    "title_cht": "ElevenLabs 發布「Dubbing v2」，支援90+語言並完整保留原說話者的情感與語氣",
+    "title_ja": "ElevenLabsが「Dubbing v2」をリリース、90以上の言語で話者の感情・トーン・ペースを忠実に再現",
+    "url": "https://gigazine.net/news/20260601-elevenlabs-dubbing-v2/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#ElevenLabs",
+      "#語音AI",
+      "#AI配音",
+      "#多語言",
+      "#DubbingV2"
+    ],
+    "summary_points_cht": [
+      "ElevenLabs 發布 Dubbing v2，支援90種以上語言的 AI 語音配音，能夠完整保留原說話者的情感、語氣和節奏",
+      "與傳統配音不同，Dubbing v2 直接基於原始表演生成目標語言配音，而非輸出平滑無感情的機械翻譯音頻",
+      "已在 MrBeast 等 YouTuber 的影片中展示效果，跨語言的聲音氛圍、節奏和說話方式高度還原",
+      "支援包括日語在內的多語言，動畫配音測試中日語發音完全自然無違和感"
+    ],
+    "summary_points_ja": [
+      "ElevenLabsが「Dubbing v2」をリリース。90以上の言語で話者の感情・トーン・ペースをそのまま再現するAIダビングモデル",
+      "従来の平坦で感情のない翻訳音声ではなく、オリジナルのパフォーマンスに直接基づいて生成するため、トーン・テンポ・話し方・感情まで忠実に再現",
+      "MrBeastなどのYouTuberの動画で実証済み。声の雰囲気・テンポ・話し方がオリジナルに酷似",
+      "アニメーション動画の日本語ダビングテストでも、まったく違和感のない自然な発音を実現"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "Coming Soon to a Roblox Game Near You: Strange AI-Generated Machines and Creatures",
+    "title_cht": "Roblox 發布 CubePart AI 模型，可在遊戲中生成具有可動零件的3D物體",
+    "title_ja": "RobloxがCubePart AIモデルを発表、ゲーム内で動く部品を持つ3Dオブジェクトをリアルタイム生成",
+    "url": "https://www.cnet.com/tech/services-and-software/roblox-cubepart-ai-model-generative-worlds-weird-creations/",
+    "source": "CNET",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Roblox",
+      "#CubePartAI",
+      "#3DAI",
+      "#遊戲AI",
+      "#生成式3D"
+    ],
+    "summary_points_cht": [
+      "Roblox 開源發布 CubePart AI 模型，可生成具有可動零件的3D遊戲物體，例如多炮塔蜈蚣坦克或飛行蝙蝠無人機",
+      "這是 Roblox 去年推出的3D AI 生成物體的延伸版本，新增支援符合遊戲物理引擎的實際可動部件",
+      "玩家可在遊戲對局中即時 AI 生成自己的車輛、武器或機械，並直接投入遊戲使用",
+      "Roblox 研究指出，雖然多部件生成模型已存在，但其模型針對遊戲物理特性進行了專項優化"
+    ],
+    "summary_points_ja": [
+      "RobloxがオープンソースのCubePart AIモデルを発表。多砲塔センチピードタンクや飛行バットドローンなど、複数の可動部品を持つ3Dゲームオブジェクトを生成可能",
+      "昨年Robloxが導入した3D AI生成オブジェクトの拡張版で、ゲームの物理エンジンに適合した実際に動く部品をサポート",
+      "プレイヤーはゲーム中にリアルタイムでAI生成した車両・武器・機械を即座にゲーム内で使用できる",
+      "Robloxの研究によると、既存のマルチパーツ生成モデルはあるが、本モデルはゲーム物理特性に特化した最適化を実施"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "Language Models Need Sleep",
+    "title_cht": "語言模型需要睡眠嗎？離線遞迴改善線上推理",
+    "title_ja": "言語モデルに睡眠は必要か？オフライン再帰によるオンライン推論の改善",
+    "url": "https://arxiv.org/abs/2605.26099",
+    "source": "Arxiv.org",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#LLM",
+      "#Transformer",
+      "#長上下文",
+      "#SSM",
+      "#推理效率"
+    ],
+    "summary_points_cht": [
+      "論文提出「睡眠式整合機制」，讓 LLM 定期將近期上下文壓縮為持久快速權重，並清除 KV 快取以解決長上下文擴展性瓶頸",
+      "「睡眠」階段模型執行 N 次離線遞迴，透過學習到的局部規則更新狀態空間模型（SSM）區塊中的快速權重",
+      "推理時模型依賴持久狀態而非完整上下文，有效降低 Transformer 注意力機制在長序列下的計算成本",
+      "論文於 2026 年 5 月 25 日提交 arXiv，並於 5 月 27 日更新修訂版"
+    ],
+    "summary_points_ja": [
+      "「睡眠的統合メカニズム」を提案し、LLMが定期的に最近のコンテキストを永続的なファストウェイトに変換してKVキャッシュをクリアする手法",
+      "「睡眠」フェーズでモデルはN回のオフライン再帰パスを実行し、学習済みローカルルールでSSMブロックのファストウェイトを更新",
+      "推論時は完全なコンテキストではなく永続状態に依存することで、長シーケンスにおけるTransformerの注意機構の計算コストを削減",
+      "論文は2026年5月25日にarXivへ投稿され、5月27日に改訂版が公開された"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "Agent Skills",
+    "title_cht": "AI 編碼代理的技能框架：讓代理像資深工程師一樣工作",
+    "title_ja": "AIコーディングエージェントのスキルフレームワーク：シニアエンジニアのように振る舞わせる",
+    "url": "https://www.oreilly.com/radar/agent-skills/#BlogPosting",
+    "source": "Oreilly.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AIAgent",
+      "#CodingAgent",
+      "#提示詞工程",
+      "#開發工具",
+      "#軟體工程"
+    ],
+    "summary_points_cht": [
+      "當前 AI 編碼代理的預設行為是走最短路徑完成任務，缺乏資深工程師的隱性工作習慣（如寫規格、拆任務、考慮安全邊界）",
+      "文章提出「Agent Skills」概念：可複用的行為模板，將資深工程師的工作流程程式化注入代理",
+      "Agent Skills 可在代理接受任務前強制執行特定流程，例如先確認規格再動工、先寫測試再實作",
+      "此框架有望解決「代理產出代碼但品質不佳」的根本問題，讓 AI 代理行為更接近專業工程師標準"
+    ],
+    "summary_points_ja": [
+      "AIコーディングエージェントはデフォルトで最短経路を選び、仕様確認・テスト先行・セキュリティ考慮などシニアエンジニアの暗黙的な作業習慣を持たない",
+      "「Agent Skills」概念を提案：シニアエンジニアのワークフローをプログラム的にエージェントに注入できる再利用可能な行動テンプレート",
+      "スキルは実装前に仕様確認・タスク分割・セキュリティ境界検討などを強制的に実行させる仕組み",
+      "このフレームワークにより「コードは生成されるが品質が低い」という根本問題を解決し、AIエージェントをよりプロフェッショナルに近づける"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-08",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "Amazon plans to make SpaceX's Grok models available on its flagship AI service",
+    "title_cht": "亞馬遜計劃將 xAI 的 Grok 模型引入 AWS Bedrock 平台",
+    "title_ja": "AmazonがxAIのGrokモデルをAWS Bedrockに追加する計画",
+    "url": "https://www.businessinsider.com/amazon-spacex-grok-models-ai-offering-bedrock-2026-5",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AWSBedrock",
+      "#Grok",
+      "#xAI",
+      "#Amazon",
+      "#AI平台"
+    ],
+    "summary_points_cht": [
+      "亞馬遜 AWS 正洽談將 xAI 最新 Grok 模型加入旗艦 AI 平台 Bedrock，消息來自知情人士",
+      "Bedrock 已整合 Anthropic、Meta、Cohere 及 OpenAI 的模型，目標成為頂級 AI 模型的核心中樞",
+      "xAI 透過 Bedrock 合作可接觸 AWS 全球數百萬企業雲端客戶，有助於 IPO 前擴大用戶基礎",
+      "原文將 Grok 誤植為「SpaceX」旗下模型，Grok 實際上由馬斯克的 xAI 公司開發"
+    ],
+    "summary_points_ja": [
+      "AWSがxAIの最新GrokモデルをBedrock AIプラットフォームに追加するための交渉中であることが関係者への取材で判明",
+      "BedrockはすでにAnthropic・Meta・Cohere・OpenAIのモデルを統合しており、AIモデルの中心的ハブを目指している",
+      "xAIにとってはAWSの数百万の企業顧客へのアクセスが可能になり、IPO前のユーザー基盤拡大に貢献",
+      "※元記事では「SpaceX」のGrokと記載されているが、Grokは実際にはマスク氏のxAI社が開発したモデル"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-06-01",
     "category": "3d_ai",
     "idx": 0,
