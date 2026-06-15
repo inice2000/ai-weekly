@@ -1,5 +1,643 @@
 [
   {
+    "date": "2026-06-15",
+    "category": "3d_ai",
+    "idx": 0,
+    "title": "Pilgway releases 3DCoat 2026 with new GPU texturing system",
+    "title_cht": "Pilgway 發布 3DCoat 2026，搭載全新 GPU 加速節點式紋理系統",
+    "title_ja": "PilgwayがGPU加速ノードベーステクスチャリングシステムを搭載した3DCoat 2026をリリース",
+    "url": "https://www.cgchannel.com/2026/06/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#3DCoat",
+      "#GPU紋理",
+      "#3D建模",
+      "#Pilgway",
+      "#CG工具"
+    ],
+    "summary_points_cht": [
+      "3DCoat 2026 引入全新 GPU 加速節點式紋理系統，支援非破壞性材質與遮罩創作",
+      "新版本目前以公開測試版形式發布，穩定版預計本月稍後正式上線",
+      "GPU 版本將與現有 CPU 版本並行提供，用戶可依需求自由選擇",
+      "精簡版 3DCoatTextura 2026 同步推出，同樣提供 GPU 與 CPU 雙版本",
+      "新一代智能材質與遮罩系統基於 GPU 加速節點架構構建，大幅提升紋理工作效率"
+    ],
+    "summary_points_ja": [
+      "3DCoat 2026は新たなGPU加速ノードベーステクスチャリングシステムを導入し、非破壊的なマテリアル・マスク作成をサポート",
+      "現在パブリックベータ版として公開中で、安定版は今月後半にリリース予定",
+      "GPU版は既存のCPU版と並行して提供され、ユーザーが自由に選択可能",
+      "テクスチャリング特化の簡易版3DCoatTextura 2026も同時リリース予定、GPU・CPU両版を用意",
+      "新世代スマートマテリアルとマスクシステムはGPU加速ノードアーキテクチャを基盤として構築"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "OpenAIはコーディングツールとAIエージェントを備えたChatGPTの改良版スーパーアプリを計画している",
+    "title_cht": "OpenAI 計畫推出整合程式碼工具與 AI 代理的 ChatGPT 改良版超級應用",
+    "title_ja": "OpenAIはコーディングツールとAIエージェントを備えたChatGPTの改良版スーパーアプリを計画している",
+    "url": "https://gigazine.net/news/20260608-openai-plans-chatgpt-superapp-overhaul/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#OpenAI",
+      "#ChatGPT",
+      "#超級應用",
+      "#CodexAI",
+      "#AI代理"
+    ],
+    "summary_points_cht": [
+      "OpenAI 計畫在數週內發布 ChatGPT 大改版，整合程式碼工具與 AI 代理功能",
+      "新版本將 ChatGPT、Codex AI 程式碼應用及 AI 瀏覽器 Atlas 合併為單一桌面超級應用",
+      "Financial Times 採訪 OpenAI 十數名員工後率先報道此消息，路透社與 TechCrunch 同步跟進",
+      "此舉被視為 OpenAI 上市前的重大產品戰略布局",
+      "超級應用概念早在 2026 年 3 月已有報道，此次為功能細節的進一步確認"
+    ],
+    "summary_points_ja": [
+      "OpenAIは数週間以内にChatGPTの大幅刷新版をリリース予定で、コーディングツールとAIエージェントを統合",
+      "新バージョンはChatGPT・Codex AIコーディングアプリ・AIブラウザAtlasを1つのデスクトップ版スーパーアプリに統合",
+      "Financial TimesがOpenAI従業員十数名へのインタビューに基づき報道、ロイターとTechCrunchも追随",
+      "OpenAIの株式公開前における重要な製品戦略として位置づけられている",
+      "スーパーアプリ構想は2026年3月にすでに報じられており、今回は詳細の確認"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "Google、AIエージェント向け「Android CLI」を正式公開　アプリ開発が“3倍高速”に",
+    "title_cht": "Google 正式公開 AI 代理專用「Android CLI」1.0 版，應用程式開發速度提升 3 倍",
+    "title_ja": "Google、AIエージェント向け「Android CLI」を正式公開　アプリ開発が「3倍高速」に",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/05/news061.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#AndroidCLI",
+      "#Google",
+      "#AI代理",
+      "#Android開發",
+      "#LLMToken"
+    ],
+    "summary_points_cht": [
+      "Google 發布 Android CLI 穩定版 1.0，支援 Claude Code、Codex 等第三方 AI 程式碼工具按最佳實踐進行 Android 開發",
+      "內部實驗顯示，使用 Android CLI 可將 LLM Token 使用量減少 70% 以上",
+      "相較於僅使用標準工具集的 AI 代理，任務完成速度提升約 3 倍",
+      "Android CLI 提供環境設定、專案建立、裝置管理等命令，亦支援 CI 持續整合與維護流程",
+      "搭配 Android Skills 與 Android Knowledge Base，確保各工具一致遵循推薦開發模式與最佳實踐"
+    ],
+    "summary_points_ja": [
+      "GoogleがAndroid CLI安定版1.0をリリース、Claude CodeやCodexなどサードパーティAIコーディングツールでの推奨パターンに沿ったAndroid開発をサポート",
+      "社内実験でAndroid CLI使用によりLLMトークン使用量が70%以上削減されることが確認された",
+      "標準ツールセットのみ使用した場合と比較して、タスク完了速度が約3倍に向上",
+      "環境設定・プロジェクト作成・デバイス管理コマンドを提供し、CIや保守フローにも対応",
+      "Android SkillsおよびAndroid Knowledge Baseとの組み合わせで、ベストプラクティスへの一貫した準拠を確保"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "AIコードレビューツール「Open Code Review」、既存のAIに各種ルールを設定してレビュー能力を底上げ可能＆Alibabaグループで100万件のコード欠陥を検出済み",
+    "title_cht": "AI 程式碼審查工具「Open Code Review」可強化現有 AI 的規則設定，已在阿里巴巴集團檢測逾 100 萬個程式碼缺陷",
+    "title_ja": "AIコードレビューツール「Open Code Review」、既存のAIに各種ルールを設定してレビュー能力を底上げ可能＆Alibabaグループで100万件のコード欠陥を検出済み",
+    "url": "https://gigazine.net/news/20260607-open-code-review/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#OpenCodeReview",
+      "#Alibaba",
+      "#程式碼審查",
+      "#AI代理",
+      "#軟體工程"
+    ],
+    "summary_points_cht": [
+      "阿里巴巴開發的 Open Code Review 已在集團內數萬名開發者中部署，累計檢測超過 100 萬個程式碼缺陷",
+      "針對現有 AI 代理（如 Claude Code）進行代碼審查時的三大問題：網羅性不足、位置偏移、品質不穩定",
+      "解決方案：採用工程邏輯（非語言模型邏輯）處理文件選取與規則匹配，確保審查系統化且一致",
+      "支援對現有 AI 設定各種自訂規則，大幅提升代碼審查覆蓋率與準確性",
+      "此工具填補了 LLM 在嚴格流程約束上的不足，讓 AI 代理代碼審查達到企業生產級別"
+    ],
+    "summary_points_ja": [
+      "AlibabaのOpen Code ReviewはAlibabaグループ内の数万人の開発者にデプロイ済みで、100万件以上のコード欠陥を検出",
+      "既存AIエージェント（Claude Codeなど）によるコードレビューの3大問題：網羅性不足・位置ずれ・品質の不安定さ",
+      "解決策：ファイル選択とルールマッチングにLLMロジックではなくエンジニアリングロジックを採用し、体系的かつ一貫したレビューを実現",
+      "既存AIへの各種カスタムルール設定をサポートし、コードレビューのカバレッジと精度を大幅に向上",
+      "LLMの厳格なプロセス制約における弱点を補完し、AIエージェントのコードレビューをエンタープライズ本番品質に引き上げる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "微信AI对手机厂商打开一道窄门｜焦点分析",
+    "title_cht": "微信 AI 為手機廠商打開一道窄門｜焦點分析",
+    "title_ja": "WeChatのAIが携帯メーカーに向けて新たな扉を開く",
+    "url": "https://36kr.com/p/3839575253993985?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 7,
+    "tags": [
+      "#微信",
+      "#A2A",
+      "#AI代理",
+      "#手機廠商",
+      "#騰訊"
+    ],
+    "summary_points_cht": [
+      "騰訊確認微信正與華為、小米、榮耀、OPPO、vivo 等廠商合作推出 A2A（Agent-to-Agent）助手能力，多家廠商已完成接入",
+      "與字節跳動豆包手機採用 GUI agent「讀屏模擬點擊」的路徑不同，微信採加密受控協議讓系統智能體直接與微信內部 agent 對話",
+      "A2A 機制採「雙授權」設計——用戶授權與應用授權並行，確保資料安全與隱私",
+      "騰訊總裁劉炽平區分「真正的作業系統（iOS/Android）」與「假裝是作業系統的應用程式」兩種生態，明確表態立場",
+      "此合作為手機廠商 AI 助手提供接入微信高頻功能的標準化路徑，但同時劃定明確邊界"
+    ],
+    "summary_points_ja": [
+      "テンセントは、WeChatがHuawei・Xiaomi・Honor・OPPO・vivoなどとA2A（Agent-to-Agent）アシスタント機能を展開中で、複数のメーカーが接続済みと確認",
+      "ByteDanceのGUI agent方式（画面読み取りとクリックシミュレーション）とは異なり、暗号化・制御されたプロトコルでシステムエージェントとWeChat内部エージェントが直接通信",
+      "A2A機構は「二重認証」設計を採用し、ユーザー認証とアプリ認証の両方でデータセキュリティとプライバシーを確保",
+      "テンセント社長のLiu Chiping氏は「真のOS（iOS/Android）」と「OSのふりをするアプリ」を明確に区別し、立場を表明",
+      "この連携により携帯メーカーのAIアシスタントにWeChat高頻度機能へのアクセス標準化パスを提供しつつ、明確な境界も設定"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "Radar Trends to Watch: June 2026",
+    "title_cht": "2026 年 6 月雷達趨勢觀察",
+    "title_ja": "2026年6月のレーダートレンド：注目すべき動向",
+    "url": "https://www.oreilly.com/radar/radar-trends-to-watch-june-2026/#BlogPosting",
+    "source": "Oreilly.com",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#AI趨勢",
+      "#AI代理",
+      "#開源模型",
+      "#機器支付",
+      "#LLM"
+    ],
+    "summary_points_cht": [
+      "AI 代理正從執行單一任務轉型為管理完整業務運營：Cloudflare 與 Stripe 合作的代理已能自主開戶、註冊域名並部署應用",
+      "Stripe/Tempo 與 iWallet 分別發布機器對機器支付協議，將代理自主金融交易標準化",
+      "辦公文件、瀏覽器會話乃至手機介面均成為 AI 代理下一個接管目標",
+      "輕量開源模型在普通硬體上達到前沿能力，語音、對話時序與隱私篩選等專業模型快速崛起",
+      "本文由 Claude 共同撰寫，涵蓋 AI 模型、代理、開發工具等多領域 2026 年 6 月最新動態"
+    ],
+    "summary_points_ja": [
+      "AIエージェントは単一タスク実行から完全な業務オペレーション管理へ移行中。CloudflareとStripeの連携エージェントは口座開設・ドメイン登録・アプリデプロイまで自律実行",
+      "StripeとTempoおよびiWalletがマシン間決済プロトコルを公開し、エージェントによる金融取引の自律化が標準化へ",
+      "オフィス文書・ブラウザセッション・スマートフォンインターフェースがエージェントの次のターゲットに",
+      "軽量オープンウェイトモデルが汎用ハードウェアでフロンティア級性能を発揮、音声・会話タイミング・プライバシーフィルタリング専門モデルも台頭",
+      "本記事はClaude共著で、AIモデル・エージェント・開発ツールなど多分野の2026年6月動向を網羅"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "「Claude Codeでトークン浪費」の原因　Anthropicが明かす「サブエージェント」5つの使い所と止め所",
+    "title_cht": "「Claude Code浪費Token」的原因　Anthropic揭示「子代理」5大使用時機與停用情境",
+    "title_ja": "「Claude Codeでトークン浪費」の原因　Anthropicが明かす「サブエージェント」5つの使い所と止め所",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/04/news055.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#ClaudeCode",
+      "#Anthropic",
+      "#AIAgent",
+      "#サブエージェント",
+      "#ワークフロー"
+    ],
+    "summary_points_cht": [
+      "Anthropic公開Claude Code子代理的最佳實踐部落格，解說何時應使用或應避免使用子代理",
+      "子代理是獨立運作的Claude實例，擁有各自的上下文視窗，可並行執行多個任務",
+      "可為不同子代理分配不同權限，例如調查用僅限讀取、實作用完整編輯權限",
+      "適當使用子代理可降低Token成本、維持主會話整潔並加速多步驟工作流程",
+      "Anthropic將子代理比喻為「瀏覽器標籤」，是在不迷失主線情況下探索旁支工作的空間"
+    ],
+    "summary_points_ja": [
+      "AnthropicがClaude Codeのサブエージェントにおけるベストプラクティスとアンチパターンを解説したブログ記事を公開した",
+      "サブエージェントは独自のコンテキストウィンドウを持つ自己完結型Claudeインスタンスで、並列実行が可能",
+      "調査用に読み取り専用、実装用に完全編集権限など、サブエージェントごとに異なる権限を割り当てられる",
+      "適切な活用によりトークンコスト削減・メインセッションのクリーン保持・マルチステップワークフローの高速化が実現できる",
+      "AnthropicはサブエージェントをWebブラウザのタブに例え「本筋を見失わずに脇道を探索できる場所」と表現している"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 6,
+    "title": "無料でWebサイトの「AIエージェント対応度」を評価　Cloudflareが新ツール公開",
+    "title_cht": "免費評估網站「AI代理相容度」　Cloudflare推出新評測工具與評分指標",
+    "title_ja": "無料でWebサイトの「AIエージェント対応度」を評価　Cloudflareが新ツール公開",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/03/news057.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Cloudflare",
+      "#AIAgent",
+      "#AgentReadiness",
+      "#isitagentready",
+      "#WebStandards"
+    ],
+    "summary_points_cht": [
+      "Cloudflare於2026年4月17日發布AI代理相容評分「Agent Readiness」及免費評估工具「isitagentready.com」",
+      "掃描全球前20萬個域名後發現，搜尋引擎對應已廣泛普及，但AI代理所需的資訊取用機制幾乎未整備",
+      "工具讓用戶輸入網站URL即可從4個維度評分AI代理相容程度，並提供具體改善提示詞",
+      "Cloudflare Radar新增「Adoption of AI agent standards」資料集追蹤AI代理標準採用狀況，每週更新",
+      "Cloudflare指出「網路需如同當年適應瀏覽器和搜尋引擎般，現在必須適應AI代理」"
+    ],
+    "summary_points_ja": [
+      "Cloudflareが2026年4月17日にWebサイトのAIエージェント対応度スコア「Agent Readiness」と評価ツール「isitagentready.com」を発表した",
+      "上位20万ドメインのスキャン結果、検索エンジン向け対応は普及しているがAIエージェント向けはほぼ未整備と判明した",
+      "URLを入力するだけで4つの次元からエージェント対応度を採点し、改善に役立つプロンプトも提供される",
+      "Cloudflare Radarに「Adoption of AI agent standards」データセットが追加され毎週更新される",
+      "Cloudflareは「WebがブラウザやSEOに適応してきたように、今はAIエージェントへの対応が必要」と強調している"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 7,
+    "title": "OpenAIがプロンプトインジェクション攻撃からユーザーの機密情報を保護するためのロックダウンモードを発表",
+    "title_cht": "OpenAI發布Lockdown Mode，限制外部連線以防範提示詞注入攻擊保護用戶機密資訊",
+    "title_ja": "OpenAIがプロンプトインジェクション攻撃からユーザーの機密情報を保護するためのロックダウンモードを発表",
+    "url": "https://gigazine.net/news/20260607-openai-lockdown-mode/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#OpenAI",
+      "#LockdownMode",
+      "#プロンプトインジェクション",
+      "#AIセキュリティ",
+      "#データ保護"
+    ],
+    "summary_points_cht": [
+      "OpenAI發布可選的高級安全設定「Lockdown Mode（鎖定模式）」，透過限制外部網路請求降低提示詞注入造成的資料洩漏風險",
+      "鎖定模式限制OpenAI產品中可連接網路及外部服務的工具與功能",
+      "啟用後部分便利功能將被停用或受限，屬安全性與便利性之間的取捨",
+      "OpenAI強調此模式並非適用所有人，主要針對處理機密資料且需嚴格防護的個人及組織設計",
+      "該功能為企業在AI代理場景下保護敏感業務資訊提供額外安全防護層"
+    ],
+    "summary_points_ja": [
+      "OpenAIがプロンプトインジェクション攻撃によるデータ漏えいを防ぐオプションの高度セキュリティ設定「Lockdown Mode」を発表した",
+      "外部ネットワークへのリクエストを制限することでデータ漏えいリスクを軽減する仕組み",
+      "有効化すると一部の便利な機能が無効化・制限されるため、セキュリティと利便性のトレードオフが生じる",
+      "機密データを扱い厳格な保護が必要な個人や組織向けに設計されており、すべてのユーザーに適しているわけではない",
+      "Web接続や外部サービスへの接続が可能なツール・機能を制限し、AIエージェントによる情報流出リスクを低減する"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 8,
+    "title": "'Stop duct-taping human email into machine workflows' — Hostinger unleashes Agentic Mail to fix the biggest bottleneck in AI automation",
+    "title_cht": "Hostinger 推出 Agentic Mail，解決 AI 自動化工作流中電子郵件整合的最大瓶頸",
+    "title_ja": "HostingerがAgentic Mailを発表、AI自動化の最大ボトルネックを解消",
+    "url": "https://www.techradar.com/pro/stop-duct-taping-human-email-into-machine-workflows-hostinger-unleashes-agentic-mail-to-fix-the-biggest-bottleneck-in-ai-automation",
+    "source": "TechRadar",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AgenticMail",
+      "#Hostinger",
+      "#AI自動化",
+      "#Webhook",
+      "#工作流"
+    ],
+    "summary_points_cht": [
+      "Hostinger 推出 Agentic Mail，採用 Webhook 優先架構，讓 AI 代理能即時處理電子郵件",
+      "傳統電子郵件系統設計用於人類操作，無法有效支援機器對機器的自動化工作流",
+      "AI 代理可在電子郵件到達的毫秒內觸發動作，取代過去需要人工介入的流程",
+      "新系統旨在填補 AI 驅動工作流與傳統電子郵件基礎設施之間的結構性鴻溝"
+    ],
+    "summary_points_ja": [
+      "HostingerがAgentic Mailを発表、Webhookファーストアーキテクチャでリアルタイムメール処理が可能に",
+      "従来のメールシステムは人間向けに設計されており、マシン間の自動化ワークフローに本質的に対応できない",
+      "AIエージェントはメール到着後ミリ秒以内にアクションをトリガー可能",
+      "AIワークフローと従来メールインフラの構造的ギャップを埋めることを目的とした新サービス"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 9,
+    "title": "Satya Nadella says AI agents should be treated like employees with identities, permissions, and audits",
+    "title_cht": "薩蒂亞·納德拉：AI 代理應被視為員工，需賦予身份、設定權限並進行審計",
+    "title_ja": "サティア・ナデラ：AIエージェントはアイデンティティ・権限・監査を持つ従業員として扱うべき",
+    "url": "https://www.businessinsider.com/satya-nadella-microsoft-how-to-manage-ai-agents-human-employees-2026-6",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#微軟",
+      "#SatyaNadella",
+      "#AI代理",
+      "#企業治理",
+      "#AI安全"
+    ],
+    "summary_points_cht": [
+      "微軟 CEO 薩蒂亞·納德拉表示，公司正將 AI 代理視為「擁有身份的員工」加以管理",
+      "管理框架涵蓋三要素：賦予代理身份、建立沙箱環境、制定治理政策",
+      "納德拉在 Reid Hoffman 主持的 Possible Podcast 中透露微軟已大量部署 AI 代理",
+      "同集播客中，Hoffman 宣布將離開微軟董事會，回歸「創始人模式」"
+    ],
+    "summary_points_ja": [
+      "MicrosoftのCEOサティア・ナデラ氏が、AIエージェントを「アイデンティティを持つ従業員」として管理するアプローチを表明",
+      "管理フレームワークの3要素：エージェントへのアイデンティティ付与・サンドボックス環境の構築・ガバナンスポリシーの策定",
+      "ナデラ氏はReid HoffmanのPossible Podcastで、Microsoftが大量のAIエージェントをすでにデプロイ済みと明かした",
+      "同エピソードでHoffman氏はMicrosoftの取締役会を退任し「ファウンダーモード」に戻ると発表"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 10,
+    "title": "Google Chromeの新機能「Skills」　AIプロンプトの“毎回手打ち”を不要に",
+    "title_cht": "Google Chrome新功能「Skills」　讓AI提示詞不再需要每次手動重新輸入",
+    "title_ja": "Google Chromeの新機能「Skills」　AIプロンプトの\"毎回手打ち\"を不要に",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/04/news042.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#GoogleChrome",
+      "#Skills",
+      "#GeminiAI",
+      "#AIプロダクト",
+      "#ブラウザ"
+    ],
+    "summary_points_cht": [
+      "Google於2026年4月14日發布Chrome新功能「Skills in Chrome」，讓常用AI提示詞可保存並一鍵重複使用",
+      "用戶可將提示詞從聊天記錄直接保存為Skill，之後在Gemini in Chrome輸入斜線(/)或點擊加號即可選用",
+      "保存的Skill可應用於當前瀏覽頁面或選定的其他標籤，並跨已登入的Chrome桌面裝置同步",
+      "Skill可隨時編輯或新建，透過Gemini in Chrome的斜線指令搭配指南針圖示進行管理",
+      "初期測試用戶回饋此功能可打造個人化強大工作流程，免除重複輸入相同提示詞的困擾"
+    ],
+    "summary_points_ja": [
+      "Googleが2026年4月14日にChrome向けAI新機能「Skills in Chrome」を発表した",
+      "よく使うAIプロンプトを「Skill」として保存し、次回からワンクリックで再利用できるようになる",
+      "Gemini in Chromeでスラッシュ(/)入力またはプラスボタンクリックで保存済みSkillを選択して実行できる",
+      "保存したSkillは閲覧中のページや選択した他のタブに適用され、サインイン済みのデスクトップ間で同期される",
+      "初期テスト参加者からはパーソナライズされた強力なワークフロー構築に活用できると好評を得ている"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 11,
+    "title": "Cisco年次イベントの目玉は“超統合”AgenticOps基盤「Cisco Cloud Control」",
+    "title_cht": "Cisco年度大會重頭戲：跨領域超統合AgentOps平台「Cisco Cloud Control」",
+    "title_ja": "Cisco年次イベントの目玉は\"超統合\"AgenticOps基盤「Cisco Cloud Control」",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/02/news126.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Cisco",
+      "#CloudControl",
+      "#AgentOps",
+      "#AIエージェント",
+      "#CiscoLive"
+    ],
+    "summary_points_cht": [
+      "Cisco於2026年6月2日「Cisco Live US 2026」發布跨領域IT統合管理平台「Cloud Control」，為Cisco產品線最高層級",
+      "Cloud Control由「資料基礎設施」「AI模型」「AI代理基礎設施」三層構成，以Splunk為資料整合核心",
+      "可整合自家及他廠網路設備、雲端服務商、IT服務管理、身份管理等多元遙測資料",
+      "支援三類AI模型：Cisco自訓的領域特化與任務特化模型，以及主要AI廠商前沿模型可切換使用",
+      "定位為因應AI網路攻擊能力飛躍提升的「後Mythos時代」，提供AgentOps自動化運維基礎設施"
+    ],
+    "summary_points_ja": [
+      "Ciscoが2026年6月2日「Cisco Live US 2026」でIT環境を横断管理する「Cisco Cloud Control」を発表した",
+      "Cloud Controlは「データ基盤」「AIモデル」「AIエージェント基盤」の3層で構成されるCiscoの最上位統合管理基盤",
+      "Splunkをベースとしたデータ基盤にネットワーク・セキュリティ・アプリ・アイデンティティなど多様なテレメトリーを集約する",
+      "Cisco自社訓練のドメイン特化・タスク特化モデルと主要AI各社のフロンティアモデルを切り替えて使用できる",
+      "AIサイバー攻撃能力が飛躍的に高まる「ポストMythos」時代に備えたAgentOps自動化基盤として位置付けている"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_agent",
+    "idx": 12,
+    "title": "COBOLも古いJavaももう“塩漬け”にしなくていい？　AIを制御し「数年を数日まで」短縮できるレガシー刷新の今",
+    "title_cht": "COBOL和老舊Java不必再「封存擱置」？　AI管控可將「數年縮短為數日」的遺留系統現代化",
+    "title_ja": "COBOLも古いJavaももう\"塩漬け\"にしなくていい？　AIを制御し「数年を数日まで」短縮できるレガシー刷新の今",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/03/news014.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#レガシーシステム",
+      "#COBOL",
+      "#AIモダナイゼーション",
+      "#AIエージェント",
+      "#DX"
+    ],
+    "summary_points_cht": [
+      "日本IPA「DX動向2025」報告指出國內6成以上組織擁有遺留系統，排除明確無遺留系統的20%後實質約8成企業面臨此問題",
+      "COBOL等老舊基幹系統因規格文件缺失、負責人退職等因素黑盒子化，光調查成本就動輒億元規模",
+      "Scalar公司正利用AI代理技術進行系統現代化，目標將原本需要數年的改善工作縮短至數日",
+      "遺留系統維持管理占用大量IT預算，阻礙數據應用等新興投資，同時安全風險持續升高",
+      "近年函式庫與框架的漏洞發現頻率加速提升，讓繼續「封存」遺留系統的風險越來越難以承受"
+    ],
+    "summary_points_ja": [
+      "IPAの「DX動向2025」によると国内6割以上の組織がレガシーシステムを抱え、レガシーなしと明言する20%を除くと実質約8割に上る",
+      "COBOLなど老朽化した基幹システムは仕様把握者の退職によるブラックボックス化で、調査だけで億円単位のコストが発生する",
+      "ScalarがAIエージェントを活用したモダナイゼーションに取り組み、数年かかる刷新を数日に短縮することを目指している",
+      "レガシー維持管理がIT予算を圧迫し、データ活用などへの新規投資を阻害するとともにセキュリティリスクも高まっている",
+      "ライブラリやフレームワークの脆弱性発見頻度の加速により、レガシーシステムを塩漬けにし続けることが困難になっている"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "無料でローカルAIに再試行を促す機能・ステップの強制・エラー回復・VRAMを考慮したコンテキスト管理などのガードレールを追加できる「forge」",
+    "title_cht": "免費為本地AI新增重試機制、步驟強制、錯誤恢復與VRAM感知上下文管理等護欄的「forge」框架",
+    "title_ja": "無料でローカルAIに再試行を促す機能・ステップの強制・エラー回復・VRAMを考慮したコンテキスト管理などのガードレールを追加できる「forge」",
+    "url": "https://gigazine.net/news/20260607-forge/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#forge",
+      "#本地LLM",
+      "#AI框架",
+      "#開源工具",
+      "#AgenticAI"
+    ],
+    "summary_points_cht": [
+      "forge是Python框架，為自建LLM添加護欄功能（重試促進、錯誤恢復、步驟強制、VRAM感知上下文管理），提升模型可靠性",
+      "26場景評測顯示，8B規模本地LLM使用forge後準確率從不足10%大幅提升至84%；Claude Sonnet 4.6從85%升至98%",
+      "支援Ollama、LM Studio、llama.cpp、vLLM等多種後端，完全免費開源",
+      "工作流結構採選擇性加入方式，可設定必要步驟、前提條件與終端工具來限制迴圈",
+      "護欄包含救援解析、重試促進、回應驗證三大機制，即使無必要步驟也可獨立啟用"
+    ],
+    "summary_points_ja": [
+      "forgeはPython製フレームワークで、セルフホスト型LLMにガードレール（再試行・エラー回復・必須ステップ強制・VRAM対応コンテキスト管理）を追加し信頼性を向上",
+      "26シナリオの評価スイートで、8B規模ローカルLLMのスコアが10%未満から84%へ急上昇；Claude Sonnet 4.6は85%から98%へ向上",
+      "Ollama・LM Studio・llama.cpp・vLLMなど複数バックエンドをサポート、完全無料・オープンソース",
+      "ワークフロー構造はオプトイン方式で、必須ステップ・前提条件・ターミナルツールを設定してループを制限可能",
+      "ガードレールはレスキュー解析・リトライ促進・レスポンス検証の3機能で構成され、必須ステップなしでも適用可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "iOS 27: All the Rumored App Features",
+    "title_cht": "iOS 27傳聞：Camera、Photos、Wallet等App新功能完整整理",
+    "title_ja": "iOS 27：噂されるアプリ新機能まとめ",
+    "url": "https://www.macrumors.com/2026/06/03/ios-27-app-rumors/",
+    "source": "MacRumors",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#iOS27",
+      "#Apple",
+      "#Siri",
+      "#AppleIntelligence",
+      "#VisualIntelligence"
+    ],
+    "summary_points_cht": [
+      "iOS 27中Siri將獲重大改版，Camera App新增「Siri模式」，以更顯眼的方式取代原需長按Camera Control才能使用的Visual Intelligence",
+      "Siri模式與現有照片、影片、人像、全景模式並列顯示，快門鍵會出現Apple Intelligence標誌",
+      "除Camera外，Photos、Wallet等核心App也將獲得新AI及非AI功能",
+      "以上資訊來源為彭博社報導，屬傳聞階段，尚未獲Apple官方確認"
+    ],
+    "summary_points_ja": [
+      "iOS 27でSiriが大幅刷新され、カメラアプリに「Siriモード」が新設されVisual Intelligenceをより目立つ形で提供する",
+      "Siriモードは既存の写真・動画・ポートレート・パノラマモードと並んで表示され、シャッターボタンにApple Intelligenceロゴが現れる",
+      "Camera Control長押しが必要だったVisual Intelligenceをカメラアプリ内の専用モードとして再編し、アクセスを容易にする",
+      "Camera以外にもPhotos・Walletなどのコアアプリが新AI機能および非AI機能のアップデートを受ける予定（情報源：Bloomberg報道、未公式）"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "Beyond Siri: New Apple Intelligence features to expect at WWDC26",
+    "title_cht": "Siri之外：WWDC26預計推出的全新Apple Intelligence功能",
+    "title_ja": "Siriを超えて：WWDC26で期待されるApple Intelligenceの新機能",
+    "url": "https://www.cultofmac.com/news/new-apple-intelligence-features-beyond-siri",
+    "source": "Cult of Mac",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#WWDC26",
+      "#AppleIntelligence",
+      "#Siri",
+      "#Apple",
+      "#VisualIntelligence"
+    ],
+    "summary_points_cht": [
+      "WWDC26週一開幕，蘋果將公布Siri大幅AI升級，被視為近年最雄心勃勃的軟體更新之一",
+      "Apple Intelligence和Visual Intelligence將各自帶來多項獨立新功能，超越Siri本身的升級範疇",
+      "蘋果有必要兌現WWDC24承諾，當時宣布的多項AI功能至今仍有許多未完全落地",
+      "此次發布被視為蘋果在AI競賽中全面追趕的關鍵機會，消息人士稱規模為「數年來最大」"
+    ],
+    "summary_points_ja": [
+      "WWDC26が週明けに開幕、AppleはSiriの大幅なAIアップグレードを発表予定で近年最も野心的なソフトウェア更新の一つとなる見込み",
+      "Apple IntelligenceとVisual Intelligenceにそれぞれ複数の独立した新機能が追加される予定",
+      "WWDC24で発表されながら未実装のAI機能が多数残っており、今回がその約束を果たす機会",
+      "Apple全体としてAI競争への本格参入を示す重要な発表となると期待されている"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-15",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "Some of the cheapest Android phones are finally joining the Gemini era",
+    "title_cht": "最便宜的Android手機終於加入Gemini時代",
+    "title_ja": "最も安価なAndroidスマートフォンがついにGemini時代へ",
+    "url": "https://www.androidcentral.com/phones/some-of-the-cheapest-android-phones-are-finally-joining-the-gemini-era",
+    "source": "Android Central",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Gemini",
+      "#AndroidGo",
+      "#Google",
+      "#AI普及",
+      "#入門級設備"
+    ],
+    "summary_points_cht": [
+      "Google宣布Gemini正式取代Android Go設備上的Assistant Go，讓入門級智慧手機用戶也能使用現代AI體驗",
+      "Android Go用戶可透過Google應用程式原生存取Gemini，無需再使用瀏覽器繞道方案",
+      "長按Home鍵或電源鍵即可喚起Gemini，操作便利性顯著提升",
+      "此舉標誌Google積極將AI體驗擴展至全球數百萬台低端設備用戶，是AI普及化的重要里程碑"
+    ],
+    "summary_points_ja": [
+      "GoogleがAndroid GoデバイスでGeminiをAssistant Goに正式代替、エントリーレベルのスマートフォンでも現代AIが利用可能に",
+      "Android GoユーザーはGoogleアプリからGeminiにネイティブアクセスでき、ブラウザ経由の迂回が不要に",
+      "ホームボタンまたは電源ボタンの長押しでGeminiを起動可能、操作利便性が大幅向上",
+      "世界中の数百万台の低価格端末へのAI体験拡大を示す、AI民主化の重要な一歩"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-06-08",
     "category": "3d_ai",
     "idx": 0,
