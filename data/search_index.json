@@ -1,5 +1,383 @@
 [
   {
+    "date": "2026-06-22",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "AIがロボット犬を自律操作　Anthropic「フィジカル・エージェンティックAIの時代に入りつつある」",
+    "title_cht": "AI自主操控機器狗成功　Anthropic：「正步入實體代理AI時代」",
+    "title_ja": "AIがロボット犬を自律操作　Anthropic「フィジカル・エージェンティックAIの時代に入りつつある」",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/19/news071.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 9,
+    "tags": [
+      "#Anthropic",
+      "#Claude",
+      "#ProjectFetch",
+      "#機器人AI",
+      "#PhysicalAI"
+    ],
+    "summary_points_cht": [
+      "Anthropic於2026年6月18日公開「Project Fetch」第二階段成果，Claude 4.7 Opus在無人類介入下成功自主操控四足步行機器狗。",
+      "第一階段（2025年8月）由不具機器人背景的員工在Claude 4.1 Opus輔助下完成控制器操作、LiDAR感測器連接等高難度工程任務，且全面超越未使用AI的對照組。",
+      "第二階段將Claude 4.7 Opus整合進Claude Code代理框架，進行三輪完全自主的機器人控制實驗，人類僅負責初始連接與指令輸入。",
+      "Anthropic表示此結果標誌著「實體代理AI時代」到來，AI從人類助手正式轉型為主動執行者。"
+    ],
+    "summary_points_ja": [
+      "Anthropicは2026年6月18日に「Project Fetch」第2段階の成果を公開。Claude 4.7 Opusが人間の介入なしに四足歩行ロボット犬を自律操作することに成功した。",
+      "第1段階（2025年8月）では、ロボティクスの専門知識を持たないAnthropicの従業員チームがClaude 4.1 Opusの支援を受け、コントローラー操作やLiDARセンサー接続などの高難度エンジニアリング作業を達成し、AI非使用チームを圧倒した。",
+      "第2段階ではClaude 4.7 OpusをClaude Codeエージェントフレームワークに統合し、人間の関与を最小限に抑えた3回の自律制御実験を実施した。",
+      "Anthropicはこの結果を「フィジカル・エージェンティックAIの時代」の幕開けと位置づけ、AIが人間の補助役から主体的な実行者へ転換したと発表した。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-22",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "GitHub Copilot Desktop App Targets Parallel Agentic Workflows",
+    "title_cht": "GitHub Copilot 桌面應用瞄準並行 AI Agent 工作流",
+    "title_ja": "GitHub Copilotデスクトップアプリ、並列エージェントワークフローをターゲットに",
+    "url": "https://www.infoq.com/news/2026/06/github-copilot-app/",
+    "source": "InfoQ.com",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#GitHubCopilot",
+      "#AIAgent",
+      "#開發工具",
+      "#並行工作流",
+      "#GitHub"
+    ],
+    "summary_points_cht": [
+      "GitHub 推出 Copilot 桌面應用程式，作為 Agent 原生開發的控制中心，讓工程師保持對 AI Agent 的掌控",
+      "提供「My Work」視圖，可統一管理工作階段、Issue、PR 及背景自動化任務",
+      "目前處於技術預覽階段，支援 Copilot Pro、Pro+、Business 和 Enterprise 用戶",
+      "旨在解決 AI Agent 帶來的工作流碎片化、頻繁切換情境及審查大量 AI 產出程式碼的問題"
+    ],
+    "summary_points_ja": [
+      "GitHubがCopilotデスクトップアプリを発表、エージェントネイティブ開発のコントロールセンターとして機能",
+      "「My Work」ビューでセッション・Issue・PR・バックグラウンド自動化タスクを一元管理",
+      "Copilot Pro/Pro+/Business/Enterpriseユーザー向けの技術プレビュー段階",
+      "AIエージェントによるワークフロー断片化・コンテキストスイッチング・大量コードレビュー問題を解決"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-22",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "Mythosに比肩？ Sakana AI、新AI「Fugu Ultra」",
+    "title_cht": "媲美 Mythos？Sakana AI 推出多 Agent 系統「Fugu Ultra」",
+    "title_ja": "Mythosに比肩？ Sakana AI、新AI「Fugu Ultra」",
+    "url": "https://ascii.jp/elem/000/004/412/4412356/?rss",
+    "source": "ASCII.jp",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#SakanaAI",
+      "#FuguUltra",
+      "#マルチエージェント",
+      "#LLM",
+      "#ベンチマーク"
+    ],
+    "summary_points_cht": [
+      "Sakana AI 於 2026 年 6 月 22 日發表多 Agent 系統「Sakana Fugu」及高性能版「Fugu Ultra」，內部由多個專業 Agent 協作，對用戶呈現單一模型 API",
+      "系統自動根據任務選擇最適模型：標準版重視性能與速度平衡，Ultra 版主打複雜推論、論文重現、安全分析等品質導向任務",
+      "Fugu Ultra 定價：輸入 5 美元/百萬 Token，輸出 30 美元/百萬 Token（超過 272K Token 後提升至輸入 10 美元/輸出 45 美元）",
+      "訂閱方案三級：Standard 月費 20 美元、Pro 100 美元、Max 200 美元",
+      "聲稱在 SWE Bench Pro、LiveCodeBench、GPQA-D、Humanity's Last Exam 等基準測試中媲美 Fable 5 和 Mythos Preview（兩者均尚未公開發布）"
+    ],
+    "summary_points_ja": [
+      "Sakana AIが2026年6月22日にマルチエージェントシステム「Sakana Fugu」と高性能版「Fugu Ultra」を発表、内部では複数の専門エージェントが連携し単一APIとして提供",
+      "タスクに応じて自動でモデルを選択・切り替え：通常版は速度と性能のバランス重視、Ultraは複雑推論・論文再現・セキュリティ分析など品質重視タスク向け",
+      "Fugu Ultraの料金は入力5ドル・出力30ドル/百万トークン（272K超で入力10ドル・出力45ドル）",
+      "サブスクリプションはStandard月20ドル・Pro月100ドル・Max月200ドルの3プラン",
+      "SWE Bench Pro・LiveCodeBench・GPQA-D・Humanity's Last ExamでFable 5やMythos Previewと同等性能を主張（両者は未一般公開）"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-22",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "AI agents are a confused deputy with the keys to your kingdom​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿​‍‌‍​‌‌‍​‌‌‍​‍​﻿​‌​﻿‌‌‌‍​‌​‍﻿‌​﻿​​​﻿​‌​﻿‌‌‌‍​‌​‍﻿‌​﻿‌​‌‍​‍‌‍‌‍​﻿​‍​‍﻿‌​﻿‍​‌‍​‍​﻿​﻿‌‍‌‌​‍﻿‌‌‍​‍​﻿‍‌​﻿‌​‌‍​﻿‌‍​﻿​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍‌​﻿‌﻿​﻿‌﻿​﻿​​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿​‍‌‍​‌‌‍​‌‌‍​‍​﻿​‌​﻿‌‌‌‍​‌​‍﻿‌​﻿​​​﻿​‌​﻿‌‌‌‍​‌​‍﻿‌​﻿‌​‌‍​‍‌‍‌‍​﻿​‍​‍﻿‌​﻿‍​‌‍​‍​﻿​﻿‌‍‌‌​‍﻿‌‌‍​‍​﻿‍‌​﻿‌​‌‍​﻿‌‍​﻿​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍‌​﻿‌﻿​﻿‌﻿​﻿​​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+    "title_cht": "AI Agent 是握有你王國鑰匙的混亂副手",
+    "title_ja": "AIエージェントはあなたの王国の鍵を握る「混乱した代理人」",
+    "url": "https://stackoverflow.blog/2026/06/17/ai-agents-expose-the-security-checks-you-never-actually-wrote/",
+    "source": "Stackoverflow.blog",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#AIAgent",
+      "#資安",
+      "#混亂副手漏洞",
+      "#Meta",
+      "#Instagram"
+    ],
+    "summary_points_cht": [
+      "6 月初攻擊者透過 Meta AI 支援助理，無需編寫漏洞利用程式即接管逾 2 萬個 Instagram 帳號，包含歐巴馬政府時期已停用的白宮官方帳號",
+      "攻擊手法：向 AI 助理要求將攻擊者控制的電子郵件綁定至他人帳號，再請求密碼重設；AI 助理完全依設計執行了操作",
+      "問題根源為「混亂副手（Confused Deputy）」漏洞：AI 系統授權給「請求者」而非驗證「帳號擁有者」",
+      "原本應觸發的電子郵件歸屬驗證機制從未執行，暴露出 AI Agent 授權鏈的系統性設計缺陷",
+      "此類攻擊的防線是人工確認，而非 AI 系統內部技術修補，凸顯 AI Agent 安全邊界設計的根本挑戰"
+    ],
+    "summary_points_ja": [
+      "6月初、攻撃者がMetaのAIサポートアシスタントを悪用し、旧ホワイトハウスアカウントを含む2万以上のInstagramアカウントを乗っ取り（エクスプロイト不要）",
+      "攻撃手法：AIに自分のメールアドレスを他人のアカウントへ紐付けるよう依頼しパスワードリセットを要求、AIは設計通りに実行",
+      "問題の根本は「混乱した代理人（Confused Deputy）」脆弱性：アカウント所有者ではなく要求者を認証してしまう設計",
+      "本来動作すべきメール帰属検証が実行されず、AIエージェントの認可チェーンにおける体系的な設計上の欠陥が露呈",
+      "この種の攻撃を防ぐには人間による確認が必要でありAI内部の技術的修正では不十分、エージェントセキュリティ境界設計の根本的課題を提示"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-22",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "AMD製ローカルAI実行アプリ「Lemonade」にMCPゲートウェイ機能が追加される、MCP対応アプリからLemonadeで実行中のLLMや画像生成AIを呼び出せるように",
+    "title_cht": "AMD 本地 AI 執行應用「Lemonade」新增 MCP 閘道功能，可從 Claude Code、GitHub Copilot 等 MCP 相容應用調用本地 AI 模型",
+    "title_ja": "AMD製ローカルAI実行アプリ「Lemonade」にMCPゲートウェイ機能が追加される、MCP対応アプリからLemonadeで実行中のLLMや画像生成AIを呼び出せるように",
+    "url": "https://gigazine.net/news/20260622-lemonade-local-ai-mcp/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#AMD",
+      "#Lemonade",
+      "#MCP",
+      "#LocalAI",
+      "#LLM"
+    ],
+    "summary_points_cht": [
+      "AMD 本地 AI 執行環境 Lemonade v10.8.0 於 2026 年 6 月 18 日發布，新增 MCP 閘道功能",
+      "可從 Claude Code、GitHub Copilot 等 MCP 相容應用透過 MCP 伺服器調用 Lemonade 中執行的 AI 模型",
+      "支援 Windows、macOS、Linux 三大平台，可執行 LLM 及圖像生成 AI",
+      "將 Lemonade 整合進 Claude Desktop、VS Code 或 Cursor 只需 30 秒"
+    ],
+    "summary_points_ja": [
+      "AMD製ローカルAI実行環境「Lemonade」v10.8.0が2026年6月18日リリース、MCPゲートウェイ機能を追加",
+      "Claude CodeやGitHub CopilotなどMCP対応アプリからMCPサーバー経由でローカルAIモデルを呼び出し可能に",
+      "Windows・macOS・Linuxの3プラットフォームに対応し、LLMと画像生成AIを実行可能",
+      "Claude Desktop・VS Code・Cursorへの統合が30秒で完了"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-22",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "Building Reliable Agentic AI Systems",
+    "title_cht": "打造可靠的 AI Agent 系統：拜耳製藥 PRINCE 平台生產環境案例研究",
+    "title_ja": "信頼性の高いエージェントAIシステムの構築：バイエルPRINCEプラットフォームの事例研究",
+    "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+    "source": "Martinfowler.com",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#AIAgent",
+      "#AgenticRAG",
+      "#製藥AI",
+      "#Text-to-SQL",
+      "#生產環境"
+    ],
+    "summary_points_cht": [
+      "拜耳（Bayer AG）與 Thoughtworks 合作開發雲端平台 PRINCE（Preclinical Information Center），整合數十年藥物安全研究報告",
+      "系統從關鍵字搜索演進為能回答複雜問題並起草法規文件的智能研究助理，採用 Agentic RAG 和 Text-to-SQL 技術",
+      "從「情境工程」角度探討資訊如何在專業 Agent 間流動與路由",
+      "涵蓋協調（Orchestration）、恢復（Recovery）及可觀測性（Observability）等生產環境 Harness 工程實踐"
+    ],
+    "summary_points_ja": [
+      "バイエルAGとThoughtworksが共同開発したクラウドプラットフォームPRINCEの事例（数十年分の薬物安全性研究レポートを統合）",
+      "キーワード検索から複雑な質問回答・規制文書草案作成が可能なインテリジェント研究アシスタントへ進化、Agentic RAGとText-to-SQLを活用",
+      "コンテキストエンジニアリングの観点から専門エージェント間の情報フローと経路設計を考察",
+      "オーケストレーション・リカバリ・オブザーバビリティなど本番環境向けハーネスエンジニアリングの実践を紹介"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-22",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "AIと会話しながらゲームを作り込める高機能ツール「DreamCore Studio」を提供開始",
+    "title_cht": "可邊與AI對話邊製作遊戲的高功能工具「DreamCore Studio」正式上線",
+    "title_ja": "AIと会話しながらゲームを作り込める高機能ツール「DreamCore Studio」を提供開始",
+    "url": "https://ascii.jp/elem/000/004/412/4412332/?rss",
+    "source": "ASCII.jp",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#AI遊戲開發",
+      "#DreamCore",
+      "#NoCode",
+      "#NEIGHBOR",
+      "#AI創作工具"
+    ],
+    "summary_points_cht": [
+      "株式会社NEIGHBOR旗下AI遊戲平台DreamCore推出進階工具「DreamCore Studio」，支援透過與AI對話進行深度遊戲開發，無需任何程式設計知識。",
+      "核心功能包括：對話式多輪迭代開發、畫面右側即時顯示可運行遊戲、完整版本歷史還原系統。",
+      "AI可自動偵測並修復遊戲運行錯誤，讓非技術用戶也能反覆精調直到滿意。",
+      "工具定位於簡易AI遊戲生成器（DreamCore原版）與專業遊戲引擎之間的中階製作平台。"
+    ],
+    "summary_points_ja": [
+      "株式会社NEIGHBORが運営するAIゲームプラットフォームDreamCoreが、AIとの対話によるプログラミング不要の本格的なゲーム制作ツール「DreamCore Studio」を正式リリースした。",
+      "主な機能として、対話式多回イテレーション開発・画面右側でのリアルタイムゲームプレビュー・完全な変更履歴と巻き戻し機能を搭載している。",
+      "AIがゲームのエラーを自動検出・修正し、非技術ユーザーでも納得いくまでゲームを調整できる。",
+      "プラットフォームは、簡易AIゲーム生成器（DreamCore従来版）と本格的なゲームエンジンの中間に位置するツールとして設計されている。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-22",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "This New LTX Tool Helps You Create Your Own AI Video Model",
+    "title_cht": "LTX推出新工具，讓你訓練出專屬風格的AI影片模型",
+    "title_ja": "LTXの新ツール「LTX Trainer」で自分だけのAIビデオモデルを作れる",
+    "url": "https://www.cnet.com/tech/services-and-software/exclusive-lightricks-ai-models-creative-news/",
+    "source": "CNET",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#LTX",
+      "#AI影片生成",
+      "#模型微調",
+      "#影像創作",
+      "#開源工具"
+    ],
+    "summary_points_cht": [
+      "AI公司LTX推出LTX Trainer框架，讓用戶無需大量程式碼即可用自己的素材訓練專屬AI影片模型",
+      "解決現有AI影片工具一致性差的問題：相同提示詞每次可能生成不同的影片輸出",
+      "適合需要固定角色外觀或特定設計風格的電影製作者與工作室",
+      "新版更新已在GitHub釋出，顯著降低建立客製化模型的技術門檻"
+    ],
+    "summary_points_ja": [
+      "AI企業LTXが「LTX Trainer」を公開、大規模なコーディング不要で自分素材のAIビデオモデルを訓練できる",
+      "同プロンプトでも毎回異なる動画が生成されるAI動画の一貫性問題を解決",
+      "特定キャラクターやデザインスタイルが必要な映像制作者・スタジオに最適",
+      "最新アップデートは本日GitHubで公開済み、カスタムモデル構築の技術的ハードルを大幅低減"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-22",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "llama.cppがAI言語モデルに使用するファイル形式「GGUF」にはウェイト以外に何が含まれているのか？",
+    "title_cht": "深度解析：llama.cpp使用的GGUF格式除了模型權重之外還包含哪些資訊？",
+    "title_ja": "llama.cppがAI言語モデルに使用するファイル形式「GGUF」にはウェイト以外に何が含まれているのか？",
+    "url": "https://gigazine.net/news/20260621-whats-in-a-gguf/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#GGUF",
+      "#llama.cpp",
+      "#LLM",
+      "#本地推論",
+      "#模型格式"
+    ],
+    "summary_points_cht": [
+      "GGUF是llama.cpp使用的單一檔案語言模型格式，相比其他多檔案格式更易攜帶與部署",
+      "除模型權重外，GGUF還包含以Jinja2語言撰寫的聊天模板、特殊Token及採樣器設定",
+      "聊天模板定義對話型LLM的回應格式，每次新增訊息時需呼叫Jinja2解譯器，不同實作對效能影響顯著",
+      "NobodyWho在地推論引擎團隊發文詳解GGUF格式的完整結構，並指出目前仍缺少的資訊"
+    ],
+    "summary_points_ja": [
+      "GGUFはllama.cppが採用する単一ファイルの言語モデルフォーマットで、複数ファイル分散型より携帯性に優れる",
+      "ウェイト以外にJinja2で書かれたチャットテンプレート、特殊トークン、サンプラー設定が含まれる",
+      "チャットテンプレートはLLMの応答形式を定義し、新メッセージごとにJinja2インタープリタを呼び出す（実装によりパフォーマンス差大）",
+      "NobodyWhoオンデバイス推論エンジンチームがGGUFの完全な構造と現時点で不足している情報を詳細に解説"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-22",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "One of legal's hottest startups is helping lawyers finally answer: Is the AI's work any good?",
+    "title_cht": "法律科技新創Crosby推出「Redline Bench」，幫助律師評估AI法律工作品質",
+    "title_ja": "法律テックスタートアップCrosbyが「Redline Bench」を発表——AIの法律業務品質を評価するツール",
+    "url": "https://www.businessinsider.com/crosby-releases-redline-bench-evaluate-ai-models-for-contract-review-2026-6#article",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#法律AI",
+      "#Crosby",
+      "#RedlineBench",
+      "#AI評測基準",
+      "#合約審查"
+    ],
+    "summary_points_cht": [
+      "新創Crosby發布「Redline Bench」，首個針對AI模型在真實法律任務（以合約審查為起點）中表現的評測工具。",
+      "Crosby兼具新創與律師事務所性質，客戶包括Cursor、Rogo等科技公司，提供基礎法律服務。",
+      "法律AI的核心難題在於，不像程式設計有客觀標準，法律工作「好壞」高度依賴專業判斷，難以量化。",
+      "Redline Bench旨在填補法律AI缺乏客觀評測基準的空白，推動法律科技向「能像律師一樣思考」的方向發展。"
+    ],
+    "summary_points_ja": [
+      "スタートアップCrosbyが「Redline Bench」を発表。AIモデルが実際の法律業務（まず契約書レビューから）をどれほどうまく遂行できるかを測定する最初のツール。",
+      "Crosbyはスタートアップと法律事務所を兼ね備えたハイブリッド企業で、CursorやRogoを含む企業に法律サービスを提供している。",
+      "法律AIの核心的課題は、プログラミングのような客観的基準がなく、法律業務の「良し悪し」の評価は高度な専門的判断に依存し定量化が難しい点にある。",
+      "Redline Benchは法律AIに欠けていた客観的評価基準のギャップを埋め、「弁護士のように考える」AIの発展を促すことを目指している。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-06-22",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "BlackBoiler Launches Veris, Pairing Its Deterministic Redlining With Generative AI In Microsoft Word",
+    "title_cht": "BlackBoiler推出Veris平台，在Word中整合確定性合約審閱與生成式AI",
+    "title_ja": "BlackBoilerが「Veris」を発表、Microsoft Wordで決定論的修正とGenerative AIを統合",
+    "url": "https://www.lawnext.com/2026/06/blackboiler-launches-veris-pairing-its-deterministic-redlining-with-generative-ai-in-microsoft-word.html",
+    "source": "Lawnext.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#BlackBoiler",
+      "#Veris",
+      "#法律科技",
+      "#合約審閱",
+      "#Microsoft_Word"
+    ],
+    "summary_points_cht": [
+      "BlackBoiler推出Veris平台，在Microsoft Word插件中整合傳統確定性審閱引擎與生成式AI及對話介面",
+      "合約審閱團隊無需離開Word文件即可進行談判、標記與協商，大幅提升工作效率",
+      "提供入門版（年費1,250美元，個人）和專業版（每位用戶年費3,000美元，團隊）兩種方案",
+      "保留BlackBoiler十年以上積累的確定性規則引擎優勢，同時以AI對話介面擴展適用場景"
+    ],
+    "summary_points_ja": [
+      "BlackBoilerがVerisを発表、Microsoft Wordアドインで決定論的修正エンジンとGenerative AI・チャットUIを統合",
+      "契約レビューチームがWordを離れずに交渉・マークアップ・協議を完結できる新ワークフロー",
+      "スターター（年1,250ドル、個人向け）とプロ（年3,000ドル/ユーザー、チーム向け）の2プランを提供",
+      "10年以上の決定論的エンジンの強みを維持しつつGenerative AIで機能を大幅拡張"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-06-15",
     "category": "3d_ai",
     "idx": 0,
