@@ -1,5 +1,509 @@
 [
   {
+    "date": "2026-07-06",
+    "category": "3d_ai",
+    "idx": 0,
+    "title": "Foundry releases Mari 8.0 in open beta",
+    "title_cht": "Foundry 釋出 Mari 8.0 公開測試版",
+    "title_ja": "FoundryがMari 8.0をオープンベータでリリース",
+    "url": "https://www.cgchannel.com/2026/07/foundry-releases-mari-8-0-in-open-beta/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Mari",
+      "#Foundry",
+      "#3D紋理",
+      "#NodeGraph"
+    ],
+    "summary_points_cht": [
+      "Mari 8.0 進入公開測試，新增超過 50 個 Node Graph 節點，涵蓋數學運算、色彩校正與六角平鋪紋理",
+      "新增 A/B 擦拭比較功能，可直接在 Node Graph 中對比不同材質輸出，加速材質迭代",
+      "支援色彩分級（Color Grading）與 Hex Tiling 紋理新節點，大幅提升材質多樣性",
+      "公開測試版現已可下載，正式 UI 影片待完整版發布後公開"
+    ],
+    "summary_points_ja": [
+      "Mari 8.0がオープンベータに突入し、50以上の新Node Graphノードを追加（数学演算・色補正・ヘックスタイリングなど）",
+      "Node Graph内でA/Bワイプ比較が可能となり、マテリアルのイテレーションが大幅に容易に",
+      "カラーグレーディング・ヘックスタイリングテクスチャの新ノードでマテリアル表現が拡大",
+      "オープンベータ版は現在ダウンロード可能、UI動画は正式リリース後に公開予定"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "3d_ai",
+    "idx": 1,
+    "title": "Mixos lets you paint PBR textures in your web browser",
+    "title_cht": "Mixos：在瀏覽器中直接繪製 PBR 紋理",
+    "title_ja": "Mixos：WebブラウザでPBRテクスチャをペイントできる新ツール",
+    "url": "https://www.cgchannel.com/2026/07/mixos-lets-you-paint-pbr-textures-in-your-web-browser/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Mixos",
+      "#PBR紋理",
+      "#WebGPU",
+      "#3D工具",
+      "#AI生成"
+    ],
+    "summary_points_cht": [
+      "Mixos 基於 WebGPU，可在瀏覽器中繪製高達 4K 的 PBR 紋理，無需安裝本地應用",
+      "支援 FBX、OBJ、glTF/GLB 格式匯入，提供筆刷、印章、模板投影等多種繪製工具",
+      "整合超過 2,600 個 CC0 授權免費材質庫，可混合材質快速創建新紋理",
+      "選配 AI 功能可透過文字提示直接生成完整 PBR 貼圖組合"
+    ],
+    "summary_points_ja": [
+      "MixosはWebGPUベースで4K PBRテクスチャをブラウザ内でペイント可能（インストール不要）",
+      "FBX・OBJ・glTF/GLBを読み込み、ブラシ・スタンプ・ステンシル投影で直接ペイント",
+      "CC0素材2,600点以上のライブラリを搭載し既存マテリアルのミックスで新テクスチャを即作成",
+      "テキストプロンプトから完整なPBRテクスチャセットを生成するAIオプションも搭載"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "3d_ai",
+    "idx": 2,
+    "title": "Sophon PFG-1: a monolithic-3D AI ASIC with 330 GB of on-die DRAM and no HBM",
+    "title_cht": "Sophon PFG-1：內建 330GB 片上 DRAM、無 HBM 的整合式 3D AI 晶片",
+    "title_ja": "Sophon PFG-1：330GBオンダイDRAM搭載・HBM不要のモノリシック3D AI ASIC",
+    "url": "https://www.phantafield.com/whitepaper",
+    "source": "Phantafield.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#AI晶片",
+      "#ASIC",
+      "#M3D",
+      "#AI硬體",
+      "#TMD"
+    ],
+    "summary_points_cht": [
+      "PFG-1「Sophon」採用 750mm² 的 2D 過渡金屬二硫化物（TMD）單片 3D 平台，具備 330GB 片上 DRAM",
+      "權重、梯度與優化器狀態全部儲存於片上，無需外接 HBM，可同時執行訓練與推論",
+      "晶體管厚度約 0.65nm，採原子薄 2D 晶體堆疊，名稱致敬劉慈欣《三體》中的智子",
+      "支援 BF16 正向/反向訓練以及低批次解碼推論"
+    ],
+    "summary_points_ja": [
+      "PFG-1は750mm²の2D TMDモノリシック3Dプラットフォームで330GBオンダイDRAMを搭載",
+      "重み・勾配・オプティマイザ状態をオンダイDRAMに保持しHBM不要、学習と推論を同一シリコンで実行",
+      "トランジスタ厚さ約0.65nm（原子サイズの2D結晶積層）、劉慈欣「三体」の智子にちなんで命名",
+      "BF16の順伝播/逆伝播学習と低バッチデコード推論の両方に対応"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "「賢さよりツール連携力が重要」　Microsoftが実験的な小型AIエージェント基盤を公開",
+    "title_cht": "「聰明度不重要，工具整合力才是關鍵」——Microsoft 公開實驗性小型 AI Agent 框架 MagenticLite",
+    "title_ja": "「賢さよりツール連携力が重要」MicrosoftがMagenticLiteを公開",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/02/news050.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#MagenticLite",
+      "#Microsoft",
+      "#AIAgent",
+      "#小型模型",
+      "#開源"
+    ],
+    "summary_points_cht": [
+      "Microsoft Research AI Frontiers 公開 MagenticLite，專為小型模型優化的實驗性 AI Agent 框架",
+      "由 MagenticBrain（推論/委派/終端操作）+ Fara1.5（瀏覽器操作）+ 執行框架三部分組成",
+      "核心假設：Agent 能力取決於工具整合與執行框架，而非模型知識量",
+      "支援跨瀏覽器與本地文件系統的廣泛任務，資料保留在本地設備"
+    ],
+    "summary_points_ja": [
+      "Microsoft Research AI FrontiersがMagenticLiteを公開、小型モデル向け実験的エージェントフレームワーク",
+      "MagenticBrain（推論・委任・ターミナル操作）＋Fara1.5（ブラウザ操作）＋実行ハーネスの3構成",
+      "「エージェント能力はモデルの知識量ではなくツール連携と実行ハーネスで決まる」という仮説を検証",
+      "フォーム入力・情報収集・ファイル管理などブラウザとローカルを横断するタスクをローカルで実行"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "無料でスマホ・デスクトップPC・ターミナルからありとあらゆるコーディングAIエージェントを一気にまとめて管理しコントロールする「Paseo」、セルフホスト可能でオープンソース",
+    "title_cht": "Paseo：免費開源，可從手機、桌機與終端統一管理所有 Coding AI Agent",
+    "title_ja": "Paseo：スマホ・デスクトップ・ターミナルからコーディングAIエージェントを一元管理する無料オープンソースツール",
+    "url": "https://gigazine.net/news/20260705-paseo/",
+    "source": "Gigazine",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Paseo",
+      "#ClaudeCode",
+      "#AIAgent",
+      "#開源",
+      "#自部署"
+    ],
+    "summary_points_cht": [
+      "Paseo 是開源工具，可從手機、桌機或終端統一管理 Claude Code、Codex、OpenCode 等 CLI Agent",
+      "支援直連（本地 Daemon）或加密中繼連線，語音與資料均在本地處理不外傳",
+      "支援分割畫面、標籤頁、分支 URL 存取多個 Worktree，開發功能完整",
+      "SSH 終端模式支援 Agent 啟動、列舉、連線與追加指令等全套 CLI 操作"
+    ],
+    "summary_points_ja": [
+      "PaseoはClaude Code・Codex・OpenCodeなどCLI型AIエージェントをスマホ・デスクトップ・ターミナルから一元管理できるオープンソースツール",
+      "直接接続（ローカルDaemon）または暗号化リレー接続をサポート、音声・データはローカル処理",
+      "画面分割・タブ化・ブランチURLによるWorktreeアクセスなど開発機能を搭載",
+      "SSH経由のターミナルからエージェント起動・一覧・接続・追加指示をCLIで実行可能"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "AWSの新AI IDEで進む開発自律化　Webブラウザから複数リポジトリの横断作業を指示可能に",
+    "title_cht": "AWS 新 AI IDE 推進開發自律化——Kiro Web 可從瀏覽器跨儲存庫指派任務並自動建立 PR",
+    "title_ja": "AWSの新AI IDEで進む開発自律化　Webブラウザから複数リポジトリの横断作業を指示可能に",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/06/news041.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#KiroWeb",
+      "#AWS",
+      "#AIコーディング",
+      "#自律開発"
+    ],
+    "summary_points_cht": [
+      "AWS Kiro 團隊發布 Kiro Web 預覽版，可在瀏覽器中向 AI Agent 下達跨多個儲存庫的開發任務",
+      "使用者只需描述需求，Kiro 會自動撰寫程式碼、協調跨 Repo 變更並建立 Pull Request",
+      "目前開放給 Pro、Pro+ 及 Power 付費方案用戶，未來將擴展至 Kiro IDE 和 Kiro CLI",
+      "開發方向來自 AWS re:Invent 發表的自律軟體開發願景，強調將自律性嵌入核心"
+    ],
+    "summary_points_ja": [
+      "AWS Kiro チームがKiro Webプレビュー版を公開、ブラウザから複数リポジトリにまたがる開発作業をAIエージェントに依頼可能",
+      "ユーザーが要件を伝えるだけでKiroがコード記述・リポジトリ横断変更・PR作成を自動実行",
+      "Pro・Pro+・Powerの全有料プラン向けにプレビュー提供、Kiro IDEとCLIへも自律ワークフロー拡張予定",
+      "AWS re:Inventで発表した自律型ソフトウェア開発ビジョンの実現に向けてKiroの中核に自律性を組み込む方針"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "AIエージェントにWeb開発の「最新ベストプラクティス」を伝えるスキル　Googleが公開",
+    "title_cht": "Google 公開「Modern Web Guidance」——向 AI Coding Agent 傳授最新 Web 開發最佳實踐",
+    "title_ja": "AIエージェントにWeb開発の「最新ベストプラクティス」を伝えるスキル　Googleが公開",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/01/news050.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#Google",
+      "#ModernWebGuidance",
+      "#AIAgent",
+      "#Web開発",
+      "#ブラウザAPI"
+    ],
+    "summary_points_cht": [
+      "Google 公開 Modern Web Guidance 預覽版，為 AI Coding Agent 注入最新 Web 實作指引",
+      "解決核心問題：LLM 訓練資料含大量舊程式碼，AI 容易輸出過時模式或肥大 JavaScript",
+      "將專家精選的瀏覽器 Native API 正確使用方式直接嵌入 Agent 上下文，優先使用輕量平台級 API",
+      "覆蓋無障礙性、效能與安全三大面向，協助建立現代化 Web 體驗"
+    ],
+    "summary_points_ja": [
+      "GoogleがModern Web Guidanceのプレビューを公開、AIコーディングエージェントに最新のWeb実装ガイダンスを提供",
+      "LLMの訓練データには大量のレガシーコードが含まれておりAIが古いパターンや肥大したJSを生成しがちな問題を解決",
+      "専門家が厳選したモダンブラウザAPIの正しい使い方をエージェントのコンテキストに直接埋め込み",
+      "アクセシビリティ・パフォーマンス・セキュリティの3分野で最新のWeb体験構築を支援"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "「脆弱なコード、データ漏えい、侵害され得るモデル」　開発者の不安をMicrosoftはどう解消するのか",
+    "title_cht": "「脆弱程式碼、資料外洩、可遭入侵的模型」——Microsoft Build 2026 發布 AI 安全工具",
+    "title_ja": "「脆弱なコード、データ漏えい、侵害され得るモデル」MicrosoftがBuild 2026でAIセキュリティツールを発表",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/02/news049.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#Microsoft",
+      "#AIセキュリティ",
+      "#MDASH",
+      "#Build2026"
+    ],
+    "summary_points_cht": [
+      "Microsoft 在 Build 2026 發布多項 AI 安全工具，涵蓋程式碼、AI Agent 與模型三大防護層面",
+      "MDASH（多模型 Agent 掃描框架）協調 100 多個專用 AI Agent 管道，可在主要語言中發現可利用漏洞",
+      "與 Microsoft Defender 及 GitHub Code Security 原生整合，目前以擴展預覽形式開放",
+      "在 CyberGym 漏洞偵測基準中強調識別現實可利用風險，而非理論性雜訊"
+    ],
+    "summary_points_ja": [
+      "MicrosoftはBuild 2026でコード・AIエージェント・モデルを保護する新セキュリティツールを発表",
+      "MDASHは100以上の専門AIエージェントパイプラインを統合し主要言語全体で悪用可能な脆弱性を発見",
+      "Microsoft DefenderおよびGitHub Code Securityとネイティブ統合、拡張プレビューとして提供",
+      "CyberGymベンチマークで理論的ノイズではなく現実リスクの識別を重視した設計"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "ソフトウェアエンジニアの仕事は「ループを書くこと」になる　内側ループと外側ループ（ハーネス）入門",
+    "title_cht": "軟體工程師的工作將從「寫程式碼」變成「寫循環」——內側循環與外側循環（Harness）入門",
+    "title_ja": "ソフトウェアエンジニアの仕事は「ループを書くこと」になる　内側ループと外側ループ（ハーネス）入門",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/03/news016.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#AIAgent",
+      "#ループエンジニアリング",
+      "#Harness",
+      "#AIコーディング"
+    ],
+    "summary_points_cht": [
+      "Flask 作者 Armin Ronacher 提出「循環工程學」概念：AI 編程時代開發者的核心工作是設計循環",
+      "內側循環由 AI Agent 驅動（工具呼叫、讀寫文件、執行測試），外側循環由 Harness（執行層）驅動",
+      "外側循環帶來的挑戰包括記憶管理與跨 session 的狀態一致性",
+      "作者是 AI 編程 Agent「Pi」所屬公司 Earendil 的共同創辦人，論點具實踐說服力"
+    ],
+    "summary_points_ja": [
+      "Flask作者のArmin RonacherがAIコーディング時代のソフトウェアエンジニアは「ループを書く」仕事になると提言",
+      "内側ループはAIエージェントが回し（ツール呼び出し・ファイル読み書き・テスト実行）、外側ループはハーネス（実行レイヤー）が回す",
+      "外側ループがもたらす課題はセッション間の記憶管理と状態の一貫性",
+      "著者はAIコーディングエージェント「Pi」を擁するEarendilの共同創業者であり実践的な知見を持つ"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "Inbibo releases Adonis 2.1 with AdonisML",
+    "title_cht": "Inbibo 釋出 Adonis 2.1，引入 AdonisML 以機器學習取代複雜組織模擬",
+    "title_ja": "InbiboがAdonis 2.1をリリース、AdonisMLで複雑な組織シミュレーションを機械学習で高速近似",
+    "url": "https://www.cgchannel.com/2026/07/inbibo-releases-adonis-2-1-with-adonisml/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#Adonis",
+      "#AdonisML",
+      "#Maya",
+      "#Houdini",
+      "#角色模擬"
+    ],
+    "summary_points_cht": [
+      "Adonis 2.1 帶來核心更新：AdnMush 新變形器可在平滑模擬雜訊的同時保留解剖細節",
+      "全新高端版本 AdonisML 引入機器學習系統，可訓練複雜慢速組織模擬的輕量互動近似模型",
+      "AdonisML 定位為 Ziva VFX 在 VFX 與動畫管線中的替代方案，支援 Maya 與 Houdini",
+      "新解剖結構轉移系統讓角色裝配藝術家可更有效率地在角色間複用組織設定"
+    ],
+    "summary_points_ja": [
+      "Adonis 2.1にAdnMushデフォーマを新搭載、シミュレーションのアーティファクトを滑らかにしつつ解剖学的詳細を保持",
+      "新高エンド版AdonisMLは機械学習で複雑・低速な組織シミュレーションの軽量インタラクティブ近似モデルを学習",
+      "AdonisMLはVFX・アニメーションパイプラインにおけるZiva VFXの代替として位置づけ、Maya/Houdini対応",
+      "新解剖構造転送システムでキャラクター間の組織設定の再利用が効率化"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "Towards the construction of a virtual yeast",
+    "title_cht": "邁向虛擬酵母菌的構建——以 LLM 為核心的 AI Agent 系統模擬真核細胞行為",
+    "title_ja": "仮想酵母菌の構築に向けて――LLMを中核としたAIエージェントによる真核細胞挙動のシミュレーション",
+    "url": "https://www.nature.com/articles/s41586-026-10574-9",
+    "source": "Nature.com",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#AI生物學",
+      "#虛擬細胞",
+      "#LLM",
+      "#Nature",
+      "#AIAgent"
+    ],
+    "summary_points_cht": [
+      "Nature 論文提出「Virtual Yeast」概念：以 LLM 為協調層的 AI Agent 系統，模擬釀酒酵母的真核細胞行為",
+      "細胞複雜性分解為 8 個功能模組（基因、代謝、結構等），各由專用 AI 工具負責",
+      "整合三大資料支柱：機制知識、亞細胞架構、動態狀態，形成閉環學習系統",
+      "以遺傳學操作方便且資料豐富的酵母菌作為模型生物，為數位細胞模擬奠定基礎"
+    ],
+    "summary_points_ja": [
+      "Nature誌論文がVirtual Yeast（仮想酵母菌）を提案：LLMを調整レイヤーとするAIエージェントシステムで真核細胞挙動をシミュレート",
+      "細胞の複雑性を8つの機能モジュール（遺伝・代謝・構造など）に分解し各専用AIツールで担当",
+      "機械論的知識・亜細胞構造・動的状態の3データ支柱を統合した閉ループ学習システムを構築",
+      "遺伝操作が容易でデータ豊富な酵母菌をモデル生物として選択しデジタル細胞シミュレーションの基盤を確立"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "AWS、開発者向け生成AI「Amazon Q Developer」のサポート終了を告知　各種IDEでの利用は非推奨に",
+    "title_cht": "AWS 宣告終止 Amazon Q Developer 支援，各 IDE 整合功能轉移至 Kiro",
+    "title_ja": "AWS、Amazon Q DeveloperのIDEプラグインと有償サブスクリプションのサポート終了を発表　Kiroへ集約",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/03/news056.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 7,
+    "tags": [
+      "#AmazonQDeveloper",
+      "#Kiro",
+      "#AWS",
+      "#AIコーディング",
+      "#製品終了"
+    ],
+    "summary_points_cht": [
+      "AWS 宣布終止 Amazon Q Developer 的 IDE 插件與付費訂閱支援，開發功能全面整合至新 IDE「Kiro」",
+      "AWS 表示這一年學到「最具影響力的 AI 開發體驗不止於程式碼生成」，需要理解架構、需求與意圖的 AI",
+      "Kiro 主打規格驅動開發（Spec-Driven Development），為有別於傳統 IDE 的全新設計",
+      "提供移行期間讓現有 Q Developer 用戶逐步轉換"
+    ],
+    "summary_points_ja": [
+      "AWSがAmazon Q DeveloperのIDEプラグインと有償サブスクリプションのサポート終了を発表、機能はKiroに集約",
+      "AWSは「最もインパクトのあるAI開発体験はコード生成にとどまらない」と学び、仕様駆動開発IDEのKiroを新設",
+      "Kiroはアーキテクチャや要件・テスト・コードの意図をAIが理解する新設計の開発環境",
+      "既存Q Developerユーザーには移行期間が設けられる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?",
+    "title_cht": "Cursor 被 SpaceX 以 600 億美元收購後，能否繼續支援 OpenAI 與 Anthropic 的模型？",
+    "title_ja": "SpaceXによる600億ドル買収後、CursorはOpenAIとAnthropicのモデルを引き続き提供できるか？",
+    "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
+    "source": "Wired",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Cursor",
+      "#SpaceX",
+      "#Anthropic",
+      "#OpenAI",
+      "#AIコーディング"
+    ],
+    "summary_points_cht": [
+      "SpaceX 以 600 億美元收購 AI 編程工具 Cursor，投資者看好雙方在算力與工具的協同效應",
+      "核心疑問：被馬斯克旗下公司收購後，Anthropic 與 OpenAI 是否仍會授權 Cursor 使用其模型",
+      "Cursor 一直依賴第三方模型作為核心賣點，同時也在訓練自己的模型",
+      "此交易引發 AI 開發工具生態系統的開放性與競爭格局的廣泛討論"
+    ],
+    "summary_points_ja": [
+      "SpaceXがAIコーディングツールのCursorを600億ドルで買収、算力とツールの相乗効果に投資家は期待",
+      "核心的な疑問：マスク傘下になったCursorにAnthropicとOpenAIが引き続きモデル提供を許諾するか",
+      "Cursorはサードパーティモデルを核心的な差別化要素としてきた一方、自社モデルの学習も開始",
+      "AI開発ツールエコシステムの開放性と競争構造に関する広範な議論を呼んでいる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "Base44's CEO says the company built its own model to stop churning out AI-slop designs",
+    "title_cht": "Base44 CEO：公司自訓模型 Base 1 是為了擺脫千篇一律的 AI 生成設計",
+    "title_ja": "Base44 CEOが自社モデルBase 1を開発した理由：AIが生み出す「金太郎飴」デザインからの脱却",
+    "url": "https://www.businessinsider.com/base44-ceo-maor-shlomo-built-llm-combat-ai-slop-design-2026-7#article",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Base44",
+      "#Base1",
+      "#VibeCode",
+      "#LLM",
+      "#UI生成"
+    ],
+    "summary_points_cht": [
+      "Base44 發布自訓大型語言模型 Base 1，定位為 Vibe Coding 平台的核心模型選項之一",
+      "核心動機：通用前沿模型生成的 UI 外觀高度雷同，Base 1 旨在解決此問題",
+      "用戶可在 Base 1 與 Claude Opus 4.8、Fable 5、GPT-5.5 等模型間自由切換",
+      "Base44 去年以 8,000 萬美元被 Wix 收購"
+    ],
+    "summary_points_ja": [
+      "Base44が独自LLMのBase 1を発表、Vibeコーディングプラットフォームのモデル選択肢として追加",
+      "開発動機：汎用フロンティアモデルが生成するUIの外観が均一化する問題の解消",
+      "Claude Opus 4.8・Fable 5・GPT-5.5などとBase 1を自由に切り替え可能",
+      "Base44は昨年Wixに8,000万ドルで買収"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-06",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "Google thinks you’re too lazy to read your own notes, launches AI video summaries instead",
+    "title_cht": "Google NotebookLM 推出 AI 影片摘要，60 秒短影片取代長篇筆記",
+    "title_ja": "Google NotebookLM、AIによる60秒動画サマリーを導入――Gemini 3.1 Flash-Lite Imageで4秒レンダリング",
+    "url": "https://www.androidcentral.com/apps-software/google-thinks-youre-too-lazy-to-read-your-own-notes-launches-ai-video-summaries-instead",
+    "source": "Android Central",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#NotebookLM",
+      "#Google",
+      "#Gemini",
+      "#AI影片",
+      "#生產力"
+    ],
+    "summary_points_cht": [
+      "Google NotebookLM 新增 AI 影片摘要功能，可將大型文件或筆記濃縮為 60 秒 TikTok 風格豎版影片",
+      "由 Gemini 3.1 Flash-Lite Image 驅動，渲染速度僅需 4 秒，是 Google 最快且最具成本效益的圖像生成模型",
+      "另預覽完整影片生成模型，支援自然語言編輯、多模態輸入與原生音訊同步"
+    ],
+    "summary_points_ja": [
+      "Google NotebookLMにAI動画サマリー機能を追加、大型ドキュメントや膨大なノートを60秒のTikTok風縦型動画に圧縮",
+      "Gemini 3.1 Flash-Lite Imageで駆動し4秒でレンダリング完了、Googleの最速・最コスト効率の高い画像生成モデルを活用",
+      "自然言語編集・マルチモーダル入力・ネイティブ音声同期に対応する本格的な動画生成モデルもプレビュー公開"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-06-29",
     "category": "ai_agent",
     "idx": 0,
