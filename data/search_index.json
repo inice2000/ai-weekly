@@ -1,5 +1,653 @@
 [
   {
+    "date": "2026-07-20",
+    "category": "3d_ai",
+    "idx": 0,
+    "title": "Reallusion releases Headshot 3.1",
+    "title_cht": "Reallusion 發布 Headshot 3.1",
+    "title_ja": "Reallusion、Headshot 3.1をリリース",
+    "url": "https://www.cgchannel.com/2026/07/reallusion-releases-headshot-3-0/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#Reallusion",
+      "#Headshot",
+      "#CharacterCreator",
+      "#3D生成AI",
+      "#AI建模"
+    ],
+    "summary_points_cht": [
+      "Reallusion 發布旗下 Character Creator 軟體的 AI 輔助頭部生成外掛 Headshot 3 及其 3.1 更新",
+      "Headshot 3.0 引入全新 AI 模型，可從真實參考照片生成 3D 頭部，並新增手動編輯頭部幾何與貼圖的工具",
+      "現在還可以從參考照片以 AI 生成 3D 角色的身體",
+      "另提供獨立付費的生成式 AI 工具組「AI Image Generator」，可從文字提示生成來源圖像或編輯照片參考圖",
+      "Headshot 於 2019 年首次發布，核心功能是從單張來源圖像生成 3D 頭部模型"
+    ],
+    "summary_points_ja": [
+      "Reallusionが同社のCharacter Creator向けAI支援ヘッド生成プラグイン「Headshot 3」および3.1アップデートをリリース",
+      "Headshot 3.0では実写の参考写真から3Dヘッドを生成する新AIモデルを導入し、ジオメトリとテクスチャを手動編集する新ツールも追加",
+      "参考写真から3Dキャラクターのボディを AI 生成することも可能に",
+      "別売りの生成AIツールセット「AI Image Generator」により、テキストプロンプトからのソース画像生成や写真参考画像の編集が可能",
+      "Headshotは2019年に初リリースされ、1枚のソース画像から3Dヘッドモデルを生成できる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "3d_ai",
+    "idx": 1,
+    "title": "Tutorial: create cliff materials in Substance 3D Designer",
+    "title_cht": "教學：在 Substance 3D Designer 中製作懸崖材質",
+    "title_ja": "チュートリアル：Substance 3D Designerで崖のマテリアルを作成",
+    "url": "https://www.cgchannel.com/2026/07/tutorial-create-realistic-cliff-materials-in-substance-3d-designer/",
+    "source": "CG Channel",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#Substance3DDesigner",
+      "#GnomonWorkshop",
+      "#程序化材質",
+      "#UnrealEngine",
+      "#環境美術"
+    ],
+    "summary_points_cht": [
+      "Gnomon Workshop 發布由 Gearbox Studio 的 Vincent Dérozier 錄製的教學《Creating Realistic Cliff Materials using Substance Designer》",
+      "課程提供 4.5 小時的 Substance 3D Designer 與 Unreal Engine 影片訓練",
+      "示範如何製作寫實懸崖表面，並轉化為可用於即時渲染環境的一組連貫材質變體",
+      "強調在細節與視覺可讀性之間取得平衡，以次要形態、侵蝕圖樣與細部表面刻畫來打破主要形狀"
+    ],
+    "summary_points_ja": [
+      "Gnomon WorkshopがGearbox StudioのVincent Dérozier氏による教材「Creating Realistic Cliff Materials using Substance Designer」を公開",
+      "Substance 3D DesignerとUnreal Engineを扱う4.5時間のビデオトレーニングを提供",
+      "リアルな崖の表面を作成し、リアルタイム環境で使える一貫性のあるマテリアルバリエーションへ展開する手法を解説",
+      "ディテールと視覚的な可読性のバランスを重視し、二次形状・浸食パターン・微細なサーフェスディテールで主要形状を崩す手法を紹介"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_agent",
+    "idx": 0,
+    "title": "社内のWindows環境で「数百のAIエージェント」を隔離実行　NVIDIAとMicrosoftが共同開発したデスクサイドマシンの全容",
+    "title_cht": "在企業Windows環境隔離執行「數百個AI代理」——NVIDIA與Microsoft共同開發的桌邊AI超級電腦全貌",
+    "title_ja": "社内のWindows環境で「数百のAIエージェント」を隔離実行　NVIDIAとMicrosoftが共同開発したデスクサイドマシンの全容",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/09/news037.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 8,
+    "tags": [
+      "#NVIDIA",
+      "#DGXStation",
+      "#GB300",
+      "#Windows",
+      "#AIAgent"
+    ],
+    "summary_points_cht": [
+      "NVIDIA於2026年6月1日在台北GTC Taipei發表搭載Windows的桌邊AI超級電腦「NVIDIA DGX Station for Windows」。",
+      "搭載NVIDIA GB300 Grace Blackwell Ultra Desktop Superchip，可在本地執行最高1兆參數的尖端AI模型。",
+      "專為建構與執行全天候運作的AI代理而設計，可與企業應用及工作流程整合。",
+      "填補了以往高負載企業AI工作負載需依賴數據中心Linux系統、而多數大企業日常使用Windows之間的落差。"
+    ],
+    "summary_points_ja": [
+      "NVIDIAは2026年6月1日（台湾時間）、台北の「NVIDIA GTC Taipei」でWindows搭載デスクサイドAIスーパーコンピュータ「NVIDIA DGX Station for Windows」を発表した。",
+      "NVIDIA GB300 Grace Blackwell Ultra Desktop Superchipを搭載し、最大1兆パラメーターの最先端AIモデルをローカルで実行できる。",
+      "常時稼働するAIエージェントを構築・実行し、エンタープライズアプリケーションやワークフローに連携させることを目的に設計されている。",
+      "高負荷AIワークロードにはデータセンターのLinuxシステムが必要とされる一方、大企業の日常業務はWindows中心というギャップを解消する。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_agent",
+    "idx": 1,
+    "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages",
+    "title_cht": "GitHub Copilot 如何實現 GitHub Pages 的零 DNS 設定",
+    "title_ja": "GitHub CopilotがGitHub PagesのゼロDNS設定を実現する仕組み",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
+    "source": "Github.blog",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#GitHubCopilot",
+      "#GitHubPages",
+      "#CopilotCLI",
+      "#DNS",
+      "#AgentSkill"
+    ],
+    "summary_points_cht": [
+      "GitHub 官方部落格示範從空倉庫到啟用 HTTPS 的自訂網域上線網站，全程約 14 分鐘，無需手動編輯任何 DNS 記錄",
+      "作法是讓 GitHub Copilot CLI 主導整個流程，由社群提供的 Namecheap skill 透過註冊商 API 自動化 DNS 設定",
+      "免去 A 記錄、CNAME、TTL 等 DNS「最後一哩」的繁瑣手動設定與等待",
+      "展示了 AI 代理搭配社群 skill 生態在真實開發工作流中的實用價值"
+    ],
+    "summary_points_ja": [
+      "GitHub公式ブログが、空のリポジトリからHTTPS対応のカスタムドメインでのサイト公開まで約14分、DNSレコードを一切手動編集せずに実現する方法を紹介",
+      "GitHub Copilot CLIに作業を主導させ、コミュニティ製のNamecheapスキルがレジストラAPI経由でDNS自動化を担当",
+      "Aレコード、CNAME、TTLなどDNS設定の「ラストワンマイル」の煩雑な手作業と待ち時間を解消",
+      "AIエージェントとコミュニティスキルのエコシステムが実際の開発ワークフローで持つ実用価値を示す事例"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_agent",
+    "idx": 2,
+    "title": "GitHub Copilot: Sorry Dave, I can't do that harmful thing - unless you ask me in code",
+    "title_cht": "GitHub Copilot：抱歉 Dave，我不能做那種有害的事——除非你改用程式碼來問",
+    "title_ja": "GitHub Copilot：申し訳ないがその有害な操作はできない——コードで頼まれない限り",
+    "url": "https://www.theregister.com/security/2026/07/08/github-copilot-sorry-dave-i-cant-do-that-harmful-thing-unless-you-ask-me-in-code/5268654",
+    "source": "Theregister.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#GitHubCopilot",
+      "#AI安全",
+      "#越獄",
+      "#提示詞注入",
+      "#LLM"
+    ],
+    "summary_points_cht": [
+      "The Register 報導指出 GitHub Copilot 的安全防護存在繞過途徑：以自然語言提出會被拒絕的有害請求，改用程式碼形式表達即可能被執行",
+      "顯示 AI 編程助手的護欄在自然語言與程式碼兩種輸入形式之間缺乏一致性",
+      "凸顯代理式編程工具在安全對齊上的實際風險，對企業導入 AI 開發工具具警示意義"
+    ],
+    "summary_points_ja": [
+      "The Registerの報道によると、GitHub Copilotの安全ガードレールには回避経路があり、自然言語では拒否される有害なリクエストもコードの形で表現すると実行され得る",
+      "AIコーディングアシスタントのガードレールが、自然言語入力とコード入力の間で一貫していないことを示す",
+      "エージェント型コーディングツールの安全性アラインメントにおける実際のリスクを浮き彫りにし、企業のAI開発ツール導入への警鐘となる"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_agent",
+    "idx": 3,
+    "title": "Cybersecurity firm says it found 'the first documented case' of AI agentic ransomware",
+    "title_cht": "網路安全公司稱發現「首個記錄在案」的 AI 代理式勒索軟體",
+    "title_ja": "サイバーセキュリティ企業、「初の文書化された事例」となるAIエージェント型ランサムウェアを発見と発表",
+    "url": "https://www.businessinsider.com/ai-ransomware-attack-sysdig-jade-puffer-2026-7#article",
+    "source": "Business Insider",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#勒索軟體",
+      "#Sysdig",
+      "#AI安全",
+      "#AgenticAI",
+      "#網路安全"
+    ],
+    "summary_points_cht": [
+      "網路安全公司 Sysdig 的威脅研究團隊稱發現首個記錄在案的代理式勒索軟體證據，由大型語言模型策劃執行複雜攻擊，命名為「Jade Puffer」",
+      "Sysdig 威脅研究總監 Michael Clark 表示 Jade Puffer 是勒索手法未來走向的警訊",
+      "攻擊本身未使用新穎或高深的技術，值得注意的是 AI 模型組織與執行攻擊的方式",
+      "研究顯示發動勒索軟體攻擊的技術門檻已大幅降低"
+    ],
+    "summary_points_ja": [
+      "セキュリティ企業SysdigのThreat Research Teamが、大規模言語モデルが複雑な攻撃を統率した初の文書化されたエージェント型ランサムウェアの証拠を発見したと発表、攻撃を「Jade Puffer」と命名",
+      "Sysdigの脅威研究ディレクターMichael Clark氏はJade Pufferを恐喝手口の今後の方向性を示す警告サインだとする",
+      "攻撃自体は目新しい高度な手法を使っていないが、AIモデルが攻撃を組織・実行した方法が注目点",
+      "ランサムウェア攻撃を実行するためのスキルの敷居が大幅に下がったことを示す"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_agent",
+    "idx": 4,
+    "title": "The Best MCP Servers for Social Media: The 8-Tool Stack I Use Every Week As A Creator",
+    "title_cht": "社群媒體最佳 MCP 伺服器：我身為創作者每週使用的 8 工具組合",
+    "title_ja": "ソーシャルメディア向けベストMCPサーバー：クリエイターとして毎週使っている8ツールスタック",
+    "url": "https://buffer.com/resources/best-mcp-servers/",
+    "source": "Buffer.com",
+    "language": "en",
+    "score": 6,
+    "tags": [
+      "#MCP",
+      "#Claude",
+      "#Buffer",
+      "#創作者工具",
+      "#工作流"
+    ],
+    "summary_points_cht": [
+      "Buffer 創作者分享以 MCP（Model Context Protocol）解決創意素材散落於筆記、截圖、語音備忘與舊對話各處的問題",
+      "作者介紹自己每週實際使用的 8 個 MCP 伺服器工具組合，用於社群媒體內容創作",
+      "作者在個人 Buffer 帳號有 80 週連續創作紀錄，痛點不在產生點子而在於「找回點子」",
+      "文章走實戰路線，與多數 MCP 教學的切入方式不同"
+    ],
+    "summary_points_ja": [
+      "Bufferのクリエイターが、ノート・スクリーンショット・ボイスメモ・過去のClaude会話に散らばったアイデアの管理問題をMCP（Model Context Protocol）で解決した経験を共有",
+      "ソーシャルメディアのコンテンツ制作で毎週実際に使っている8つのMCPサーバーのスタックを紹介",
+      "筆者は個人のBufferアカウントで80週連続の投稿記録を持ち、課題はアイデアを生むことではなく「見つけ直すこと」だったという",
+      "一般的なMCPチュートリアルとは異なる実践的なアプローチを紹介"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_agent",
+    "idx": 5,
+    "title": "2026年上半期の脅威総まとめ　90万件分析で見えた「危険なAIスキル」の正体",
+    "title_cht": "2026年上半年威脅總結：90萬件分析揭示「危險AI技能」的真面目",
+    "title_ja": "2026年上半期の脅威総まとめ　90万件分析で見えた「危険なAIスキル」の正体",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/10/news062.html",
+    "source": "ITmedia AI",
+    "language": "ja",
+    "score": 6,
+    "tags": [
+      "#ESET",
+      "#AISkill",
+      "#資安威脅",
+      "#Mimikatz",
+      "#AIAgent"
+    ],
+    "summary_points_cht": [
+      "ESET於2026年7月8日公布「H1 2026 Threat Report」，涵蓋2025年12月至2026年5月的威脅動向。",
+      "分析約90萬件為AI代理添加功能的「AI技能」，確認數萬件可疑技能及數千件惡意技能。",
+      "報告介紹了利用「Mimikatz」「Impacket」等第三方駭客工具的AI技能案例，並發現用於持久化的JSON檔案及自我改寫Python代碼的自我修改型技能。",
+      "另發現偽稱安全掃描器但僅具1990年代防毒軟體水準檢測能力的問題技能；ClickFix與QR碼型釣魚攻擊也持續巧妙化。"
+    ],
+    "summary_points_ja": [
+      "ESETは2026年7月8日（現地時間）、2025年12月～2026年5月を対象とした「H1 2026 Threat Report」を公表した。",
+      "AIエージェントに機能を追加する「AIスキル」約90万件を分析し、数万件の疑わしいスキルと数千件の悪意あるスキルを確認した。",
+      "「Mimikatz」や「Impacket」などの第三者製ハッキングツールを利用するAIスキルの事例や、永続化用JSONファイル、自身のPythonコードを書き換える自己改変型スキルも確認された。",
+      "セキュリティスキャナーを名乗りながら1990年代並みの基本的な検査しか実装していない問題スキルも発見。ClickFixやQRコード型フィッシングも巧妙化している。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_industry",
+    "idx": 0,
+    "title": "LiteRT.js, Google's high performance Web AI Inference- Google Developers Blog",
+    "title_cht": "LiteRT.js：Google 高效能 Web AI 推論方案",
+    "title_ja": "LiteRT.js、Googleの高性能Web AI推論ソリューション",
+    "url": "https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference/",
+    "source": "Googleblog.com",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#LiteRT.js",
+      "#Google",
+      "#端側推論",
+      "#WebAI",
+      "#TensorFlow.js"
+    ],
+    "summary_points_cht": [
+      "Google 發布 LiteRT.js，為端側推論庫 LiteRT 的 JavaScript 綁定，讓 AI 模型直接在瀏覽器內以最高效能本地執行。",
+      "完全本地運行帶來三大優勢：強化用戶隱私、零伺服器成本、超低延遲的即時體驗。",
+      "相較 TensorFlow.js 依賴效能較弱的 JavaScript 核心，LiteRT.js 將原生跨平台運行時及其全部優化直接開放給 Web 開發者。",
+      "既有 .tflite 模型可更順暢地部署至行動與桌面瀏覽器，定位為 TensorFlow.js 執行 .tflite 模型的強力進化版。"
+    ],
+    "summary_points_ja": [
+      "GoogleがLiteRT.jsを発表。オンデバイス推論ライブラリLiteRTのJavaScriptバインディングで、ブラウザ内でAIモデルを最高性能かつ完全ローカルに実行可能。",
+      "完全ローカル実行により、ユーザープライバシーの強化、サーバーコストゼロ、リアルタイム体験向けの超低遅延という3つの利点を実現。",
+      "JavaScriptベースのカーネルに依存していたTensorFlow.jsと異なり、ネイティブのクロスプラットフォームランタイムと全ての最適化をWeb開発者に直接提供。",
+      "既存の.tfliteモデルをモバイル・デスクトップブラウザへよりスムーズに展開でき、.tflite実行におけるTensorFlow.jsの強力な進化版と位置付けられる。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_industry",
+    "idx": 1,
+    "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
+    "title_cht": "SWE-1.7 智能水準逼近 GPT-5.5 與 Opus",
+    "title_ja": "SWE-1.7、GPT-5.5とOpusに迫る知能を達成",
+    "url": "https://cognition.com/blog/swe-1-7",
+    "source": "Cognition.com",
+    "language": "en",
+    "score": 8,
+    "tags": [
+      "#SWE-1.7",
+      "#Cognition",
+      "#強化學習",
+      "#KimiK2.7",
+      "#編程模型"
+    ],
+    "summary_points_cht": [
+      "Cognition 發布迄今最強模型 SWE-1.7，以遠低於前沿模型的成本達到前沿級智能，推進了成本-效能帕累托曲線。",
+      "進步源自 RL 管線的全面改進：更好的基礎設施、更穩定的訓練、更高品質的數據，以及針對長程任務的新技術。",
+      "SWE-1.7 基於已經過大量 RL 後訓練的 Kimi K2.7 訓練而成，仍取得大幅額外增益，挑戰了「後訓練天花板」的既有認知。",
+      "結果顯示 RL 能將模型能力推得比以往認為的更遠，Cognition 並持續提煉智能體軟體工程的方法論原則。"
+    ],
+    "summary_points_ja": [
+      "Cognitionが同社史上最強のモデルSWE-1.7を発表。フロンティア級の知能を大幅に低いコストで実現し、コスト性能のパレート曲線を前進させた。",
+      "進化の要因はRLパイプライン全体の改善：優れたインフラ、より安定した学習、高品質なデータ、長期タスク向けの新技術。",
+      "SWE-1.7は既に大規模なRLポストトレーニングを経たKimi K2.7をベースに学習されたが、それでも大きな追加性能向上を達成し、「ポストトレーニングの天井」という通説に挑戦。",
+      "この結果はRLが従来の想定を超えてモデル能力を押し上げられることを示唆しており、Cognitionはエージェント型ソフトウェアエンジニアリングの原則の精緻化を続けている。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_industry",
+    "idx": 2,
+    "title": "独家 | 智谱创始人唐杰发内部信：「GLM 时刻」之后，什么是更重要的事",
+    "title_cht": "獨家丨智譜創始人唐傑發內部信：「GLM時刻」之後，什麼是更重要的事",
+    "title_ja": "独占：智譜（Zhipu）創業者・唐傑氏が社内書簡「巨浪已来」を発表——「GLMモーメント」の後、より重要なこととは",
+    "url": "https://36kr.com/p/3891132709206784?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 7,
+    "tags": [
+      "#智譜",
+      "#GLM-5.2",
+      "#唐傑",
+      "#AICoding",
+      "#開源模型"
+    ],
+    "summary_points_cht": [
+      "2026年7月11日，智譜創始人唐傑發布題為《巨浪已來》的內部信；智譜市值較半年前上市初期上漲10倍，並於2026年6月躋身「萬億港元俱樂部」，約為百度市值的3倍且超過小米。",
+      "智譜起飛的根源是2025年初對Coding的押注：唐傑判斷DeepSeek R1標誌著Chat範式探索基本結束，轉而賭Coding與Reasoning這種能與Agent共生的模型能力。",
+      "2026年6月上線並開源的GLM-5.2，多個核心指標已追平甚至超過Claude Opus 4.8及GPT-5，使智譜躋身全球AI Coding第一梯隊。",
+      "文中對比Anthropic同樣靠押注Coding實現「彎道超車」：其ARR從2024年1月的8700萬美元增長到2026年6月突破470億美元。"
+    ],
+    "summary_points_ja": [
+      "2026年7月11日、智譜創業者の唐傑氏が「巨浪已来（巨大な波はすでに来た）」と題した社内書簡を発表。智譜の時価総額は上場初期から10倍に上昇し、2026年6月に「1兆香港ドルクラブ」入り。百度の約3倍、小米をも上回る規模となった。",
+      "飛躍の根源は2025年初頭のCodingへの賭け。唐傑氏はDeepSeek R1の登場でChatパラダイムの探索は基本的に終わったと判断し、Agentと共生できるCodingとReasoning能力に注力した。",
+      "2026年6月に公開・オープンソース化されたGLM-5.2は、複数のコア指標でClaude Opus 4.8やGPT-5に並び、あるいは上回り、智譜は世界のAI Coding第一梯団入りを果たした。",
+      "記事はAnthropicとの比較にも言及：同社もCodingへの注力によりARRが2024年1月の8700万ドルから2026年6月には470億ドル超へ急成長した。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_industry",
+    "idx": 3,
+    "title": "Meta releases latest update of AI model Muse Spark as tech giant accelerates AI push under Alexandr Wang",
+    "title_cht": "Meta發布AI模型Muse Spark最新版本，在Alexandr Wang主導下加速AI布局",
+    "title_ja": "Meta、AIモデル「Muse Spark」最新版を公開——Alexandr Wang氏の下でAI攻勢を加速",
+    "url": "https://tech.yahoo.com/ai/meta-ai/articles/meta-releases-latest-ai-model-165457035.html",
+    "source": "Yahoo Entertainment",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Meta",
+      "#MuseSpark",
+      "#基準測試",
+      "#多模態",
+      "#Zuckerberg"
+    ],
+    "summary_points_cht": [
+      "Meta於週四發布Muse Spark 1.1，宣稱其能力超越OpenAI、Anthropic和Google的既有產品。",
+      "Meta表示新模型在編碼與推理基準測試中擊敗Google最新版Gemini，並在部分領域超越OpenAI與Anthropic的舊版模型。",
+      "新模型擅長編碼、視頻字幕生成與推理等多種任務。",
+      "扎克伯格在X上表示：「我們的重點是以極低成本提供強大的代理型和多模態模型」，並預告更多內容即將推出。"
+    ],
+    "summary_points_ja": [
+      "Metaは木曜日にMuse Spark 1.1を公開し、OpenAI、Anthropic、Googleの既存製品を上回る能力を持つと主張した。",
+      "Metaによれば、新モデルはコーディングと推論のベンチマークでGoogleの最新版Geminiを上回り、一部分野ではOpenAIとAnthropicの旧バージョンモデルも超えたという。",
+      "新モデルはコーディング、動画キャプション生成、推論など幅広いタスクに対応する。",
+      "ザッカーバーグCEOはXで「我々の焦点は、強力なエージェント型・マルチモーダルモデルを非常に低コストで提供することだ」と述べ、今後の展開を予告した。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_industry",
+    "idx": 4,
+    "title": "Grok 4.5 is here to justify your X subscription",
+    "title_cht": "Grok 4.5登場，讓你的X訂閱物有所值",
+    "title_ja": "Grok 4.5が登場、Xサブスクリプションの価値を証明へ",
+    "url": "https://www.androidauthority.com/grok-4-5-ai-model-3685625/",
+    "source": "Android Authority",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Grok4.5",
+      "#SpaceXAI",
+      "#AICoding",
+      "#API定價",
+      "#辦公自動化"
+    ],
+    "summary_points_cht": [
+      "Grok 4.5於2026年7月9日發布，目標是更好地處理複雜編碼、電子表格和演示文稿。",
+      "新模型可在單一工作流中構建應用、生成高級Excel工作簿，並創建PowerPoint和Word文檔。",
+      "SpaceXAI表示Grok 4.5更快、token效率更高且運行成本更低，API定價為每百萬輸入/輸出token 2美元/6美元起。",
+      "此次更新的重點是讓用戶用更少的提示詞完成更多工作，而非單純的聊天機器人升級。"
+    ],
+    "summary_points_ja": [
+      "Grok 4.5が2026年7月9日にリリースされ、複雑なコーディング、スプレッドシート、プレゼンテーションへの対応強化を目指す。",
+      "新モデルは単一のワークフローでアプリ構築、高度なExcelワークブック生成、PowerPointやWordドキュメントの作成が可能。",
+      "SpaceXAIによれば、Grok 4.5はより高速でトークン効率が高く、実行コストも低い。API価格は入力/出力100万トークンあたり2ドル/6ドルから。",
+      "今回のアップデートの焦点は、より少ないプロンプトでより多くの作業を完了できるようにすることにある。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_industry",
+    "idx": 5,
+    "title": "GPT-5.6 Beats Claude Fable 5 with Faster Output and Lower Costs",
+    "title_cht": "GPT-5.6 以更快輸出與更低成本擊敗 Claude Fable 5",
+    "title_ja": "GPT-5.6、高速な出力と低コストでClaude Fable 5を上回る",
+    "url": "https://www.geeky-gadgets.com/gpt-5-6-model-release/",
+    "source": "Geeky Gadgets",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#GPT-5.6",
+      "#OpenAI",
+      "#分層模型",
+      "#基準測試",
+      "#LLM"
+    ],
+    "summary_points_cht": [
+      "OpenAI 發布 GPT-5.6，採用 Sol、Terra、Luna 三層模型架構，分別對應高階複雜任務、均衡需求與高頻量產型作業。",
+      "全系列提供 150 萬 token 上下文視窗，並在多項關鍵基準測試中超越 Claude Fable 5。",
+      "頂級 Sol 層主打程式碼自動化與多模態處理，經濟型 Luna 層則以低成本支援大量重複性操作。",
+      "各層級營運成本均有下降，實際應用涵蓋前端設計工作流程簡化等場景。"
+    ],
+    "summary_points_ja": [
+      "OpenAIがGPT-5.6を発表。Sol、Terra、Lunaの3層モデル構造を採用し、高度な複雑タスクからバランス型、大量反復処理までニーズ別に対応。",
+      "全ティアで150万トークンのコンテキストウィンドウを提供し、主要ベンチマークでClaude Fable 5を上回った。",
+      "最上位のSolティアはコーディング自動化とマルチモーダル処理に対応し、経済的なLunaティアは低コストで大量の反復作業をサポート。",
+      "全ティアで運用コストが削減され、フロントエンド設計ワークフローの効率化など実用面でのメリットも示された。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_industry",
+    "idx": 6,
+    "title": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
+    "title_cht": "Meta 全新 Muse Image 模型可將其他 Instagram 用戶帶入 AI 照片",
+    "title_ja": "Metaの新Muse Imageモデル、他のInstagramユーザーをAI写真に取り込み可能に",
+    "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
+    "source": "The Verge",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#Meta",
+      "#MuseImage",
+      "#圖像生成",
+      "#SuperintelligenceLabs",
+      "#Instagram"
+    ],
+    "summary_points_cht": [
+      "Meta 發布 Superintelligence Labs 部門打造的首個 AI 圖像生成模型 Muse Image，已驅動 Meta AI 應用、Instagram 與 WhatsApp 的圖像工具，並即將登陸 Facebook 和 Messenger。",
+      "用戶可在提示詞中「@提及」其他帳號，將其他 Instagram 用戶帶入 AI 生成照片。",
+      "Muse 模型家族正式取代 Meta 的 Llama 產品線，標誌著 Meta AI 戰略的重大轉向。",
+      "Superintelligence Labs 負責人 Alexandr Wang 表示 Muse Image 具「智能體」特性，可與 Muse Spark 大語言模型協作，對提示詞進行推理、搜尋網路並先規劃再生成。"
+    ],
+    "summary_points_ja": [
+      "MetaがSuperintelligence Labs部門初のAI画像生成モデル「Muse Image」を発表。Meta AIアプリ、Instagram、WhatsAppの画像生成ツールに搭載され、FacebookとMessengerにも近日対応予定。",
+      "ユーザーはプロンプト内で他のアカウントを「@メンション」することで、他のInstagramユーザーをAI写真に取り込める。",
+      "MuseモデルファミリーはMetaのLlamaラインナップを正式に置き換え、同社AI戦略の大きな転換を示す。",
+      "Superintelligence Labsを率いるAlexandr Wang氏によれば、Muse Imageは「エージェント型」であり、Muse Spark LLMと連携してプロンプトを推論し、Web検索と計画を経てから画像を生成する。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_industry",
+    "idx": 7,
+    "title": "OpenAI Releases New Voice Models For More Natural Live Conversations",
+    "title_cht": "OpenAI 發布新語音模型，實現更自然的即時對話",
+    "title_ja": "OpenAI、より自然なリアルタイム会話を実現する新音声モデルを発表",
+    "url": "https://slashdot.org/story/26/07/09/0452203/openai-releases-new-voice-models-for-more-natural-live-conversations",
+    "source": "Slashdot.org",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#OpenAI",
+      "#語音模型",
+      "#GPT-5.5",
+      "#語音助理",
+      "#多模態"
+    ],
+    "summary_points_cht": [
+      "OpenAI 發布新語音模型，解決了打斷用戶說話、智能不足無法回答問題等既有痛點。",
+      "新模型會將查詢轉發給 GPT-5.5 等最新文字模型處理搜尋、推理或智能體任務，同時不中斷語音對話。",
+      "模型可長時間保持靜默並持續吸收對話上下文，直到被喚起，並能以視覺化格式呈現部分資訊。",
+      "Monogram 等新創同樣押注視覺化回應，該公司已從 DST 與 Lux Capital 獲得 4,000 萬美元種子輪融資。"
+    ],
+    "summary_points_ja": [
+      "OpenAIが新音声モデルを発表。ユーザーの発話への割り込みや、質問に答えるだけの知能が不足しているといった従来の課題を解決。",
+      "新モデルは検索・推論・エージェント処理をGPT-5.5などの最新テキストモデルに転送しながら、音声会話を途切れさせずに継続できる。",
+      "長時間沈黙を保ちながら会話のコンテキストを吸収し続け、呼びかけられた時点で応答可能。一部の情報はビジュアル形式でも提示できる。",
+      "Monogramなどのスタートアップも視覚的応答に注力しており、同社はDSTとLux Capitalから4,000万ドルのシード資金を調達した。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_industry",
+    "idx": 8,
+    "title": "老黄RTX Spark真机现身Bilibili World！CPU和GPU直接焊在一起，笔记本跑120B大模型",
+    "title_cht": "老黃RTX Spark真機現身Bilibili World！CPU和GPU直接焊在一起，筆記本跑120B大模型",
+    "title_ja": "ジェンスン・フアンのRTX Spark実機がBilibili Worldに登場！CPUとGPUを直接接合、ノートPCで120B大規模モデルを実行",
+    "url": "https://www.qbitai.com/2026/07/447981.html",
+    "source": "量子位",
+    "language": "zh",
+    "score": 7,
+    "tags": [
+      "#NVIDIA",
+      "#RTXSpark",
+      "#本地大模型",
+      "#Blackwell",
+      "#統一內存"
+    ],
+    "summary_points_cht": [
+      "英偉達在 Bilibili World 首次向大眾展示搭載 RTX Spark 超級晶片的筆記本電腦，該晶片專為個人智能體打造。",
+      "RTX Spark 集成 Blackwell RTX GPU 與英偉達聯發科合作研發的 20 核 Grace CPU，透過 NVLink-C2C 直接互聯，繞過傳統 PCIe 通道。",
+      "算力達 1 Petaflop，配備 128GB 統一內存，GPU 與 CPU 共用同一塊記憶體，免除資料搬運開銷。",
+      "可在本地運行 120B 參數大模型，上下文長度可達 100 萬 token，長文檔與長對話歷史可一次性載入。",
+      "英偉達同時提出方案解決 OpenClaw、Hermes 等智能體在日常電腦上難以安全、私密運行的問題。"
+    ],
+    "summary_points_ja": [
+      "NVIDIAがBilibili Worldで、RTX Sparkスーパーチップ搭載ノートPCの実機を一般ユーザー向けに初公開。パーソナルAIエージェント向けに設計されたチップだ。",
+      "RTX SparkはBlackwell RTX GPUと、NVIDIAとMediaTekが共同開発した20コアGrace CPUを統合。従来のPCIeではなくNVLink-C2Cで両チップを直接接続している。",
+      "演算性能は1 Petaflopに達し、128GBのユニファイドメモリを搭載。GPUとCPUが同一メモリを共有し、チップ間のデータ転送が不要。",
+      "ローカルで120Bパラメータの大規模モデルを実行でき、コンテキスト長は最大100万トークン。長文書や長い会話履歴を一度に読み込める。",
+      "NVIDIAはOpenClawやHermesなどのAIエージェントを日常のPCで安全かつプライベートに動かせないという課題への解決策も提示した。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_industry",
+    "idx": 9,
+    "title": "全网骂Claude变笨，Anthropic下场揭秘：坑你的不是模型",
+    "title_cht": "全網罵Claude變笨，Anthropic下場揭秘：坑你的不是模型",
+    "title_ja": "ネット中で「Claudeが馬鹿になった」と非難殺到、Anthropicが真相を公開：問題はモデルではない",
+    "url": "https://36kr.com/p/3892222176574211?f=rss",
+    "source": "36kr",
+    "language": "zh",
+    "score": 7,
+    "tags": [
+      "#ClaudeCode",
+      "#Anthropic",
+      "#Effort",
+      "#模型選擇",
+      "#開發者工具"
+    ],
+    "summary_points_cht": [
+      "Anthropic 官方發長文澄清 Claude Code 中「模型選擇（Model）」與「努力度（Effort）」兩個選項的區別，指出換更大模型不等於更聰明。",
+      "今年 3 月 4 日 Anthropic 為壓低延遲，悄悄將 Claude Code 的 Effort 預設檔位從 high 降至 medium，導致大量開發者感覺模型「變笨」。",
+      "AMD AI 負責人 Stella Laurenzo 分析 6852 個會話日誌，實測 Claude 思考量比 2 月之前下降 67%，並公開批評 Claude 已無法勝任複雜工程任務。",
+      "許多用戶誤以為是自己提示詞或配置問題，甚至為此升級到最貴的 Fable 模型，實則白花錢；調整 Effort 設定才是正解。"
+    ],
+    "summary_points_ja": [
+      "Anthropicが公式長文記事で、Claude Codeの「モデル選択（Model）」と「努力度（Effort）」の違いを解説。より大きなモデルへの変更が賢さに直結するわけではないと明言。",
+      "今年3月4日、Anthropicはレイテンシ削減のためClaude CodeのEffortデフォルト設定をhighからmediumに変更し、多くの開発者がモデルが「馬鹿になった」と感じる事態を招いた。",
+      "AMDのAI責任者Stella Laurenzo氏は6852セッションのログを分析し、Claudeの思考量が2月以前より67%減少したことを実測。複雑なエンジニアリング作業を任せられないと批判した。",
+      "多くのユーザーはプロンプトや設定の問題と誤解し、最も高価なFableモデルに乗り換えたが、それは無駄な出費であり、Effort設定の調整こそが正しい対処法だった。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
+    "date": "2026-07-20",
+    "category": "ai_industry",
+    "idx": 10,
+    "title": "ChatGPT's New Voice Models Can 'Listen' and 'Talk' at the Same Time",
+    "title_cht": "ChatGPT 新語音模型可同時「聆聽」與「說話」",
+    "title_ja": "ChatGPTの新音声モデル、「聞く」と「話す」を同時に実行可能に",
+    "url": "https://www.cnet.com/tech/services-and-software/openai-voice-ai-model-gpt-live-1-translation-dictation-news/",
+    "source": "CNET",
+    "language": "en",
+    "score": 7,
+    "tags": [
+      "#OpenAI",
+      "#ChatGPT",
+      "#GPT-Live-1",
+      "#語音AI",
+      "#即時互動"
+    ],
+    "summary_points_cht": [
+      "OpenAI 推出兩款新語音模型 GPT-Live-1 及其 mini 版本，現正向所有 ChatGPT 用戶推送。",
+      "新模型基於 OpenAI 最新前沿模型，用戶可依需求選擇三種不同智能等級的回應深度。",
+      "核心技術「持續互動」（continuous interaction）框架讓 AI 能同時接收輸入與產生輸出，實現邊聽邊說。",
+      "ChatGPT 語音產品負責人 Atty Eleti 表示，最大升級在於語音更接近真人、對話更自然流暢。"
+    ],
+    "summary_points_ja": [
+      "OpenAIが新音声モデル「GPT-Live-1」とそのminiバージョンを発表し、全ChatGPTユーザーへの展開を開始した。",
+      "新モデルはOpenAIの最新フロンティアモデルをベースとし、回答の深さに応じて3段階の知能レベルを選択できる。",
+      "中核技術「継続的インタラクション（continuous interaction）」により、AIが入力の受信と出力の生成を同時に行い、「聞きながら話す」ことが可能になった。",
+      "ChatGPT音声担当プロダクトリードのAtty Eleti氏は、音声がより人間らしく、会話がより自然になったことが最大の進化だと述べた。"
+    ],
+    "summary_cht": "",
+    "summary_ja": "",
+    "summary_en": ""
+  },
+  {
     "date": "2026-07-13",
     "category": "3d_ai",
     "idx": 0,
